@@ -1,0 +1,37 @@
+name: Scrape Regulatory Data
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # every 3 hours, UTC
+  workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: npm install
+
+      - name: Run scraper
+        working-directory: scraper
+        run: node scraper.js
+
+      - name: Commit and push data if changed
+        run: |
+          git config user.name "regulatory-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/regulatory_data.json
+          git diff --staged --quiet || git commit -m "Update regulatory data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push
