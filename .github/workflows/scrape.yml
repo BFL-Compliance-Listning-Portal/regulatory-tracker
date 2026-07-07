@@ -35,3 +35,11 @@ jobs:
           git add data/regulatory_data.json
           git diff --staged --quiet || git commit -m "Update regulatory data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
           git push
+
+      - name: Purge jsDelivr CDN cache
+        # jsDelivr caches files served from @main and does NOT reliably refresh just because
+        # the underlying GitHub file changed — without this, the tracker frontend (which reads
+        # via jsDelivr to work around network restrictions that block raw.githubusercontent.com)
+        # can keep serving stale data for hours after a successful scrape.
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/data/regulatory_data.json" || true
