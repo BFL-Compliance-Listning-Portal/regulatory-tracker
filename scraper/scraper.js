@@ -84,14 +84,27 @@ function parseRSS(xmlText, cat, linkFilter) {
       let link = item.link;
       if (typeof link === 'object') link = link?.['@_href'] || link?.['#text'] || '';
       link = (link || '').toString().trim();
-      const pubDateRaw = item.pubDate || item.published || item.updated || '';
+      // Try every date-ish field the feed might use before giving up
+      const pubDateRaw = item.pubDate || item.published || item.updated || item.date
+        || item['dc:date'] || item.pubdate || '';
       const desc = (item.description ?? item.summary ?? '').toString().replace(/<[^>]*>/g, '').trim();
       return { title, link, pubDateRaw, desc };
     })
     .filter(it => !linkFilter || it.link.includes(linkFilter))
     .map((it, i) => {
-      const d = it.pubDateRaw ? new Date(it.pubDateRaw) : null;
-      const isValid = d && !isNaN(d.getTime());
+      let d = it.pubDateRaw ? new Date(it.pubDateRaw) : null;
+      let isValid = d && !isNaN(d.getTime());
+      // Fallback: many gov sites put month-year in the URL slug itself, e.g.
+      // .../legal/circulars/jul-2026/some-title_12345.html — extract that if the
+      // feed's own date field is missing or unparseable. Gives month+year precision
+      // even without an exact day.
+      if (!isValid) {
+        const slugMatch = it.link.match(/\/([a-z]{3,4})-(\d{4})\//i);
+        if (slugMatch) {
+          const monthGuess = new Date(`01 ${slugMatch[1]} ${slugMatch[2]}`);
+          if (!isNaN(monthGuess.getTime())) { d = monthGuess; isValid = true; }
+        }
+      }
       return {
         sr: i + 1,
         date: isValid ? d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }) : '—',
@@ -121,9 +134,30 @@ const NAV_WORDS = new Set([
   'selected', 'skip to main content', 'accessibility', 'screen reader'
 ]);
 
+// Social-share and pagination chrome is extremely common CMS boilerplate across many
+// government sites, and worth excluding explicitly regardless of date proximity — it
+// often sits directly next to a genuine date by design (post metadata blocks).
+const SHARE_OR_PAGING_RE = /^(share (on|of) |tweet|pin it|next\b|previous\b|«|»|prev\b)/i;
+
 function stripChrome($) {
   $('nav, header, footer, .nav, .navbar, .menu, .breadcrumb, .breadcrumbs, #menu, #nav, #header, #footer, .sidebar, .footer, .header').remove();
   return $;
+}
+
+const GENERIC_LINK_WORDS = new Set(['view', 'download', 'view/download', 'click here', 'open', 'pdf', 'details', 'more', 'read more', 'view pdf', 'download pdf']);
+
+function pickTitleFromCells(cellTexts) {
+  // Prefer the longest cell that isn't a date and isn't a generic link label like "View" —
+  // government sites often put the real title in a plain-text column and reserve the anchor
+  // for a throwaway "View"/"Download" link in a different column.
+  let best = '';
+  for (const t of cellTexts) {
+    if (t.length < 8) continue;
+    if (DATE_RE.test(t) && t.length < 20) continue; // skip pure-date cells
+    if (GENERIC_LINK_WORDS.has(t.toLowerCase())) continue;
+    if (t.length > best.length) best = t;
+  }
+  return best;
 }
 
 function scoreTable($, tbl, base, cat) {
@@ -133,12 +167,22 @@ function scoreTable($, tbl, base, cat) {
   trs.each((i, tr) => {
     const tds = $(tr).find('td');
     if (tds.length < 2) return;
-    const linkEl = $(tr).find('a[href]').first();
-    const title = (linkEl.text() || $(tds[0]).text() || '').trim();
-    if (!title || title.length < 8 || NAV_WORDS.has(title.toLowerCase())) return;
-    const link = resolveLink(linkEl.attr('href') || '', base);
     const cellTexts = tds.toArray().map(td => $(td).text().trim());
-    const dateText = cellTexts.find(t => DATE_RE.test(t)) || '';
+    const title = pickTitleFromCells(cellTexts);
+    if (!title || NAV_WORDS.has(title.toLowerCase())) return;
+    // Link: prefer an anchor within the cell that actually contains the title text;
+    // fall back to the first anchor in the row otherwise.
+    let link = '';
+    tds.each((_, td) => {
+      if (link) return;
+      if ($(td).text().trim() === title) {
+        const a = $(td).find('a[href]').first();
+        if (a.length) link = a.attr('href') || '';
+      }
+    });
+    if (!link) link = $(tr).find('a[href]').first().attr('href') || '';
+    link = resolveLink(link, base);
+    const dateText = cellTexts.find(t => DATE_RE.test(t) && t !== title) || '';
     const d = tryParseDate(dateText);
     candidateRows.push({ sr: 0, date: d || dateText || '—', year: extractYear(d || dateText), cat, title, desc: '', link });
   });
@@ -163,41 +207,94 @@ function parseGenericHTML(html, base, cat) {
     return best.rows.slice(0, 50).map((r, i) => ({ ...r, sr: i + 1 }));
   }
 
-  // Pass 2: list items with anchors
+  // Pass 2: list items with anchors — require a real nearby date, same reasoning as Pass 3
+  // below. Without this, share-widget links ("Share on Facebook") and sidebar nav items
+  // (which are also <li><a>...) get scraped as if they were real documents.
   $('ul li, ol li').each((_, li) => {
     if (rows.length >= 40) return;
     const a = $(li).find('a[href]').first();
     if (!a.length) return;
-    const t = a.text().trim();
-    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase())) return;
+    const t = a.text().trim().replace(/\s+/g, ' ');
+    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t)) return;
     const dateMatch = $(li).text().match(DATE_RE);
-    const dateText = dateMatch?.[0] || '';
-    const d = tryParseDate(dateText);
-    rows.push({ sr: rows.length + 1, date: d || dateText || '—', year: extractYear(d || dateText), cat, title: t, desc: '', link: resolveLink(a.attr('href') || '', base) });
+    if (!dateMatch) return; // no date nearby — skip rather than guess
+    const d = tryParseDate(dateMatch[0]);
+    rows.push({ sr: rows.length + 1, date: d || dateMatch[0], year: extractYear(d || dateMatch[0]), cat, title: t, desc: '', link: resolveLink(a.attr('href') || '', base) });
   });
   if (rows.length) return rows;
 
   // Pass 3: last resort — meaningful anchors, but ONLY keep ones with a real nearby date.
-  // Nav/menu links almost never sit next to a date, so this alone filters out most junk
-  // without needing an exhaustive nav-word blocklist.
+  // Date lookup is purely position-based (search text immediately after, then before, the
+  // anchor's own position in the page) rather than via closest('div') — an earlier version
+  // used closest() with a text-length cutoff to avoid matching giant wrapper divs, but that
+  // heuristic breaks down on pages with only a few items, where even a "whole section"
+  // wrapper is short enough to look like a single item. Position-based search doesn't have
+  // this failure mode since it always respects the actual order of content on the page.
   const seen = new Set();
   const fullText = $('body').text();
   $('a[href]').each((_, a) => {
     if (rows.length >= 40) return;
-    const t = $(a).text().trim();
+    const t = $(a).text().trim().replace(/\s+/g, ' ');
     if (t.length < 10 || t.length > 300 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    if (SHARE_OR_PAGING_RE.test(t)) return;
     seen.add(t);
-    let dateText = $(a).closest('td,li,tr,p,div').text().match(DATE_RE)?.[0] || '';
-    if (!dateText) {
-      const pos = fullText.indexOf(t);
-      if (pos !== -1) {
-        const windowTxt = fullText.substring(Math.max(0, pos - 60), pos + t.length + 60);
-        dateText = windowTxt.match(DATE_RE)?.[0] || '';
-      }
+
+    let dateText = '';
+    const pos = fullText.indexOf(t);
+    if (pos !== -1) {
+      // Prefer a date immediately AFTER the title (typical of article/card layouts where
+      // metadata follows the heading) before falling back to searching BEFORE it (typical
+      // of table rows where a date column precedes the title column).
+      const afterTxt = fullText.substring(pos + t.length, pos + t.length + 100);
+      const beforeTxt = fullText.substring(Math.max(0, pos - 100), pos);
+      dateText = afterTxt.match(DATE_RE)?.[0] || beforeTxt.match(DATE_RE)?.[0] || '';
     }
     if (!dateText) return; // no date nearby — most likely nav/chrome, skip it
     const d = tryParseDate(dateText);
     rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
+  });
+  return rows;
+}
+
+/* ── Card-feed parser (e.g. PCAOB: repeating "date / heading / Read more" blocks,
+   not a table and not a <ul> list — common in modern CMS-driven news feeds) ── */
+function parseCardFeed(html, base, cat) {
+  const $ = stripChrome(cheerio.load(html));
+  const rows = [];
+  $('h2, h3, h4').each((_, h) => {
+    if (rows.length >= 40) return;
+    const title = $(h).text().trim();
+    if (title.length < 15 || NAV_WORDS.has(title.toLowerCase())) return;
+
+    // Date usually appears as a text sibling shortly before the heading
+    let dateText = '';
+    let prev = $(h).prev();
+    for (let hops = 0; prev.length && hops < 3 && !dateText; hops++) {
+      const m = prev.text().trim().match(DATE_RE);
+      if (m) dateText = m[0];
+      prev = prev.prev();
+    }
+    if (!dateText) {
+      const m = $(h).parent().text().match(DATE_RE);
+      if (m) dateText = m[0];
+    }
+    if (!dateText) return; // no date found nearby — likely not a real feed item
+
+    // Link usually appears as a "Read more"-style anchor shortly after the heading
+    let link = '';
+    let next = $(h).next();
+    for (let hops = 0; next.length && hops < 3 && !link; hops++) {
+      const a = next.is('a[href]') ? next : next.find('a[href]').first();
+      if (a.length) link = a.attr('href') || '';
+      next = next.next();
+    }
+    if (!link) {
+      const a = $(h).parent().find('a[href]').first();
+      if (a.length) link = a.attr('href') || '';
+    }
+
+    const d = tryParseDate(dateText);
+    rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title, desc: '', link: resolveLink(link, base) });
   });
   return rows;
 }
