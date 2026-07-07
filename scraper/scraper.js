@@ -239,17 +239,26 @@ function parseGenericHTML(html, base, cat) {
       }
       if (!card) continue;
 
-      const links = card.find('a[href]');
-      if (!links.length) continue;
+      // The whole card is often wrapped in a single ancestor <a> (PCAOB does this — date,
+      // title, and "Read more" all sit inside one enclosing link, with the actual card
+      // content in a sibling div that has no anchor of its own). Check for that first.
       let link = '';
-      links.each((_, a) => {
-        if (link) return;
-        const href = $(a).attr('href') || '';
-        const linkText = $(a).text().trim();
-        if (!href || SHARE_OR_PAGING_RE.test(linkText)) return;
-        link = href;
-      });
-      if (!link) link = links.first().attr('href') || '';
+      const wrappingAnchor = card.closest('a[href]');
+      if (wrappingAnchor.length) {
+        link = wrappingAnchor.attr('href') || '';
+      } else {
+        const links = card.find('a[href]');
+        if (!links.length) continue;
+        links.each((_, a) => {
+          if (link) return;
+          const href = $(a).attr('href') || '';
+          const linkText = $(a).text().trim();
+          if (!href || SHARE_OR_PAGING_RE.test(linkText)) return;
+          link = href;
+        });
+        if (!link) link = links.first().attr('href') || '';
+      }
+      if (!link) continue;
       const resolvedLink = resolveLink(link, base);
       if (seenLinks.has(resolvedLink)) continue;
 
