@@ -12,7 +12,7 @@ const REGULATORS = require('./sources');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'regulatory_data.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-const DATE_RE = /\d{1,2}[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/;
+const DATE_RE = /\d{1,2}[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\.?\s+\d{1,2},?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/i;
 
 function tryParseDate(s) {
   if (!s) return '';
@@ -207,6 +207,74 @@ function parseGenericHTML(html, base, cat) {
     return best.rows.slice(0, 50).map((r, i) => ({ ...r, sr: i + 1 }));
   }
 
+  // Pass 1.5: "card grid" layout — common on modern news/press-release pages (e.g. PCAOB).
+  // Each item is a container (article/div/li) with a short standalone date badge, a
+  // headline that is NOT itself a link, and a separate generic "Read more" link elsewhere
+  // in the same container. Earlier passes only look for text INSIDE an anchor, which can
+  // never find these headlines — this pass looks for date badges first, then pulls the
+  // headline and link from the same small container independently.
+  const DATE_ONLY_RE = /^[A-Za-z]{3,9}\.?\s+\d{1,2},?\s+\d{4}$/i;
+  const dateBadges = [];
+  $('*').each((_, el) => {
+    const $el = $(el);
+    if ($el.children().length > 0) return; // only leaf-ish elements as date-badge candidates
+    const ownText = $el.text().trim();
+    if (ownText.length > 0 && ownText.length < 25 && DATE_ONLY_RE.test(ownText)) {
+      dateBadges.push({ el, text: ownText });
+    }
+  });
+  if (dateBadges.length >= 2) {
+    const seenLinks = new Set();
+    for (const { el, text: dateText } of dateBadges) {
+      if (rows.length >= 40) break;
+      // Walk up a few levels to find a container that plausibly wraps just this one card:
+      // small enough to be a single item, but big enough to contain a headline + link too.
+      let container = $(el);
+      let card = null;
+      for (let depth = 0; depth < 5; depth++) {
+        container = container.parent();
+        if (!container.length) break;
+        const txt = container.text().trim();
+        if (txt.length >= dateText.length + 15 && txt.length < 600) { card = container; break; }
+      }
+      if (!card) continue;
+
+      const links = card.find('a[href]');
+      if (!links.length) continue;
+      let link = '';
+      links.each((_, a) => {
+        if (link) return;
+        const href = $(a).attr('href') || '';
+        const linkText = $(a).text().trim();
+        if (!href || SHARE_OR_PAGING_RE.test(linkText)) return;
+        link = href;
+      });
+      if (!link) link = links.first().attr('href') || '';
+      const resolvedLink = resolveLink(link, base);
+      if (seenLinks.has(resolvedLink)) continue;
+
+      // Headline = longest text block in the card that isn't the date and isn't a
+      // generic link label ("read more", "about the pcaob", etc.)
+      let title = '';
+      card.find('*').addBack().each((_, node) => {
+        const $node = $(node);
+        if ($node.children().length > 0) return;
+        const t = $node.text().trim().replace(/\s+/g, ' ');
+        if (t === dateText || t.length < 20) return;
+        if (NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t)) return;
+        if (/^(about the|read more|learn more)/i.test(t)) return;
+        if (t.length > title.length) title = t;
+      });
+      if (!title) continue;
+
+      seenLinks.add(resolvedLink);
+      const d = tryParseDate(dateText);
+      rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title, desc: '', link: resolvedLink });
+    }
+  }
+  if (rows.length >= 2) return rows;
+  rows.length = 0; // fewer than 2 found — not confident this was really a card grid, reset
+
   // Pass 2: list items with anchors — require a real nearby date, same reasoning as Pass 3
   // below. Without this, share-widget links ("Share on Facebook") and sidebar nav items
   // (which are also <li><a>...) get scraped as if they were real documents.
@@ -341,9 +409,13 @@ const DEBUG_DIR = path.join(__dirname, '..', 'data', 'debug');
 function dumpDebugHtml(key, html) {
   try {
     fs.mkdirSync(DEBUG_DIR, { recursive: true });
+    const filePath = path.join(DEBUG_DIR, `${key}.html`);
     // Cap size so the repo doesn't bloat — first 150KB is plenty to see the real structure.
-    fs.writeFileSync(path.join(DEBUG_DIR, `${key}.html`), html.slice(0, 150000));
-  } catch (e) { /* non-fatal — debugging aid only */ }
+    fs.writeFileSync(filePath, html.slice(0, 150000));
+    console.log(`  [debug] wrote ${filePath} (${html.length} bytes total, saved first ${Math.min(html.length,150000)})`);
+  } catch (e) {
+    console.log(`  [debug] FAILED to write debug HTML for ${key}: ${e.message}`);
+  }
 }
 
 async function scrapeTab(tab, cat) {
@@ -408,11 +480,22 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
   try {
     await page.setUserAgent(UA);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en;q=0.9' });
+    await page.setViewport({ width: 1366, height: 900 });
+    // Basic anti-bot-detection patches — headless Chrome is detectable via several simple
+    // signals (navigator.webdriver=true, missing navigator.plugins, no window.chrome object)
+    // that some sites check before deciding whether to serve real content. This won't defeat
+    // sophisticated fingerprinting, but covers the common cheap checks.
+    await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+      Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+      Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
+      window.chrome = { runtime: {} };
+    });
     await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
     // Give client-side rendering a moment to settle after the network goes idle —
     // some sites still run a final render pass (e.g. React hydration) after their
     // last network request completes.
-    await new Promise(r => setTimeout(r, 2000));
+    await new Promise(r => setTimeout(r, 2500));
     return await page.content();
   } finally {
     await page.close();
