@@ -1,101 +1,3097 @@
 {
-  "generatedAt": "2026-07-07T06:39:43.752Z",
+  "generatedAt": "2026-07-07T07:35:44.907Z",
   "data": {
     "SEBI_0": {
-      "rows": [],
-      "ts": 1783406280534,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Circulars",
+          "title": "Handling of Client’s Unpaid Securities by Trading Members",
+          "desc": "Handling of Client’s Unpaid Securities by Trading Members",
+          "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html"
+        }
+      ],
+      "ts": 1783409678236,
+      "ok": true
     },
     "SEBI_1": {
-      "rows": [],
-      "ts": 1783406287772,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Alternative Investment Funds (AIFs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2026/master-circular-for-alternative-investment-funds-aifs-_101817.html"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular on Surveillance of Securities Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2026/master-circular-on-surveillance-of-securities-market_101473.html"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100491.html"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Issue of Capital and Disclosure Requirements",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-issue-of-capital-and-disclosure-requirements_99611.html"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Research Analysts",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-research-analysts_99571.html"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Investment Advisers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-investment-advisers_99569.html"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2026/master-circular-for-registrars-to-an-issue-and-share-transfer-agents_99567.html"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_99432.html"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Framework on Social Stock Exchange.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2026/master-circular-for-framework-on-social-stock-exchange-_99166.html"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/oct-2025/master-circular-for-issue-and-listing-of-non-convertible-securities-securitised-debt-instruments-security-receipts-municipal-debt-securities-and-commercial-paper_97343.html"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Debenture Trustees (DTs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/aug-2025/master-circular-for-debenture-trustees-dts-_96073.html"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Portfolio Managers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-portfolio-managers_95347.html"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-infrastructure-investment-trusts-invits-_95233.html"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Real Estate Investment Trusts (REITs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-real-estate-investment-trusts-reits-_95232.html"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for listing obligations and disclosure requirements for Non-convertible Securities, Securitized Debt Instruments and/ or Commercial Paper",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-listing-obligations-and-disclosure-requirements-for-non-convertible-securities-securitized-debt-instruments-and-or-commercial-paper_95230.html"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Credit Rating Agencies (CRAs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-credit-rating-agencies-cras-_95221.html"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for ESG Rating Providers (ERPs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jul-2025/master-circular-for-esg-rating-providers-erps-_95219.html"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Research Analysts",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-research-analysts_94840.html"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Investment Advisers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-investment-advisers_94821.html"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Registrars to an Issue and Share Transfer Agents",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-registrars-to-an-issue-and-share-transfer-agents_94735.html"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Brokers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchanges and Clearing Corporations",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-stock-exchanges-and-clearing-corporations_90353.html"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2024/master-circular-for-depositories_89245.html"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Issue of Capital and Disclosure Requirements",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/nov-2024/master-circular-for-issue-of-capital-and-disclosure-requirements_88398.html"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master circular for compliance with the provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 by listed entities",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/nov-2024/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_88388.html"
+        }
+      ],
+      "ts": 1783409681282,
+      "ok": true
     },
     "SEBI_2": {
-      "rows": [],
-      "ts": 1783406292031,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance by way of an \"interpretive letter\" under under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Maithan Alloys Limited seeking interpretation of the provisions of Regulation 16(1)(b)(iii) of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements/) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jun-2026/request-for-informal-guidance-by-way-of-an-interpretive-letter-under-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-maithan-alloys-limited-seeking-in-_101737.html"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance by way of an Interpretive Letter under the SEBI (Informal Guidance) Scheme, 2003 in relation to the provisions of InvIT Regulations by Sustainable Energy Infra Investment Managers Private Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2026/informal-guidance-by-way-of-an-interpretive-letter-under-the-sebi-informal-guidance-scheme-2003-in-relation-to-the-provisions-of-invit-regulations-by-sustainable-energy-infra-investment-managers-pr-_101601.html"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Geojit Financial Services Limited on permitting pledging of securities purchased under Non-Discretionary Portfolio Management Services.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2026/request-for-informal-guidance-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-geojit-financial-services-limited-on-permitting-pledging-of-securities-pur-_101507.html"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance by way of an Interpretive Letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Avenue Supermarts Limited in relation to the provisions of the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2026/informal-guidance-by-way-of-an-interpretive-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-avenue-supermarts-limited-in-relation-to-the-provisio-_101280.html"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance by way of an Interpretive Letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from  First Water Capital Advisory LLP in relation to the provisions of the Securities and Exchange Board of India (Mutual Funds) Regulations, 2026.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2026/informal-guidance-by-way-of-an-interpretive-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-first-water-capital-advisory-llp-in-relation-to-the-_101017.html"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance by way of an Interpretative Letter under provisions of Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from UTI Alternatives Private Limited related to Securities and Exchange Board of India (Mutual Funds) Regulations, 2026 (erstwhile Securities and Exchange Board of India (Mutual Funds) Regulations, 1996",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-provisions-of-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-uti-alternatives-private-limi-_100852.html"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for informal guidance by way of an interpretative letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2003 received from Sanguine Wealth Advisors LLP",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2003-received-from-sanguine-wealth-advisors-llp_100504.html"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance by way of an interpretative letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from FRR Shares and Securities Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-frr-shares-and-securities-limited_100488.html"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from Ambo Agritec Limited with respect to Regulation 3(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover) Regulations, 2011 (“SAST Regulations”)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2026/informal-guidance-request-received-from-ambo-agritec-limited-with-respect-to-regulation-3-2-of-the-securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeover-regulations-_100405.html"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance by way of an interpretative letter under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Punjab National Bank seeking interpretation of the provisions of Regulation 27 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and SEBI Circular for implementation of recommendations of the Expert Committee for facilitating ease of doing business for listed entities dated 31.12.2024",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/feb-2026/request-for-informal-guidance-by-way-of-an-interpretative-letter-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-punjab-national-bank-seeking-interpreta-_99594.html"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "In the matter of Welspun Corp Limited under SEBI (Prohibition of Insider Trading) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/nov-2025/in-the-matter-of-welspun-corp-limited-under-sebi-prohibition-of-insider-trading-regulations-2015-_97595.html"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for informal guidance by way of an 'interpretive letter' under Securities and Exchange Board of India (Informal Guidance) Scheme, 2003 with respect to the Securities and Exchange Board of India (Research Analysts) Regulations, 2014 by Equitymaster Research Private Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/sep-2025/request-for-informal-guidance-by-way-of-an-interpretive-letter-under-securities-and-exchange-board-of-india-informal-guidance-scheme-2003-with-respect-to-the-securities-and-exchange-board-of-indi-_96814.html"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for informal guidance by way of an interpretative letter on applicability of Chapter IV and Chapter VA of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 under the provisions of SEBI (Informal Guidance) Scheme, 2003 by Tata Realty and Infrastructure Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/sep-2025/request-for-informal-guidance-by-way-of-an-interpretative-letter-on-applicability-of-chapter-iv-and-chapter-va-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015-under-the-_98560.html"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "In the matter of ISK Advisors Private Limited under SEBI (Prohibition of Insider Trading) Regulations, 2015 and SEBI (Merchant Bankers) Regulations, 1992",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/aug-2025/in-the-matter-of-isk-advisors-private-limited-under-sebi-prohibition-of-insider-trading-regulations-2015-and-sebi-merchant-bankers-regulations-1992_96211.html"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from Shivalik Bimetal Controls Limited with respect to Regulation 31A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“LODR Regulations”).",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jul-2025/informal-guidance-request-received-from-shivalik-bimetal-controls-limited-with-respect-to-regulation-31a-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-_95168.html"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from Sundaram Alternate Assets Limited  in relation to provisions for extension of the tenure of the close ended AIFs under the Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jul-2025/informal-guidance-request-received-from-sundaram-alternate-assets-limited-in-relation-to-provisions-for-extension-of-the-tenure-of-the-close-ended-aifs-under-the-securities-and-exchange-board-of-indi-_95151.html"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from Pritish Nandy Communications Limited with respect to provisions of the Securities and Exchange Board of India ( Substantial Acquisitions of Shares and Takeovers) Regulations, 2011 (“Takeover Regulations”)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jun-2025/informal-guidance-request-received-from-pritish-nandy-communications-limited-with-respect-to-provisions-of-the-securities-and-exchange-board-of-india-substantial-acquisitions-of-shares-and-takeovers-_94674.html"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from Empire Industries Limited with respect to the provisions of  Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 and SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/jun-2025/informal-guidance-request-received-from-empire-industries-limited-with-respect-to-the-provisions-of-securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulation-_94378.html"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal guidance application received from InfoBeans Technologies Limited seeking interpretation of Regulation 16(1)(b)(iv) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2025/informal-guidance-application-received-from-infobeans-technologies-limited-seeking-interpretation-of-regulation-16-1-b-iv-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-_93935.html"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "In the matter of Century Plyboards (India) Limited under SEBI (Prohibition of Insider Trading) Regulations, 2015”",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2025/in-the-matter-of-century-plyboards-india-limited-under-sebi-prohibition-of-insider-trading-regulations-2015-_93869.html"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Request for Informal Guidance by way of an Interpretive Letter in relation to SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (“Takeover Regulations”) in the matter of CHL Ltd.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/request-for-informal-guidance-by-way-of-an-interpretive-letter-in-relation-to-sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011-takeover-regulations-in-the-matter-of-chl-ltd-_93543.html"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal guidance application received from Pakka Limited seeking interpretation of Regulation 6 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/informal-guidance-application-received-from-pakka-limited-seeking-interpretation-of-regulation-6-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_93277.html"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal guidance application received from DCB Bank Limited seeking interpretation of Regulation 6 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/informal-guidance-application-received-from-dcb-bank-limited-seeking-interpretation-of-regulation-6-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_93275.html"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance by way of an Interpretive Letter with respect to Regulation 10(1)(d)(iii) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 (“Takeover Regulations”) in the matter of Ipca Laboratories Ltd.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/informal-guidance-by-way-of-an-interpretive-letter-with-respect-to-regulation-10-1-d-iii-of-the-sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011-takeover-regulations-in-_93264.html"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Informal Guidance",
+          "title": "Informal Guidance request received from FirstPort Capital Angel Fund in relation to provisions for Angel Funds under the Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2025/informal-guidance-request-received-from-firstport-capital-angel-fund-in-relation-to-provisions-for-angel-funds-under-the-securities-and-exchange-board-of-india-alternative-investment-funds-regulatio-_92657.html"
+        }
+      ],
+      "ts": 1783409683144,
+      "ok": true
     },
     "SEBI_3": {
-      "rows": [],
-      "ts": 1783406299288,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on rationalizing the requirement of obtaining investor consent and ambit of conflicted transactions requiring investor consent under SEBI (Alternative Investment Funds) Regulations, 2012",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-rationalizing-the-requirement-of-obtaining-investor-consent-and-ambit-of-conflicted-transactions-requiring-investor-consent-under-sebi-alternative-investment-funds-regulations-_102464.html"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Common Advertisement Code for Specified SEBI Regulated Entities",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-common-advertisement-code-for-specified-sebi-regulated-entities_102304.html"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Draft Circular for Trading Software & Technology at Stock Exchanges and Draft Circular on Common IT related provisions for MIIs",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-draft-circular-for-trading-software-and-technology-at-stock-exchanges-and-draft-circular-on-common-it-related-provisions-for-miis_102282.html"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of Margin Trading Facility (MTF) Framework",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-review-of-margin-trading-facility-mtf-framework_102211.html"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Harmonization of Base price for Call Auction in Pre-open Session and for Price Band - For scrips listed on multiple stock exchanges",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-harmonization-of-base-price-for-call-auction-in-pre-open-session-and-for-price-band-for-scrips-listed-on-multiple-stock-exchanges_102073.html"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on review of provisions on disclosure of Executive Remuneration by Asset Management Companies (AMCs).",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-review-of-provisions-on-disclosure-of-executive-remuneration-by-asset-management-companies-amcs-_101987.html"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of Framework for Calculation of Net Distributable Cash Flows for InvITs",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-review-of-framework-for-calculation-of-net-distributable-cash-flows-for-invits_101725.html"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Ease of Doing Business - Framework for strike prices of options contracts.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-ease-of-doing-business-framework-for-strike-prices-of-options-contracts-_101603.html"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of price discovery mechanism through Pre-open Call Auction Session for IPO and Re-listed scrips",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-price-discovery-mechanism-through-pre-open-call-auction-session-for-ipo-and-re-listed-scrips_101548.html"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Draft Circular for Enabling Third Party Payments in Mutual Funds in certain scenarios",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-for-enabling-third-party-payments-in-mutual-funds-in-certain-scenarios_101534.html"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Easing of framework for Straight Through Processing (STP) of trades.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-easing-of-framework-for-straight-through-processing-stp-of-trades-_101521.html"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Relaxation in requirement of maintenance of call records for  institutional clients - Amendment to the SEBI (Research  Analysts) Regulations, 2014",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-relaxation-in-requirement-of-maintenance-of-call-records-for-institutional-clients-amendment-to-the-sebi-research-analysts-regulations-2014_101505.html"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Measures for ease of doing business on Exchange Traded Derivatives.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-measures-for-ease-of-doing-business-on-exchange-traded-derivatives-_101425.html"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Review of the SEBI (Issue and Listing of Municipal Debt Securities) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-the-sebi-issue-and-listing-of-municipal-debt-securities-regulations-2015-_101404.html"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on utilization of intraday borrowing lines by Mutual Funds.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-utilization-of-intraday-borrowing-lines-by-mutual-funds-_101403.html"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on review of position limits for clients and penalty provision for violation / breach of position limits for Commodity Derivatives Segment.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-position-limits-for-clients-and-penalty-provision-for-violation-breach-of-position-limits-for-commodity-derivatives-segment-_101384.html"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on ‘Phased Introduction of Physical Settlement in Select Agricultural Commodity Derivatives Contracts'.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-phased-introduction-of-physical-settlement-in-select-agricultural-commodity-derivatives-contracts-_101380.html"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of utilization of interest or income from IPF Corpus of Depositories.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-utilization-of-interest-or-income-from-ipf-corpus-of-depositories-_101351.html"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation on ‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs)filed with SEBI.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-on-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi-_101340.html"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review and Rationalization of (Buy-Back of Securities) Regulations, 2018",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-and-rationalization-of-buy-back-of-securities-regulations-2018_101337.html"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Draft Circular on Clarification with respect to Applicability of the benefit of Early Pay-In in Commodity Derivatives Segment",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-on-clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_101257.html"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Modification in the regulatory framework for Online Bond Platform Providers (OBPPs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-modification-in-the-regulatory-framework-for-online-bond-platform-providers-obpps-_101254.html"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on amendments to the SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-amendments-to-the-sebi-issue-and-listing-of-securitised-debt-instruments-and-security-receipts-regulations-2008-_101239.html"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Ease of Doing Investment and Ease of Doing Business- Handling of unpaid securities of clients by Trading Members / Clearing Members.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2026/consultation-paper-on-ease-of-doing-investment-and-ease-of-doing-business-handling-of-unpaid-securities-of-clients-by-trading-members-clearing-members-_101093.html"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Review of variable net worth for stock brokers.",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2026/consultation-paper-on-review-of-variable-net-worth-for-stock-brokers-_101092.html"
+        }
+      ],
+      "ts": 1783409685327,
+      "ok": true
     },
     "SEBI_4": {
-      "rows": [],
-      "ts": 1783406303504,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Click here to make payment of SEBI Fees",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do#"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Click here to make payment to SEBI IPEF",
+          "desc": "",
+          "link": "https://eazypay.icicibank.com/eazypayLink?P1=R1ws3SZl9MhbXRHocyY3FA=="
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Authenticate Document Issued by SEBI",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/dnvs-authentication-v2.html"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Invitation of Applications for the Post of Executive Director",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/other/careerdetail.jsp?careerId=433"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Launch of ‘India Market Access’ Website for Foreign Portfolio Investors (FPIs)",
+          "desc": "",
+          "link": "https://www.indiamarketaccess.in/"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Vigilance Awareness Week- 2025",
+          "desc": "",
+          "link": "https://pledge.cvc.nic.in/"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Bharat Ka Share Bazaar @ INDIA INTERNATIONAL TRADE FAIR – 2025",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2025/Bharat%20Ka%20Share%20Bazaar%20-%20IIFT%202025_p.pdf"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "SEBI Arth Yatra Contest 2025 Results",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2025/arth_yatra_results_p.pdf"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "MITRA - Gateway to unclaimed Mutual Funds",
+          "desc": "",
+          "link": "https://www.mfcentral.com/"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Project 'Dharohar - Milestones in the Indian Securities Market'",
+          "desc": "",
+          "link": "https://mism.org/"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Download the TRAI DND App and Report Spam",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebi_data/commondocs/nov-2025/trai_dnd_eng_p.pdf"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Join NCFE as a Financial Education Trainer today!",
+          "desc": "",
+          "link": "https://ncfe.org.in/announcements/"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "FAQ on Cybersecurity and Cyber Resilience Framework (CSCRF)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "PACL Matters",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/other/PACL.html"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Alternative Investment Funds (AIFs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Bankers to an Issue",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=22"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Collective Investment Schemes (C.I.S)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=4"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Commodity Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=29"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Corp. Debt Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=16"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Credit Rating Agencies",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=21"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "COVID-19 Measures",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=71"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Debenture Trustees",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=23"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Depository Participants",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=9"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=10"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Foreign Portfolio Investors (FPI)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=8"
+        },
+        {
+          "sr": 26,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "International Affairs",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=5"
+        },
+        {
+          "sr": 27,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Investigation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=11"
+        },
+        {
+          "sr": 28,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Investment Advisers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=26"
+        },
+        {
+          "sr": 29,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Listing Regulations",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=65"
+        },
+        {
+          "sr": 30,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Investor Survey",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=47"
+        },
+        {
+          "sr": 31,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Issues And Listing",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=1"
+        },
+        {
+          "sr": 32,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Legal Affairs",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=7"
+        },
+        {
+          "sr": 33,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Merchant Bankers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=18"
+        },
+        {
+          "sr": 34,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Mutual Fund",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=3"
+        },
+        {
+          "sr": 35,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Portfolio Managers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=13"
+        },
+        {
+          "sr": 36,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Prosecution",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=14"
+        },
+        {
+          "sr": 37,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Infrastructure Investment Trusts (InvITs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=59"
+        },
+        {
+          "sr": 38,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Registrars to an Issue and Share Transfer Agents",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=17"
+        },
+        {
+          "sr": 39,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Research Analysts",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=28"
+        },
+        {
+          "sr": 40,
+          "date": "—",
+          "year": null,
+          "cat": "FAQ",
+          "title": "Stock Brokers",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=24"
+        }
+      ],
+      "ts": 1783409687386,
+      "ok": true
     },
     "SEBI_5": {
-      "rows": [],
-      "ts": 1783406307723,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Insider Trading",
+          "title": "Comprehensive FAQs on SEBI (PIT) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/clarifications-on-insider-trading/dec-2024/comprehensive-faqs-on-sebi-pit-regulations-2015_90403.html"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Insider Trading",
+          "title": "COMPILATION OF INFORMAL GUIDANCE RELATING TO SEBI (PIT) REGULATIONS, 2015 FOR THE PERIOD OCT 2015 – SEPT 2022",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/clarifications-on-insider-trading/oct-2022/compilation-of-informal-guidance-relating-to-sebi-pit-regulations-2015-for-the-period-oct-2015-sept-2022_64336.html"
+        }
+      ],
+      "ts": 1783409689174,
+      "ok": true
     },
     "SEBI_6": {
-      "rows": [],
-      "ts": 1783406314988,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Order in the matter of ISF Special Opportunity Fund",
+          "desc": "Order in the matter of ISF Special Opportunity Fund",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/order-in-the-matter-of-isf-special-opportunity-fund_102585.html"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Appeal No. 6921 of 2026 filed by Ayaz",
+          "desc": "Appeal No. 6921 of 2026 filed by Ayaz",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/appeal-no-6921-of-2026-filed-by-ayaz_102548.html"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Appeal No. 6920 of 2026 filed by Varsha J Soni",
+          "desc": "Appeal No. 6920 of 2026 filed by Varsha J Soni",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/appeal-no-6920-of-2026-filed-by-varsha-j-soni_102547.html"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Appeal No. 6918 and 6919 of 2026 filed by Jagadish Vital",
+          "desc": "Appeal No. 6918 and 6919 of 2026 filed by Jagadish Vital",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/appeal-no-6918-and-6919-of-2026-filed-by-jagadish-vital_102545.html"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Appeal No. 6917 of 2026 filed by Jagadish Vital",
+          "desc": "Appeal No. 6917 of 2026 filed by Jagadish Vital",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/appeal-no-6917-of-2026-filed-by-jagadish-vital_102544.html"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Orders",
+          "title": "Appeal No. 6916 of 2026 filed by Atul Kumar Thakur",
+          "desc": "Appeal No. 6916 of 2026 filed by Atul Kumar Thakur",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/appeal-no-6916-of-2026-filed-by-atul-kumar-thakur_102542.html"
+        }
+      ],
+      "ts": 1783409690677,
+      "ok": true
     },
     "RBI_0": {
-      "rows": [],
-      "ts": 1783406322382,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "29 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Foreign Exchange Management (Deposit) (Sixth Amendment) Regulations, 2026",
+          "desc": "RESERVE BANK OF INDIA       FOREIGN EXCHANGE DEPARTMENT       CENTRAL OFFICE       Mumbai 400 001       Notification No. FEMA 5(R)(6)/2026-RB     June 18, 2026    Foreign Exchange Management (Deposit)",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13553&Mode=0"
+        },
+        {
+          "sr": 2,
+          "date": "25 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+          "desc": "RBI/FMRD/2026-27/407 FMRD.DIRD.No.02/14.03.046/2026-27 June 25, 2026 To   All participants in credit derivatives markets Dear Sir/Madam, Master Direction &ndash; Reserve Bank of India (Credit Derivati",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13552&Mode=0"
+        },
+        {
+          "sr": 3,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+          "desc": "RBI/2026-27/175      A.P. (DIR Series) Circular No. 18    June 24, 2026    To    All Authorised Persons    Madam / Sir,    Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13551&Mode=0"
+        },
+        {
+          "sr": 4,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Modification of Returns / Reporting requirements under FEMA, 1999",
+          "desc": "RBI/2026-27/174      A.P. (DIR Series) Circular No.17      June 24, 2026      To      All Authorised Persons      Madam / Sir,      Modification of Returns / Reporting requirements under FEMA, 1999   ",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13550&Mode=0"
+        },
+        {
+          "sr": 5,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+          "desc": "RBI/2026-27/173      DOR.MCS.REC.No.136/01-01-038/2026-27      June 24, 2026      Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026      ",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13549&Mode=0"
+        },
+        {
+          "sr": 6,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+          "desc": "RBI/2026-27/172      DOR.MCS.REC.No.135/01-01-037/2026-27    June 24, 2026     Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026    Instr",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13548&Mode=0"
+        },
+        {
+          "sr": 7,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+          "desc": "RBI/2026-27/171      DOR.MCS.REC.No.134/01-01-036/2026-27      June 24, 2026       Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Third Amendment Directions, 2026      Ins",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13547&Mode=0"
+        },
+        {
+          "sr": 8,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+          "desc": "RBI/2026-27/170      DOR.MCS.REC.No.133/01-01-035/2026-27      June 24, 2026      Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Third Amendment Directions, 2026      It has b",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13546&Mode=0"
+        },
+        {
+          "sr": 9,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Payments Banks - Responsible Business Conduct) Second Amendment Directions, 2026",
+          "desc": "RBI/2026-27/169DOR.MCS.REC.No.132/01-01-034/2026-27        June 24, 2026        Reserve Bank of India (Payments Banks - Responsible Business Conduct) Second Amendment Directions, 2026        Instructi",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13545&Mode=0"
+        },
+        {
+          "sr": 10,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+          "desc": "RBI/2026-27/168      DOR.MCS.REC.No.131/01-01-033/2026-27    June 24, 2026     Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Third Amendment Directions, 2026    Instructio",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13544&Mode=0"
+        }
+      ],
+      "ts": 1783409692987,
+      "ok": true
     },
     "RBI_1": {
-      "rows": [],
-      "ts": 1783406326603,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Selected",
+          "desc": "",
+          "link": ""
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Selected",
+          "desc": "",
+          "link": ""
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "About Us ▼",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "About Us",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Organisation & Functions ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Organisation Structure",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=OrganizationStructure.htm"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Departments",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=Depts.htm"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Training Establishment ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "College of Agricultural Banking",
+          "desc": "",
+          "link": "https://cab.rbi.org.in/"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Reserve Bank Staff College",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/rbsc.aspx"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "College of Supervisors",
+          "desc": "",
+          "link": "https://cos.rbi.org.in/"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "RBI's Functions and Working",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/OccasionalPublications.aspx?head=RBI%27s%20Functions%20and%20Working"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Governors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=PastGovernors.htm"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Deputy Governors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=deputygovernors.htm"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Executive Directors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=ExecutiveDirectors.htm"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Communication Policy of RBI",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/CommunicationPolicy.aspx"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Sources of Information ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Annual Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#AP"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Half-yearly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#HP"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Quarterly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#QP"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Monthly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#MP"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Weekly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#WP"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Occasional Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#OP"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Data Releases",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Statistics.aspx"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Publications available on Subscription",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#PS"
+        },
+        {
+          "sr": 26,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "General Information",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#GI"
+        },
+        {
+          "sr": 27,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "RBI History",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Project1.aspx"
+        },
+        {
+          "sr": 28,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Museum ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 29,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "The RBI Museum",
+          "desc": "",
+          "link": "https://therbimuseum.rbi.org.in/"
+        },
+        {
+          "sr": 30,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "RBI Monetary Museum",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/ic_museum.aspx"
+        },
+        {
+          "sr": 31,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Notification ▼",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 32,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Notifications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx"
+        },
+        {
+          "sr": 33,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Master Directions",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterDirections.aspx"
+        },
+        {
+          "sr": 34,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Master Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx"
+        },
+        {
+          "sr": 35,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Amendment Directions",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Fs_AmendmentDirections.aspx"
+        },
+        {
+          "sr": 36,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Draft Notifications/Guidelines ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333#"
+        },
+        {
+          "sr": 37,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Draft Notifications/Guidelines",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/DraftNotificationsGuildelines.aspx"
+        },
+        {
+          "sr": 38,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Draft Directions (RE-wise)",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewREwiseDraftDirections.aspx"
+        },
+        {
+          "sr": 39,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Index To RBI Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_CircularIndexDisplay.aspx"
+        },
+        {
+          "sr": 40,
+          "date": "—",
+          "year": null,
+          "cat": "Master Directions",
+          "title": "Standalone Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewListofstandalonecirculars.aspx"
+        }
+      ],
+      "ts": 1783409695232,
+      "ok": true
     },
     "RBI_2": {
-      "rows": [],
-      "ts": 1783406330821,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Selected",
+          "desc": "",
+          "link": ""
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Selected",
+          "desc": "",
+          "link": ""
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "About Us ▼",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "About Us",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Organisation & Functions ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Organisation Structure",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=OrganizationStructure.htm"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Departments",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=Depts.htm"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Training Establishment ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "College of Agricultural Banking",
+          "desc": "",
+          "link": "https://cab.rbi.org.in/"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Reserve Bank Staff College",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/rbsc.aspx"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "College of Supervisors",
+          "desc": "",
+          "link": "https://cos.rbi.org.in/"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "RBI's Functions and Working",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/OccasionalPublications.aspx?head=RBI%27s%20Functions%20and%20Working"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Governors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=PastGovernors.htm"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Deputy Governors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=deputygovernors.htm"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Executive Directors",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=ExecutiveDirectors.htm"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Communication Policy of RBI",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/CommunicationPolicy.aspx"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Sources of Information ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Annual Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#AP"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Half-yearly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#HP"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Quarterly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#QP"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Monthly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#MP"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Weekly Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#WP"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Occasional Publications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#OP"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Data Releases",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Statistics.aspx"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Publications available on Subscription",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#PS"
+        },
+        {
+          "sr": 26,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "General Information",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/AboutUsDisplay.aspx?pg=AllPublications.htm#GI"
+        },
+        {
+          "sr": 27,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "RBI History",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Project1.aspx"
+        },
+        {
+          "sr": 28,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Museum ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 29,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "The RBI Museum",
+          "desc": "",
+          "link": "https://therbimuseum.rbi.org.in/"
+        },
+        {
+          "sr": 30,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "RBI Monetary Museum",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/ic_museum.aspx"
+        },
+        {
+          "sr": 31,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Notification ▼",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 32,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Notifications",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx"
+        },
+        {
+          "sr": 33,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Master Directions",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterDirections.aspx"
+        },
+        {
+          "sr": 34,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Master Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx"
+        },
+        {
+          "sr": 35,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Amendment Directions",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/Fs_AmendmentDirections.aspx"
+        },
+        {
+          "sr": 36,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Draft Notifications/Guidelines ▶",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333#"
+        },
+        {
+          "sr": 37,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Draft Notifications/Guidelines",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/DraftNotificationsGuildelines.aspx"
+        },
+        {
+          "sr": 38,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Draft Directions (RE-wise)",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewREwiseDraftDirections.aspx"
+        },
+        {
+          "sr": 39,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Index To RBI Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_CircularIndexDisplay.aspx"
+        },
+        {
+          "sr": 40,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circulars",
+          "title": "Standalone Circulars",
+          "desc": "",
+          "link": "https://www.rbi.org.in/scripts/BS_ViewListofstandalonecirculars.aspx"
+        }
+      ],
+      "ts": 1783409697320,
+      "ok": true
     },
     "RBI_3": {
-      "rows": [],
-      "ts": 1783406335039,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI releases draft Master Direction - Reserve Bank of India (Call, Notice and Term Money Markets) Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63023"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI releases draft Master Direction – Reserve Bank of India (Secondary Market Transactions in Government Securities) Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63019"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI issues draft ‘Guidance on Regulatory Principles for Model Risk Management’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63006"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites comments on Harmonisation and Consolidation of Instructions on Control / Assurance Functions",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62909"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites public comments on the draft Amendment Directions on ‘Standardised Approach for Counterparty Credit Risk (SA-CCR)’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62908"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites comments on the draft “Reserve Bank of India (Interest Rate on Deposits) Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62877"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI Issues Revised Draft Amendment Directions on ‘Conduct of Regulated Entities in Recovery of Loans and Engagement of Recovery Agents’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62776"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites comments on the draft “Reserve Bank of India (Capital Adequacy) Amendment Directions, 2026”",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62768"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI issues Draft Master Direction on Prepaid Payment Instruments (PPIs), 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62602"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites public comments on the draft Amendment Directions on review of methodology for identification of NBFC-UL and inclusion of Government owned NBFCs in NBFC-UL",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62545"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI Issues Draft Directions for ‘Trade Receivables Discounting System’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62526"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites comments on Draft “Reserve Bank of India (Governance) Amendment Directions, 2026”",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62525"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites public comments on the draft Amendment Directions on ‘Investment Fluctuation Reserve’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62522"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites public comments on Draft Amendment Directions on ‘Review of guidelines on inclusion of quarterly profits to Common Equity Tier 1 (CET1) capital for computation of Capital to Risk weighted Assets Ratio (CRAR) for Banks’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62523"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites comments on the Draft “Reserve Bank of India (Branch Authorisation) Amendment Directions, 2026”",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62505"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI Issues Draft Amendment Directions for ‘Review of Framework of Limiting Customer Liability in Digital Transactions’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62340"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI releases draft Directions on Foreign Exchange Dealings  of Authorised Persons",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62246"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI releases draft Directions on Reporting Instructions for Authorised Dealer Category – I Banks",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62240"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI Issues Draft Amendment Directions for instructions on ‘Lending to Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs)’",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62232"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Draft Notifications",
+          "title": "RBI invites public comments on the Draft Circular on Lead Bank Scheme (LBS)",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62221"
+        }
+      ],
+      "ts": 1783409699795,
+      "ok": true
     },
     "BSE_0": {
       "rows": [],
-      "ts": 1783406339297,
-      "ok": false,
-      "error": "HTTP 403"
+      "ts": 1783409703219,
+      "ok": true
     },
     "NSE_0": {
-      "rows": [],
-      "ts": 1783406343549,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Option Chain",
+          "desc": "",
+          "link": "https://www.nseindia.com/option-chain"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Market Turnover",
+          "desc": "",
+          "link": "https://www.nseindia.com/companies-listing/circular-for-listed-companies-equity-market#modal_market_turnover_popup"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Listings",
+          "desc": "",
+          "link": "https://www.nseindia.com/market-data/new-stock-exchange-listings-today"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Circulars",
+          "desc": "",
+          "link": "https://www.nseindia.com/resources/exchange-communication-circulars"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Daily Report",
+          "desc": "",
+          "link": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "sr": 6,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Holidays",
+          "desc": "",
+          "link": "https://www.nseindia.com/resources/exchange-communication-holidays"
+        },
+        {
+          "sr": 7,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Corporates",
+          "desc": "",
+          "link": "https://www.nseindia.com/companies-listing/corporate-filings-application"
+        },
+        {
+          "sr": 8,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Press Releases",
+          "desc": "",
+          "link": "https://www.nseindia.com/resources/exchange-communication-press-releases"
+        },
+        {
+          "sr": 9,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Contact Us",
+          "desc": "",
+          "link": "https://www.nseindia.com/contact/contact-us"
+        },
+        {
+          "sr": 10,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "About Us",
+          "desc": "",
+          "link": "https://www.nseindia.com/national-stock-exchange/about-nse-company"
+        },
+        {
+          "sr": 11,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Structure & Key Personnel",
+          "desc": "",
+          "link": "https://www.nseindia.com/structure-key-personnel/corporate-structure"
+        },
+        {
+          "sr": 12,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Awards and Recognitions",
+          "desc": "",
+          "link": "https://www.nseindia.com/national-stock-exchange/awards-recognition"
+        },
+        {
+          "sr": 13,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Regulations",
+          "desc": "",
+          "link": "https://www.nseindia.com/regulations/exchange-market-regulations-rules-byelaws-nseil"
+        },
+        {
+          "sr": 14,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Event Gallery",
+          "desc": "",
+          "link": "https://www.nseindia.com/events"
+        },
+        {
+          "sr": 15,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Holidays",
+          "desc": "",
+          "link": "https://www.nseindia.com/resources/exchange-communication-holidays"
+        },
+        {
+          "sr": 16,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Contact Us",
+          "desc": "",
+          "link": "https://www.nseindia.com/contact/contact-us"
+        },
+        {
+          "sr": 17,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NAL Academy Limited",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-academy/nse-academy-overview"
+        },
+        {
+          "sr": 18,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE Clearing",
+          "desc": "",
+          "link": "https://www.nseclearing.in/about-nse-clearing"
+        },
+        {
+          "sr": 19,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE Data & Analytics",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-data-and-analytics"
+        },
+        {
+          "sr": 20,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE Foundation",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-foundation/about-us"
+        },
+        {
+          "sr": 21,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE Indices",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-indices"
+        },
+        {
+          "sr": 22,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE International Exchange",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-international-exchange/about"
+        },
+        {
+          "sr": 23,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE International Clearing",
+          "desc": "",
+          "link": "https://www.nseindia.com/nseint_clearing/nse-international-clearing-overview"
+        },
+        {
+          "sr": 24,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "NSE Investments",
+          "desc": "",
+          "link": "https://www.nseindia.com/nse-investments"
+        },
+        {
+          "sr": 25,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "View all",
+          "desc": "",
+          "link": "https://www.nseindia.com/national-stock-exchange/our-group"
+        },
+        {
+          "sr": 26,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Equity Market",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-equity-market"
+        },
+        {
+          "sr": 27,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Emerge Platform",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/emerge-platform-about-sme"
+        },
+        {
+          "sr": 28,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Mutual Funds",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/mf-about-mfss"
+        },
+        {
+          "sr": 29,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Equity Derivatives",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-equity-derivatives"
+        },
+        {
+          "sr": 30,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Currency Derivatives",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-currency-derivatives"
+        },
+        {
+          "sr": 31,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Commodity Derivatives",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-commodity-derivatives"
+        },
+        {
+          "sr": 32,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Interest Rate Derivatives",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-interest-rate-derivatives"
+        },
+        {
+          "sr": 33,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Fixed Income and Debt",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/fixed-income-debt-overview"
+        },
+        {
+          "sr": 34,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Public Issues",
+          "desc": "",
+          "link": "https://www.nseindia.com/products-services/about-initial-public-offerings"
+        },
+        {
+          "sr": 35,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Electronic Gold Receipts",
+          "desc": "",
+          "link": "https://www.nseindia.com/static/products-services/about-electronic-gold-receipts"
+        },
+        {
+          "sr": 36,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Market Data",
+          "desc": "",
+          "link": ""
+        },
+        {
+          "sr": 37,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "New Listings",
+          "desc": "",
+          "link": "https://www.nseindia.com/market-data/new-stock-exchange-listings-today"
+        },
+        {
+          "sr": 38,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Pre-Open Market",
+          "desc": "",
+          "link": "https://www.nseindia.com/market-data/pre-open-market-cm-and-emerge-market"
+        },
+        {
+          "sr": 39,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Equity & SME Market",
+          "desc": "",
+          "link": "https://www.nseindia.com/market-data/live-equity-market"
+        },
+        {
+          "sr": 40,
+          "date": "—",
+          "year": null,
+          "cat": "Circular",
+          "title": "Exchange Traded Funds",
+          "desc": "",
+          "link": "https://www.nseindia.com/market-data/exchange-traded-funds-etf"
+        }
+      ],
+      "ts": 1783409705571,
+      "ok": true
     },
     "IRDAI_0": {
-      "rows": [],
-      "ts": 1783406348026,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "22 Jun 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "नोटिफिकेशन  - Notification",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9585445"
+        },
+        {
+          "sr": 2,
+          "date": "21 Apr 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "राजपत्र अधिसूचना / Gazette Notification",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9312427"
+        },
+        {
+          "sr": 3,
+          "date": "28 Jan 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reconstitution of Reinsurance Advisory Committee (RAC) - 28.01.2026",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8626390"
+        },
+        {
+          "sr": 4,
+          "date": "28 Feb 2025",
+          "year": 2025,
+          "cat": "Notifications",
+          "title": "Obligatory Cession for the financial year 2025-26",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6811221"
+        },
+        {
+          "sr": 5,
+          "date": "23 Feb 2024",
+          "year": 2024,
+          "cat": "Notifications",
+          "title": "Obligatory Cession for the financial year 2024-25",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=4442504"
+        },
+        {
+          "sr": 6,
+          "date": "24 Jan 2024",
+          "year": 2024,
+          "cat": "Notifications",
+          "title": "Denotification of Arbitration Clause",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=4360309"
+        },
+        {
+          "sr": 7,
+          "date": "11 Sept 2023",
+          "year": 2023,
+          "cat": "Notifications",
+          "title": "Insurance Ombudsman (Amendment)Rules, 2023",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=4172569"
+        },
+        {
+          "sr": 8,
+          "date": "05 Nov 2023",
+          "year": 2023,
+          "cat": "Notifications",
+          "title": "Annulment of Expression of interest for Empanelment of Advertising Agencies-2022",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=3423989"
+        },
+        {
+          "sr": 9,
+          "date": "30 Jan 2023",
+          "year": 2023,
+          "cat": "Notifications",
+          "title": "Obligatory Cession for the financial year 2023-24",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=2404285"
+        },
+        {
+          "sr": 10,
+          "date": "12 Aug 2022",
+          "year": 2022,
+          "cat": "Notifications",
+          "title": "IRDAI Insurance Intermediaries (Amendment) Regulations 2022",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1629328"
+        },
+        {
+          "sr": 11,
+          "date": "12 Aug 2022",
+          "year": 2022,
+          "cat": "Notifications",
+          "title": "IRDAI (Other Forms of Capital) Regulations, 2022",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1629583"
+        },
+        {
+          "sr": 12,
+          "date": "19 May 2022",
+          "year": 2022,
+          "cat": "Notifications",
+          "title": "Reconstitution of Reinsurance Advisory Committee",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1290726"
+        },
+        {
+          "sr": 13,
+          "date": "05 Oct 2022",
+          "year": 2022,
+          "cat": "Notifications",
+          "title": "Appointment Notification of Insurance Advisory committee Members",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1262906"
+        },
+        {
+          "sr": 14,
+          "date": "18 Jan 2022",
+          "year": 2022,
+          "cat": "Notifications",
+          "title": "Obligatory cession for financial year 2022-2023",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1107267"
+        },
+        {
+          "sr": 15,
+          "date": "08 Sept 2021",
+          "year": 2021,
+          "cat": "Notifications",
+          "title": "Reconstitution Of Insurance Advisory Committee",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=977453"
+        },
+        {
+          "sr": 16,
+          "date": "07 Sept 2021",
+          "year": 2021,
+          "cat": "Notifications",
+          "title": "IRDAI (Indian Insurance Companies)(Amendment) Regulations, 2021",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=903887"
+        },
+        {
+          "sr": 17,
+          "date": "20 May 2021",
+          "year": 2021,
+          "cat": "Notifications",
+          "title": "Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=397711"
+        },
+        {
+          "sr": 18,
+          "date": "15 Feb 2021",
+          "year": 2021,
+          "cat": "Notifications",
+          "title": "RECONSTITUTION OF INSURANCE ADVISORY COMMITTEE",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=831440"
+        },
+        {
+          "sr": 19,
+          "date": "01 Apr 2021",
+          "year": 2021,
+          "cat": "Notifications",
+          "title": "Obligatory Cession for the financial year 2021-22",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=396238"
+        }
+      ],
+      "ts": 1783409709197,
+      "ok": true
     },
     "IRDAI_1": {
-      "rows": [],
-      "ts": 1783406352243,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "07 Feb 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9613196"
+        },
+        {
+          "sr": 2,
+          "date": "25 May 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9508062"
+        },
+        {
+          "sr": 3,
+          "date": "04 Jul 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9196320"
+        },
+        {
+          "sr": 4,
+          "date": "04 Jan 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9122615"
+        },
+        {
+          "sr": 5,
+          "date": "25 Mar 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "परिपत्र / CIRCULAR",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9027284"
+        },
+        {
+          "sr": 6,
+          "date": "16 Mar 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8971093"
+        },
+        {
+          "sr": 7,
+          "date": "02 Dec 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs)",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8760558"
+        },
+        {
+          "sr": 8,
+          "date": "01 Jul 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "1600-शृंखला के अनिवार्य अंगीकरण संबंधी ट्राई (भारतीय दूरसंचार विनियामक प्राधिकरण) के निदेश का कार्यान्वयन / Implementation of 1600 Series TRAI directions",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8446575"
+        },
+        {
+          "sr": 9,
+          "date": "19 Dec 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "बीमाकर्ताओं को आरबीआई द्वारा विनियमित एआईएफआईएस के एटी1 बांडों और टियर 2 पूँजी में निवेश करने के लिए अनुमति देना/Permitting insurers’ investments in AT1 bonds and Tier 2 Capital of RBI regulated AIFIs",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8324151"
+        },
+        {
+          "sr": 10,
+          "date": "10 Oct 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Cessation of the practice of allowing additional line of business/department to surveyor and loss assessors based on categorization letter issued in 2001-02",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7957321"
+        },
+        {
+          "sr": 11,
+          "date": "10 Jun 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7935471"
+        },
+        {
+          "sr": 12,
+          "date": "14 Aug 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Risk Based Capital (RBC)- Quantitative Impact Study-2",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7716046"
+        },
+        {
+          "sr": 13,
+          "date": "25 Jul 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Master Circular on Rural, Social Sector and Motor Third Party Obligations",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7643594"
+        },
+        {
+          "sr": 14,
+          "date": "22 Jul 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Clarification on IRDAI (Maintenance of Information by the Regulated Entities and Sharing of information by the Authority) Reg, 2025",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7628074"
+        },
+        {
+          "sr": 15,
+          "date": "13 Jun 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "सभी बीमाकर्ताओं, पुनर्बीमाकर्ताओं, जीवन बीमा परिषद और साधारण बीमा परिषद के लिए परामर्शक / Advisory to All Insurers, Reinsurers, Life Insurance Council and General Insurance Council",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7461953"
+        },
+        {
+          "sr": 16,
+          "date": "05 Sept 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Corporate Agency Matters Concerning RRBs Amalgamated from 1st May 2025 and Beyond",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7269046"
+        },
+        {
+          "sr": 17,
+          "date": "26 Mar 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Circular on Cyber Incident or Crisis Preparedness",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6975996"
+        },
+        {
+          "sr": 18,
+          "date": "03 Dec 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Servicing to the policyholder - Special measure for FY 2024-25",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6912470"
+        },
+        {
+          "sr": 19,
+          "date": "03 Oct 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Exposure to Forward Contracts in Government Securities (Bond Forwards)",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6876266"
+        },
+        {
+          "sr": 20,
+          "date": "18 Feb 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "One-time Mandate for blocking the amount towards premium through UPI for issuance of life and health insurance policies- Bima-ASBA",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6743177"
+        }
+      ],
+      "ts": 1783409712652,
+      "ok": true
     },
     "IRDAI_2": {
-      "rows": [],
-      "ts": 1783406356460,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "04 Aug 2026",
+          "year": 2026,
+          "cat": "Guidelines",
+          "title": "परिपत्र / Circular",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=9189223"
+        },
+        {
+          "sr": 2,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Guidelines",
+          "title": "Guidelines on Establishment and Closure of Liaison Office in India by an Insurance Company registered outside India",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=8752913"
+        },
+        {
+          "sr": 3,
+          "date": "10 Sept 2025",
+          "year": 2025,
+          "cat": "Guidelines",
+          "title": "IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2025",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7948519"
+        },
+        {
+          "sr": 4,
+          "date": "29 Jul 2025",
+          "year": 2025,
+          "cat": "Guidelines",
+          "title": "Amendment to Clause 15(a) of “Revised Guidelines on Insurance Repositories and Electronic Issuance of Insurance Policies”",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=7651843"
+        },
+        {
+          "sr": 5,
+          "date": "28 Feb 2025",
+          "year": 2025,
+          "cat": "Guidelines",
+          "title": "Guidelines on Hedging Through Equity Derivatives",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=6809311"
+        },
+        {
+          "sr": 6,
+          "date": "10 Sept 2023",
+          "year": 2023,
+          "cat": "Guidelines",
+          "title": "IRDAI Bima Vahak Guidelines, 2023",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=3982975"
+        },
+        {
+          "sr": 7,
+          "date": "30 Jun 2023",
+          "year": 2023,
+          "cat": "Guidelines",
+          "title": "Guidelines on Remuneration of Directors and Key Managerial Persons of Insurers",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=3562210"
+        },
+        {
+          "sr": 8,
+          "date": "24 Apr 2023",
+          "year": 2023,
+          "cat": "Guidelines",
+          "title": "IRDAI Information and Cyber Security Guidelines, 2023.",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=3314780"
+        },
+        {
+          "sr": 9,
+          "date": "31 Mar 2023",
+          "year": 2023,
+          "cat": "Guidelines",
+          "title": "Guidelines on Operational Issues pertaining to the  Regulatory Sandbox",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=3226826"
+        },
+        {
+          "sr": 10,
+          "date": "01 Mar 2023",
+          "year": 2023,
+          "cat": "Guidelines",
+          "title": "Guidelines on issuance of FRNs to Cross Border Reinsurers",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1640570"
+        },
+        {
+          "sr": 11,
+          "date": "17 Oct 2022",
+          "year": 2022,
+          "cat": "Guidelines",
+          "title": "Guidelines on Establishment and Closure of Liaison Office in India by an Insurance Company registered outside India",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1445464"
+        },
+        {
+          "sr": 12,
+          "date": "10 Oct 2022",
+          "year": 2022,
+          "cat": "Guidelines",
+          "title": "Guidelines in respect of Conflict of Interest and Common Directorship  among Intermediary or Insurance intermediary",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1441871"
+        },
+        {
+          "sr": 13,
+          "date": "09 Feb 2022",
+          "year": 2022,
+          "cat": "Guidelines",
+          "title": "Guidelines on Information and Cyber Security",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1354286"
+        },
+        {
+          "sr": 14,
+          "date": "08 Jan 2022",
+          "year": 2022,
+          "cat": "Guidelines",
+          "title": "Master Guidelines on Anti-Money Laundering/ Counter Financing of Terrorism (AML/CFT), 2022",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1345417"
+        },
+        {
+          "sr": 15,
+          "date": "01 Mar 2022",
+          "year": 2022,
+          "cat": "Guidelines",
+          "title": "IRDAI (Surety Insurance Contracts) Guidelines, 2022",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=1090056"
+        },
+        {
+          "sr": 16,
+          "date": "09 Aug 2021",
+          "year": 2021,
+          "cat": "Guidelines",
+          "title": "IRDAI (Trade Credit Insurance) Guidelines, 2021",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=976476"
+        },
+        {
+          "sr": 17,
+          "date": "08 Jun 2021",
+          "year": 2021,
+          "cat": "Guidelines",
+          "title": "Guidelines on settlement of Life Insurance Claims to the victims of Flood in Maharashtra.",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=977411"
+        },
+        {
+          "sr": 18,
+          "date": "06 Nov 2021",
+          "year": 2021,
+          "cat": "Guidelines",
+          "title": "GUIDELINES ON STANDARD PROFESSIONAL INDEMNITY POLICY FOR INSURANCE BROKERS/CORPORATE AGENT/WEB AGGREGATORS/IMF",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=397859"
+        },
+        {
+          "sr": 19,
+          "date": "05 May 2021",
+          "year": 2021,
+          "cat": "Guidelines",
+          "title": "Guidelines on Standard Domestic Travel Insurance Product",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=397579"
+        },
+        {
+          "sr": 20,
+          "date": "04 Jan 2021",
+          "year": 2021,
+          "cat": "Guidelines",
+          "title": "To All Licensed Surveyors and Loss Assessors",
+          "desc": "",
+          "link": "https://irdai.gov.in/document-detail?documentId=397219"
+        }
+      ],
+      "ts": 1783409716451,
+      "ok": true
     },
     "IEPFA_0": {
       "rows": [],
