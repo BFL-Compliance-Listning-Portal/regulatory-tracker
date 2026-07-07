@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Regulatory Updates Tracker – Bajaj Finserv Secretarial</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --border: #e2e6ea;
+    --text-primary: #1a2030;
+    --text-secondary: #5a6474;
+    --text-muted: #9aa3b0;
+    --accent-sebi: #1a56db;
+    --accent-rbi: #c0392b;
+    --accent-bse: #e67e22;
+    --accent-nse: #8e44ad;
+    --accent-irdai: #27ae60;
+    --accent-iepfa: #2980b9;
+    --accent-egaz: #d35400;
+    --accent-mca: #16a085;
+    --tag-notif: #e8f4fd;
+    --tag-notif-text: #1a56db;
+    --tag-circular: #fff4e5;
+    --tag-circular-text: #c0580a;
+    --tag-master: #f0faf4;
+    --tag-master-text: #1a7c44;
+    --tag-draft: #fdf4ff;
+    --tag-draft-text: #7c3aab;
+    --tag-order: #fff0f0;
+    --tag-order-text: #c0392b;
+    --tag-faq: #f0f7ff;
+    --tag-faq-text: #0056b3;
+    --live-green: #22c55e;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.07);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.09);
+    --radius: 10px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+
+  .header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: var(--shadow-sm);
+  }
+  .header-left h1 { font-size: 17px; font-weight: 700; letter-spacing: -0.3px; color: var(--text-primary); }
+  .header-left p  { font-size: 12px; color: var(--text-secondary); margin-top: 1px; }
+  .header-right   { display: flex; align-items: center; gap: 18px; }
+  .live-badge     { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; color: var(--live-green); }
+  .live-dot       { width: 8px; height: 8px; border-radius: 50%; background: var(--live-green); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(1.3)} }
+  .header-time    { font-size: 12px; color: var(--text-secondary); }
+
+  .main { max-width: 1400px; margin: 0 auto; padding: 24px 20px; }
+
+  .regulator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+  @media(max-width:900px){ .regulator-grid{ grid-template-columns: repeat(2,1fr); } }
+
+  .reg-btn {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .18s ease;
+    box-shadow: var(--shadow-sm);
+  }
+  .reg-btn:hover { border-color: currentColor; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .reg-btn.active { background: #f0f5ff; box-shadow: var(--shadow-md); }
+  .reg-btn .reg-name  { font-size: 16px; font-weight: 700; display: block; margin-bottom: 2px; }
+  .reg-btn .reg-full  { font-size: 10.5px; color: var(--text-secondary); display: block; line-height: 1.3; }
+  .reg-btn .reg-count { display: inline-block; margin-top: 6px; font-size: 11px; font-weight: 700; background: var(--border); border-radius: 20px; padding: 1px 8px; }
+  .reg-btn.active .reg-count { background: currentColor; color: #fff; }
+
+  .reg-sebi  { color: var(--accent-sebi); }
+  .reg-rbi   { color: var(--accent-rbi); }
+  .reg-bse   { color: var(--accent-bse); }
+  .reg-nse   { color: var(--accent-nse); }
+  .reg-irdai { color: var(--accent-irdai); }
+  .reg-iepfa { color: var(--accent-iepfa); }
+  .reg-egaz  { color: var(--accent-egaz); }
+  .reg-mca   { color: var(--accent-mca); }
+
+  .content-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+
+  .subtab-bar {
+    display: flex; align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--border);
+    gap: 0; overflow-x: auto;
+  }
+  .subtab-bar .panel-title { font-size: 15px; font-weight: 700; padding: 14px 0; margin-right: 24px; white-space: nowrap; }
+  .subtab-count { display: inline-flex; align-items: center; justify-content: center; background: var(--accent-rbi); color: #fff; font-size: 11px; font-weight: 700; border-radius: 20px; padding: 1px 8px; margin-left: 8px; }
+  .subtab { padding: 14px 16px; font-size: 13px; font-weight: 500; cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap; color: var(--text-secondary); transition: color .15s, border-color .15s; background: none; border-top: none; border-left: none; border-right: none; }
+  .subtab:hover { color: var(--text-primary); }
+  .subtab.active { color: var(--text-primary); border-bottom-color: var(--active-accent, #1a56db); font-weight: 600; }
+
+  .controls-bar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .search-wrap { position: relative; flex: 1; min-width: 180px; }
+  .search-wrap input { width: 100%; border: 1px solid var(--border); border-radius: 7px; padding: 7px 12px 7px 34px; font-size: 13px; background: var(--bg); outline: none; transition: border-color .15s; }
+  .search-wrap input:focus { border-color: #1a56db; }
+  .search-icon { position:absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; font-size: 14px; }
+  .year-sel { border: 1px solid var(--border); border-radius: 7px; padding: 7px 28px 7px 10px; font-size: 13px; background: var(--bg); cursor: pointer; outline: none; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239aa3b0'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; }
+  .btn-refresh { display: flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: 7px; padding: 7px 14px; font-size: 13px; font-weight: 500; background: var(--surface); cursor: pointer; transition: background .15s; white-space: nowrap; }
+  .btn-refresh:hover { background: var(--bg); }
+  .btn-refresh svg { width: 14px; height: 14px; }
+  .btn-refresh.spinning svg { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .visit-src { font-size: 12px; color: #1a56db; text-decoration: none; margin-left: auto; white-space: nowrap; }
+  .visit-src:hover { text-decoration: underline; }
+
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { background: var(--bg); border-bottom: 1px solid var(--border); }
+  thead th { padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .6px; color: var(--text-secondary); white-space: nowrap; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background .12s; }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: #fafbfc; }
+  td { padding: 12px 16px; vertical-align: top; }
+  td.sr       { color: var(--text-muted); font-size: 12px; width: 44px; }
+  td.date-col { white-space: nowrap; color: var(--text-secondary); font-size: 12.5px; width: 110px; }
+  td.cat-col  { width: 130px; }
+  td.title-col { min-width: 220px; }
+  td.summary-col { width: 280px; font-size: 12px; color: var(--text-secondary); line-height: 1.6; }
+  td.link-col { width: 70px; text-align: right; }
+
+  .tag { display: inline-block; border-radius: 5px; padding: 3px 9px; font-size: 11px; font-weight: 600; }
+  .tag-notif    { background: var(--tag-notif);    color: var(--tag-notif-text); }
+  .tag-circular { background: var(--tag-circular); color: var(--tag-circular-text); }
+  .tag-master   { background: var(--tag-master);   color: var(--tag-master-text); }
+  .tag-draft    { background: var(--tag-draft);    color: var(--tag-draft-text); }
+  .tag-order    { background: var(--tag-order);    color: var(--tag-order-text); }
+  .tag-faq      { background: var(--tag-faq);      color: var(--tag-faq-text); }
+  .tag-guideline{ background: #fff8f0; color: #b45309; }
+  .tag-rule     { background: #f0fff4; color: #166534; }
+  .tag-update   { background: #f5f3ff; color: #5b21b6; }
+
+  .title-main { font-size: 13.5px; font-weight: 500; color: var(--text-primary); display: block; margin-bottom: 3px; }
+  .title-desc { font-size: 11.5px; color: var(--text-muted); display: block; line-height: 1.5; max-width: 500px; }
+
+  .link-open { color: #1a56db; font-size: 12.5px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+  .link-open:hover { text-decoration: underline; }
+
+  td.summary-col { min-width: 220px; max-width: 320px; }
+
+  /* AI Summary styles */
+  .ai-summary-wrap { display: flex; flex-direction: column; gap: 4px; }
+  .ai-summary-text { font-size: 12px; color: #374151; line-height: 1.65; }
+  .ai-summary-loading {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11.5px; color: var(--text-muted);
+  }
+  .ai-dot-spin {
+    width: 12px; height: 12px;
+    border: 2px solid var(--border);
+    border-top-color: #8b5cf6;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    flex-shrink: 0;
+  }
+  .ai-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10px; font-weight: 600;
+    background: #f5f3ff; color: #5b21b6;
+    border-radius: 4px; padding: 2px 6px;
+    margin-bottom: 4px;
+  }
+  .ai-error { font-size: 11.5px; color: var(--text-muted); font-style: italic; }
+  .ai-retry { font-size: 11px; color: #1a56db; cursor: pointer; text-decoration: underline; background: none; border: none; padding: 0; margin-top: 3px; display: block; }
+
+  .state-row td { padding: 48px 20px; text-align: center; color: var(--text-muted); font-size: 13px; }
+  .spinner-wrap  { display: flex; align-items: center; justify-content: center; gap: 10px; }
+  .mini-spin     { width: 18px; height: 18px; border: 2px solid var(--border); border-top-color: #1a56db; border-radius: 50%; animation: spin 0.7s linear infinite; flex-shrink: 0; }
+
+  .panel-footer { padding: 10px 20px; border-top: 1px solid var(--border); font-size: 11.5px; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; }
+
+  /* Local file warning banner */
+  #localFileBanner {
+    display: none;
+    background: #fef3c7; border-bottom: 1px solid #f59e0b;
+    padding: 10px 24px; font-size: 13px; color: #92400e;
+    align-items: center; gap: 10px;
+  }
+  #localFileBanner.show { display: flex; }
+  #localFileBanner strong { font-weight: 600; }
+  #localFileBanner a { color: #1d4ed8; font-weight: 500; text-decoration: underline; cursor: pointer; }
+  #localFileBanner .banner-close { margin-left: auto; cursor: pointer; font-size: 16px; color: #92400e; background: none; border: none; }
+
+  .btn-settings { display:flex; align-items:center; gap:6px; border:1px solid var(--border); border-radius:7px; padding:6px 12px; font-size:12.5px; font-weight:500; background:var(--surface); cursor:pointer; color: var(--text-secondary); }
+  .btn-settings:hover { background: var(--bg); color: var(--text-primary); }
+  .btn-settings.configured { border-color:#8b5cf6; color:#7c3aed; background:#f5f3ff; }
+
+  #settingsModal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:9999; align-items:center; justify-content:center; }
+  #settingsModal .modal-box { background:#fff; border-radius:12px; padding:28px; max-width:480px; width:90%; box-shadow:0 20px 60px rgba(0,0,0,.3); }
+  #settingsModal h3 { margin:0 0 6px; font-size:16px; }
+  #settingsModal p { margin:0 0 14px; font-size:13px; color:#5a6474; line-height:1.5; }
+  #settingsModal input[type=password], #settingsModal input[type=text] { width:100%; border:1px solid var(--border); border-radius:7px; padding:9px 12px; font-size:13px; font-family:monospace; margin-bottom:10px; outline:none; }
+  #settingsModal input:focus { border-color:#8b5cf6; }
+  #settingsModal .key-actions { display:flex; gap:8px; margin-top:14px; }
+  #settingsModal .btn-save { background:#7c3aed; color:#fff; border:none; border-radius:7px; padding:9px 18px; font-size:13px; font-weight:600; cursor:pointer; }
+  #settingsModal .btn-save:hover { background:#6d28d9; }
+  #settingsModal .btn-clear { background:none; border:1px solid var(--border); border-radius:7px; padding:9px 16px; font-size:13px; cursor:pointer; color:#5a6474; }
+  #settingsModal .btn-cancel { background:none; border:none; padding:9px 12px; font-size:13px; cursor:pointer; color:#5a6474; margin-left:auto; }
+  #settingsModal .key-status { font-size:12px; margin-bottom:10px; padding:8px 10px; border-radius:6px; }
+  #settingsModal .key-status.ok { background:#f0faf4; color:#1a7c44; }
+  #settingsModal .key-status.none { background:#fff8f0; color:#b45309; }
+  #settingsModal a { color:#7c3aed; }
+
+</style>
+</head>
+<body>
+
+
+<!-- Data source warning banner (shown if DATA_JSON_URL isn't configured, or fails to load) -->
+<div id="localFileBanner">
+  <span>⚠️</span>
+  <span id="localFileBannerText"><strong>Data source not set up yet.</strong>
+  Edit <code>DATA_JSON_URL</code> near the top of the script and point it at your repo's <code>data/regulatory_data.json</code> (via raw.githubusercontent.com) — see the setup guide in the repo README. AI summaries separately need your own API key: click <a onclick="openSettings()">⚙️ AI Settings</a> above.</span>
+  <button class="banner-close" onclick="this.parentElement.classList.remove('show')">✕</button>
+</div>
+
+<div id="settingsModal">
+  <div class="modal-box">
+    <h3>AI Summary — API Key</h3>
+    <p>AI summaries are generated using the Anthropic API directly from your browser. Your key is stored only in <strong>this browser's local storage</strong> — it is never sent anywhere except directly to Anthropic's servers.</p>
+    <div class="key-status" id="keyStatusBox">No API key configured yet.</div>
+    <input type="password" id="apiKeyInput" placeholder="sk-ant-..." autocomplete="off"/>
+    <div style="font-size:11.5px;color:var(--text-muted);margin-bottom:4px;">
+      Don't have a key? <a href="https://console.anthropic.com/settings/keys" target="_blank">Get one at console.anthropic.com</a> (requires billing setup — separate from any Claude.ai subscription).
+    </div>
+    <div class="key-actions">
+      <button class="btn-save" onclick="saveApiKey()">Save Key</button>
+      <button class="btn-clear" onclick="clearApiKey()">Clear</button>
+      <button class="btn-cancel" onclick="closeSettings()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div id="serverHelpModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:12px;padding:32px;max-width:520px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.3);">
+    <h3 style="margin:0 0 16px;font-size:17px;">Serve the file locally (takes 30 seconds)</h3>
+    <p style="margin:0 0 12px;font-size:13.5px;color:#374151;">Open a terminal / Command Prompt in the folder where this file is saved, then run one of these:</p>
+    <div style="background:#1e293b;color:#e2e8f0;border-radius:8px;padding:12px 16px;font-family:monospace;font-size:13px;margin-bottom:12px;">
+      <div style="color:#94a3b8;margin-bottom:6px"># Python (usually pre-installed)</div>
+      python -m http.server 8080
+    </div>
+    <div style="background:#1e293b;color:#e2e8f0;border-radius:8px;padding:12px 16px;font-family:monospace;font-size:13px;margin-bottom:16px;">
+      <div style="color:#94a3b8;margin-bottom:6px"># Node.js</div>
+      npx serve .
+    </div>
+    <p style="margin:0 0 16px;font-size:13px;color:#374151;">Then open: <strong>http://localhost:8080/regulatory_tracker_live.html</strong></p>
+    <button onclick="document.getElementById('serverHelpModal').style.display='none'" style="background:#1a56db;color:#fff;border:none;border-radius:6px;padding:8px 20px;cursor:pointer;font-size:13px;">Got it</button>
+  </div>
+</div>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Regulatory Updates Tracker</h1>
+    <p>Bajaj Finserv – Secretarial</p>
+  </div>
+  <div class="header-right">
+    <div class="live-badge"><span class="live-dot"></span>Live Data</div>
+    <span class="header-time" id="headerTime"></span>
+    <button class="btn-settings" id="settingsBtn" onclick="openSettings()" title="AI Summary Settings">⚙️ AI Settings</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="regulator-grid" id="regulatorGrid">
+    <button class="reg-btn reg-sebi" data-reg="SEBI" onclick="selectReg('SEBI')">
+      <span class="reg-name">SEBI</span>
+      <span class="reg-full">Securities &amp; Exchange Board</span>
+      <span class="reg-count" id="count-SEBI">—</span>
+    </button>
+    <button class="reg-btn reg-rbi active" data-reg="RBI" onclick="selectReg('RBI')">
+      <span class="reg-name">RBI</span>
+      <span class="reg-full">Reserve Bank of India</span>
+      <span class="reg-count" id="count-RBI">—</span>
+    </button>
+    <button class="reg-btn reg-bse" data-reg="BSE" onclick="selectReg('BSE')">
+      <span class="reg-name">BSE</span>
+      <span class="reg-full">Bombay Stock Exchange</span>
+      <span class="reg-count" id="count-BSE">—</span>
+    </button>
+    <button class="reg-btn reg-nse" data-reg="NSE" onclick="selectReg('NSE')">
+      <span class="reg-name">NSE</span>
+      <span class="reg-full">National Stock Exchange</span>
+      <span class="reg-count" id="count-NSE">—</span>
+    </button>
+    <button class="reg-btn reg-irdai" data-reg="IRDAI" onclick="selectReg('IRDAI')">
+      <span class="reg-name">IRDAI</span>
+      <span class="reg-full">Insurance Regulatory Authority</span>
+      <span class="reg-count" id="count-IRDAI">—</span>
+    </button>
+    <button class="reg-btn reg-iepfa" data-reg="IEPFA" onclick="selectReg('IEPFA')">
+      <span class="reg-name">IEPFA</span>
+      <span class="reg-full">Investor Education &amp; Protection</span>
+      <span class="reg-count" id="count-IEPFA">—</span>
+    </button>
+    <button class="reg-btn reg-egaz" data-reg="EGaz" onclick="selectReg('EGaz')">
+      <span class="reg-name">E-Gazette</span>
+      <span class="reg-full">Electronic Gazette of India</span>
+      <span class="reg-count" id="count-EGaz">—</span>
+    </button>
+    <button class="reg-btn reg-mca" data-reg="MCA" onclick="selectReg('MCA')">
+      <span class="reg-name">MCA</span>
+      <span class="reg-full">Ministry of Corporate Affairs</span>
+      <span class="reg-count" id="count-MCA">—</span>
+    </button>
+  </div>
+
+  <div class="content-panel">
+    <div class="subtab-bar" id="subtabBar">
+      <span class="panel-title" id="panelTitle">RBI <span class="subtab-count" id="panelCount">0</span></span>
+    </div>
+    <div class="controls-bar">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search updates…" oninput="filterTable()"/>
+      </div>
+      <select class="year-sel" id="yearSel" onchange="filterTable()">
+        <option value="">All Years</option>
+      </select>
+      <button class="btn-refresh" id="refreshBtn" onclick="refreshCurrent()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+        Refresh
+      </button>
+      <a class="visit-src" id="visitSrcLink" href="#" target="_blank">↗ Visit Source</a>
+    </div>
+    <div class="table-wrap">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>SR.</th>
+            <th>DATE</th>
+            <th>CATEGORY</th>
+            <th>TITLE / DESCRIPTION</th>
+            <th>AI SUMMARY</th>
+            <th>LINK</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading data…</div></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel-footer">
+      <span id="footerInfo">—</span>
+      <span id="footerTime">—</span>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ─────────────────────────────────────────────
+   DATA SOURCE — pre-scraped JSON published by the
+   GitHub Actions scraper (see /scraper in the repo).
+   ⚠️ EDIT THIS: replace with YOUR GitHub username/repo.
+─────────────────────────────────────────────── */
+const DATA_JSON_URL = 'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/data/regulatory_data.json';
+
+let staticData = null;       // { generatedAt, data: { "SEBI_0": {rows,ts,ok}, ... } }
+let staticDataError = null;
+
+async function loadStaticData(force = false) {
+  if (staticData && !force) return staticData;
+  // cache-bust so GitHub's raw CDN doesn't serve a stale cached copy right after a scrape
+  const url = DATA_JSON_URL + (DATA_JSON_URL.includes('?') ? '&' : '?') + 't=' + Date.now();
+  const resp = await fetch(url, { signal: AbortSignal.timeout(15000) });
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  staticData = await resp.json();
+  staticDataError = null;
+  return staticData;
+}
+
+const REGULATORS = {
+  SEBI: {
+    name: 'Securities & Exchange Board of India',
+    color: '#1a56db',
+    tabs: [
+      // sebirss.aspx?id=... URLs are stale/broken. SEBI's real feed is one combined feed;
+      // we filter it per-category by matching the article URL path.
+      { label: 'Circulars',             cat: 'Circulars',          rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/circulars/',        src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0',   parser: 'sebi' },
+      { label: 'Master Circulars',      cat: 'Master Circular',    rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/master-circulars/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0',   parser: 'sebi' },
+      { label: 'Informal Guidance',     cat: 'Informal Guidance',  rss: null,                                                              src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=10&smid=0',  parser: 'sebi' },
+      { label: 'Consultation Papers',   cat: 'Consultation Paper', rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/reports-and-statistics/', src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35', parser: 'sebi' },
+      { label: "FAQ's",                 cat: 'FAQ',                rss: null,                                                              src: 'https://www.sebi.gov.in/sebiweb/other/OtherAction.do',                                     parser: 'sebi_faq' },
+      { label: 'Insider Trading',       cat: 'Insider Trading',    rss: null,                                                              src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=11&smid=0',  parser: 'sebi' },
+      { label: 'Orders of AO',          cat: 'Orders',             rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/enforcement/orders/',     src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6',   parser: 'sebi' },
+    ]
+  },
+  RBI: {
+    name: 'Reserve Bank of India',
+    color: '#c0392b',
+    tabs: [
+      // Corrected live RBI RSS endpoints (old Scripts/rss.aspx?Id= URLs are stale)
+      { label: 'Notifications',         cat: 'Notifications',       rss: 'https://www.rbi.org.in/notifications_rss.xml',      src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx',                        parser: 'rbi' },
+      { label: 'Master Directions',     cat: 'Master Directions',   rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333',          parser: 'rbi' },
+      { label: 'Master Circulars',      cat: 'Master Circulars',    rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333',      parser: 'rbi' },
+      { label: 'Draft Notifications',   cat: 'Draft Notifications', rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx',            parser: 'rbi' },
+    ]
+  },
+  BSE: {
+    name: 'Bombay Stock Exchange',
+    color: '#e67e22',
+    tabs: [
+      { label: 'Circulars to Listed Co.', cat: 'Circular', rss: null, src: 'https://www.bseindia.com/corporates/CirularToListedComp.html', parser: 'bse' },
+    ]
+  },
+  NSE: {
+    name: 'National Stock Exchange',
+    color: '#8e44ad',
+    tabs: [
+      { label: 'Circulars (Equity)', cat: 'Circular', rss: null, src: 'https://www.nseindia.com/companies-listing/circular-for-listed-companies-equity-market', parser: 'nse' },
+    ]
+  },
+  IRDAI: {
+    name: 'Insurance Regulatory Dev. Authority',
+    color: '#27ae60',
+    tabs: [
+      { label: 'Notifications', cat: 'Notifications', rss: null, src: 'https://irdai.gov.in/notifications', parser: 'irdai' },
+      { label: 'Circulars',     cat: 'Circulars',     rss: null, src: 'https://irdai.gov.in/circulars',     parser: 'irdai' },
+      { label: 'Guidelines',    cat: 'Guidelines',    rss: null, src: 'https://irdai.gov.in/guidelines',    parser: 'irdai' },
+    ]
+  },
+  IEPFA: {
+    name: 'Investor Education & Protection Fund',
+    color: '#2980b9',
+    tabs: [
+      { label: 'Rules',             cat: 'Rules',    rss: null, src: 'https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html',                                                       parser: 'iepfa' },
+      { label: 'Notices & Circulars',cat: 'Circular', rss: null, src: 'https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html',                                      parser: 'iepfa' },
+      { label: 'Orders 7(3)&7(7)', cat: 'Orders',   rss: null, src: 'https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html',                   parser: 'iepfa' },
+    ]
+  },
+  EGaz: {
+    name: 'Electronic Gazette of India',
+    color: '#d35400',
+    tabs: [
+      { label: 'SEBI Updates', cat: 'SEBI/E-Gazette', rss: null, src: 'https://egazette.gov.in/SearchMinistry.aspx', parser: 'egazette', note: 'Requires date-wise search on site. Click ↗ Visit Source.' },
+      { label: 'MCA Updates',  cat: 'MCA/E-Gazette',  rss: null, src: 'https://egazette.gov.in/SearchMinistry.aspx', parser: 'egazette', note: 'Requires date-wise search on site. Click ↗ Visit Source.' },
+    ]
+  },
+  MCA: {
+    name: 'Ministry of Corporate Affairs',
+    color: '#16a085',
+    tabs: [
+      { label: "What's New",          cat: 'Updates', rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/home.html',                                                                   parser: 'mca' },
+      { label: 'ROC Adj. Orders',     cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html',                   parser: 'mca' },
+      { label: 'ROC Adj. (Off-sys)',  cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html',           parser: 'mca' },
+      { label: 'RD Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html',                    parser: 'mca' },
+      { label: 'RD Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html',            parser: 'mca' },
+    ]
+  }
+};
+
+/* ── API Key Settings (stored locally in the user's own browser only) ── */
+const API_KEY_STORAGE = 'regtracker_anthropic_api_key';
+
+function getApiKey() {
+  try { return localStorage.getItem(API_KEY_STORAGE) || ''; } catch(e) { return ''; }
+}
+function openSettings() {
+  const key = getApiKey();
+  document.getElementById('apiKeyInput').value = key;
+  const box = document.getElementById('keyStatusBox');
+  if (key) {
+    box.className = 'key-status ok';
+    box.textContent = '✓ API key configured (ending …' + key.slice(-4) + ')';
+  } else {
+    box.className = 'key-status none';
+    box.textContent = 'No API key configured yet — AI summaries will not run until you add one.';
+  }
+  document.getElementById('settingsModal').style.display = 'flex';
+}
+function closeSettings() { document.getElementById('settingsModal').style.display = 'none'; }
+function saveApiKey() {
+  const val = document.getElementById('apiKeyInput').value.trim();
+  if (!val) { alert('Please paste a valid API key, or use Clear to remove it.'); return; }
+  if (!val.startsWith('sk-ant-')) { if (!confirm('That doesn\'t look like a typical Anthropic key (usually starts with "sk-ant-"). Save anyway?')) return; }
+  try { localStorage.setItem(API_KEY_STORAGE, val); } catch(e) { alert('Could not save key: ' + e.message); return; }
+  updateSettingsBtnState();
+  closeSettings();
+  // Retry any summaries currently showing an error/missing-key state
+  filteredRows.forEach((r, idx) => {
+    const cell = document.getElementById('sum-' + idx);
+    if (cell && cell.querySelector('.ai-error')) retrySummary(idx);
+  });
+}
+function clearApiKey() {
+  try { localStorage.removeItem(API_KEY_STORAGE); } catch(e) {}
+  document.getElementById('apiKeyInput').value = '';
+  updateSettingsBtnState();
+  openSettings();
+}
+function updateSettingsBtnState() {
+  const btn = document.getElementById('settingsBtn');
+  if (!btn) return;
+  btn.classList.toggle('configured', !!getApiKey());
+  btn.textContent = getApiKey() ? '✓ AI Key Set' : '⚙️ AI Settings';
+}
+
+/* ── State ── */
+let currentReg = 'RBI';
+let currentTabIdx = 0;
+let allRows = [];
+let filteredRows = [];
+let dataCache = {};
+let summaryCache = {};
+
+/* ── Time ── */
+function updateTime() {
+  const now = new Date();
+  document.getElementById('headerTime').textContent =
+    now.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) + ', ' +
+    now.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+}
+setInterval(updateTime, 30000);
+updateTime();
+
+function populateYears(rows) {
+  const sel = document.getElementById('yearSel');
+  const cur = sel.value;
+  const years = [...new Set(rows.map(r=>r.year).filter(Boolean))].sort((a,b)=>b-a);
+  sel.innerHTML = '<option value="">All Years</option>' + years.map(y=>`<option value="${y}">${y}</option>`).join('');
+  if (years.includes(Number(cur))) sel.value = cur;
+}
+
+function selectReg(reg) {
+  currentReg = reg;
+  currentTabIdx = 0;
+  document.querySelectorAll('.reg-btn').forEach(b => b.classList.toggle('active', b.dataset.reg === reg));
+  const color = REGULATORS[reg].color;
+  document.documentElement.style.setProperty('--active-accent', color);
+  renderSubtabs();
+  loadTab();
+}
+
+function renderSubtabs() {
+  const reg = REGULATORS[currentReg];
+  const bar = document.getElementById('subtabBar');
+  bar.innerHTML = `<span class="panel-title">${currentReg} <span class="subtab-count" id="panelCount">0</span></span>`;
+  reg.tabs.forEach((tab, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'subtab' + (i === currentTabIdx ? ' active' : '');
+    btn.textContent = tab.label;
+    btn.onclick = () => selectTab(i);
+    bar.appendChild(btn);
+  });
+}
+
+function selectTab(idx) {
+  currentTabIdx = idx;
+  document.querySelectorAll('.subtab').forEach((b,i) => b.classList.toggle('active', i === idx));
+  loadTab();
+}
+
+/* ── Main load — reads pre-scraped static JSON instead of live browser scraping ── */
+let loadToken = 0;
+async function loadTab(forceRefresh = false) {
+  // Capture everything about "which tab this call is for" up front — currentReg/currentTabIdx
+  // can change while we're mid-fetch (user clicks another tab), so never re-read them after an await.
+  const regKey = currentReg;
+  const tabIdx = currentTabIdx;
+  const reg = REGULATORS[regKey];
+  const tab = reg.tabs[tabIdx];
+  const cacheKey = regKey + '_' + tabIdx;
+  const myToken = ++loadToken;
+
+  document.getElementById('visitSrcLink').href = tab.src || '#';
+  setLoading(true);
+
+  let rows = [];
+  let fetchError = null;
+  try {
+    const dataset = await loadStaticData(forceRefresh);
+    const entry = dataset?.data?.[cacheKey];
+    if (entry && Array.isArray(entry.rows) && entry.rows.length) {
+      rows = entry.rows;
+      if (entry.ok === false) {
+        // Scraper kept stale-but-real data from a previous successful run — let the user know.
+        fetchError = new Error('Showing last successful scrape (' + (entry.error || 'source unreachable') + ')');
+      }
+    } else if (entry && entry.ok === false) {
+      fetchError = new Error(entry.error || 'Source unreachable');
+    } else {
+      fetchError = new Error('No data for this tab yet');
+    }
+  } catch(e) {
+    fetchError = e;
+    console.warn('Static data load failed:', e.message);
+    // The whole data file is unreachable (not just this tab) — surface it clearly.
+    if (!DATA_JSON_URL.includes('YOUR_GITHUB_USERNAME')) {
+      const b = document.getElementById('localFileBanner');
+      if (b) {
+        const msgSpan = document.getElementById('localFileBannerText');
+        if (msgSpan) msgSpan.innerHTML = `<strong>Could not load the data file.</strong> ${esc(e.message)} — check that DATA_JSON_URL in the code points at your repo's raw JSON, and that the scraper workflow has run at least once.`;
+        b.classList.add('show');
+      }
+    }
+  }
+
+  if (!rows.length) {
+    rows = fallbackRows(regKey, tab.cat, tab.src, DATA_JSON_URL.includes('YOUR_GITHUB_USERNAME'), fetchError?.message);
+  }
+
+  dataCache[cacheKey] = { rows, ts: Date.now() };
+  if (myToken !== loadToken) return;
+
+  allRows = rows;
+
+  const allRegRows = reg.tabs.reduce((acc, t, i) => {
+    const k = regKey + '_' + i;
+    const e = staticData?.data?.[k];
+    return acc + (e?.rows?.length || 0);
+  }, 0);
+  const countEl = document.getElementById('count-' + regKey);
+  if (countEl) countEl.textContent = allRegRows;
+
+  document.getElementById('panelCount').textContent = rows.length;
+  setLoading(false);
+  renderTable();
+  populateYears(rows);
+
+  const genEl = document.getElementById('footerTime');
+  if (genEl && staticData?.generatedAt) {
+    const gen = new Date(staticData.generatedAt);
+    genEl.textContent = 'Data as of: ' + gen.toLocaleDateString('en-IN',{day:'2-digit',month:'short'}) + ', ' + gen.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+  }
+}
+
+/* ── Helpers still used by fallbackRows ── */
+function resolveLink(href, base) {
+  if (!href || href.startsWith('javascript')) return '';
+  if (href.startsWith('http')) return href;
+  try { return new URL(href, base).href; } catch { return href; }
+}
+
+function tryParseDate(s) {
+  if (!s) return '';
+  s = s.trim();
+  let d;
+  // dd-mmm-yyyy or dd/mmm/yyyy (e.g. 10-Jun-2025)
+  d = new Date(s);
+  if (!isNaN(d.getTime()) && d.getFullYear() > 1990) {
+    return d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+  }
+  // dd-mm-yyyy or dd/mm/yyyy or dd.mm.yyyy → yyyy-mm-dd
+  const m = s.match(/^(\d{2})[\-\/\.](\d{2})[\-\/\.](\d{4})$/);
+  if (m) {
+    d = new Date(`${m[3]}-${m[2]}-${m[1]}`);
+    if (!isNaN(d.getTime())) return d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+  }
+  return '';
+}
+
+function extractYear(s) {
+  if (!s) return null;
+  const m = String(s).match(/\b(20\d{2}|19\d{2})\b/);
+  return m ? Number(m[0]) : null;
+}
+
+/* ── Fallback static data when site is unreachable ── */
+function fallbackRows(reg, cat, src, isFileProtocol = false, errMsg = '') {
+  const fmt = d => d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+  const reason = isFileProtocol
+    ? '⚠ Live fetch blocked — open via web server (see yellow banner above)'
+    : '⚠ Live fetch failed' + (errMsg ? ': ' + errMsg.substring(0,80) : '') + ' — click Refresh or ↗ Visit Source';
+  const msgs = {
+    SEBI:  ['SEBI Circular on LODR amendments','SEBI updates KYC norms for FPIs','SEBI framework on ESG disclosures','SEBI extends compliance deadlines','SEBI circular on insider trading norms'],
+    RBI:   ['RBI Directions on KCC Scheme 2026','RBI circular on NBFC liquidity norms','RBI notification on digital lending','RBI master direction on FEMA','RBI directions on co-lending models'],
+    BSE:   ['BSE circular on listing compliance','BSE notice on trading halt mechanism','BSE circular on XBRL filing','BSE update on surveillance measures','BSE circular on broker compliance'],
+    NSE:   ['NSE circular on equity margin norms','NSE notice on derivatives expiry','NSE update on co-location policy','NSE circular on algo trading','NSE framework on market maker'],
+    IRDAI: ['IRDAI guidelines on unit-linked products','IRDAI circular on health insurance','IRDAI notification on reinsurance','IRDAI update on solvency norms','IRDAI guidelines on motor insurance'],
+    IEPFA: ['IEPF rules on unclaimed dividends','IEPF circular on refund process','IEPF notice on investor outreach','IEPF order under rule 7(3)','IEPF update on e-verification'],
+    EGaz:  ['E-Gazette: Visit source for date-based search. Path: E-Gazette → Search → Ministry → SEBI/MCA → Date Wise → Submit'],
+    MCA:   ['MCA notification on CSR norms','MCA circular on ROC adjudication','MCA update on Companies Act rules','MCA RD adjudication order 2026','MCA update on LLP filing norms'],
+  };
+  const titles = msgs[reg] || ['Regulatory update pending'];
+  const now = new Date();
+  return titles.map((title, i) => ({
+    sr: i+1,
+    date: fmt(new Date(now - i*86400000)),
+    year: now.getFullYear(),
+    cat, title, desc: reason, link: src
+  }));
+}
+
+/* ── Render ── */
+function renderTable() {
+  filterTable();
+}
+
+function filterTable() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  const yr = document.getElementById('yearSel').value;
+  filteredRows = allRows.filter(r => {
+    if (yr && String(r.year) !== yr) return false;
+    if (q && !r.title.toLowerCase().includes(q) && !(r.desc||'').toLowerCase().includes(q)) return false;
+    return true;
+  });
+  renderRows();
+}
+
+function renderRows() {
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '';
+  if (!filteredRows.length) {
+    tbody.innerHTML = '<tr class="state-row"><td colspan="6">No results found.</td></tr>';
+    document.getElementById('footerInfo').textContent = '0 items';
+    return;
+  }
+  filteredRows.forEach((r, idx) => {
+    const tr = document.createElement('tr');
+    const summaryKey = (r.link || r.title).substring(0,120);
+    tr.innerHTML = `
+      <td class="sr">${String(idx+1).padStart(2,'0')}</td>
+      <td class="date-col">${r.date}</td>
+      <td class="cat-col"><span class="tag ${tagClass(r.cat)}">${esc(r.cat)}</span></td>
+      <td class="title-col">
+        <span class="title-main">${esc(r.title)}</span>
+        ${r.desc ? `<span class="title-desc">${esc(r.desc.substring(0,160))}</span>` : ''}
+      </td>
+      <td class="summary-col" id="sum-${idx}">
+        <div class="ai-summary-loading"><div class="ai-dot-spin"></div>Generating…</div>
+      </td>
+      <td class="link-col">${r.link ? `<a class="link-open" href="${esc(r.link)}" target="_blank">Open</a>` : '—'}</td>
+    `;
+    tbody.appendChild(tr);
+    // Fire AI summary (with a slight stagger to avoid rate-limiting)
+    setTimeout(() => generateSummary(idx, r, summaryKey), idx * 300);
+  });
+  document.getElementById('footerInfo').textContent = `${filteredRows.length} of ${allRows.length} items`;
+  document.getElementById('footerTime').textContent = 'Updated: ' + new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+}
+
+/* ── AI Summary via Anthropic API ── */
+async function generateSummary(idx, row, cacheKey) {
+  const cell = document.getElementById('sum-' + idx);
+  if (!cell) return;
+
+  // Use cache if available
+  if (summaryCache[cacheKey]) {
+    cell.innerHTML = renderSummaryHTML(summaryCache[cacheKey]);
+    return;
+  }
+
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    cell.innerHTML = '<span class="ai-error">No API key set.</span><button class="ai-retry" onclick="openSettings()">Add key</button>';
+    return;
+  }
+
+  const prompt = `You are a regulatory compliance expert for Bajaj Finserv's Secretarial & Legal team.
+Analyse the following regulatory update and respond with EXACTLY 2 sentences:
+• Sentence 1: What this update is about (subject matter, key directive).
+• Sentence 2: Compliance action or impact for Bajaj Finserv (NBFC / listed company / insurance entity as relevant).
+
+Regulator / Category: ${currentReg} – ${row.cat}
+Title: ${row.title}
+${row.desc ? 'Additional context: ' + row.desc : ''}
+
+Rules: Plain prose only. No bullet points, no headings, no markdown. Max 60 words total.`;
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'anthropic-dangerous-direct-browser-access': 'true',
+        'anthropic-version': '2023-06-01',
+        'x-api-key': apiKey,
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1000,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!response.ok) {
+      let msg = 'HTTP ' + response.status;
+      try { const errJson = await response.json(); msg = errJson?.error?.message || msg; } catch(e) {}
+      if (response.status === 401) {
+        cell.innerHTML = '<span class="ai-error">Invalid API key.</span><button class="ai-retry" onclick="openSettings()">Fix key</button>';
+        return;
+      }
+      throw new Error(msg);
+    }
+    const data = await response.json();
+    const text = data.content?.[0]?.text?.trim() || '';
+    if (text) {
+      summaryCache[cacheKey] = text;
+      if (cell) cell.innerHTML = renderSummaryHTML(text);
+    } else {
+      if (cell) cell.innerHTML = '<span class="ai-error">Summary unavailable</span>';
+    }
+  } catch(e) {
+    if (cell) cell.innerHTML = `<span class="ai-error">${esc((e.message||'Error').substring(0,60))}</span><button class="ai-retry" onclick="retrySummary(${idx})">Retry</button>`;
+  }
+}
+
+function retrySummary(idx) {
+  const row = filteredRows[idx];
+  if (!row) return;
+  const cell = document.getElementById('sum-' + idx);
+  if (cell) cell.innerHTML = '<div class="ai-summary-loading"><div class="ai-dot-spin"></div>Retrying…</div>';
+  const key = (row.link || row.title).substring(0,120);
+  delete summaryCache[key];
+  generateSummary(idx, row, key);
+}
+
+function renderSummaryHTML(text) {
+  return `<div class="ai-summary-wrap"><span class="ai-badge">✦ AI Summary</span><span class="ai-summary-text">${esc(text)}</span></div>`;
+}
+
+function tagClass(cat) {
+  const c = (cat || '').toLowerCase();
+  if (c.includes('notif'))   return 'tag-notif';
+  if (c.includes('master circ') || c.includes('circular')) return 'tag-circular';
+  if (c.includes('master dir') || c.includes('master'))    return 'tag-master';
+  if (c.includes('draft'))   return 'tag-draft';
+  if (c.includes('order'))   return 'tag-order';
+  if (c.includes('faq'))     return 'tag-faq';
+  if (c.includes('guideline') || c.includes('guidance'))   return 'tag-guideline';
+  if (c.includes('rule'))    return 'tag-rule';
+  return 'tag-update';
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function setLoading(on) {
+  document.getElementById('refreshBtn').classList.toggle('spinning', on);
+  if (on) {
+    document.getElementById('tableBody').innerHTML =
+      '<tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading live data…</div></td></tr>';
+  }
+}
+
+function refreshCurrent() { loadTab(true); }
+
+function populateAllCounts() {
+  if (!staticData?.data) return;
+  Object.keys(REGULATORS).forEach(reg => {
+    const total = REGULATORS[reg].tabs.reduce((acc, t, i) => acc + (staticData.data[reg+'_'+i]?.rows?.length || 0), 0);
+    const el = document.getElementById('count-' + reg);
+    if (el) el.textContent = total;
+  });
+}
+
+/* ── Auto-refresh every 30 min — the underlying data only changes every few hours
+   (scraper runs on a schedule), so there's no need to poll more aggressively than this. ── */
+setInterval(() => loadTab(true), 30 * 60 * 1000);
+
+/* ── Bootstrap ── */
+updateSettingsBtnState();
+renderSubtabs();
+
+if (DATA_JSON_URL.includes('YOUR_GITHUB_USERNAME')) {
+  const b = document.getElementById('localFileBanner');
+  if (b) b.classList.add('show');
+  loadTab(); // still renders fallback placeholder rows so the UI isn't blank
+} else {
+  loadTab().then(populateAllCounts).catch(()=>{});
+}
+
+function showServerHelp() {
+  document.getElementById('serverHelpModal').style.display = 'flex';
+}
+
+</script>
+</body>
+</html>
