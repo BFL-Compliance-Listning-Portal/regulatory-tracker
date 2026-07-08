@@ -525,7 +525,8 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
       Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
       window.chrome = { runtime: {} };
     });
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    if (response && !response.ok()) throw new Error('HTTP ' + response.status());
     // Give client-side rendering a moment to settle after the network goes idle —
     // some sites still run a final render pass (e.g. React hydration) after their
     // last network request completes.
