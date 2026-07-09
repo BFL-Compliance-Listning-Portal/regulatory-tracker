@@ -487,8 +487,10 @@ function dumpDebugHtml(key, html) {
   try {
     fs.mkdirSync(DEBUG_DIR, { recursive: true });
     const filePath = path.join(DEBUG_DIR, `${key}.html`);
-    // Cap size so the repo doesn't bloat — first 150KB is plenty to see the real structure.
-    fs.writeFileSync(filePath, html.slice(0, 150000));
+    // Cap size so the repo doesn't bloat unreasonably — but large enough that heavy
+    // shared-template sites (MCA's mega-menu alone can approach 150KB) don't get cut off
+    // before we reach the actual page-specific content beneath the shared header/nav.
+    fs.writeFileSync(filePath, html.slice(0, 500000));
     console.log(`  [debug] wrote ${filePath} (${html.length} bytes total, saved first ${Math.min(html.length,150000)})`);
   } catch (e) {
     console.log(`  [debug] FAILED to write debug HTML for ${key}: ${e.message}`);
