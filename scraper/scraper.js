@@ -151,6 +151,11 @@ function stripChrome($) {
 
 const GENERIC_LINK_WORDS = new Set(['view', 'download', 'view/download', 'click here', 'open', 'pdf', 'details', 'more', 'read more', 'view pdf', 'download pdf']);
 
+// Boilerplate download-link filler text (e.g. NFRA's "Accessible Version : View(2 MB)") that
+// must never be picked as a title, regardless of length — confirmed against real data where
+// this text was LONGER than several genuine (short) titles, defeating the length heuristic.
+const DOWNLOAD_BOILERPLATE_RE = /accessible version|^view\s*\(|\(\s*[\d,.]+\s*(kb|mb)\s*\)\s*$/i;
+
 function pickTitleFromCells(cellTexts) {
   // Prefer the longest cell that isn't a date and isn't a generic link label like "View" —
   // government sites often put the real title in a plain-text column and reserve the anchor
@@ -160,6 +165,7 @@ function pickTitleFromCells(cellTexts) {
     if (t.length < 8) continue;
     if (DATE_RE.test(t) && t.length < 20) continue; // skip pure-date cells
     if (GENERIC_LINK_WORDS.has(t.toLowerCase())) continue;
+    if (DOWNLOAD_BOILERPLATE_RE.test(t)) continue;
     if (t.length > best.length) best = t;
   }
   return best;
@@ -592,7 +598,7 @@ async function closeBrowser() {
   }
 }
 
-async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
+async function fetchViaHeadlessBrowserOnce(url, timeoutMs) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
@@ -618,6 +624,22 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
     return await page.content();
   } finally {
     await page.close();
+  }
+}
+
+async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
+  try {
+    return await fetchViaHeadlessBrowserOnce(url, timeoutMs);
+  } catch (e) {
+    // "Execution context was destroyed" fires when the page navigates or reloads mid-read —
+    // confirmed happening on JS-heavy filterable list pages (e.g. MCA's adjudication order
+    // pages, which load via AJAX after an initial redirect-ish render). This is a timing
+    // flake, not a real failure — one retry with a fresh page resolves it in practice.
+    if (/execution context was destroyed|navigation/i.test(e.message || '')) {
+      await new Promise(r => setTimeout(r, 2000));
+      return await fetchViaHeadlessBrowserOnce(url, timeoutMs);
+    }
+    throw e;
   }
 }
 
