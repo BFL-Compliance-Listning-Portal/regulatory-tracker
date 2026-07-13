@@ -50,10 +50,10 @@ module.exports = {
   MCA: {
     tabs: [
       { key: 'MCA_0', label: "What's New",           cat: 'Updates', rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/home.html', htmlParse: 'mca_marquee', headless: true },
-      { key: 'MCA_1', label: 'ROC Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html', htmlParse: 'generic', headless: true },
-      { key: 'MCA_2', label: 'ROC Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html', htmlParse: 'generic', headless: true },
-      { key: 'MCA_3', label: 'RD Adj. Orders',       cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html', htmlParse: 'generic', headless: true },
-      { key: 'MCA_4', label: 'RD Adj. (Off-sys)',    cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html', htmlParse: 'generic', headless: true },
+      { key: 'MCA_1', label: 'ROC Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter' },
+      { key: 'MCA_2', label: 'ROC Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter' },
+      { key: 'MCA_3', label: 'RD Adj. Orders',       cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter' },
+      { key: 'MCA_4', label: 'RD Adj. (Off-sys)',    cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html', htmlParse: 'generic', headless: true, clickButtonText: 'Filter' },
     ]
   },
   NFRA: {
@@ -68,7 +68,7 @@ module.exports = {
     tabs: [
       { key: 'PCAOB_0', label: 'Updates & News', cat: 'News',        rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', htmlParse: 'generic', headless: true },
       { key: 'PCAOB_1', label: 'Enforcement',    cat: 'Enforcement', rss: null, src: 'https://pcaobus.org/all-enforcement-updates', htmlParse: 'generic', headless: true },
-      { key: 'PCAOB_2', label: 'Inspection Reports', cat: 'Inspection Report', rss: null, src: 'https://pcaobus.org/oversight/inspections/firm-inspection-reports', htmlParse: 'generic', headless: true },
+      { key: 'PCAOB_2', label: 'Inspection Reports', cat: 'Inspection Report', rss: null, src: 'https://pcaobus.org/docs/default-source/generated-reports/inspecton-reports-xml.xml', htmlParse: 'pcaob_xml' },
     ]
   }
 };

@@ -488,6 +488,27 @@ function parseMCAMarquee(html, base, cat) {
   return rows;
 }
 
+/* ── PCAOB structured XML inspection-reports feed ──
+   PCAOB publishes an official XML data feed (Company/InspectionReportDate/PdfInspectionReport
+   per report) that's more reliable than scraping the rendered search-tool page — confirmed
+   against the real feed content, already sorted newest-first. */
+function parsePcaobXmlReports(xml, base, cat) {
+  const $ = cheerio.load(xml, { xmlMode: true });
+  const rows = [];
+  $('InspectionReport').each((_, el) => {
+    if (rows.length >= 40) return;
+    const company = $(el).find('Company').first().text().trim();
+    const country = $(el).find('Country').first().text().trim();
+    const dateText = $(el).find('InspectionReportDate').first().text().trim();
+    const pdf = $(el).find('PdfInspectionReport').first().text().trim();
+    if (!company || !pdf) return;
+    const d = tryParseDate(dateText);
+    const title = country && country !== 'United States' ? `${company} (${country})` : company;
+    rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title, desc: '', link: pdf });
+  });
+  return rows;
+}
+
 function parseRBINavTree(html, base, cat) {
   const $ = cheerio.load(html);
   const scope = $('#lblNavData');
@@ -557,7 +578,7 @@ async function scrapeTab(tab, cat) {
   }
 
   const html = tab.headless
-    ? await fetchViaHeadlessBrowser(tab.src)
+    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText })
     : await fetchWithRetry(tab.src);
 
   let rows;
@@ -567,6 +588,7 @@ async function scrapeTab(tab, cat) {
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat); break;
     case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat); break;
+    case 'pcaob_xml': rows = parsePcaobXmlReports(html, tab.src, cat); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
@@ -598,7 +620,7 @@ async function closeBrowser() {
   }
 }
 
-async function fetchViaHeadlessBrowserOnce(url, timeoutMs) {
+async function fetchViaHeadlessBrowserOnce(url, timeoutMs, opts = {}) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
@@ -621,15 +643,33 @@ async function fetchViaHeadlessBrowserOnce(url, timeoutMs) {
     // some sites still run a final render pass (e.g. React hydration) after their
     // last network request completes.
     await new Promise(r => setTimeout(r, 2500));
+
+    // Some pages (e.g. MCA's Adjudication Order search tools) show "No results found"
+    // until a filter form is actually submitted, even with "All" pre-selected — there's
+    // no default browsable list, just an unsubmitted search form. Click the button so the
+    // AJAX call that populates real results actually fires.
+    if (opts.clickButtonText) {
+      const clicked = await page.evaluate((text) => {
+        const els = Array.from(document.querySelectorAll('button, a, input[type="button"], input[type="submit"]'));
+        const target = els.find(el => (el.textContent || el.value || '').trim().toLowerCase() === text.toLowerCase());
+        if (target) { target.click(); return true; }
+        return false;
+      }, opts.clickButtonText);
+      if (clicked) {
+        await page.waitForNetworkIdle({ idleTime: 1000, timeout: 15000 }).catch(() => {});
+        await new Promise(r => setTimeout(r, 1500));
+      }
+    }
+
     return await page.content();
   } finally {
     await page.close();
   }
 }
 
-async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
+async function fetchViaHeadlessBrowser(url, timeoutMs = 45000, opts = {}) {
   try {
-    return await fetchViaHeadlessBrowserOnce(url, timeoutMs);
+    return await fetchViaHeadlessBrowserOnce(url, timeoutMs, opts);
   } catch (e) {
     // "Execution context was destroyed" fires when the page navigates or reloads mid-read —
     // confirmed happening on JS-heavy filterable list pages (e.g. MCA's adjudication order
@@ -637,7 +677,7 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
     // flake, not a real failure — one retry with a fresh page resolves it in practice.
     if (/execution context was destroyed|navigation/i.test(e.message || '')) {
       await new Promise(r => setTimeout(r, 2000));
-      return await fetchViaHeadlessBrowserOnce(url, timeoutMs);
+      return await fetchViaHeadlessBrowserOnce(url, timeoutMs, opts);
     }
     throw e;
   }
