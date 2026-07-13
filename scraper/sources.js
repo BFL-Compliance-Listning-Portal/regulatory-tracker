@@ -61,12 +61,14 @@ module.exports = {
       { key: 'NFRA_0', label: 'Circulars',           cat: 'Circulars',          rss: null, src: 'https://nfra.gov.in/document-category/circulars/', htmlParse: 'generic' },
       { key: 'NFRA_1', label: 'Orders',              cat: 'Orders',             rss: null, src: 'https://nfra.gov.in/document-category/orders/', htmlParse: 'generic' },
       { key: 'NFRA_2', label: 'Consultation Papers', cat: 'Consultation Paper', rss: null, src: 'https://nfra.gov.in/document-category/consultation-papers/', htmlParse: 'generic' },
+      { key: 'NFRA_3', label: 'Inspection Reports',  cat: 'Inspection Report',  rss: null, src: 'https://nfra.gov.in/document-category/inspection-reports/', htmlParse: 'generic' },
     ]
   },
   PCAOB: {
     tabs: [
       { key: 'PCAOB_0', label: 'Updates & News', cat: 'News',        rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', htmlParse: 'generic', headless: true },
       { key: 'PCAOB_1', label: 'Enforcement',    cat: 'Enforcement', rss: null, src: 'https://pcaobus.org/all-enforcement-updates', htmlParse: 'generic', headless: true },
+      { key: 'PCAOB_2', label: 'Inspection Reports', cat: 'Inspection Report', rss: null, src: 'https://pcaobus.org/oversight/inspections/firm-inspection-reports', htmlParse: 'generic', headless: true },
     ]
   }
 };
