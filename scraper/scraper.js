@@ -518,44 +518,51 @@ function parsePcaobXmlReports(xml, base, cat) {
    twice in the source (a "view page" link and a "PDF - <title>" direct-download link) — we
    dedupe by normalized title and keep the first (view-page) link, which is a stable target. */
 function parseRBIDatedDocs(html, base, cat) {
-  const $ = cheerio.load(html);
   const rows = [];
   const seen = new Set();
+
+  // Find every "bare date" position: a date that is the ENTIRE trimmed content between two
+  // tag boundaries (>Jul 03, 2018<). This holds true as a section-header pattern regardless
+  // of which specific tag RBI wraps it in (div/td/span/b/strong/etc.) — working on the raw
+  // markup text avoids needing to guess the exact DOM shape.
+  const dateHeaderRe = />\s*([A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})\s*</g;
+  const dateEvents = [];
+  let dm;
+  while ((dm = dateHeaderRe.exec(html))) dateEvents.push({ index: dm.index, date: dm[1].trim() });
+
+  // Find every document anchor with its position and inner text (tags stripped).
+  const anchorRe = /<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  const anchorEvents = [];
+  let am;
+  while ((am = anchorRe.exec(html))) {
+    const innerText = am[2].replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, '\u2019').replace(/\s+/g, ' ').trim();
+    anchorEvents.push({ index: am.index, href: am[1], text: innerText });
+  }
+
+  let dateIdx = 0;
   let currentDate = '';
-
-  const walk = (node) => {
-    const children = $(node).contents().toArray();
-    for (const child of children) {
-      if (child.type !== 'tag') continue;
-      const $child = $(child);
-
-      // A header element whose OWN direct text (excluding nested tags) is just a bare date
-      const ownText = $child.clone().children().remove().end().text().trim();
-      if (ownText && ownText.length < 20 && DATE_RE.test(ownText) && ownText.replace(DATE_RE, '').trim().length < 3) {
-        currentDate = ownText;
-      }
-
-      if (child.tagName === 'a' && $child.attr('href')) {
-        const raw = $child.text().trim();
-        const normalized = raw.replace(/^pdf\s*-\s*/i, '').trim();
-        if (
-          normalized.length >= 10 && normalized.length < 300 &&
-          !seen.has(normalized) && !IS_URL_RE.test(normalized) &&
-          !GENERIC_LINK_WORDS.has(normalized.toLowerCase())
-        ) {
-          seen.add(normalized);
-          const d = tryParseDate(currentDate);
-          rows.push({
-            sr: rows.length + 1, date: d || currentDate, year: extractYear(d || currentDate),
-            cat, title: normalized, desc: '', link: resolveLink($child.attr('href'), base)
-          });
-        }
-      }
-      walk(child);
+  for (const a of anchorEvents) {
+    if (rows.length >= 60) break;
+    // Advance to the most recent date header that occurs before this anchor's position
+    while (dateIdx < dateEvents.length && dateEvents[dateIdx].index < a.index) {
+      currentDate = dateEvents[dateIdx].date;
+      dateIdx++;
     }
-  };
-  walk($.root().get(0));
-  return rows.slice(0, 60);
+    const normalized = a.text.replace(/^pdf\s*-\s*/i, '').trim();
+    if (
+      normalized.length >= 10 && normalized.length < 300 &&
+      !seen.has(normalized) && !IS_URL_RE.test(normalized) &&
+      !GENERIC_LINK_WORDS.has(normalized.toLowerCase())
+    ) {
+      seen.add(normalized);
+      const d = tryParseDate(currentDate);
+      rows.push({
+        sr: rows.length + 1, date: d || currentDate, year: extractYear(d || currentDate),
+        cat, title: normalized, desc: '', link: resolveLink(a.href, base)
+      });
+    }
+  }
+  return rows;
 }
 
 function parseRBINavTree(html, base, cat) {
