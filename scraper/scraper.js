@@ -509,6 +509,55 @@ function parsePcaobXmlReports(xml, base, cat) {
   return rows;
 }
 
+/* ── RBI dated-document listing (Master Directions / Master Circulars / Draft Notifications) ──
+   These pages group real documents under repeating "Category" then "Date" header rows rather
+   than putting a date on each row — confirmed against the real live pages (previous "no dates
+   available" conclusion was wrong; it was diagnosed from a bad URL, not a genuine JS-rendering
+   requirement). This walks the DOM in document order, tracking the most recently seen date
+   header, and attaches it to every real document link that follows. Each document appears
+   twice in the source (a "view page" link and a "PDF - <title>" direct-download link) — we
+   dedupe by normalized title and keep the first (view-page) link, which is a stable target. */
+function parseRBIDatedDocs(html, base, cat) {
+  const $ = cheerio.load(html);
+  const rows = [];
+  const seen = new Set();
+  let currentDate = '';
+
+  const walk = (node) => {
+    const children = $(node).contents().toArray();
+    for (const child of children) {
+      if (child.type !== 'tag') continue;
+      const $child = $(child);
+
+      // A header element whose OWN direct text (excluding nested tags) is just a bare date
+      const ownText = $child.clone().children().remove().end().text().trim();
+      if (ownText && ownText.length < 20 && DATE_RE.test(ownText) && ownText.replace(DATE_RE, '').trim().length < 3) {
+        currentDate = ownText;
+      }
+
+      if (child.tagName === 'a' && $child.attr('href')) {
+        const raw = $child.text().trim();
+        const normalized = raw.replace(/^pdf\s*-\s*/i, '').trim();
+        if (
+          normalized.length >= 10 && normalized.length < 300 &&
+          !seen.has(normalized) && !IS_URL_RE.test(normalized) &&
+          !GENERIC_LINK_WORDS.has(normalized.toLowerCase())
+        ) {
+          seen.add(normalized);
+          const d = tryParseDate(currentDate);
+          rows.push({
+            sr: rows.length + 1, date: d || currentDate, year: extractYear(d || currentDate),
+            cat, title: normalized, desc: '', link: resolveLink($child.attr('href'), base)
+          });
+        }
+      }
+      walk(child);
+    }
+  };
+  walk($.root().get(0));
+  return rows.slice(0, 60);
+}
+
 function parseRBINavTree(html, base, cat) {
   const $ = cheerio.load(html);
   const scope = $('#lblNavData');
@@ -589,7 +638,7 @@ async function scrapeTab(tab, cat) {
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat); break;
     case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat); break;
     case 'pcaob_xml': rows = parsePcaobXmlReports(html, tab.src, cat); break;
-    case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
+    case 'rbi_dated_docs': rows = parseRBIDatedDocs(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
