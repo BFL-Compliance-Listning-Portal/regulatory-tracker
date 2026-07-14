@@ -131,7 +131,9 @@ const NAV_WORDS = new Set([
   'draft notifications', 'publications', 'statistics', 'what\'s new', 'whats new',
   'terms of use', 'privacy policy', 'disclaimer', 'feedback', 'sitemap', 'help',
   'option chain', 'market turnover', 'listings', 'daily report', 'holidays',
-  'selected', 'skip to main content', 'accessibility', 'screen reader'
+  'selected', 'skip to main content', 'accessibility', 'screen reader',
+  'organisation structure', 'departments', 'offices', 'training establishment',
+  'governors', 'deputy governors', 'executive directors'
 ]);
 
 // Social-share and pagination chrome is extremely common CMS boilerplate across many
@@ -521,6 +523,12 @@ function parseRBIDatedDocs(html, base, cat) {
   const rows = [];
   const seen = new Set();
 
+  // Strip shared header/nav/footer chrome first — otherwise RBI's standard site navigation
+  // ("Skip to main content", "About Us", "Departments", ...), which appears before the real
+  // content in the raw markup, fills up the row cap before any real document is reached.
+  const $ = stripChrome(cheerio.load(html));
+  const cleanedHtml = $.html();
+
   // Find every "bare date" position: a date that is the ENTIRE trimmed content between two
   // tag boundaries (>Jul 03, 2018<). This holds true as a section-header pattern regardless
   // of which specific tag RBI wraps it in (div/td/span/b/strong/etc.) — working on the raw
@@ -528,13 +536,13 @@ function parseRBIDatedDocs(html, base, cat) {
   const dateHeaderRe = />\s*([A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})\s*</g;
   const dateEvents = [];
   let dm;
-  while ((dm = dateHeaderRe.exec(html))) dateEvents.push({ index: dm.index, date: dm[1].trim() });
+  while ((dm = dateHeaderRe.exec(cleanedHtml))) dateEvents.push({ index: dm.index, date: dm[1].trim() });
 
   // Find every document anchor with its position and inner text (tags stripped).
   const anchorRe = /<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   const anchorEvents = [];
   let am;
-  while ((am = anchorRe.exec(html))) {
+  while ((am = anchorRe.exec(cleanedHtml))) {
     const innerText = am[2].replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, '\u2019').replace(/\s+/g, ' ').trim();
     anchorEvents.push({ index: am.index, href: am[1], text: innerText });
   }
@@ -552,7 +560,7 @@ function parseRBIDatedDocs(html, base, cat) {
     if (
       normalized.length >= 10 && normalized.length < 300 &&
       !seen.has(normalized) && !IS_URL_RE.test(normalized) &&
-      !GENERIC_LINK_WORDS.has(normalized.toLowerCase())
+      !GENERIC_LINK_WORDS.has(normalized.toLowerCase()) && !NAV_WORDS.has(normalized.toLowerCase())
     ) {
       seen.add(normalized);
       const d = tryParseDate(currentDate);
