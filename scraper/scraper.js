@@ -556,6 +556,11 @@ function parseRBIDatedDocs(html, base, cat) {
       currentDate = dateEvents[dateIdx].date;
       dateIdx++;
     }
+    // Anything before the FIRST date header on the page is always leftover sub-navigation
+    // (confirmed against real output: "Master Circulars", "Draft Directions (RE-wise)",
+    // "Index to RBI Circulars" were leaking through here with blank dates) — real content
+    // never appears before the first dated section on these RBI listing pages.
+    if (!currentDate) continue;
     const normalized = a.text.replace(/^pdf\s*-\s*/i, '').trim();
     if (
       normalized.length >= 10 && normalized.length < 300 &&
@@ -640,7 +645,7 @@ async function scrapeTab(tab, cat) {
   if (tab.preferHtml && tab.src) {
     try {
       const html = await (tab.headless
-        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText })
+        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl })
         : fetchWithRetry(tab.src));
       const rows = runHtmlParser(tab, html, cat);
       if (rows.length >= MIN_ACCEPTABLE_HTML_ROWS) return rows;
@@ -680,7 +685,7 @@ async function scrapeTab(tab, cat) {
   }
 
   const html = tab.headless
-    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText })
+    ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText, warmupUrl: tab.warmupUrl })
     : await fetchWithRetry(tab.src);
   const rows = runHtmlParser(tab, html, cat);
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
@@ -744,12 +749,47 @@ async function fetchViaHeadlessBrowserOnce(url, timeoutMs, opts = {}) {
       Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
       window.chrome = { runtime: {} };
     });
+
+    const dismissAnyModal = async () => {
+      await page.evaluate(() => {
+        const els = Array.from(document.querySelectorAll('[data-dismiss="modal"], .modal button, .modal-close, .close'));
+        for (const el of els) { try { el.click(); } catch (e) {} }
+      }).catch(() => {});
+    };
+
+    // Some AEM-based gov sites (confirmed: MCA) redirect a cold direct navigation straight to
+    // their homepage — deep links only work once a session/cookie has been established by
+    // visiting the site "normally" first. Confirmed via debug HTML: a direct goto() to the
+    // Adjudication Orders URL landed on a page whose own <title> was "HOME". Doing a throwaway
+    // warm-up visit to the homepage first (dismissing its interstitial modal) fixes this.
+    if (opts.warmupUrl) {
+      await page.goto(opts.warmupUrl, { waitUntil: 'networkidle2', timeout: timeoutMs }).catch(() => {});
+      await new Promise(r => setTimeout(r, 1500));
+      await dismissAnyModal();
+      await new Promise(r => setTimeout(r, 500));
+    }
+
     const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
     if (response && !response.ok()) throw new Error('HTTP ' + response.status());
+    await dismissAnyModal();
     // Give client-side rendering a moment to settle after the network goes idle —
     // some sites still run a final render pass (e.g. React hydration) after their
     // last network request completes.
     await new Promise(r => setTimeout(r, 2500));
+
+    // Verify we actually landed on (roughly) the intended page rather than being bounced
+    // elsewhere (e.g. redirected to the homepage) — if the path looks wrong, try navigating
+    // directly one more time now that a warm-up visit (if any) has established a session.
+    try {
+      const targetPath = new URL(url).pathname.split('/').filter(Boolean).pop() || '';
+      const currentPath = new URL(page.url()).pathname;
+      if (targetPath && !currentPath.includes(targetPath.replace(/\.html$/, ''))) {
+        console.warn(`  [headless] landed on unexpected page (${page.url()}), retrying direct nav...`);
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs }).catch(() => {});
+        await dismissAnyModal();
+        await new Promise(r => setTimeout(r, 2000));
+      }
+    } catch (e) { /* URL parsing edge case — not worth failing the whole fetch over */ }
 
     // Some pages (e.g. MCA's Adjudication Order search tools) show "No results found"
     // until a filter form is actually submitted, even with "All" pre-selected — there's
@@ -765,6 +805,8 @@ async function fetchViaHeadlessBrowserOnce(url, timeoutMs, opts = {}) {
       if (clicked) {
         await page.waitForNetworkIdle({ idleTime: 1000, timeout: 15000 }).catch(() => {});
         await new Promise(r => setTimeout(r, 1500));
+      } else {
+        console.warn(`  [headless] clickButtonText "${opts.clickButtonText}" not found on page`);
       }
     }
 
