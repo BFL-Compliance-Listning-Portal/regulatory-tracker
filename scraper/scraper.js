@@ -628,6 +628,44 @@ function dumpDebugHtml(key, html) {
 }
 
 async function scrapeTab(tab, cat) {
+  // Some tabs' "real" listing page is a plain, un-paginated-by-JS HTML page that already
+  // contains far more items than the RSS feed we were defaulting to (confirmed against the
+  // live pages: RBI's NotificationUser.aspx and SEBI's HomeAction.do listings both render
+  // 25-60+ real dated rows server-side, with no headless browser needed — while RBI's RSS
+  // feed caps at ~10, and SEBI's combined all-categories RSS feed leaves only a handful
+  // once filtered down to one category). For these, try the richer HTML page FIRST and
+  // only fall back to RSS if the HTML path fails outright or comes back suspiciously thin
+  // (which would suggest the page structure changed since this was last verified).
+  const MIN_ACCEPTABLE_HTML_ROWS = 8;
+  if (tab.preferHtml && tab.src) {
+    try {
+      const html = await (tab.headless
+        ? fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText })
+        : fetchWithRetry(tab.src));
+      const rows = runHtmlParser(tab, html, cat);
+      if (rows.length >= MIN_ACCEPTABLE_HTML_ROWS) return rows;
+      console.warn(`  HTML path only returned ${rows.length} rows (< ${MIN_ACCEPTABLE_HTML_ROWS}), trying RSS as fallback...`);
+      if (tab.rss) {
+        try {
+          const xml = await fetchWithRetry(tab.rss);
+          const rssRows = parseRSS(xml, cat, tab.linkFilter);
+          // Prefer whichever source actually got more rows — don't discard a working
+          // HTML result just because it dipped below the threshold on a slow news day.
+          if (rssRows.length > rows.length) return rssRows;
+        } catch (e) { console.warn(`  RSS fallback also failed: ${e.message}`); }
+      }
+      if (rows.length) return rows; // still better than nothing
+      throw new Error('Both HTML and RSS paths returned 0 rows');
+    } catch (e) {
+      console.warn(`  Preferred HTML path failed (${e.message}), trying RSS...`);
+      if (!tab.rss) throw e;
+      const xml = await fetchWithRetry(tab.rss);
+      const rows = parseRSS(xml, cat, tab.linkFilter);
+      if (rows.length) return rows;
+      throw new Error('RSS parsed to 0 rows');
+    }
+  }
+
   if (tab.rss) {
     try {
       const xml = await fetchWithRetry(tab.rss);
@@ -644,7 +682,12 @@ async function scrapeTab(tab, cat) {
   const html = tab.headless
     ? await fetchViaHeadlessBrowser(tab.src, 45000, { clickButtonText: tab.clickButtonText })
     : await fetchWithRetry(tab.src);
+  const rows = runHtmlParser(tab, html, cat);
+  if (rows.length < 3) dumpDebugHtml(tab.key, html);
+  return rows;
+}
 
+function runHtmlParser(tab, html, cat) {
   let rows;
   switch (tab.htmlParse) {
     case 'linklist':      rows = parseLinkList(html, tab.src, cat); break;
