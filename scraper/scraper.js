@@ -12,6 +12,11 @@ const REGULATORS = require('./sources');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'regulatory_data.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
+// Previously these parsers had hard-coded caps of 40/50/60 rows scattered across every pass,
+// independent of how much real content a page actually had — meaning a source with 300 genuine
+// dated items on one page was silently truncated to 40-60 regardless. Centralized here as one
+// configurable default (overridable per-tab via `tab.maxRows` in sources.js) instead.
+const DEFAULT_MAX_ROWS = 300;
 const DATE_RE = /\d{1,2}(?:st|nd|rd|th)?[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/i;
 
 function tryParseDate(s) {
@@ -72,7 +77,7 @@ async function fetchWithRetry(url, attempts = 3) {
 }
 
 /* ── RSS/Atom parsing ── */
-function parseRSS(xmlText, cat, linkFilter) {
+function parseRSS(xmlText, cat, linkFilter, maxRows = DEFAULT_MAX_ROWS) {
   const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' });
   const xml = parser.parse(xmlText);
   let items = xml?.rss?.channel?.item || xml?.feed?.entry || [];
@@ -91,6 +96,7 @@ function parseRSS(xmlText, cat, linkFilter) {
       return { title, link, pubDateRaw, desc };
     })
     .filter(it => !linkFilter || it.link.includes(linkFilter))
+    .slice(0, maxRows)
     .map((it, i) => {
       let d = it.pubDateRaw ? new Date(it.pubDateRaw) : null;
       let isValid = d && !isNaN(d.getTime());
@@ -133,7 +139,8 @@ const NAV_WORDS = new Set([
   'option chain', 'market turnover', 'listings', 'daily report', 'holidays',
   'selected', 'skip to main content', 'accessibility', 'screen reader',
   'organisation structure', 'departments', 'offices', 'training establishment',
-  'governors', 'deputy governors', 'executive directors'
+  'governors', 'deputy governors', 'executive directors',
+  'all months', 'back to previous page', 'previous page', 'go back'
 ]);
 
 // Social-share and pagination chrome is extremely common CMS boilerplate across many
@@ -206,7 +213,7 @@ function scoreTable($, tbl, base, cat) {
   return { rows: candidateRows, score };
 }
 
-function parseGenericHTML(html, base, cat) {
+function parseGenericHTML(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
 
@@ -217,7 +224,7 @@ function parseGenericHTML(html, base, cat) {
     if (result && (!best || result.score > best.score)) best = result;
   });
   if (best) {
-    return best.rows.slice(0, 50).map((r, i) => ({ ...r, sr: i + 1 }));
+    return best.rows.slice(0, maxRows).map((r, i) => ({ ...r, sr: i + 1 }));
   }
 
   // Pass 1.5: "card grid" layout — common on modern news/press-release pages (e.g. PCAOB).
@@ -239,7 +246,7 @@ function parseGenericHTML(html, base, cat) {
   if (dateBadges.length >= 2) {
     const seenLinks = new Set();
     for (const { el, text: dateText } of dateBadges) {
-      if (rows.length >= 40) break;
+      if (rows.length >= maxRows) break;
       // Walk up a few levels to find a container that plausibly wraps just this one card:
       // small enough to be a single item, but big enough to contain a headline + link too.
       let container = $(el);
@@ -301,7 +308,7 @@ function parseGenericHTML(html, base, cat) {
   // below. Without this, share-widget links ("Share on Facebook") and sidebar nav items
   // (which are also <li><a>...) get scraped as if they were real documents.
   $('ul li, ol li').each((_, li) => {
-    if (rows.length >= 40) return;
+    if (rows.length >= maxRows) return;
     const a = $(li).find('a[href]').first();
     if (!a.length) return;
     const t = a.text().trim().replace(/\s+/g, ' ');
@@ -323,7 +330,7 @@ function parseGenericHTML(html, base, cat) {
   const seen = new Set();
   const fullText = $('body').text();
   $('a[href]').each((_, a) => {
-    if (rows.length >= 40) return;
+    if (rows.length >= maxRows) return;
     const t = $(a).text().trim().replace(/\s+/g, ' ');
     if (t.length < 10 || t.length > 300 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     if (SHARE_OR_PAGING_RE.test(t)) return;
@@ -348,11 +355,11 @@ function parseGenericHTML(html, base, cat) {
 
 /* ── Card-feed parser (e.g. PCAOB: repeating "date / heading / Read more" blocks,
    not a table and not a <ul> list — common in modern CMS-driven news feeds) ── */
-function parseCardFeed(html, base, cat) {
+function parseCardFeed(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
   $('h2, h3, h4').each((_, h) => {
-    if (rows.length >= 40) return;
+    if (rows.length >= maxRows) return;
     const title = $(h).text().trim();
     if (title.length < 15 || NAV_WORDS.has(title.toLowerCase())) return;
 
@@ -390,12 +397,12 @@ function parseCardFeed(html, base, cat) {
 }
 
 /* ── Link-list parser (SEBI FAQ style — no dates by nature) ── */
-function parseLinkList(html, base, cat) {
+function parseLinkList(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = stripChrome(cheerio.load(html));
   const rows = [];
   const seen = new Set();
   $('a[href]').each((_, a) => {
-    if (rows.length >= 40) return;
+    if (rows.length >= maxRows) return;
     const t = $(a).text().trim();
     if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     seen.add(t);
@@ -424,12 +431,12 @@ function parseLinkList(html, base, cat) {
    <table><tr><td> markup — never finds it, and the row falls through to a weaker fallback
    pass that grabs the wrong text. Confirmed against the real page: walk up from each
    .bt-content title span to find the nearest date and link in the same row. */
-function parseBtContentRows(html, base, cat) {
+function parseBtContentRows(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = cheerio.load(html);
   const rows = [];
   const seen = new Set();
   $('.bt-content').each((_, el) => {
-    if (rows.length >= 60) return;
+    if (rows.length >= maxRows) return;
     const title = $(el).text().trim().replace(/\s+/g, ' ');
     if (title.length < 8 || seen.has(title) || NAV_WORDS.has(title.toLowerCase()) || IS_URL_RE.test(title)) return;
 
@@ -457,7 +464,7 @@ function parseBtContentRows(html, base, cat) {
   return rows;
 }
 
-function parseMCAMarquee(html, base, cat) {
+function parseMCAMarquee(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = cheerio.load(html);
   const container = $('.marquee-container').first();
   if (!container.length) return [];
@@ -468,7 +475,7 @@ function parseMCAMarquee(html, base, cat) {
 
   const rows = [];
   for (const seg of segments) {
-    if (rows.length >= 40) break;
+    if (rows.length >= maxRows) break;
     const $seg = cheerio.load(seg);
     const text = $seg.root().text().trim().replace(/\s+/g, ' ');
     if (text.length < 15) continue;
@@ -494,11 +501,11 @@ function parseMCAMarquee(html, base, cat) {
    PCAOB publishes an official XML data feed (Company/InspectionReportDate/PdfInspectionReport
    per report) that's more reliable than scraping the rendered search-tool page — confirmed
    against the real feed content, already sorted newest-first. */
-function parsePcaobXmlReports(xml, base, cat) {
+function parsePcaobXmlReports(xml, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = cheerio.load(xml, { xmlMode: true });
   const rows = [];
   $('InspectionReport').each((_, el) => {
-    if (rows.length >= 40) return;
+    if (rows.length >= maxRows) return;
     const company = $(el).find('Company').first().text().trim();
     const country = $(el).find('Country').first().text().trim();
     const dateText = $(el).find('InspectionReportDate').first().text().trim();
@@ -519,7 +526,7 @@ function parsePcaobXmlReports(xml, base, cat) {
    header, and attaches it to every real document link that follows. Each document appears
    twice in the source (a "view page" link and a "PDF - <title>" direct-download link) — we
    dedupe by normalized title and keep the first (view-page) link, which is a stable target. */
-function parseRBIDatedDocs(html, base, cat) {
+function parseRBIDatedDocs(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const rows = [];
   const seen = new Set();
 
@@ -550,7 +557,7 @@ function parseRBIDatedDocs(html, base, cat) {
   let dateIdx = 0;
   let currentDate = '';
   for (const a of anchorEvents) {
-    if (rows.length >= 60) break;
+    if (rows.length >= maxRows) break;
     // Advance to the most recent date header that occurs before this anchor's position
     while (dateIdx < dateEvents.length && dateEvents[dateIdx].index < a.index) {
       currentDate = dateEvents[dateIdx].date;
@@ -578,14 +585,14 @@ function parseRBIDatedDocs(html, base, cat) {
   return rows;
 }
 
-function parseRBINavTree(html, base, cat) {
+function parseRBINavTree(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = cheerio.load(html);
   const scope = $('#lblNavData');
   const root = scope.length ? scope : stripChrome($('body'));
   const rows = [];
   const seen = new Set();
   root.find('a[href]').each((_, a) => {
-    if (rows.length >= 60) return;
+    if (rows.length >= maxRows) return;
     const t = $(a).text().trim().replace(/\s+/g, ' ');
     if (t.length < 4 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     seen.add(t);
@@ -595,7 +602,7 @@ function parseRBINavTree(html, base, cat) {
 }
 
 /* ── NSE __NEXT_DATA__ parser ── */
-function parseNSENextData(html, base, cat) {
+function parseNSENextData(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
   const $ = cheerio.load(html);
   const script = $('#__NEXT_DATA__').html();
   if (script) {
@@ -604,7 +611,7 @@ function parseNSENextData(html, base, cat) {
       const props = json?.props?.pageProps;
       const list = props?.circularList || props?.data || props?.circulars || [];
       if (Array.isArray(list) && list.length) {
-        return list.slice(0, 50).map((item, i) => {
+        return list.slice(0, maxRows).map((item, i) => {
           const title = item.subject || item.title || item.circularTitle || item.name || 'NSE Circular';
           const dateStr = item.date || item.circularDate || item.createdDate || '';
           const d = dateStr ? tryParseDate(dateStr) : '';
@@ -614,7 +621,7 @@ function parseNSENextData(html, base, cat) {
       }
     } catch (e) { /* fall through to generic */ }
   }
-  return parseGenericHTML(html, base, cat);
+  return parseGenericHTML(html, base, cat, maxRows);
 }
 
 const DEBUG_DIR = path.join(__dirname, '..', 'data', 'debug');
@@ -642,7 +649,7 @@ function dumpDebugHtml(key, html) {
    which we scrape same as the first page. Capped at a modest page count — this is a
    recent-updates tracker, not a full historical archive, and each extra page costs a real
    network round-trip during the scheduled run. */
-async function fetchSebiPaginated(url, cat, base, maxPages = 5) {
+async function fetchSebiPaginated(url, cat, base, maxPages = 20, maxRows = DEFAULT_MAX_ROWS) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   const allRows = [];
@@ -655,6 +662,7 @@ async function fetchSebiPaginated(url, cat, base, maxPages = 5) {
     await new Promise(r => setTimeout(r, 1500));
 
     for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+      if (allRows.length >= maxRows) break;
       if (pageNum > 1) {
         const hasFn = await page.evaluate(() => typeof searchFormNewsList === 'function').catch(() => false);
         if (!hasFn) break; // page structure changed since this was last verified — stop rather than guess
@@ -663,7 +671,7 @@ async function fetchSebiPaginated(url, cat, base, maxPages = 5) {
         await new Promise(r => setTimeout(r, 1200));
       }
       const html = await page.content();
-      const rows = parseGenericHTML(html, base, cat);
+      const rows = parseGenericHTML(html, base, cat, maxRows);
       if (!rows.length) break; // ran out of real pages (e.g. hit the end of results)
       let addedAny = false;
       for (const r of rows) {
@@ -677,13 +685,13 @@ async function fetchSebiPaginated(url, cat, base, maxPages = 5) {
   } finally {
     await page.close();
   }
-  return allRows.slice(0, 150).map((r, i) => ({ ...r, sr: i + 1 }));
+  return allRows.slice(0, maxRows).map((r, i) => ({ ...r, sr: i + 1 }));
 }
 
 async function scrapeTab(tab, cat) {
   if (tab.sebiPaginate) {
     try {
-      const rows = await fetchSebiPaginated(tab.src, cat, tab.src, tab.sebiPaginate);
+      const rows = await fetchSebiPaginated(tab.src, cat, tab.src, tab.sebiPaginate, tab.maxRows || DEFAULT_MAX_ROWS);
       if (rows.length) return rows;
       throw new Error('Paginated SEBI fetch returned 0 rows');
     } catch (e) {
@@ -712,7 +720,7 @@ async function scrapeTab(tab, cat) {
       if (tab.rss) {
         try {
           const xml = await fetchWithRetry(tab.rss);
-          const rssRows = parseRSS(xml, cat, tab.linkFilter);
+          const rssRows = parseRSS(xml, cat, tab.linkFilter, tab.maxRows || DEFAULT_MAX_ROWS);
           // Prefer whichever source actually got more rows — don't discard a working
           // HTML result just because it dipped below the threshold on a slow news day.
           if (rssRows.length > rows.length) return rssRows;
@@ -724,7 +732,7 @@ async function scrapeTab(tab, cat) {
       console.warn(`  Preferred HTML path failed (${e.message}), trying RSS...`);
       if (!tab.rss) throw e;
       const xml = await fetchWithRetry(tab.rss);
-      const rows = parseRSS(xml, cat, tab.linkFilter);
+      const rows = parseRSS(xml, cat, tab.linkFilter, tab.maxRows || DEFAULT_MAX_ROWS);
       if (rows.length) return rows;
       throw new Error('RSS parsed to 0 rows');
     }
@@ -733,7 +741,7 @@ async function scrapeTab(tab, cat) {
   if (tab.rss) {
     try {
       const xml = await fetchWithRetry(tab.rss);
-      const rows = parseRSS(xml, cat, tab.linkFilter);
+      const rows = parseRSS(xml, cat, tab.linkFilter, tab.maxRows || DEFAULT_MAX_ROWS);
       if (rows.length) return rows;
       throw new Error('RSS parsed to 0 rows');
     } catch (e) {
@@ -752,16 +760,17 @@ async function scrapeTab(tab, cat) {
 }
 
 function runHtmlParser(tab, html, cat) {
+  const maxRows = tab.maxRows || DEFAULT_MAX_ROWS;
   let rows;
   switch (tab.htmlParse) {
-    case 'linklist':      rows = parseLinkList(html, tab.src, cat); break;
-    case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat); break;
-    case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
-    case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat); break;
-    case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat); break;
-    case 'pcaob_xml': rows = parsePcaobXmlReports(html, tab.src, cat); break;
-    case 'rbi_dated_docs': rows = parseRBIDatedDocs(html, tab.src, cat); break;
-    default:               rows = parseGenericHTML(html, tab.src, cat);
+    case 'linklist':      rows = parseLinkList(html, tab.src, cat, maxRows); break;
+    case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat, maxRows); break;
+    case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat, maxRows); break;
+    case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat, maxRows); break;
+    case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat, maxRows); break;
+    case 'pcaob_xml': rows = parsePcaobXmlReports(html, tab.src, cat, maxRows); break;
+    case 'rbi_dated_docs': rows = parseRBIDatedDocs(html, tab.src, cat, maxRows); break;
+    default:               rows = parseGenericHTML(html, tab.src, cat, maxRows);
   }
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
   return rows;
