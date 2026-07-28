@@ -23,6 +23,22 @@ const BANK_NBFC_KEYWORDS = [
   'psu bank', 'public sector bank', 'private sector bank', 'nbfc-mfi',
 ];
 
+// Broader term set for GLOBAL outlets (Reuters, CNBC, Yahoo Finance, MarketWatch,
+// Financial Times) — the India-specific list above will almost never match their
+// coverage, since they rarely mention Indian banks/NBFCs by name. These outlets are
+// still useful for macro context (global rate moves, regulatory trends, major bank
+// earnings) that can indirectly affect Indian NBFC operations, so filtered on broader
+// banking/finance-sector terms instead of specific Indian entity names.
+const GLOBAL_BANKING_KEYWORDS = [
+  'bank', 'banking', 'banks', 'lender', 'lending',
+  'central bank', 'federal reserve', 'fed rate', 'interest rate', 'rate hike', 'rate cut',
+  'monetary policy', 'financial regulator', 'banking regulator', 'banking crisis',
+  'credit rating', 'sovereign debt', 'basel', 'capital requirement',
+  'nbfc', 'non-bank lender', 'shadow bank', 'fintech lending',
+  'rbi', 'reserve bank of india', 'sebi', 'indian market', 'india rate',
+  'emerging market bank', 'global bank', 'bank earnings', 'bank stock',
+];
+
 module.exports = {
   NEWSLETTER: {
     tabs: [
@@ -51,31 +67,34 @@ module.exports = {
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
       {
-        // Reuters killed its public RSS feeds in 2020 — feeds.reuters.com no longer resolves
-        // to anything usable. Substituting a Google News RSS query scoped to reuters.com,
-        // which is the standard community workaround and still returns real Reuters headlines.
+        // Reuters killed its public RSS feeds in 2020, and the common "Google News RSS"
+        // workaround turned out to be unreliable for server-side/CI use too — Google's
+        // news.google.com RSS endpoint is known to return 401/403 to automated traffic
+        // based on IP reputation (confirmed: this affects real RSS reader software too,
+        // not just scrapers — it's not something fixable by tuning request headers).
+        // Scraping Reuters' own business page directly instead.
         key: 'NEWSLETTER_4', label: 'Reuters Business', cat: 'News',
-        rss: 'https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com+business&ceid=US:en&hl=en-US&gl=US',
+        rss: null,
         src: 'https://www.reuters.com/business/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', headless: true, keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
         key: 'NEWSLETTER_5', label: 'CNBC Business', cat: 'News',
         rss: 'https://www.cnbc.com/id/10001147/device/rss/rss.html',
         src: 'https://www.cnbc.com/finance/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
         key: 'NEWSLETTER_6', label: 'Yahoo Finance', cat: 'News',
         rss: 'https://finance.yahoo.com/news/rssindex',
         src: 'https://finance.yahoo.com/topic/banking/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
         key: 'NEWSLETTER_7', label: 'MarketWatch Top Stories', cat: 'News',
         rss: 'https://feeds.content.dowjones.io/public/rss/mw_topstories',
         src: 'https://www.marketwatch.com/economy-politics',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
         key: 'NEWSLETTER_8', label: 'Moneycontrol', cat: 'News',
@@ -87,7 +106,7 @@ module.exports = {
         key: 'NEWSLETTER_9', label: 'Financial Times', cat: 'News',
         rss: 'https://www.ft.com/rss/home',
         src: 'https://www.ft.com/banks',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
     ]
   },
