@@ -505,7 +505,9 @@ const REGULATORS = {
       // each tab is built as "NEWSLETTER_" + array index (e.g. NEWSLETTER_0 = Indian Express).
       { label: 'Indian Express',    cat: 'News', rss: 'https://indianexpress.com/feed/', src: 'https://indianexpress.com/section/business/banking-and-finance/', parser: 'generic' },
       { label: 'Times Now',         cat: 'News', rss: null,                                                                    src: 'https://www.timesnownews.com/business-economy',                    parser: 'generic' },
-      { label: 'Economic Times',    cat: 'News', rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cfm',             src: 'https://economictimes.indiatimes.com/industry/banking/finance/banking', parser: 'generic' },
+      // The .cfm "RSS" URL previously here wasn't real news — it silently returned stock
+      // ticker pages with no dates. Switched to a confirmed-working article listing page.
+      { label: 'Economic Times',    cat: 'News', rss: null, src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms', parser: 'generic' },
       { label: 'Business Standard', cat: 'News', rss: 'https://www.business-standard.com/rss/latest.rss',                     src: 'https://www.business-standard.com/finance',                        parser: 'generic' },
       // Reuters killed public RSS in 2020; the Google News RSS workaround turned out to be
       // unreliable for automated/CI traffic too (401/403 based on IP reputation) — scraping
