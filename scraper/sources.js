@@ -82,8 +82,10 @@ module.exports = {
         htmlParse: 'generic', headless: true, keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
+        // id=10001147 was actually CNBC's "CEOs Speak" niche feed, not general Business news
+        // — confirmed against CNBC's own RSS catalog. id=19206666 is their real Business feed.
         key: 'NEWSLETTER_5', label: 'CNBC Business', cat: 'News',
-        rss: 'https://www.cnbc.com/id/10001147/device/rss/rss.html',
+        rss: 'https://www.cnbc.com/id/19206666/device/rss/rss.html',
         src: 'https://www.cnbc.com/finance/',
         htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
@@ -94,14 +96,20 @@ module.exports = {
         htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
+        // mw_topstories is confirmed live but skews toward general/human-interest content
+        // (Tesla, social security columns, M&A) that rarely mentions banking specifically.
+        // mw_realtimeheadlines is more market/rate-moves focused — confirmed via real content
+        // sample including Fed/Bank of England/Swiss National Bank rate coverage.
         key: 'NEWSLETTER_7', label: 'MarketWatch Top Stories', cat: 'News',
-        rss: 'https://feeds.content.dowjones.io/public/rss/mw_topstories',
+        rss: 'https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines',
         src: 'https://www.marketwatch.com/economy-politics',
         htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
+        // business.xml isn't a real Moneycontrol endpoint — confirmed via their actual
+        // published feed list. MCtopnews.xml is the real general business/top-news feed.
         key: 'NEWSLETTER_8', label: 'Moneycontrol', cat: 'News',
-        rss: 'https://www.moneycontrol.com/rss/business.xml',
+        rss: 'https://www.moneycontrol.com/rss/MCtopnews.xml',
         src: 'https://www.moneycontrol.com/news/business/banks/',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
