@@ -1044,9 +1044,9 @@ async function sendNotificationEmail(newByRegulator) {
       <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid ${BORDER};border-radius:8px;overflow:hidden;">
         <tr><td style="background:#0f2d52;padding:22px 28px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-            <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv — Secretarial</td>
+            <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv </td>
           </tr><tr>
-            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Regulatory Updates Tracker</td>
+            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Compliance Listening BOT</td>
           </tr></table>
         </td></tr>
         <tr><td style="padding:22px 28px 6px;">
@@ -1061,7 +1061,7 @@ async function sendNotificationEmail(newByRegulator) {
         </td></tr>
         <tr><td style="padding:24px 28px;border-top:1px solid ${BORDER};margin-top:20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td>
-            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Regulatory Updates Tracker. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
+            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Compliance Listening BOT. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
           </td></tr></table>
         </td></tr>
       </table>
