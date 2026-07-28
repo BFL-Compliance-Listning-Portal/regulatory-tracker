@@ -40,14 +40,53 @@ module.exports = {
       },
       {
         key: 'NEWSLETTER_2', label: 'Economic Times', cat: 'News',
-        rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cms',
+        rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cfm',
         src: 'https://economictimes.indiatimes.com/industry/banking/finance/banking',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
       {
         key: 'NEWSLETTER_3', label: 'Business Standard', cat: 'News',
-        rss: 'https://www.business-standard.com/rss/finance-103.rss',
+        rss: 'https://www.business-standard.com/rss/latest.rss',
         src: 'https://www.business-standard.com/finance',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        // Reuters killed its public RSS feeds in 2020 — feeds.reuters.com no longer resolves
+        // to anything usable. Substituting a Google News RSS query scoped to reuters.com,
+        // which is the standard community workaround and still returns real Reuters headlines.
+        key: 'NEWSLETTER_4', label: 'Reuters Business', cat: 'News',
+        rss: 'https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com+business&ceid=US:en&hl=en-US&gl=US',
+        src: 'https://www.reuters.com/business/',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_5', label: 'CNBC Business', cat: 'News',
+        rss: 'https://www.cnbc.com/id/10001147/device/rss/rss.html',
+        src: 'https://www.cnbc.com/finance/',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_6', label: 'Yahoo Finance', cat: 'News',
+        rss: 'https://finance.yahoo.com/news/rssindex',
+        src: 'https://finance.yahoo.com/topic/banking/',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_7', label: 'MarketWatch Top Stories', cat: 'News',
+        rss: 'https://feeds.content.dowjones.io/public/rss/mw_topstories',
+        src: 'https://www.marketwatch.com/economy-politics',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_8', label: 'Moneycontrol', cat: 'News',
+        rss: 'https://www.moneycontrol.com/rss/business.xml',
+        src: 'https://www.moneycontrol.com/news/business/banks/',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_9', label: 'Financial Times', cat: 'News',
+        rss: 'https://www.ft.com/rss/home',
+        src: 'https://www.ft.com/banks',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
     ]
