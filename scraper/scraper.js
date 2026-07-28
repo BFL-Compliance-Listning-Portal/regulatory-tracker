@@ -973,12 +973,24 @@ function findNewItems(previous, output) {
       const cur = output[tab.key];
       const prev = previous[tab.key];
       if (!cur || !cur.ok || !cur.rows.length) continue;
+
+      // Default to 0 — set below only when a fresh-item count is actually meaningful.
+      cur.newCount = 0;
+
       if (!prev || !prev.ok || !prev.rows.length) continue; // no reliable baseline — skip, don't flood
 
       const prevKeys = new Set(prev.rows.map(r => r.link || `${r.title}|${r.date}`));
+      const freshKeys = new Set();
       const fresh = cur.rows
         .filter(r => !prevKeys.has(r.link || `${r.title}|${r.date}`))
         .filter(r => isRecentDate(r.date)); // new-to-us AND actually dated today/yesterday
+
+      for (const r of fresh) freshKeys.add(r.link || `${r.title}|${r.date}`);
+      // Tag the actual rows so the frontend can (optionally) highlight them individually,
+      // not just show a count — e.g. a "NEW" badge next to the row in the table.
+      for (const r of cur.rows) r.isNew = freshKeys.has(r.link || `${r.title}|${r.date}`);
+      cur.newCount = fresh.length;
+
       if (fresh.length) {
         if (!newByRegulator[regKey]) newByRegulator[regKey] = { name: REGULATOR_DISPLAY_NAMES[regKey] || regKey, tabs: {} };
         newByRegulator[regKey].tabs[tab.label] = fresh;
@@ -1044,9 +1056,9 @@ async function sendNotificationEmail(newByRegulator) {
       <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid ${BORDER};border-radius:8px;overflow:hidden;">
         <tr><td style="background:#0f2d52;padding:22px 28px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-            <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv </td>
+            <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv — Secretarial</td>
           </tr><tr>
-            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Finance Listening Portal</td>
+            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Regulatory Updates Tracker</td>
           </tr></table>
         </td></tr>
         <tr><td style="padding:22px 28px 6px;">
@@ -1061,7 +1073,7 @@ async function sendNotificationEmail(newByRegulator) {
         </td></tr>
         <tr><td style="padding:24px 28px;border-top:1px solid ${BORDER};margin-top:20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td>
-            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Finance Listening Portal. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
+            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Regulatory Updates Tracker. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
           </td></tr></table>
         </td></tr>
       </table>
