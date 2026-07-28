@@ -64,7 +64,7 @@ module.exports = {
         key: 'NEWSLETTER_3', label: 'Business Standard', cat: 'News',
         rss: 'https://www.business-standard.com/rss/latest.rss',
         src: 'https://www.business-standard.com/finance',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS,
       },
       {
         // Reuters killed its public RSS feeds in 2020, and the common "Google News RSS"
