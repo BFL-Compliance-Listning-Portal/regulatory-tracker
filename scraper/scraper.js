@@ -936,6 +936,36 @@ function applyKeywordFilter(rows, keywords) {
    the previous and current run succeeded with real rows — this avoids a false "everything
    is new" flood after a transient scrape failure wipes a tab down to 0 rows and it recovers
    the next run (a real failure mode we hit repeatedly while building this scraper). */
+// sources.js regulator entries only carry `tabs`, not a display name — that's exactly why
+// email section headers were rendering as literal "undefined". Proper names for email/display
+// purposes live here instead, decoupled from the scraping config.
+const REGULATOR_DISPLAY_NAMES = {
+  NEWSLETTER: 'Newsletter — Bank & NBFC News',
+  SEBI: 'Securities & Exchange Board of India (SEBI)',
+  RBI: 'Reserve Bank of India (RBI)',
+  BSE: 'Bombay Stock Exchange (BSE)',
+  NSE: 'National Stock Exchange (NSE)',
+  IRDAI: 'Insurance Regulatory & Development Authority (IRDAI)',
+  IEPFA: 'Investor Education & Protection Fund Authority (IEPFA)',
+  MCA: 'Ministry of Corporate Affairs (MCA)',
+  NFRA: 'National Financial Reporting Authority (NFRA)',
+  PCAOB: 'Public Company Accounting Oversight Board (PCAOB)',
+};
+
+// Only alert on items actually dated today (with a short grace window for scheduling/timezone
+// gaps around midnight) — otherwise a tab that's empty for a while and then successfully
+// scrapes again floods the email with everything it finds, including weeks-old items that are
+// merely new TO US, not new in reality. maxDaysOld=1 means "today or yesterday" so a run just
+// after midnight IST doesn't miss something published late the previous day.
+function isRecentDate(dateStr, maxDaysOld = 1) {
+  if (!dateStr || dateStr === '—') return false;
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return false;
+  const now = new Date();
+  const diffDays = (now.setHours(0,0,0,0) - new Date(d).setHours(0,0,0,0)) / 86400000;
+  return diffDays >= 0 && diffDays <= maxDaysOld;
+}
+
 function findNewItems(previous, output) {
   const newByRegulator = {};
   for (const [regKey, reg] of Object.entries(REGULATORS)) {
@@ -946,9 +976,11 @@ function findNewItems(previous, output) {
       if (!prev || !prev.ok || !prev.rows.length) continue; // no reliable baseline — skip, don't flood
 
       const prevKeys = new Set(prev.rows.map(r => r.link || `${r.title}|${r.date}`));
-      const fresh = cur.rows.filter(r => !prevKeys.has(r.link || `${r.title}|${r.date}`));
+      const fresh = cur.rows
+        .filter(r => !prevKeys.has(r.link || `${r.title}|${r.date}`))
+        .filter(r => isRecentDate(r.date)); // new-to-us AND actually dated today/yesterday
       if (fresh.length) {
-        if (!newByRegulator[regKey]) newByRegulator[regKey] = { name: reg.name, tabs: {} };
+        if (!newByRegulator[regKey]) newByRegulator[regKey] = { name: REGULATOR_DISPLAY_NAMES[regKey] || regKey, tabs: {} };
         newByRegulator[regKey].tabs[tab.label] = fresh;
       }
     }
@@ -966,18 +998,75 @@ async function sendNotificationEmail(newByRegulator) {
   const totalCount = Object.values(newByRegulator).reduce(
     (sum, reg) => sum + Object.values(reg.tabs).reduce((s, rows) => s + rows.length, 0), 0
   );
+  const todayStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' });
 
-  let bodyHtml = `<h2 style="font-family:sans-serif;">Regulatory Updates Tracker — ${totalCount} new item${totalCount === 1 ? '' : 's'}</h2>`;
+  // Table-based layout with inline styles throughout — Outlook's rendering engine (Word, not
+  // a browser engine) ignores most CSS classes, flexbox, and external/embedded stylesheets,
+  // so every style has to be inline on the element itself to render consistently, matching
+  // what the actual recipients will open this in (confirmed from the screenshot: Outlook desktop).
+  const FONT = "font-family:Segoe UI,Arial,Helvetica,sans-serif;";
+  const INK = '#1a2030', MUTED = '#5a6474', BORDER = '#e2e6ea', DEEP = '#1a56db', BG = '#f7f8fa';
+
+  let sectionsHtml = '';
   for (const [regKey, reg] of Object.entries(newByRegulator)) {
-    bodyHtml += `<h3 style="font-family:sans-serif;color:#1e3a8a;">${reg.name}</h3><ul style="font-family:sans-serif;">`;
+    let rowsHtml = '';
     for (const [tabLabel, rows] of Object.entries(reg.tabs)) {
       for (const r of rows) {
-        bodyHtml += `<li><strong>[${esc(tabLabel)}]</strong> ${esc(r.date || '')} — <a href="${esc(r.link || '#')}">${esc(r.title)}</a></li>`;
+        rowsHtml += `
+          <tr>
+            <td style="padding:10px 0;border-bottom:1px solid ${BORDER};vertical-align:top;width:90px;${FONT}font-size:12px;color:${MUTED};white-space:nowrap;">${esc(r.date || '')}</td>
+            <td style="padding:10px 0 10px 14px;border-bottom:1px solid ${BORDER};vertical-align:top;">
+              <span style="display:inline-block;${FONT}font-size:10.5px;font-weight:600;color:${DEEP};background:#eaf1fd;border-radius:4px;padding:2px 7px;margin-bottom:4px;">${esc(tabLabel)}</span><br/>
+              <a href="${esc(r.link || '#')}" style="${FONT}font-size:14px;color:${INK};text-decoration:none;font-weight:500;">${esc(r.title)}</a>
+            </td>
+          </tr>`;
       }
     }
-    bodyHtml += `</ul>`;
+    sectionsHtml += `
+      <tr><td style="padding:22px 0 8px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr><td style="${FONT}font-size:15px;font-weight:700;color:${INK};border-left:3px solid ${DEEP};padding-left:10px;">${esc(reg.name)}</td></tr>
+        </table>
+      </td></tr>
+      <tr><td>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${rowsHtml}</table>
+      </td></tr>`;
   }
-  if (TRACKER_URL) bodyHtml += `<p style="font-family:sans-serif;"><a href="${esc(TRACKER_URL)}">Open the full tracker →</a></p>`;
+
+  const trackerButton = TRACKER_URL ? `
+    <tr><td style="padding:28px 0 4px;">
+      <a href="${esc(TRACKER_URL)}" style="${FONT}display:inline-block;background:${DEEP};color:#ffffff;text-decoration:none;font-size:13px;font-weight:600;padding:10px 22px;border-radius:6px;">Open Full Tracker →</a>
+    </td></tr>` : '';
+
+  const bodyHtml = `
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${BG};padding:24px 0;">
+    <tr><td align="center">
+      <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid ${BORDER};border-radius:8px;overflow:hidden;">
+        <tr><td style="background:#0f2d52;padding:22px 28px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv — Secretarial</td>
+          </tr><tr>
+            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Regulatory Updates Tracker</td>
+          </tr></table>
+        </td></tr>
+        <tr><td style="padding:22px 28px 6px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td style="${FONT}font-size:13px;color:${MUTED};">${todayStr}</td>
+            <td align="right" style="${FONT}font-size:13px;color:${DEEP};font-weight:700;">${totalCount} new item${totalCount === 1 ? '' : 's'}</td>
+          </tr></table>
+        </td></tr>
+        <tr><td style="padding:0 28px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${sectionsHtml}</table>
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${trackerButton}</table>
+        </td></tr>
+        <tr><td style="padding:24px 28px;border-top:1px solid ${BORDER};margin-top:20px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td>
+            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Regulatory Updates Tracker. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>`;
 
   const nodemailer = require('nodemailer');
   const transporter = nodemailer.createTransport({
@@ -997,6 +1086,7 @@ async function sendNotificationEmail(newByRegulator) {
     console.log(`  [notify] Email sent to ${NOTIFY_RECIPIENTS} (${totalCount} new items).`);
   } catch (e) {
     // Never fail the whole scrape run just because email delivery had a problem —
+
     // the data itself is still valid and should still be committed.
     console.log(`  [notify] FAILED to send email: ${e.message}`);
   }
