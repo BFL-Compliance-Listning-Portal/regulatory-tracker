@@ -1046,7 +1046,7 @@ async function sendNotificationEmail(newByRegulator) {
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
             <td style="${FONT}font-size:11px;font-weight:700;letter-spacing:1.5px;color:#a9c6f0;text-transform:uppercase;">Bajaj Finserv </td>
           </tr><tr>
-            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Compliance Listening BOT</td>
+            <td style="${FONT}font-size:19px;font-weight:700;color:#ffffff;padding-top:4px;">Finance Listening Portal</td>
           </tr></table>
         </td></tr>
         <tr><td style="padding:22px 28px 6px;">
@@ -1061,7 +1061,7 @@ async function sendNotificationEmail(newByRegulator) {
         </td></tr>
         <tr><td style="padding:24px 28px;border-top:1px solid ${BORDER};margin-top:20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td>
-            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Compliance Listening BOT. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
+            <span style="${FONT}font-size:11px;color:${MUTED};">This is an automated notification from the Finance Listening Portal. Items are matched against each source's official publication date — historical or backlog items are not included.</span>
           </td></tr></table>
         </td></tr>
       </table>
@@ -1079,7 +1079,8 @@ async function sendNotificationEmail(newByRegulator) {
   try {
     await transporter.sendMail({
       from: SMTP_USER,
-      to: NOTIFY_RECIPIENTS, // comma-separated list
+      to: SMTP_USER, // most SMTP servers want a visible To — recipients go in bcc instead so they don't see each other's addresses
+      bcc: NOTIFY_RECIPIENTS, // comma-separated list
       subject: `Regulatory Updates — ${totalCount} new item${totalCount === 1 ? '' : 's'} (${new Date().toLocaleDateString('en-IN')})`,
       html: bodyHtml
     });
