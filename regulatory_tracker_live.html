@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Finance Listening Portal</title>
+<title>Finance Listening Portal </title>
 <style>
   :root {
     --bg: #f7f8fa;
@@ -280,15 +280,15 @@
 
 <div class="main">
   <div class="regulator-grid" id="regulatorGrid">
-    <button class="reg-btn reg-sebi" data-reg="SEBI" onclick="selectReg('SEBI')">
-      <span class="reg-name">SEBI</span>
-      <span class="reg-full">Securities &amp; Exchange Board</span>
-      <span class="reg-count" id="count-SEBI">—</span>
-    </button>
     <button class="reg-btn reg-rbi active" data-reg="RBI" onclick="selectReg('RBI')">
       <span class="reg-name">RBI</span>
       <span class="reg-full">Reserve Bank of India</span>
       <span class="reg-count" id="count-RBI">—</span>
+    </button>
+    <button class="reg-btn reg-sebi" data-reg="SEBI" onclick="selectReg('SEBI')">
+      <span class="reg-name">SEBI</span>
+      <span class="reg-full">Securities &amp; Exchange Board</span>
+      <span class="reg-count" id="count-SEBI">—</span>
     </button>
     <button class="reg-btn reg-bse" data-reg="BSE" onclick="selectReg('BSE')">
       <span class="reg-name">BSE</span>
@@ -384,7 +384,7 @@
    GitHub Actions scraper (see /scraper in the repo).
    ⚠️ EDIT THIS: replace with YOUR GitHub username/repo.
 ─────────────────────────────────────────────── */
-const DATA_JSON_URL = 'https://cdn.jsdelivr.net/gh/swapnilneharkar1/regulatory-tracker@main/data/regulatory_data.json';
+const DATA_JSON_URL = 'https://raw.githubusercontent.com/swapnilneharkar1/regulatory-tracker/main/data/regulatory_data.json';
 
 let staticData = null;       // { generatedAt, data: { "SEBI_0": {rows,ts,ok}, ... } }
 let staticDataError = null;
@@ -401,6 +401,17 @@ async function loadStaticData(force = false) {
 }
 
 const REGULATORS = {
+  RBI: {
+    name: 'Reserve Bank of India',
+    color: '#c0392b',
+    tabs: [
+      // Corrected live RBI RSS endpoints (old Scripts/rss.aspx?Id= URLs are stale)
+      { label: 'Notifications',         cat: 'Notifications',       rss: 'https://www.rbi.org.in/notifications_rss.xml',      src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx',                        parser: 'rbi' },
+      { label: 'Master Directions',     cat: 'Master Directions',   rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333',          parser: 'rbi' },
+      { label: 'Master Circulars',      cat: 'Master Circulars',    rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333',      parser: 'rbi' },
+      { label: 'Draft Notifications',   cat: 'Draft Notifications', rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx',            parser: 'rbi' },
+    ]
+  },
   SEBI: {
     name: 'Securities & Exchange Board of India',
     color: '#1a56db',
@@ -414,17 +425,6 @@ const REGULATORS = {
       { label: "FAQ's",                 cat: 'FAQ',                rss: null,                                                              src: 'https://www.sebi.gov.in/sebiweb/other/OtherAction.do',                                     parser: 'sebi_faq' },
       { label: 'Insider Trading',       cat: 'Insider Trading',    rss: null,                                                              src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=11&smid=0',  parser: 'sebi' },
       { label: 'Orders of AO',          cat: 'Orders',             rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/enforcement/orders/',     src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6',   parser: 'sebi' },
-    ]
-  },
-  RBI: {
-    name: 'Reserve Bank of India',
-    color: '#c0392b',
-    tabs: [
-      // Corrected live RBI RSS endpoints (old Scripts/rss.aspx?Id= URLs are stale)
-      { label: 'Notifications',         cat: 'Notifications',       rss: 'https://www.rbi.org.in/notifications_rss.xml',      src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx',                        parser: 'rbi' },
-      { label: 'Master Directions',     cat: 'Master Directions',   rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333',          parser: 'rbi' },
-      { label: 'Master Circulars',      cat: 'Master Circulars',    rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333',      parser: 'rbi' },
-      { label: 'Draft Notifications',   cat: 'Draft Notifications', rss: null,                                                 src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx',            parser: 'rbi' },
     ]
   },
   BSE: {
