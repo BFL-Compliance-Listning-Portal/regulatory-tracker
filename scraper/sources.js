@@ -106,10 +106,11 @@ module.exports = {
         htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
       },
       {
-        // business.xml isn't a real Moneycontrol endpoint — confirmed via their actual
-        // published feed list. MCtopnews.xml is the real general business/top-news feed.
+        // MCtopnews.xml turned out to be unreliable in practice (debug dump showed it
+        // landing on an unrelated article page instead of real feed content). latestnews.xml
+        // is confirmed across multiple independent RSS directories as the real, stable feed.
         key: 'NEWSLETTER_8', label: 'Moneycontrol', cat: 'News',
-        rss: 'https://www.moneycontrol.com/rss/MCtopnews.xml',
+        rss: 'https://www.moneycontrol.com/rss/latestnews.xml',
         src: 'https://www.moneycontrol.com/news/business/banks/',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
