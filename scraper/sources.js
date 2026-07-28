@@ -55,9 +55,12 @@ module.exports = {
         htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS,
       },
       {
+        // The .cfm "RSS" URL previously here wasn't real news content — it was silently
+        // returning stock ticker/quote pages (economictimes.../hdfc-bank-ltd/stocks/...)
+        // with no dates at all. Switched to a confirmed-working article listing page instead.
         key: 'NEWSLETTER_2', label: 'Economic Times', cat: 'News',
-        rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cfm',
-        src: 'https://economictimes.indiatimes.com/industry/banking/finance/banking',
+        rss: null,
+        src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms',
         htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
       },
       {

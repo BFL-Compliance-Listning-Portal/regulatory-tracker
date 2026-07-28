@@ -17,7 +17,19 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 // dated items on one page was silently truncated to 40-60 regardless. Centralized here as one
 // configurable default (overridable per-tab via `tab.maxRows` in sources.js) instead.
 const DEFAULT_MAX_ROWS = 300;
-const DATE_RE = /\d{1,2}(?:st|nd|rd|th)?[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/i;
+// A generic [A-Za-z]{3,9} month-token match will happily glue onto the tail of an unrelated
+// adjacent word when cheerio's .text() concatenates separate DOM text nodes without a space
+// between them (confirmed against real scraped output: "Notes" + "Jul 27, 2026" extracted as
+// one continuous "NotesJul 27, 2026" match, since "NotesJul" itself satisfies {3,9} letters).
+// Requiring an actual month name prevents the regex from ever starting its match mid-word.
+const MONTH_RE = '(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)';
+const DATE_RE = new RegExp(
+  `\\d{1,2}(?:st|nd|rd|th)?[\\-\\/\\s]${MONTH_RE}[\\-\\/\\s,]+\\d{4}` +
+  `|${MONTH_RE}\\.?\\s+\\d{1,2}(?:st|nd|rd|th)?,?\\s+\\d{4}` +
+  `|\\d{1,2}[\\-\\/]\\d{1,2}[\\-\\/]\\d{4}` +
+  `|\\d{4}-\\d{2}-\\d{2}`,
+  'i'
+);
 
 function tryParseDate(s) {
   if (!s) return '';
