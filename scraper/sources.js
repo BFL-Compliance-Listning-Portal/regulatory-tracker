@@ -43,16 +43,19 @@ module.exports = {
   NEWSLETTER: {
     tabs: [
       {
+        // indianexpress.com/feed/ is EVERY article on the site — politics, sports,
+        // entertainment, all mixed in — so on any given run almost nothing matches a
+        // banking keyword purely by chance. Switched to their actual Business section feed.
         key: 'NEWSLETTER_0', label: 'Indian Express', cat: 'News',
-        rss: 'https://indianexpress.com/feed/',
+        rss: 'https://indianexpress.com/section/business/feed/',
         src: 'https://indianexpress.com/section/business/banking-and-finance/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
         key: 'NEWSLETTER_1', label: 'Times Now', cat: 'News',
         rss: null,
         src: 'https://www.timesnownews.com/business-economy',
-        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
         // The .cfm "RSS" URL previously here wasn't real news content — it was silently
@@ -61,64 +64,61 @@ module.exports = {
         key: 'NEWSLETTER_2', label: 'Economic Times', cat: 'News',
         rss: null,
         src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
+        // The RSS feed itself has real dates but 403s a plain HTTP fetch — confirmed it
+        // opens fine in a real browser, so try it again via headless before falling back to
+        // the HTML card parser (which has no dates on this site's listing page at all).
         key: 'NEWSLETTER_3', label: 'Business Standard', cat: 'News',
         rss: 'https://www.business-standard.com/rss/latest.rss',
+        rssHeadlessFallback: true,
         src: 'https://www.business-standard.com/finance',
-        htmlParse: 'bs_smallcard', headless: true, keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'bs_smallcard', headless: true, keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
-      {
-        // Reuters killed its public RSS feeds in 2020, and the common "Google News RSS"
-        // workaround turned out to be unreliable for server-side/CI use too — Google's
-        // news.google.com RSS endpoint is known to return 401/403 to automated traffic
-        // based on IP reputation (confirmed: this affects real RSS reader software too,
-        // not just scrapers — it's not something fixable by tuning request headers).
-        // Scraping Reuters' own business page directly instead.
-        key: 'NEWSLETTER_4', label: 'Reuters Business', cat: 'News',
-        rss: null,
-        src: 'https://www.reuters.com/business/',
-        htmlParse: 'generic', headless: true, keywordFilter: GLOBAL_BANKING_KEYWORDS,
-      },
+      // Reuters Business removed — killed its public RSS in 2020, the Google News RSS
+      // workaround was unreliable for automated traffic (401), and direct headless scraping
+      // of reuters.com hit Akamai bot protection (401) too. Confirmed independently (a plain
+      // fetch from an unrelated tool got the same block), so this isn't fixable without paid
+      // anti-bot/residential-proxy infrastructure. Re-add if that tradeoff becomes worth it.
       {
         // id=10001147 was actually CNBC's "CEOs Speak" niche feed, not general Business news
         // — confirmed against CNBC's own RSS catalog. id=19206666 is their real Business feed.
-        key: 'NEWSLETTER_5', label: 'CNBC Business', cat: 'News',
+        key: 'NEWSLETTER_4', label: 'CNBC Business', cat: 'News',
         rss: 'https://www.cnbc.com/id/19206666/device/rss/rss.html',
         src: 'https://www.cnbc.com/finance/',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
       },
       {
-        key: 'NEWSLETTER_6', label: 'Yahoo Finance', cat: 'News',
+        key: 'NEWSLETTER_5', label: 'Yahoo Finance', cat: 'News',
         rss: 'https://finance.yahoo.com/news/rssindex',
         src: 'https://finance.yahoo.com/topic/banking/',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
       },
       {
         // mw_topstories is confirmed live but skews toward general/human-interest content
         // (Tesla, social security columns, M&A) that rarely mentions banking specifically.
         // mw_realtimeheadlines is more market/rate-moves focused — confirmed via real content
         // sample including Fed/Bank of England/Swiss National Bank rate coverage.
-        key: 'NEWSLETTER_7', label: 'MarketWatch Top Stories', cat: 'News',
+        key: 'NEWSLETTER_6', label: 'MarketWatch Top Stories', cat: 'News',
         rss: 'https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines',
         src: 'https://www.marketwatch.com/economy-politics',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
       },
       {
         // MCtopnews.xml turned out to be unreliable in practice (debug dump showed it
         // landing on an unrelated article page instead of real feed content). latestnews.xml
         // is confirmed across multiple independent RSS directories as the real, stable feed.
-        key: 'NEWSLETTER_8', label: 'Moneycontrol', cat: 'News',
+        key: 'NEWSLETTER_7', label: 'Moneycontrol', cat: 'News',
         rss: 'https://www.moneycontrol.com/rss/latestnews.xml',
         src: 'https://www.moneycontrol.com/news/business/banks/',
-        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS, maxAgeDays: 5,
       },
       {
-        key: 'NEWSLETTER_9', label: 'Financial Times', cat: 'News',
+        key: 'NEWSLETTER_8', label: 'Financial Times', cat: 'News',
         rss: 'https://www.ft.com/rss/home',
         src: 'https://www.ft.com/banks',
-        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS,
+        htmlParse: 'generic', keywordFilter: GLOBAL_BANKING_KEYWORDS, maxAgeDays: 5,
       },
     ]
   },
