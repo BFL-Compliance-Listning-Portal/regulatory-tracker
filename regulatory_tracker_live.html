@@ -515,7 +515,7 @@ const REGULATORS = {
       // The .cfm "RSS" URL previously here wasn't real news — it silently returned stock
       // ticker pages with no dates. Switched to a confirmed-working article listing page.
       { label: 'Economic Times',    cat: 'News', rss: null, src: 'https://economictimes.indiatimes.com/news/economy/articlelist/1286551815.cms', parser: 'generic' },
-      { label: 'Business Standard', cat: 'News', rss: 'https://www.business-standard.com/rss/latest.rss',                     src: 'https://www.business-standard.com/finance',                        parser: 'generic' },
+      { label: 'Business Standard', cat: 'News', rss: 'https://www.business-standard.com/rss/latest.rss',                     src: 'https://www.business-standard.com/finance',                        parser: 'bs_smallcard' },
       // Reuters killed public RSS in 2020; the Google News RSS workaround turned out to be
       // unreliable for automated/CI traffic too (401/403 based on IP reputation) — scraping
       // Reuters' own business page directly instead.
