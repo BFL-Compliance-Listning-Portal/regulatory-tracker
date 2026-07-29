@@ -1,10 +1,20 @@
 {
-  "generatedAt": "2026-07-29T00:17:50.354Z",
+  "generatedAt": "2026-07-29T04:43:30.734Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
         {
           "sr": 1,
+          "date": "29 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Stock market today: Sensex opens 658 points higher, Nifty sees surge; Tata Capital up 5.5%",
+          "desc": "",
+          "link": "https://indianexpress.com/article/business/stock-market-today-sensex-opens-700-points-higher-nifty-sees-surge-tata-capital-up-5-5-10808357/",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "28 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -14,7 +24,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "28 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -24,9 +34,9 @@
           "isNew": false
         }
       ],
-      "ts": 1785283907797,
+      "ts": 1785299857202,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_1": {
       "rows": [
@@ -59,19 +69,9 @@
           "desc": "",
           "link": "https://www.timesnownews.com/business-economy/markets/hdfc-bank-shares-plunge-nearly-1-after-action-against-ceo-cfo-article-155190461",
           "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "27 Jul 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Govt Approves RBI Trial of Rs 10 And Rs 20 Polymer NotesJul 27, 2026, 22:26 IST",
-          "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/economy/govt-approves-rbi-trial-of-rs-10-and-rs-20-polymer-notes-article-155188694",
-          "isNew": false
         }
       ],
-      "ts": 1785283920913,
+      "ts": 1785299869574,
       "ok": true,
       "newCount": 0
     },
@@ -98,13 +98,13 @@
           "isNew": false
         }
       ],
-      "ts": 1785283923428,
+      "ts": 1785299871338,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_3": {
       "rows": [],
-      "ts": 1785283939611,
+      "ts": 1785299887790,
       "ok": true
     },
     "NEWSLETTER_4": {
@@ -115,13 +115,33 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1785283943877,
+      "ts": 1785299892786,
       "ok": true
     },
     "NEWSLETTER_6": {
-      "rows": [],
-      "ts": 1785283945286,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "27 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Former JPMorgan Chase banker expands lurid sexual harassment, racism lawsuit",
+          "desc": "",
+          "link": "https://finance.yahoo.com/news/former-jpmorgan-chase-banker-expands-171632890.html"
+        },
+        {
+          "sr": 2,
+          "date": "03 Nov 2025",
+          "year": 2025,
+          "cat": "News",
+          "title": "Weekly survey of mortgage lenders with the lowest rates: Pushing higher",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-27-170834159.html"
+        }
+      ],
+      "ts": 1785299894143,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_7": {
       "rows": [
@@ -156,19 +176,47 @@
           "isNew": false
         }
       ],
-      "ts": 1785283946540,
+      "ts": 1785299895421,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_8": {
-      "rows": [],
-      "ts": 1785257633868,
-      "ok": false,
-      "error": "HTTP 403"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "23 Apr 2024",
+          "year": 2024,
+          "cat": "News",
+          "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
+          "desc": "ICICI Securities is bullish on HDFC Bank has recommended buy rating on the stock with a target price of Rs 1,850 in its research report dated April 21, 2024.",
+          "link": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html"
+        },
+        {
+          "sr": 2,
+          "date": "23 Apr 2024",
+          "year": 2024,
+          "cat": "News",
+          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
+          "desc": "Emkay Global Financial is bullish on Bajaj Finance has recommended buy rating on the stock with a target price of Rs 9000 in its research report dated April 23, 2024.",
+          "link": "https://www.moneycontrol.com/news/recommendations/buy-bajaj-finance-targetrs-9000-emkay-global-financial_17531641.html"
+        },
+        {
+          "sr": 3,
+          "date": "23 Apr 2024",
+          "year": 2024,
+          "cat": "News",
+          "title": "Buy Bajaj Finance; target of Rs 9000: Emkay Global Financial",
+          "desc": "Emkay Global Financial is bullish on Bajaj Finance has recommended buy rating on the stock with a target price of Rs 9000 in its research report dated April 23, 2024.",
+          "link": "https://www.moneycontrol.com/news/recommendations/buy-bajaj-finance-targetrs-9000-emkay-global-financial_17531631.html"
+        }
+      ],
+      "ts": 1785299897007,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_9": {
       "rows": [],
-      "ts": 1785283968188,
+      "ts": 1785299899100,
       "ok": true
     },
     "SEBI_0": {
@@ -3174,7 +3222,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284003891,
+      "ts": 1785299935906,
       "ok": true,
       "newCount": 0
     },
@@ -4032,7 +4080,7 @@
         },
         {
           "sr": 86,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4042,7 +4090,7 @@
         },
         {
           "sr": 87,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4531,7 +4579,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284023277,
+      "ts": 1785299955841,
       "ok": true,
       "newCount": 0
     },
@@ -4788,7 +4836,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284025748,
+      "ts": 1785299958781,
       "ok": true,
       "newCount": 0
     },
@@ -7795,7 +7843,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284061285,
+      "ts": 1785299995324,
       "ok": true,
       "newCount": 0
     },
@@ -9042,7 +9090,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284064475,
+      "ts": 1785299998274,
       "ok": true,
       "newCount": 0
     },
@@ -9069,7 +9117,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284066158,
+      "ts": 1785299999967,
       "ok": true,
       "newCount": 0
     },
@@ -12076,7 +12124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284102956,
+      "ts": 1785300037602,
       "ok": true,
       "newCount": 0
     },
@@ -12383,7 +12431,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284105456,
+      "ts": 1785300040073,
       "ok": true,
       "newCount": 0
     },
@@ -15390,7 +15438,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284108503,
+      "ts": 1785300043140,
       "ok": true,
       "newCount": 0
     },
@@ -15557,7 +15605,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284110760,
+      "ts": 1785300045385,
       "ok": true,
       "newCount": 0
     },
@@ -15764,7 +15812,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284113043,
+      "ts": 1785300047692,
       "ok": true,
       "newCount": 0
     },
@@ -16021,7 +16069,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284123908,
+      "ts": 1785300056991,
       "ok": true,
       "newCount": 0
     },
@@ -19028,7 +19076,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284126048,
+      "ts": 1785300059442,
       "ok": true,
       "newCount": 0
     },
@@ -19235,7 +19283,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284129408,
+      "ts": 1785300062839,
       "ok": true,
       "newCount": 0
     },
@@ -19442,7 +19490,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284132681,
+      "ts": 1785300066117,
       "ok": true,
       "newCount": 0
     },
@@ -19649,7 +19697,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284136011,
+      "ts": 1785300069426,
       "ok": true,
       "newCount": 0
     },
@@ -19706,7 +19754,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284147885,
+      "ts": 1785300080285,
       "ok": true,
       "newCount": 0
     },
@@ -19763,7 +19811,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284152666,
+      "ts": 1785300085065,
       "ok": true,
       "newCount": 0
     },
@@ -19804,7 +19852,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -19814,13 +19862,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1785284157439,
+      "ts": 1785300089863,
       "ok": true,
       "newCount": 0
     },
@@ -19847,7 +19895,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284168406,
+      "ts": 1785300100843,
       "ok": true,
       "newCount": 0
     },
@@ -19864,7 +19912,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284188461,
+      "ts": 1785300118204,
       "ok": true,
       "newCount": 0
     },
@@ -19881,7 +19929,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284204083,
+      "ts": 1785300137367,
       "ok": true,
       "newCount": 0
     },
@@ -19898,7 +19946,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284226351,
+      "ts": 1785300157134,
       "ok": true,
       "newCount": 0
     },
@@ -19915,7 +19963,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284241883,
+      "ts": 1785300179198,
       "ok": true,
       "newCount": 0
     },
@@ -19982,7 +20030,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284245178,
+      "ts": 1785300182304,
       "ok": true,
       "newCount": 0
     },
@@ -20109,7 +20157,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284246681,
+      "ts": 1785300183826,
       "ok": true,
       "newCount": 0
     },
@@ -20226,7 +20274,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284248940,
+      "ts": 1785300185336,
       "ok": true,
       "newCount": 0
     },
@@ -20353,7 +20401,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284250430,
+      "ts": 1785300186833,
       "ok": true,
       "newCount": 0
     },
@@ -20560,7 +20608,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284258687,
+      "ts": 1785300193967,
       "ok": true,
       "newCount": 0
     },
@@ -20767,7 +20815,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284266034,
+      "ts": 1785300200436,
       "ok": true,
       "newCount": 0
     },
@@ -23774,7 +23822,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785284269148,
+      "ts": 1785300202696,
       "ok": true,
       "newCount": 0
     }
