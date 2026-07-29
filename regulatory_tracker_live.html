@@ -644,7 +644,7 @@ async function loadTab(forceRefresh = false) {
     return acc + (e?.newCount || 0);
   }, 0);
   const countEl = document.getElementById('count-' + regKey);
-  if (countEl && regKey !== 'EGaz') countEl.textContent = allRegNew;
+  if (countEl && regKey !== 'EGaz') countEl.textContent = allRegNew > 0 ? `${allRegNew} new` : '0 new';
 
   document.getElementById('panelCount').textContent = rows.length;
   setLoading(false);
@@ -794,7 +794,7 @@ function populateAllCounts() {
     // "what changed" at a glance, not an ever-growing total that's the same information
     // whether you checked yesterday or a month ago.
     const newTotal = REGULATORS[reg].tabs.reduce((acc, t, i) => acc + (staticData.data[reg+'_'+i]?.newCount || 0), 0);
-    el.textContent = newTotal;
+    el.textContent = newTotal > 0 ? `${newTotal} new` : '0 new';
     el.classList.toggle('reg-count-zero', newTotal === 0);
   });
 }
