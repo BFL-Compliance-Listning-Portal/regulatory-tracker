@@ -510,7 +510,7 @@ const REGULATORS = {
     tabs: [
       // Order must match scraper/sources.js NEWSLETTER.tabs exactly — the data.json key for
       // each tab is built as "NEWSLETTER_" + array index (e.g. NEWSLETTER_0 = Indian Express).
-      { label: 'Indian Express',    cat: 'News', rss: 'https://indianexpress.com/feed/', src: 'https://indianexpress.com/section/business/banking-and-finance/', parser: 'generic' },
+      { label: 'Indian Express',    cat: 'News', rss: 'https://indianexpress.com/section/business/feed/', src: 'https://indianexpress.com/section/business/banking-and-finance/', parser: 'generic' },
       { label: 'Times Now',         cat: 'News', rss: null,                                                                    src: 'https://www.timesnownews.com/business-economy',                    parser: 'generic' },
       // The .cfm "RSS" URL previously here wasn't real news — it silently returned stock
       // ticker pages with no dates. Switched to a confirmed-working article listing page.
@@ -519,7 +519,8 @@ const REGULATORS = {
       // Reuters killed public RSS in 2020; the Google News RSS workaround turned out to be
       // unreliable for automated/CI traffic too (401/403 based on IP reputation) — scraping
       // Reuters' own business page directly instead.
-      { label: 'Reuters Business',  cat: 'News', rss: null, src: 'https://www.reuters.com/business/', parser: 'generic' },
+      // Reuters Business removed — persistently blocked by Akamai bot protection even via
+      // headless browser (confirmed), same reasoning as documented in scraper/sources.js.
       { label: 'CNBC Business',     cat: 'News', rss: 'https://www.cnbc.com/id/19206666/device/rss/rss.html',                 src: 'https://www.cnbc.com/finance/',                                    parser: 'generic' },
       { label: 'Yahoo Finance',     cat: 'News', rss: 'https://finance.yahoo.com/news/rssindex',                              src: 'https://finance.yahoo.com/topic/banking/',                         parser: 'generic' },
       { label: 'MarketWatch Top Stories', cat: 'News', rss: 'https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines', src: 'https://www.marketwatch.com/economy-politics',                     parser: 'generic' },
