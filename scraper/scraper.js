@@ -1193,8 +1193,16 @@ async function main() {
       process.stdout.write(`Scraping ${tab.key} (${tab.label})... `);
       try {
         let rows = await scrapeTab(tab, tab.cat);
-        if (tab.keywordFilter) rows = applyKeywordFilter(rows, tab.keywordFilter);
-        if (tab.maxAgeDays) rows = applyRetentionFilter(rows, tab.maxAgeDays);
+        if (tab.keywordFilter || tab.maxAgeDays) {
+          const rawCount = rows.length;
+          if (tab.keywordFilter) rows = applyKeywordFilter(rows, tab.keywordFilter);
+          const afterKeyword = rows.length;
+          if (tab.maxAgeDays) rows = applyRetentionFilter(rows, tab.maxAgeDays);
+          const afterAge = rows.length;
+          if (afterAge < rawCount) {
+            console.log(`  [filter] ${tab.key}: fetched ${rawCount} → ${afterKeyword} after keyword filter → ${afterAge} after ${tab.maxAgeDays || 0}-day retention`);
+          }
+        }
         output[tab.key] = { rows, ts: Date.now(), ok: true };
         console.log(`OK (${rows.length} rows)`);
       } catch (e) {
