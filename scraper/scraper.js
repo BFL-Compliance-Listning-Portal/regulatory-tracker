@@ -771,6 +771,31 @@ async function scrapeTab(tab, cat) {
   return rows;
 }
 
+/* ── Business Standard "smallcard-title" article listing ──
+   Confirmed against the real rendered page (Angular SSR app): article links use
+   class="smallcard-title", and critically the listing view genuinely does NOT show a
+   publish date at all — only a "X min read" estimate. Every other parser here requires a
+   nearby date to accept a row (to reject nav/chrome junk), which meant 100% of real articles
+   were being silently rejected. This parser accepts date-less rows for this specific site,
+   the same way SEBI's FAQ listing (also genuinely dateless) is already handled. */
+function parseBusinessStandardCards(html, base, cat, maxRows = DEFAULT_MAX_ROWS) {
+  const $ = cheerio.load(html);
+  const rows = [];
+  const seen = new Set();
+  $('a.smallcard-title[href]').each((_, a) => {
+    if (rows.length >= maxRows) return;
+    const title = $(a).text().trim().replace(/\s+/g, ' ');
+    const href = $(a).attr('href') || '';
+    // The nav link "Finance" (pointing at the section root, not an article) uses this same
+    // class — exclude anything whose title is just the section label or too short to be real.
+    if (title.length < 15 || seen.has(title) || NAV_WORDS.has(title.toLowerCase())) return;
+    if (!/-\d+_\d+\.html?$/.test(href)) return; // real BS articles end in an ID like -126072801430_1.html
+    seen.add(title);
+    rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title, desc: '', link: resolveLink(href, base) });
+  });
+  return rows;
+}
+
 function runHtmlParser(tab, html, cat) {
   const maxRows = tab.maxRows || DEFAULT_MAX_ROWS;
   let rows;
@@ -782,6 +807,7 @@ function runHtmlParser(tab, html, cat) {
     case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat, maxRows); break;
     case 'pcaob_xml': rows = parsePcaobXmlReports(html, tab.src, cat, maxRows); break;
     case 'rbi_dated_docs': rows = parseRBIDatedDocs(html, tab.src, cat, maxRows); break;
+    case 'bs_smallcard': rows = parseBusinessStandardCards(html, tab.src, cat, maxRows); break;
     default:               rows = parseGenericHTML(html, tab.src, cat, maxRows);
   }
   if (rows.length < 3) dumpDebugHtml(tab.key, html);
