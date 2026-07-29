@@ -758,6 +758,18 @@ async function scrapeTab(tab, cat) {
       throw new Error('RSS parsed to 0 rows');
     } catch (e) {
       console.warn(`  RSS failed (${tab.rss}): ${e.message}`);
+      // Some feeds 403 a plain HTTP client but allow real-browser traffic (confirmed:
+      // Business Standard's RSS opens fine manually) — worth a headless retry before
+      // giving up on having real dates and falling to a weaker HTML-only parse.
+      if (tab.rssHeadlessFallback) {
+        try {
+          const xml = await fetchRssViaHeadless(tab.rss);
+          const rows = parseRSS(xml, cat, tab.linkFilter, tab.maxRows || DEFAULT_MAX_ROWS);
+          if (rows.length) return rows;
+        } catch (e2) {
+          console.warn(`  Headless RSS retry also failed: ${e2.message}`);
+        }
+      }
       if (!tab.src) throw e;
       // fall through to HTML parse below
     }
@@ -835,6 +847,27 @@ async function closeBrowser() {
     const browser = await _browserPromise;
     await browser.close();
     _browserPromise = null;
+  }
+}
+
+/* ── Fetch an RSS/XML feed via headless browser ──
+   For feeds that 403 a plain HTTP fetch but allow real-browser traffic (confirmed: Business
+   Standard's RSS feed works fine when opened manually in a browser). Uses the navigation
+   response's own .text() rather than page.content(), since Chrome renders XML documents
+   through its own syntax-highlighted viewer UI — reading document.body after that renders
+   would give back a reformatted DOM, not the raw feed text. The response object's .text()
+   returns the actual bytes the server sent, before Chrome does anything with them. */
+async function fetchRssViaHeadless(url, timeoutMs = 30000) {
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    await page.setUserAgent(UA);
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en;q=0.9' });
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+    if (!response || !response.ok()) throw new Error('HTTP ' + (response ? response.status() : 'no response'));
+    return await response.text();
+  } finally {
+    await page.close();
   }
 }
 
@@ -990,6 +1023,19 @@ function isRecentDate(dateStr, maxDaysOld = 1) {
   const now = new Date();
   const diffDays = (now.setHours(0,0,0,0) - new Date(d).setHours(0,0,0,0)) / 86400000;
   return diffDays >= 0 && diffDays <= maxDaysOld;
+}
+
+/* ── Retention filter (e.g. Newsletter sources) ──
+   Keeps only rows dated within the last N days — a news tab has no reason to accumulate
+   months of old headlines the way a regulatory-filing archive might. Rows with no date at
+   all (e.g. Business Standard's HTML fallback, which genuinely doesn't expose a publish
+   date) are kept rather than dropped, since we have no way to judge whether they're actually
+   old or not — better to show an undated-but-real item than silently hide it. */
+function applyRetentionFilter(rows, maxAgeDays) {
+  if (!maxAgeDays) return rows;
+  return rows
+    .filter(r => !r.date || r.date === '—' || isRecentDate(r.date, maxAgeDays))
+    .map((r, i) => ({ ...r, sr: i + 1 }));
 }
 
 function findNewItems(previous, output) {
@@ -1148,6 +1194,7 @@ async function main() {
       try {
         let rows = await scrapeTab(tab, tab.cat);
         if (tab.keywordFilter) rows = applyKeywordFilter(rows, tab.keywordFilter);
+        if (tab.maxAgeDays) rows = applyRetentionFilter(rows, tab.maxAgeDays);
         output[tab.key] = { rows, ts: Date.now(), ok: true };
         console.log(`OK (${rows.length} rows)`);
       } catch (e) {
