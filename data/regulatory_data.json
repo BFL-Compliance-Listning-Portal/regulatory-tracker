@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T20:55:26.713Z",
+  "generatedAt": "2026-07-29T00:17:50.354Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -24,7 +24,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271740510,
+      "ts": 1785283907797,
       "ok": true,
       "newCount": 0
     },
@@ -71,7 +71,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271794844,
+      "ts": 1785283920913,
       "ok": true,
       "newCount": 0
     },
@@ -98,13 +98,13 @@
           "isNew": false
         }
       ],
-      "ts": 1785271796582,
+      "ts": 1785283923428,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_3": {
       "rows": [],
-      "ts": 1785271811712,
+      "ts": 1785283939611,
       "ok": true
     },
     "NEWSLETTER_4": {
@@ -115,25 +115,13 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1785271815604,
+      "ts": 1785283943877,
       "ok": true
     },
     "NEWSLETTER_6": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "03 Nov 2025",
-          "year": 2025,
-          "cat": "News",
-          "title": "Weekly survey of mortgage lenders with the lowest rates: Pushing higher",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-27-170834159.html",
-          "isNew": false
-        }
-      ],
-      "ts": 1785271816827,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1785283945286,
+      "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [
@@ -168,7 +156,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271818170,
+      "ts": 1785283946540,
       "ok": true,
       "newCount": 0
     },
@@ -180,7 +168,7 @@
     },
     "NEWSLETTER_9": {
       "rows": [],
-      "ts": 1785271839494,
+      "ts": 1785283968188,
       "ok": true
     },
     "SEBI_0": {
@@ -3186,7 +3174,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271874467,
+      "ts": 1785284003891,
       "ok": true,
       "newCount": 0
     },
@@ -4044,7 +4032,7 @@
         },
         {
           "sr": 86,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4054,7 +4042,7 @@
         },
         {
           "sr": 87,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4234,7 +4222,7 @@
         },
         {
           "sr": 105,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4244,18 +4232,8 @@
         },
         {
           "sr": 106,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 107,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4263,9 +4241,19 @@
           "isNew": false
         },
         {
+          "sr": 107,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 108,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4274,18 +4262,8 @@
         },
         {
           "sr": 109,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4293,9 +4271,19 @@
           "isNew": false
         },
         {
+          "sr": 110,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4304,8 +4292,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4314,8 +4302,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4324,8 +4312,8 @@
         },
         {
           "sr": 114,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4334,18 +4322,8 @@
         },
         {
           "sr": 115,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4353,9 +4331,19 @@
           "isNew": false
         },
         {
+          "sr": 116,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4364,8 +4352,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4374,8 +4362,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4384,8 +4372,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4394,8 +4382,8 @@
         },
         {
           "sr": 121,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4404,8 +4392,18 @@
         },
         {
           "sr": 122,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4413,9 +4411,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "—",
-          "year": null,
+          "sr": 124,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4423,23 +4421,13 @@
           "isNew": false
         },
         {
-          "sr": 124,
-          "date": "—",
-          "year": null,
+          "sr": 125,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 125,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
           "isNew": false
         },
         {
@@ -4543,7 +4531,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271893650,
+      "ts": 1785284023277,
       "ok": true,
       "newCount": 0
     },
@@ -4800,7 +4788,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271895878,
+      "ts": 1785284025748,
       "ok": true,
       "newCount": 0
     },
@@ -7807,7 +7795,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271930959,
+      "ts": 1785284061285,
       "ok": true,
       "newCount": 0
     },
@@ -9054,7 +9042,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271934036,
+      "ts": 1785284064475,
       "ok": true,
       "newCount": 0
     },
@@ -9081,7 +9069,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271935782,
+      "ts": 1785284066158,
       "ok": true,
       "newCount": 0
     },
@@ -12088,7 +12076,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271972209,
+      "ts": 1785284102956,
       "ok": true,
       "newCount": 0
     },
@@ -12395,7 +12383,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271974504,
+      "ts": 1785284105456,
       "ok": true,
       "newCount": 0
     },
@@ -15402,7 +15390,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271976777,
+      "ts": 1785284108503,
       "ok": true,
       "newCount": 0
     },
@@ -15569,7 +15557,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271978980,
+      "ts": 1785284110760,
       "ok": true,
       "newCount": 0
     },
@@ -15776,7 +15764,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271981233,
+      "ts": 1785284113043,
       "ok": true,
       "newCount": 0
     },
@@ -16033,7 +16021,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271990376,
+      "ts": 1785284123908,
       "ok": true,
       "newCount": 0
     },
@@ -19040,7 +19028,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271992529,
+      "ts": 1785284126048,
       "ok": true,
       "newCount": 0
     },
@@ -19247,7 +19235,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271995792,
+      "ts": 1785284129408,
       "ok": true,
       "newCount": 0
     },
@@ -19454,7 +19442,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785271999038,
+      "ts": 1785284132681,
       "ok": true,
       "newCount": 0
     },
@@ -19661,7 +19649,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272002315,
+      "ts": 1785284136011,
       "ok": true,
       "newCount": 0
     },
@@ -19718,7 +19706,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272015676,
+      "ts": 1785284147885,
       "ok": true,
       "newCount": 0
     },
@@ -19775,7 +19763,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272020531,
+      "ts": 1785284152666,
       "ok": true,
       "newCount": 0
     },
@@ -19832,7 +19820,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272025467,
+      "ts": 1785284157439,
       "ok": true,
       "newCount": 0
     },
@@ -19859,7 +19847,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272036309,
+      "ts": 1785284168406,
       "ok": true,
       "newCount": 0
     },
@@ -19876,7 +19864,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272053328,
+      "ts": 1785284188461,
       "ok": true,
       "newCount": 0
     },
@@ -19893,7 +19881,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272070481,
+      "ts": 1785284204083,
       "ok": true,
       "newCount": 0
     },
@@ -19910,7 +19898,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272087249,
+      "ts": 1785284226351,
       "ok": true,
       "newCount": 0
     },
@@ -19927,7 +19915,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272102190,
+      "ts": 1785284241883,
       "ok": true,
       "newCount": 0
     },
@@ -19994,7 +19982,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272105009,
+      "ts": 1785284245178,
       "ok": true,
       "newCount": 0
     },
@@ -20121,7 +20109,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272106500,
+      "ts": 1785284246681,
       "ok": true,
       "newCount": 0
     },
@@ -20238,7 +20226,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272107991,
+      "ts": 1785284248940,
       "ok": true,
       "newCount": 0
     },
@@ -20365,7 +20353,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272109489,
+      "ts": 1785284250430,
       "ok": true,
       "newCount": 0
     },
@@ -20572,7 +20560,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272116630,
+      "ts": 1785284258687,
       "ok": true,
       "newCount": 0
     },
@@ -20779,7 +20767,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272123053,
+      "ts": 1785284266034,
       "ok": true,
       "newCount": 0
     },
@@ -23786,7 +23774,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785272125507,
+      "ts": 1785284269148,
       "ok": true,
       "newCount": 0
     }
