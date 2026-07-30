@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T12:13:19.010Z",
+  "generatedAt": "2026-07-30T16:24:03.779Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -34,7 +34,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413271708,
+      "ts": 1785428285288,
       "ok": true,
       "newCount": 0
     },
@@ -71,7 +71,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413285192,
+      "ts": 1785428340236,
       "ok": true,
       "newCount": 0
     },
@@ -79,7 +79,17 @@
       "rows": [
         {
           "sr": 1,
-          "date": "28 Jul 2026",
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "RBI plastic note trial: When will India get new polymer currency?",
+          "desc": "",
+          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plastic-note-trial-when-will-india-get-new-polymer-currency/videoshow/132741620.cms",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
           "title": "Govt approves RBI's trials of ₹10, ₹20 polymer notes; no plan to replace paper currency",
@@ -88,9 +98,9 @@
           "isNew": false
         }
       ],
-      "ts": 1785413286956,
+      "ts": 1785428341956,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_3": {
       "rows": [
@@ -99,9 +109,9 @@
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Bajaj Finance Q1 standalone net profit rises 29%; AUM tops Rs 4 trn",
-          "desc": "Standalone NII rose 24 per cent and AUM crossed Rs 4 trillion as the lender reported improved asset quality, while deposits declined 5 per cent year-on-year",
-          "link": "https://www.business-standard.com/companies/quarterly-results/bajaj-finance-q1-standalone-net-profit-rises-29-aum-tops-rs-4-trn-126073001114_1.html",
+          "title": "RBI allows banks to link bulk deposit rates to liquidity profile under LCR",
+          "desc": "Banks can now price bulk deposits based on liquidity characteristics under the LCR framework, while continuing to follow uniform interest rate norms",
+          "link": "https://www.business-standard.com/industry/banking/rbi-allows-banks-to-link-bulk-deposit-rates-to-liquidity-profile-under-lcr-126073001521_1.html",
           "isNew": true
         },
         {
@@ -109,13 +119,53 @@
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Bajaj Finance Q1FY27 net profit rises 27.4% to ₹5,986 crore; AUM up 23.9%",
-          "desc": "Net interest income increased 22.9 per cent to ₹12,571 crore; gross and net NPA ratios improved to 0.96 per cent and 0.39 per cent, while provisions rose 1.2 per cent",
-          "link": "https://www.business-standard.com/companies/quarterly-results/bajaj-finance-q1fy27-profit-aum-results-126073001001_1.html",
+          "title": "Jio Credit, others raise ₹2,520 crore via corporate bond issuances",
+          "desc": "Companies tap the debt market ahead of the RBI's monetary policy review, with market participants expecting stronger primary activity next month",
+          "link": "https://www.business-standard.com/industry/news/jio-credit-others-raise-2-520-crore-via-corporate-bond-issuances-126073001342_1.html",
           "isNew": true
         },
         {
           "sr": 3,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Veritas Finance files DRHP with Sebi for IPO; plans ₹900 crore issue",
+          "desc": "Chennai-based NBFC plans a Rs 900 crore fresh issue and an offer for sale of up to 1.28 crore shares to support future lending growth",
+          "link": "https://www.business-standard.com/markets/news/veritas-finance-files-drhp-with-sebi-for-ipo-plans-900-crore-issue-126073001341_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bajaj Finance's FINAI to unlock growth for next 8-10 years: Rajeev Jain",
+          "desc": "Lender plans to deploy over 300 AI use cases in FY27 and targets Rs 40 trillion in assets under management over the next decade",
+          "link": "https://www.business-standard.com/companies/news/bajaj-finance-s-finai-to-unlock-growth-for-next-8-10-years-rajeev-jain-126073001293_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bajaj Finance Q1 standalone net profit rises 29%; AUM tops ₹4 trn",
+          "desc": "Standalone NII rose 24 per cent and AUM crossed Rs 4 trillion as the lender reported improved asset quality, while deposits declined 5 per cent year-on-year",
+          "link": "https://www.business-standard.com/companies/quarterly-results/bajaj-finance-q1-standalone-net-profit-rises-29-aum-tops-rs-4-trn-126073001114_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 6,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bajaj Finance Q1FY27 net profit rises 27.4% to ₹5,986 crore; AUM up 23.9%",
+          "desc": "Net interest income increased 22.9 per cent to ₹12,571 crore; gross and net NPA ratios improved to 0.96 per cent and 0.39 per cent, while provisions rose 1.2 per cent",
+          "link": "https://www.business-standard.com/companies/quarterly-results/bajaj-finance-q1fy27-profit-aum-results-126073001001_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 7,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -125,7 +175,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 8,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -135,7 +185,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 9,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -145,7 +195,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 10,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -155,7 +205,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 11,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -165,60 +215,50 @@
           "isNew": false
         }
       ],
-      "ts": 1785413289709,
+      "ts": 1785428343237,
       "ok": true,
-      "newCount": 2
+      "newCount": 4
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1785413291028,
+      "ts": 1785428344487,
       "ok": true
     },
     "NEWSLETTER_5": {
       "rows": [
         {
           "sr": 1,
-          "date": "29 Jul 2026",
+          "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
-          "title": "National beer and wine distributor files Chapter 11 bankruptcy",
+          "title": "Worldline cuts revenue growth forecast as bank contract delays slow recovery",
           "desc": "",
-          "link": "https://finance.yahoo.com/small-business/articles/giant-wine-spirits-brand-files-170700174.html",
-          "isNew": false
+          "link": "https://finance.yahoo.com/markets/stocks/articles/worldline-cuts-revenue-growth-forecast-160203186.html",
+          "isNew": true
         },
         {
           "sr": 2,
-          "date": "29 Jul 2026",
+          "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Mortgage and refinance rates today, Wednesday, July 29, 2026: Rates up across the board ahead of Fed rate decision",
+          "title": "Mortgage rates just hit their highest level in a year — and may be headed higher: Mortgage and refinance interest rates today, Thursday, July 30, 2026",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-july-29-2026-rates-up-across-the-board-ahead-of-fed-rate-decision-100000462.html",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "29 Jul 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Gold prices today, Wednesday, July 29, 2026: Gold prices hold firm ahead of Fed rate decision",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-july-29-2026-gold-prices-hold-firm-ahead-of-fed-rate-decision-123524051.html",
-          "isNew": false
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-just-hit-their-highest-level-in-a-year--and-may-be-headed-higher-mortgage-and-refinance-interest-rates-today-thursday-july-30-2026-100000591.html",
+          "isNew": true
         }
       ],
-      "ts": 1785413292273,
+      "ts": 1785428345818,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1785413293532,
+      "ts": 1785428347209,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1785413294774,
+      "ts": 1785428349334,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -228,45 +268,15 @@
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "News",
-          "title": "US borrowing costs hit 19-year high as Fed defies inflation fears",
-          "desc": "Central bank holds rates even as investors worry Iran war will ignite jolt of price growth",
-          "link": "https://www.ft.com/content/c4eedbe8-6345-48b6-8d44-5cc5b0bea2c7?syn-25a6b1a6=1",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "30 Jul 2026",
-          "year": 2026,
-          "cat": "News",
           "title": "Warsh’s stripped-back Fed communication ‘already backfiring’, say investors",
           "desc": "Traders warn lack of guidance on interest rates erodes US central bank’s influence on Treasury market",
           "link": "https://www.ft.com/content/57aac838-baee-406d-b4ac-c0ffda351aee?syn-25a6b1a6=1",
-          "isNew": true
-        },
-        {
-          "sr": 3,
-          "date": "30 Jul 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Bank of England holds interest rates at 3.75%",
-          "desc": "MPC signals it could still lift borrowing costs if Middle East war hostilities lead to more persistent inflation",
-          "link": "https://www.ft.com/content/9c33426e-d413-4d9b-b429-34dea508195e?syn-25a6b1a6=1",
-          "isNew": true
-        },
-        {
-          "sr": 4,
-          "date": "30 Jul 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Leopold Aschenbrenner’s $20bn hedge fund seeks to raise capital after AI rout",
-          "desc": "Hedge fund has held talks with existing investors and lenders in recent days",
-          "link": "https://www.ft.com/content/280336bf-dbed-405f-b38e-5af644a21549?syn-25a6b1a6=1",
           "isNew": false
         }
       ],
-      "ts": 1785413296518,
+      "ts": 1785428351283,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "SEBI_0": {
       "rows": [
@@ -278,7 +288,7 @@
           "title": "‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi_103241.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -3271,9 +3281,9 @@
           "isNew": false
         }
       ],
-      "ts": 1785413332288,
+      "ts": 1785428387815,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "SEBI_1": {
       "rows": [
@@ -4319,7 +4329,7 @@
         },
         {
           "sr": 105,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4329,18 +4339,8 @@
         },
         {
           "sr": 106,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 107,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4348,9 +4348,19 @@
           "isNew": false
         },
         {
+          "sr": 107,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 108,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4359,18 +4369,8 @@
         },
         {
           "sr": 109,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 110,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4378,9 +4378,19 @@
           "isNew": false
         },
         {
+          "sr": 110,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 111,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4389,8 +4399,8 @@
         },
         {
           "sr": 112,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4399,8 +4409,8 @@
         },
         {
           "sr": 113,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4409,8 +4419,8 @@
         },
         {
           "sr": 114,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4419,18 +4429,8 @@
         },
         {
           "sr": 115,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 116,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4438,9 +4438,19 @@
           "isNew": false
         },
         {
+          "sr": 116,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 117,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4449,8 +4459,8 @@
         },
         {
           "sr": 118,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4459,8 +4469,8 @@
         },
         {
           "sr": 119,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4469,8 +4479,8 @@
         },
         {
           "sr": 120,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4479,8 +4489,8 @@
         },
         {
           "sr": 121,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4489,18 +4499,8 @@
         },
         {
           "sr": 122,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4508,9 +4508,9 @@
           "isNew": false
         },
         {
-          "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 123,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4518,13 +4518,23 @@
           "isNew": false
         },
         {
-          "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 124,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
+          "sr": 125,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
           "isNew": false
         },
         {
@@ -4628,7 +4638,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413351834,
+      "ts": 1785428407235,
       "ok": true,
       "newCount": 0
     },
@@ -4885,7 +4895,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413354228,
+      "ts": 1785428409606,
       "ok": true,
       "newCount": 0
     },
@@ -7892,7 +7902,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413389878,
+      "ts": 1785428445157,
       "ok": true,
       "newCount": 0
     },
@@ -9139,7 +9149,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413392817,
+      "ts": 1785428448389,
       "ok": true,
       "newCount": 0
     },
@@ -9166,7 +9176,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413394518,
+      "ts": 1785428450075,
       "ok": true,
       "newCount": 0
     },
@@ -9174,6 +9184,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Adjudication Order in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-the-matter-of-market-manipulation-using-social-media-in-the-scrip-of-moksh-ornaments-limited_103248.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "28 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9183,7 +9203,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "28 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9193,7 +9213,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "22 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9203,7 +9223,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "22 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9213,7 +9233,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "20 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9223,7 +9243,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9233,7 +9253,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9243,7 +9263,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9253,7 +9273,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9263,7 +9283,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "13 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9273,7 +9293,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "08 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9283,7 +9303,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "07 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9293,7 +9313,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9303,7 +9323,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9313,7 +9333,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 16,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9323,7 +9343,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 17,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9333,7 +9353,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 18,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9343,7 +9363,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 19,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9353,7 +9373,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 20,
           "date": "05 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9363,7 +9383,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 21,
           "date": "05 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9373,7 +9393,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 22,
           "date": "03 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9383,7 +9403,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 23,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9393,7 +9413,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 24,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9403,7 +9423,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 25,
           "date": "27 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9413,7 +9433,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 26,
           "date": "27 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9423,7 +9443,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 27,
           "date": "26 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9433,7 +9453,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 28,
           "date": "26 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9443,7 +9463,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 29,
           "date": "25 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9453,7 +9473,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 30,
           "date": "22 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9463,7 +9483,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 31,
           "date": "21 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9473,7 +9493,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 32,
           "date": "21 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9483,7 +9503,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 33,
           "date": "21 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9493,7 +9513,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 34,
           "date": "21 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9503,7 +9523,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 35,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9513,7 +9533,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 36,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9523,7 +9543,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 37,
           "date": "13 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9533,7 +9553,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 38,
           "date": "30 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9543,7 +9563,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 39,
           "date": "30 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9553,7 +9573,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 40,
           "date": "29 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9563,7 +9583,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 41,
           "date": "29 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9573,7 +9593,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 42,
           "date": "29 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9583,7 +9603,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 43,
           "date": "29 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9593,7 +9613,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 44,
           "date": "28 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9603,7 +9623,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 45,
           "date": "28 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9613,7 +9633,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 46,
           "date": "28 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9623,7 +9643,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 47,
           "date": "27 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9633,7 +9653,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 48,
           "date": "23 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9643,7 +9663,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 49,
           "date": "23 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9653,7 +9673,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 50,
           "date": "22 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9663,7 +9683,7 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 51,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9673,7 +9693,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 52,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9683,7 +9703,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 53,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9693,7 +9713,7 @@
           "isNew": false
         },
         {
-          "sr": 53,
+          "sr": 54,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9703,7 +9723,7 @@
           "isNew": false
         },
         {
-          "sr": 54,
+          "sr": 55,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9713,7 +9733,7 @@
           "isNew": false
         },
         {
-          "sr": 55,
+          "sr": 56,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9723,7 +9743,7 @@
           "isNew": false
         },
         {
-          "sr": 56,
+          "sr": 57,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9733,7 +9753,7 @@
           "isNew": false
         },
         {
-          "sr": 57,
+          "sr": 58,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9743,7 +9763,7 @@
           "isNew": false
         },
         {
-          "sr": 58,
+          "sr": 59,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9753,7 +9773,7 @@
           "isNew": false
         },
         {
-          "sr": 59,
+          "sr": 60,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9763,7 +9783,7 @@
           "isNew": false
         },
         {
-          "sr": 60,
+          "sr": 61,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9773,7 +9793,7 @@
           "isNew": false
         },
         {
-          "sr": 61,
+          "sr": 62,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9783,7 +9803,7 @@
           "isNew": false
         },
         {
-          "sr": 62,
+          "sr": 63,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9793,7 +9813,7 @@
           "isNew": false
         },
         {
-          "sr": 63,
+          "sr": 64,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9803,7 +9823,7 @@
           "isNew": false
         },
         {
-          "sr": 64,
+          "sr": 65,
           "date": "16 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9813,7 +9833,7 @@
           "isNew": false
         },
         {
-          "sr": 65,
+          "sr": 66,
           "date": "16 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9823,7 +9843,7 @@
           "isNew": false
         },
         {
-          "sr": 66,
+          "sr": 67,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9833,7 +9853,7 @@
           "isNew": false
         },
         {
-          "sr": 67,
+          "sr": 68,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9843,7 +9863,7 @@
           "isNew": false
         },
         {
-          "sr": 68,
+          "sr": 69,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9853,7 +9873,7 @@
           "isNew": false
         },
         {
-          "sr": 69,
+          "sr": 70,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9863,7 +9883,7 @@
           "isNew": false
         },
         {
-          "sr": 70,
+          "sr": 71,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9873,7 +9893,7 @@
           "isNew": false
         },
         {
-          "sr": 71,
+          "sr": 72,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9883,7 +9903,7 @@
           "isNew": false
         },
         {
-          "sr": 72,
+          "sr": 73,
           "date": "09 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9893,7 +9913,7 @@
           "isNew": false
         },
         {
-          "sr": 73,
+          "sr": 74,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9903,7 +9923,7 @@
           "isNew": false
         },
         {
-          "sr": 74,
+          "sr": 75,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9913,7 +9933,7 @@
           "isNew": false
         },
         {
-          "sr": 75,
+          "sr": 76,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9923,7 +9943,7 @@
           "isNew": false
         },
         {
-          "sr": 76,
+          "sr": 77,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9933,7 +9953,7 @@
           "isNew": false
         },
         {
-          "sr": 77,
+          "sr": 78,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9943,7 +9963,7 @@
           "isNew": false
         },
         {
-          "sr": 78,
+          "sr": 79,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9953,7 +9973,7 @@
           "isNew": false
         },
         {
-          "sr": 79,
+          "sr": 80,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9963,7 +9983,7 @@
           "isNew": false
         },
         {
-          "sr": 80,
+          "sr": 81,
           "date": "06 Apr 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9973,7 +9993,7 @@
           "isNew": false
         },
         {
-          "sr": 81,
+          "sr": 82,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9983,7 +10003,7 @@
           "isNew": false
         },
         {
-          "sr": 82,
+          "sr": 83,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -9993,7 +10013,7 @@
           "isNew": false
         },
         {
-          "sr": 83,
+          "sr": 84,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10003,7 +10023,7 @@
           "isNew": false
         },
         {
-          "sr": 84,
+          "sr": 85,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10013,7 +10033,7 @@
           "isNew": false
         },
         {
-          "sr": 85,
+          "sr": 86,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10023,7 +10043,7 @@
           "isNew": false
         },
         {
-          "sr": 86,
+          "sr": 87,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10033,7 +10053,7 @@
           "isNew": false
         },
         {
-          "sr": 87,
+          "sr": 88,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10043,7 +10063,7 @@
           "isNew": false
         },
         {
-          "sr": 88,
+          "sr": 89,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10053,7 +10073,7 @@
           "isNew": false
         },
         {
-          "sr": 89,
+          "sr": 90,
           "date": "27 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10063,7 +10083,7 @@
           "isNew": false
         },
         {
-          "sr": 90,
+          "sr": 91,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10073,7 +10093,7 @@
           "isNew": false
         },
         {
-          "sr": 91,
+          "sr": 92,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10083,7 +10103,7 @@
           "isNew": false
         },
         {
-          "sr": 92,
+          "sr": 93,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10093,7 +10113,7 @@
           "isNew": false
         },
         {
-          "sr": 93,
+          "sr": 94,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10103,7 +10123,7 @@
           "isNew": false
         },
         {
-          "sr": 94,
+          "sr": 95,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10113,7 +10133,7 @@
           "isNew": false
         },
         {
-          "sr": 95,
+          "sr": 96,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10123,7 +10143,7 @@
           "isNew": false
         },
         {
-          "sr": 96,
+          "sr": 97,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10133,7 +10153,7 @@
           "isNew": false
         },
         {
-          "sr": 97,
+          "sr": 98,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10143,7 +10163,7 @@
           "isNew": false
         },
         {
-          "sr": 98,
+          "sr": 99,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10153,7 +10173,7 @@
           "isNew": false
         },
         {
-          "sr": 99,
+          "sr": 100,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10163,7 +10183,7 @@
           "isNew": false
         },
         {
-          "sr": 100,
+          "sr": 101,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10173,7 +10193,7 @@
           "isNew": false
         },
         {
-          "sr": 101,
+          "sr": 102,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10183,7 +10203,7 @@
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 103,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10193,7 +10213,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 104,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10203,7 +10223,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 105,
           "date": "23 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10213,7 +10233,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 106,
           "date": "23 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10223,7 +10243,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 107,
           "date": "20 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10233,7 +10253,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 108,
           "date": "18 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10243,7 +10263,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 109,
           "date": "18 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10253,7 +10273,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 110,
           "date": "18 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10263,7 +10283,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 111,
           "date": "18 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10273,7 +10293,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 112,
           "date": "13 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10283,7 +10303,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 113,
           "date": "13 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10293,7 +10313,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 114,
           "date": "11 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10303,7 +10323,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 115,
           "date": "11 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10313,7 +10333,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 116,
           "date": "11 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10323,7 +10343,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 117,
           "date": "11 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10333,7 +10353,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 118,
           "date": "09 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10343,7 +10363,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 119,
           "date": "09 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10353,7 +10373,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 120,
           "date": "09 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10363,7 +10383,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 121,
           "date": "09 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10373,7 +10393,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 122,
           "date": "09 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10383,7 +10403,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 123,
           "date": "05 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10393,7 +10413,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 124,
           "date": "05 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10403,7 +10423,7 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 125,
           "date": "05 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10413,7 +10433,7 @@
           "isNew": false
         },
         {
-          "sr": 125,
+          "sr": 126,
           "date": "04 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10423,7 +10443,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 127,
           "date": "02 Mar 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10433,7 +10453,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 128,
           "date": "26 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10443,7 +10463,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 129,
           "date": "26 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10453,7 +10473,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 130,
           "date": "24 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10463,7 +10483,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 131,
           "date": "24 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10473,7 +10493,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 132,
           "date": "23 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10483,7 +10503,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 133,
           "date": "23 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10493,7 +10513,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 134,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10503,7 +10523,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 135,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10513,7 +10533,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 136,
           "date": "18 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10523,7 +10543,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 137,
           "date": "18 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10533,7 +10553,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 138,
           "date": "18 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10543,7 +10563,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 139,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10553,7 +10573,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 140,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10563,7 +10583,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 141,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10573,7 +10593,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 142,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10583,7 +10603,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 143,
           "date": "13 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10593,7 +10613,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 144,
           "date": "12 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10603,7 +10623,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 145,
           "date": "12 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10613,7 +10633,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 146,
           "date": "12 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10623,7 +10643,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 147,
           "date": "11 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10633,7 +10653,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 148,
           "date": "10 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10643,7 +10663,7 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 149,
           "date": "10 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10653,7 +10673,7 @@
           "isNew": false
         },
         {
-          "sr": 149,
+          "sr": 150,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10663,7 +10683,7 @@
           "isNew": false
         },
         {
-          "sr": 150,
+          "sr": 151,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10673,7 +10693,7 @@
           "isNew": false
         },
         {
-          "sr": 151,
+          "sr": 152,
           "date": "04 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10683,7 +10703,7 @@
           "isNew": false
         },
         {
-          "sr": 152,
+          "sr": 153,
           "date": "04 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10693,7 +10713,7 @@
           "isNew": false
         },
         {
-          "sr": 153,
+          "sr": 154,
           "date": "04 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10703,7 +10723,7 @@
           "isNew": false
         },
         {
-          "sr": 154,
+          "sr": 155,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10713,7 +10733,7 @@
           "isNew": false
         },
         {
-          "sr": 155,
+          "sr": 156,
           "date": "02 Feb 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10723,7 +10743,7 @@
           "isNew": false
         },
         {
-          "sr": 156,
+          "sr": 157,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10733,7 +10753,7 @@
           "isNew": false
         },
         {
-          "sr": 157,
+          "sr": 158,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10743,7 +10763,7 @@
           "isNew": false
         },
         {
-          "sr": 158,
+          "sr": 159,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10753,7 +10773,7 @@
           "isNew": false
         },
         {
-          "sr": 159,
+          "sr": 160,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10763,7 +10783,7 @@
           "isNew": false
         },
         {
-          "sr": 160,
+          "sr": 161,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10773,7 +10793,7 @@
           "isNew": false
         },
         {
-          "sr": 161,
+          "sr": 162,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10783,7 +10803,7 @@
           "isNew": false
         },
         {
-          "sr": 162,
+          "sr": 163,
           "date": "28 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10793,7 +10813,7 @@
           "isNew": false
         },
         {
-          "sr": 163,
+          "sr": 164,
           "date": "28 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10803,7 +10823,7 @@
           "isNew": false
         },
         {
-          "sr": 164,
+          "sr": 165,
           "date": "28 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10813,7 +10833,7 @@
           "isNew": false
         },
         {
-          "sr": 165,
+          "sr": 166,
           "date": "23 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10823,7 +10843,7 @@
           "isNew": false
         },
         {
-          "sr": 166,
+          "sr": 167,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10833,7 +10853,7 @@
           "isNew": false
         },
         {
-          "sr": 167,
+          "sr": 168,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10843,7 +10863,7 @@
           "isNew": false
         },
         {
-          "sr": 168,
+          "sr": 169,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10853,7 +10873,7 @@
           "isNew": false
         },
         {
-          "sr": 169,
+          "sr": 170,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10863,7 +10883,7 @@
           "isNew": false
         },
         {
-          "sr": 170,
+          "sr": 171,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10873,7 +10893,7 @@
           "isNew": false
         },
         {
-          "sr": 171,
+          "sr": 172,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10883,7 +10903,7 @@
           "isNew": false
         },
         {
-          "sr": 172,
+          "sr": 173,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10893,7 +10913,7 @@
           "isNew": false
         },
         {
-          "sr": 173,
+          "sr": 174,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10903,7 +10923,7 @@
           "isNew": false
         },
         {
-          "sr": 174,
+          "sr": 175,
           "date": "22 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10913,7 +10933,7 @@
           "isNew": false
         },
         {
-          "sr": 175,
+          "sr": 176,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10923,7 +10943,7 @@
           "isNew": false
         },
         {
-          "sr": 176,
+          "sr": 177,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10933,7 +10953,7 @@
           "isNew": false
         },
         {
-          "sr": 177,
+          "sr": 178,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10943,7 +10963,7 @@
           "isNew": false
         },
         {
-          "sr": 178,
+          "sr": 179,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10953,7 +10973,7 @@
           "isNew": false
         },
         {
-          "sr": 179,
+          "sr": 180,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10963,7 +10983,7 @@
           "isNew": false
         },
         {
-          "sr": 180,
+          "sr": 181,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10973,7 +10993,7 @@
           "isNew": false
         },
         {
-          "sr": 181,
+          "sr": 182,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10983,7 +11003,7 @@
           "isNew": false
         },
         {
-          "sr": 182,
+          "sr": 183,
           "date": "21 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -10993,7 +11013,7 @@
           "isNew": false
         },
         {
-          "sr": 183,
+          "sr": 184,
           "date": "20 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11003,7 +11023,7 @@
           "isNew": false
         },
         {
-          "sr": 184,
+          "sr": 185,
           "date": "19 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11013,7 +11033,7 @@
           "isNew": false
         },
         {
-          "sr": 185,
+          "sr": 186,
           "date": "19 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11023,7 +11043,7 @@
           "isNew": false
         },
         {
-          "sr": 186,
+          "sr": 187,
           "date": "19 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11033,7 +11053,7 @@
           "isNew": false
         },
         {
-          "sr": 187,
+          "sr": 188,
           "date": "19 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11043,7 +11063,7 @@
           "isNew": false
         },
         {
-          "sr": 188,
+          "sr": 189,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11053,7 +11073,7 @@
           "isNew": false
         },
         {
-          "sr": 189,
+          "sr": 190,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11063,7 +11083,7 @@
           "isNew": false
         },
         {
-          "sr": 190,
+          "sr": 191,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11073,7 +11093,7 @@
           "isNew": false
         },
         {
-          "sr": 191,
+          "sr": 192,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11083,7 +11103,7 @@
           "isNew": false
         },
         {
-          "sr": 192,
+          "sr": 193,
           "date": "14 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11093,7 +11113,7 @@
           "isNew": false
         },
         {
-          "sr": 193,
+          "sr": 194,
           "date": "14 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11103,7 +11123,7 @@
           "isNew": false
         },
         {
-          "sr": 194,
+          "sr": 195,
           "date": "13 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11113,7 +11133,7 @@
           "isNew": false
         },
         {
-          "sr": 195,
+          "sr": 196,
           "date": "13 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11123,7 +11143,7 @@
           "isNew": false
         },
         {
-          "sr": 196,
+          "sr": 197,
           "date": "13 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11133,7 +11153,7 @@
           "isNew": false
         },
         {
-          "sr": 197,
+          "sr": 198,
           "date": "12 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11143,7 +11163,7 @@
           "isNew": false
         },
         {
-          "sr": 198,
+          "sr": 199,
           "date": "12 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11153,7 +11173,7 @@
           "isNew": false
         },
         {
-          "sr": 199,
+          "sr": 200,
           "date": "12 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11163,7 +11183,7 @@
           "isNew": false
         },
         {
-          "sr": 200,
+          "sr": 201,
           "date": "09 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11173,7 +11193,7 @@
           "isNew": false
         },
         {
-          "sr": 201,
+          "sr": 202,
           "date": "08 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11183,7 +11203,7 @@
           "isNew": false
         },
         {
-          "sr": 202,
+          "sr": 203,
           "date": "08 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11193,7 +11213,7 @@
           "isNew": false
         },
         {
-          "sr": 203,
+          "sr": 204,
           "date": "08 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11203,7 +11223,7 @@
           "isNew": false
         },
         {
-          "sr": 204,
+          "sr": 205,
           "date": "07 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11213,7 +11233,7 @@
           "isNew": false
         },
         {
-          "sr": 205,
+          "sr": 206,
           "date": "07 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11223,7 +11243,7 @@
           "isNew": false
         },
         {
-          "sr": 206,
+          "sr": 207,
           "date": "05 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11233,7 +11253,7 @@
           "isNew": false
         },
         {
-          "sr": 207,
+          "sr": 208,
           "date": "05 Jan 2026",
           "year": 2026,
           "cat": "Orders",
@@ -11243,7 +11263,7 @@
           "isNew": false
         },
         {
-          "sr": 208,
+          "sr": 209,
           "date": "31 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11253,7 +11273,7 @@
           "isNew": false
         },
         {
-          "sr": 209,
+          "sr": 210,
           "date": "30 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11263,7 +11283,7 @@
           "isNew": false
         },
         {
-          "sr": 210,
+          "sr": 211,
           "date": "30 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11273,7 +11293,7 @@
           "isNew": false
         },
         {
-          "sr": 211,
+          "sr": 212,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11283,7 +11303,7 @@
           "isNew": false
         },
         {
-          "sr": 212,
+          "sr": 213,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11293,7 +11313,7 @@
           "isNew": false
         },
         {
-          "sr": 213,
+          "sr": 214,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11303,7 +11323,7 @@
           "isNew": false
         },
         {
-          "sr": 214,
+          "sr": 215,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11313,7 +11333,7 @@
           "isNew": false
         },
         {
-          "sr": 215,
+          "sr": 216,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11323,7 +11343,7 @@
           "isNew": false
         },
         {
-          "sr": 216,
+          "sr": 217,
           "date": "19 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11333,7 +11353,7 @@
           "isNew": false
         },
         {
-          "sr": 217,
+          "sr": 218,
           "date": "18 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11343,7 +11363,7 @@
           "isNew": false
         },
         {
-          "sr": 218,
+          "sr": 219,
           "date": "18 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11353,7 +11373,7 @@
           "isNew": false
         },
         {
-          "sr": 219,
+          "sr": 220,
           "date": "17 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11363,7 +11383,7 @@
           "isNew": false
         },
         {
-          "sr": 220,
+          "sr": 221,
           "date": "17 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11373,7 +11393,7 @@
           "isNew": false
         },
         {
-          "sr": 221,
+          "sr": 222,
           "date": "17 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11383,7 +11403,7 @@
           "isNew": false
         },
         {
-          "sr": 222,
+          "sr": 223,
           "date": "17 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11393,7 +11413,7 @@
           "isNew": false
         },
         {
-          "sr": 223,
+          "sr": 224,
           "date": "17 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11403,7 +11423,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 225,
           "date": "15 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11413,7 +11433,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 226,
           "date": "15 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11423,7 +11443,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 227,
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11433,7 +11453,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 228,
           "date": "10 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11443,7 +11463,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 229,
           "date": "09 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11453,7 +11473,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 230,
           "date": "09 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11463,7 +11483,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 231,
           "date": "08 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11473,7 +11493,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 232,
           "date": "08 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11483,7 +11503,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 233,
           "date": "01 Dec 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11493,7 +11513,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 234,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11503,7 +11523,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 235,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11513,7 +11533,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 236,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11523,7 +11543,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 237,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11533,7 +11553,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 238,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11543,7 +11563,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 239,
           "date": "27 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11553,7 +11573,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 240,
           "date": "27 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11563,7 +11583,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 241,
           "date": "27 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11573,7 +11593,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 242,
           "date": "27 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11583,7 +11603,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 243,
           "date": "26 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11593,7 +11613,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 244,
           "date": "26 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11603,7 +11623,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 245,
           "date": "26 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11613,7 +11633,7 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 246,
           "date": "26 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11623,7 +11643,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 247,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11633,7 +11653,7 @@
           "isNew": false
         },
         {
-          "sr": 247,
+          "sr": 248,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11643,7 +11663,7 @@
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 249,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11653,7 +11673,7 @@
           "isNew": false
         },
         {
-          "sr": 249,
+          "sr": 250,
           "date": "24 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11663,7 +11683,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 251,
           "date": "24 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11673,7 +11693,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 252,
           "date": "24 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11683,7 +11703,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 253,
           "date": "24 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11693,7 +11713,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 254,
           "date": "21 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11703,7 +11723,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 255,
           "date": "21 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11713,7 +11733,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 256,
           "date": "21 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11723,7 +11743,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 257,
           "date": "21 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11733,7 +11753,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 258,
           "date": "21 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11743,7 +11763,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 259,
           "date": "19 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11753,7 +11773,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 260,
           "date": "11 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11763,7 +11783,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 261,
           "date": "11 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11773,7 +11793,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 262,
           "date": "11 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11783,7 +11803,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 263,
           "date": "07 Nov 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11793,7 +11813,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 264,
           "date": "31 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11803,7 +11823,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 265,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11813,7 +11833,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 266,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11823,7 +11843,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 267,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11833,7 +11853,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 268,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11843,7 +11863,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
+          "sr": 269,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11853,7 +11873,7 @@
           "isNew": false
         },
         {
-          "sr": 269,
+          "sr": 270,
           "date": "28 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11863,7 +11883,7 @@
           "isNew": false
         },
         {
-          "sr": 270,
+          "sr": 271,
           "date": "27 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11873,7 +11893,7 @@
           "isNew": false
         },
         {
-          "sr": 271,
+          "sr": 272,
           "date": "16 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11883,7 +11903,7 @@
           "isNew": false
         },
         {
-          "sr": 272,
+          "sr": 273,
           "date": "14 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11893,7 +11913,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 274,
           "date": "13 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11903,7 +11923,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 275,
           "date": "10 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11913,7 +11933,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 276,
           "date": "07 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11923,7 +11943,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 277,
           "date": "06 Oct 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11933,7 +11953,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 278,
           "date": "30 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11943,7 +11963,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 279,
           "date": "30 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11953,7 +11973,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 280,
           "date": "29 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11963,7 +11983,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 281,
           "date": "26 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11973,7 +11993,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 282,
           "date": "25 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11983,7 +12003,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 283,
           "date": "23 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -11993,7 +12013,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 284,
           "date": "22 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12003,7 +12023,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 285,
           "date": "19 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12013,7 +12033,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 286,
           "date": "17 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12023,7 +12043,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 287,
           "date": "17 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12033,7 +12053,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 288,
           "date": "04 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12043,7 +12063,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 289,
           "date": "04 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12053,7 +12073,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 290,
           "date": "03 Sept 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12063,7 +12083,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 291,
           "date": "28 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12073,7 +12093,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 292,
           "date": "28 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12083,7 +12103,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 293,
           "date": "28 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12093,7 +12113,7 @@
           "isNew": false
         },
         {
-          "sr": 293,
+          "sr": 294,
           "date": "26 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12103,7 +12123,7 @@
           "isNew": false
         },
         {
-          "sr": 294,
+          "sr": 295,
           "date": "26 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12113,7 +12133,7 @@
           "isNew": false
         },
         {
-          "sr": 295,
+          "sr": 296,
           "date": "21 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12123,7 +12143,7 @@
           "isNew": false
         },
         {
-          "sr": 296,
+          "sr": 297,
           "date": "21 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12133,7 +12153,7 @@
           "isNew": false
         },
         {
-          "sr": 297,
+          "sr": 298,
           "date": "19 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12143,7 +12163,7 @@
           "isNew": false
         },
         {
-          "sr": 298,
+          "sr": 299,
           "date": "19 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12153,7 +12173,7 @@
           "isNew": false
         },
         {
-          "sr": 299,
+          "sr": 300,
           "date": "13 Aug 2025",
           "year": 2025,
           "cat": "Orders",
@@ -12161,26 +12181,96 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/aug-2025/adjudication-order-in-the-matter-of-eqwires-research-analyst_96068.html",
           "isNew": false
-        },
-        {
-          "sr": 300,
-          "date": "12 Aug 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Motisons Shares Private Limited [Corrigendum]",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/aug-2025/adjudication-order-in-the-matter-of-motisons-shares-private-limited_96064.html",
-          "isNew": false
         }
       ],
-      "ts": 1785413432234,
+      "ts": 1785428487849,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "RBI_0": {
       "rows": [
         {
           "sr": 1,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Small Finance Banks – Financial Statements: Presentation and Disclosures) Fourth Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13655&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Small Finance Banks – Governance) Third Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13654&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Small Finance Banks – Asset Liability Management) Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13653&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Payments Banks – Financial Statements: Presentation and Disclosures) Second Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13651&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Payments Banks – Governance) Third Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13650&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Eighth Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13649&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 7,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Commercial Banks – Governance) Third Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13648&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 8,
+          "date": "30 Jul 2026",
+          "year": 2026,
+          "cat": "Notifications",
+          "title": "Reserve Bank of India (Commercial Banks – Asset Liability Management) Second Amendment Directions, 2026",
+          "desc": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13647&amp;Mode=0",
+          "isNew": true
+        },
+        {
+          "sr": 9,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12190,7 +12280,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 10,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12200,7 +12290,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 11,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12210,7 +12300,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 12,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12220,7 +12310,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 13,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12230,7 +12320,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 14,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12240,7 +12330,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 15,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12250,7 +12340,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 16,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12260,7 +12350,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 17,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12270,7 +12360,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 18,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12280,7 +12370,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 19,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12290,7 +12380,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 20,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12300,7 +12390,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 21,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12310,7 +12400,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 22,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12320,7 +12410,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 23,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12330,7 +12420,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 24,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12340,7 +12430,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 25,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12350,7 +12440,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 26,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12360,7 +12450,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 27,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12370,7 +12460,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 28,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12380,7 +12470,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 29,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12390,7 +12480,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 30,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12400,7 +12490,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 31,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12410,7 +12500,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 32,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12420,7 +12510,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 33,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12430,7 +12520,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 34,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12440,7 +12530,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 35,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12450,7 +12540,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 36,
           "date": "09 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -12460,9 +12550,9 @@
           "isNew": false
         }
       ],
-      "ts": 1785413434610,
+      "ts": 1785428490185,
       "ok": true,
-      "newCount": 0
+      "newCount": 8
     },
     "RBI_1": {
       "rows": [
@@ -15467,7 +15557,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413439062,
+      "ts": 1785428492470,
       "ok": true,
       "newCount": 0
     },
@@ -15634,7 +15724,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413441424,
+      "ts": 1785428494589,
       "ok": true,
       "newCount": 0
     },
@@ -15841,7 +15931,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413443783,
+      "ts": 1785428496810,
       "ok": true,
       "newCount": 0
     },
@@ -16098,7 +16188,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413454357,
+      "ts": 1785428505811,
       "ok": true,
       "newCount": 0
     },
@@ -19105,7 +19195,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413456522,
+      "ts": 1785428508175,
       "ok": true,
       "newCount": 0
     },
@@ -19312,7 +19402,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413460063,
+      "ts": 1785428511634,
       "ok": true,
       "newCount": 0
     },
@@ -19519,7 +19609,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413463803,
+      "ts": 1785428514891,
       "ok": true,
       "newCount": 0
     },
@@ -19726,7 +19816,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413467140,
+      "ts": 1785428518169,
       "ok": true,
       "newCount": 0
     },
@@ -19783,7 +19873,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413480603,
+      "ts": 1785428524563,
       "ok": true,
       "newCount": 0
     },
@@ -19840,7 +19930,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413485413,
+      "ts": 1785428529468,
       "ok": true,
       "newCount": 0
     },
@@ -19897,7 +19987,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413490153,
+      "ts": 1785428534193,
       "ok": true,
       "newCount": 0
     },
@@ -19924,7 +20014,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413500700,
+      "ts": 1785428545021,
       "ok": true,
       "newCount": 0
     },
@@ -19932,56 +20022,16 @@
       "rows": [
         {
           "sr": 1,
-          "date": "24 Jun 2026",
+          "date": "01 Jul 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
+          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf",
           "isNew": false
         }
       ],
-      "ts": 1785413514354,
+      "ts": 1785428563085,
       "ok": true,
       "newCount": 0
     },
@@ -19998,7 +20048,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413530066,
+      "ts": 1785428580256,
       "ok": true,
       "newCount": 0
     },
@@ -20006,16 +20056,56 @@
       "rows": [
         {
           "sr": 1,
-          "date": "01 Jul 2026",
-          "year": 2026,
+          "date": "18 Nov 2025",
+          "year": 2025,
           "cat": "Orders",
-          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#",
           "isNew": false
         }
       ],
-      "ts": 1785413551754,
+      "ts": 1785428597938,
       "ok": true,
       "newCount": 0
     },
@@ -20023,16 +20113,56 @@
       "rows": [
         {
           "sr": 1,
-          "date": "01 Jul 2026",
-          "year": 2026,
+          "date": "18 Nov 2025",
+          "year": 2025,
           "cat": "Orders",
-          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
+          "title": "Adjudication order for violation of section 42(6) r/w 42(10) of Companies Act, 2013 In the matter of M/s. Chiraharit LTD | 67 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.UJWALA DEVELOPERS PRIVATE LIMITED | 35 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s.SUTARA ROADS & INFRA LIMITED | 59 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s.STANLEY OEM SOFAS LIMITED | 34 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "isNew": false
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 134 of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 24 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
         }
       ],
-      "ts": 1785413568686,
+      "ts": 1785428613136,
       "ok": true,
       "newCount": 0
     },
@@ -20099,7 +20229,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413571713,
+      "ts": 1785428615873,
       "ok": true,
       "newCount": 0
     },
@@ -20226,7 +20356,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413573218,
+      "ts": 1785428617355,
       "ok": true,
       "newCount": 0
     },
@@ -20343,7 +20473,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413574700,
+      "ts": 1785428618841,
       "ok": true,
       "newCount": 0
     },
@@ -20470,7 +20600,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413576453,
+      "ts": 1785428620340,
       "ok": true,
       "newCount": 0
     },
@@ -20677,7 +20807,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413583083,
+      "ts": 1785428626510,
       "ok": true,
       "newCount": 0
     },
@@ -20884,7 +21014,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413589370,
+      "ts": 1785428633569,
       "ok": true,
       "newCount": 0
     },
@@ -23891,7 +24021,7 @@
           "isNew": false
         }
       ],
-      "ts": 1785413591523,
+      "ts": 1785428635953,
       "ok": true,
       "newCount": 0
     }
