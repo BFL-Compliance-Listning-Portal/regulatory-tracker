@@ -34,14 +34,29 @@ const DATE_RE = new RegExp(
 function tryParseDate(s) {
   if (!s) return '';
   s = String(s).trim().replace(/(\d{1,2})(st|nd|rd|th)\b/i, '$1');
+
+  // Check numeric DD-MM-YYYY / DD/MM/YYYY / DD.MM.YYYY FIRST. Indian government sites
+  // overwhelmingly publish dates in day-first format, but JavaScript's built-in Date
+  // parser silently assumes US month-first format for this exact ambiguous shape —
+  // confirmed directly: new Date("08-04-2026") returns August 4th, not April 8th, with
+  // no error or warning. Checking this pattern explicitly (and building the date from
+  // numeric year/month/day rather than re-handing a string to the ambiguous parser)
+  // avoids that trap entirely, instead of relying on it failing loudly enough to fall
+  // through to a "correct" second attempt — for day ≤ 12 it never fails, it just lies.
+  const dmy = s.match(/^(\d{1,2})[\-\/\.](\d{1,2})[\-\/\.](\d{4})$/);
+  if (dmy) {
+    const day = Number(dmy[1]), month = Number(dmy[2]), year = Number(dmy[3]);
+    if (day >= 1 && day <= 31 && month >= 1 && month <= 12) {
+      const d = new Date(year, month - 1, day);
+      if (!isNaN(d.getTime())) return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+    }
+  }
+
+  // Everything else — named months ("08 April 2026", "April 8, 2026"), ISO ("2026-04-08") —
+  // is unambiguous, so the generic parser is safe to use here.
   let d = new Date(s);
   if (!isNaN(d.getTime()) && d.getFullYear() > 1990) {
     return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
-  }
-  const m = s.match(/^(\d{2})[\-\/\.](\d{2})[\-\/\.](\d{4})$/);
-  if (m) {
-    d = new Date(`${m[3]}-${m[2]}-${m[1]}`);
-    if (!isNaN(d.getTime())) return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
   }
   return '';
 }
