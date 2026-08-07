@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T08:12:35.383Z",
+  "generatedAt": "2026-08-07T08:53:15.372Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -83,8 +83,9 @@
         }
       ],
       "ts": 1786090041541,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -96,7 +97,7 @@
           "title": "RBI's FCNR(B) scheme attracts $41 billion, Jefferies says inflows may double to $80-100 billion",
           "desc": "",
           "link": "https://economictimes.indiatimes.com/news/economy/finance/rbis-fcnrb-scheme-attracts-41-billion-jefferies-says-inflows-may-double-to-80-100-billion/articleshow/133025166.cms",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -129,9 +130,9 @@
           "isNew": false
         }
       ],
-      "ts": 1786090042951,
+      "ts": 1786092450590,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_3": {
       "rows": [
@@ -140,9 +141,9 @@
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Why did Tata Chemicals shares jump 6% in intraday trade on Friday?",
-          "desc": "Tata Chemicals shares are buzzing in trade as traders reacted to the RBI's decision to retain Tata Sons on the list of NBFCs in the Upper Layer (NBFC-UL).",
-          "link": "https://www.business-standard.com/markets/news/why-did-tata-chemicals-shares-jump-6-in-intraday-trade-on-friday-126080700816_1.html",
+          "title": "Govt set to exceed key fundraising goal on state-firm stake sales",
+          "desc": "The long-delayed sale of the government's stake in IDBI Bank is also likely to conclude this fiscal year, potentially adding $2.5 billion to state coffers",
+          "link": "https://www.business-standard.com/finance/news/govt-set-to-exceed-key-fundraising-goal-on-state-firm-stake-sales-126080700847_1.html",
           "isNew": true
         },
         {
@@ -150,13 +151,33 @@
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Tata Investment Corporation share price rises 7% after Q1 results",
-          "desc": "Tata Investment is an NBFC promoted by Tata Sons. For the June quarter of FY27 (Q1FY27), the company reported a net profit of â‚¹143.5 crore, down 2 per cent Y-o-Y.",
-          "link": "https://www.business-standard.com/markets/news/tata-investment-corporation-share-price-rises-7-after-q1-results-126080700578_1.html",
+          "title": "Display supply shifts to refurbished market as smartphone demand weakens",
+          "desc": "Omdia says display shipments to the refurbishment market have overtaken those to smartphone makers for the first time as rising memory costs weaken new-device production",
+          "link": "https://www.business-standard.com/technology/tech-news/memory-price-hike-refurbished-electronics-demand-126080700882_1.html",
           "isNew": true
         },
         {
           "sr": 3,
+          "date": "07 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Why did Tata Chemicals shares jump 6% in intraday trade on Friday?",
+          "desc": "Tata Chemicals shares are buzzing in trade as traders reacted to the RBI's decision to retain Tata Sons on the list of NBFCs in the Upper Layer (NBFC-UL).",
+          "link": "https://www.business-standard.com/markets/news/why-did-tata-chemicals-shares-jump-6-in-intraday-trade-on-friday-126080700816_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "07 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Tata Investment Corporation share price rises 7% after Q1 results",
+          "desc": "Tata Investment is an NBFC promoted by Tata Sons. For the June quarter of FY27 (Q1FY27), the company reported a net profit of â‚¹143.5 crore, down 2 per cent Y-o-Y.",
+          "link": "https://www.business-standard.com/markets/news/tata-investment-corporation-share-price-rises-7-after-q1-results-126080700578_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 5,
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -166,7 +187,17 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 6,
+          "date": "07 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Stock Market LIVE: Sensex down 400 pts; SBI shares rise 2% following Q1 profit growth",
+          "desc": "Sensex Today | Stock Market LIVE Updates Friday: In the broader markets, the Nifty MidCap was up 0.31 per cent and the Nifty SmallCap fell 0.01 per cent",
+          "link": "https://www.business-standard.com/markets/news/stock-market-live-august-7-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-q1-result-share-market-today-ipo-gmp-126080700083_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -176,55 +207,33 @@
           "isNew": false
         }
       ],
-      "ts": 1786090054603,
+      "ts": 1786092461098,
       "ok": true,
-      "newCount": 2
+      "newCount": 3
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786090055993,
+      "ts": 1786092462429,
       "ok": true
     },
     "NEWSLETTER_5": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "05 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Cardiac drug developer Braveheart banks more than $382M in IPO",
-          "desc": "",
-          "link": "https://finance.yahoo.com/healthcare/articles/cardiac-drug-developer-braveheart-banks-200100294.html",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "05 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-          "desc": "",
-          "link": "https://finance.yahoo.com/economy/policy/article/fed-governor-lisa-cook-i-am-prepared-to-act-on-interest-rates-if-inflation-remains-elevated-201309391.html",
-          "isNew": false
-        }
-      ],
-      "ts": 1786090057220,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1786092463670,
+      "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786090058449,
+      "ts": 1786092464917,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786090060418,
+      "ts": 1786092466531,
       "ok": true
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1786090062517,
+      "ts": 1786092468281,
       "ok": true
     },
     "SEBI_0": {
@@ -3230,7 +3239,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090099085,
+      "ts": 1786092504885,
       "ok": true,
       "newCount": 0
     },
@@ -3848,7 +3857,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4068,7 +4077,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4078,7 +4087,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4258,7 +4267,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4268,18 +4277,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4287,9 +4286,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4298,18 +4307,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4317,9 +4316,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4328,8 +4337,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4338,8 +4347,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4348,8 +4357,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4358,18 +4367,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4377,9 +4376,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4388,8 +4397,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4398,8 +4407,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4408,8 +4417,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4418,8 +4427,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4428,18 +4437,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4447,9 +4446,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4457,9 +4456,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -4467,9 +4466,19 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4478,8 +4487,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4567,7 +4576,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090118368,
+      "ts": 1786092524349,
       "ok": true,
       "newCount": 0
     },
@@ -4824,7 +4833,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090120729,
+      "ts": 1786092526765,
       "ok": true,
       "newCount": 0
     },
@@ -7831,7 +7840,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090156182,
+      "ts": 1786092563069,
       "ok": true,
       "newCount": 0
     },
@@ -9078,7 +9087,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090160387,
+      "ts": 1786092566282,
       "ok": true,
       "newCount": 0
     },
@@ -9105,7 +9114,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090162088,
+      "ts": 1786092567978,
       "ok": true,
       "newCount": 0
     },
@@ -12112,7 +12121,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090199668,
+      "ts": 1786092605887,
       "ok": true,
       "newCount": 0
     },
@@ -13229,7 +13238,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090202072,
+      "ts": 1786092608316,
       "ok": true,
       "newCount": 0
     },
@@ -16236,7 +16245,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090206239,
+      "ts": 1786092611811,
       "ok": true,
       "newCount": 0
     },
@@ -16403,7 +16412,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090208469,
+      "ts": 1786092614155,
       "ok": true,
       "newCount": 0
     },
@@ -16610,7 +16619,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090210726,
+      "ts": 1786092616525,
       "ok": true,
       "newCount": 0
     },
@@ -16867,7 +16876,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090219852,
+      "ts": 1786092625721,
       "ok": true,
       "newCount": 0
     },
@@ -19874,7 +19883,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090222120,
+      "ts": 1786092627859,
       "ok": true,
       "newCount": 0
     },
@@ -20081,7 +20090,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090225407,
+      "ts": 1786092631352,
       "ok": true,
       "newCount": 0
     },
@@ -20288,7 +20297,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090228684,
+      "ts": 1786092634924,
       "ok": true,
       "newCount": 0
     },
@@ -20495,7 +20504,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090232326,
+      "ts": 1786092638352,
       "ok": true,
       "newCount": 0
     },
@@ -20552,7 +20561,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090238157,
+      "ts": 1786092653586,
       "ok": true,
       "newCount": 0
     },
@@ -20609,7 +20618,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090242948,
+      "ts": 1786092658398,
       "ok": true,
       "newCount": 0
     },
@@ -20666,7 +20675,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090247707,
+      "ts": 1786092663194,
       "ok": true,
       "newCount": 0
     },
@@ -20683,28 +20692,75 @@
           "isNew": false
         }
       ],
-      "ts": 1786090257312,
+      "ts": 1786092673366,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786090276910,
+      "ts": 1786092708875,
       "ok": true
     },
     "MCA_2": {
-      "rows": [],
-      "ts": 1786090292429,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "24 Jun 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1786092734326,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786090306867,
+      "ts": 1786092748563,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786090323778,
+      "ts": 1786092764526,
       "ok": true
     },
     "NFRA_0": {
@@ -20770,7 +20826,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090326574,
+      "ts": 1786092767783,
       "ok": true,
       "newCount": 0
     },
@@ -20897,7 +20953,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090328075,
+      "ts": 1786092769278,
       "ok": true,
       "newCount": 0
     },
@@ -21014,7 +21070,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090329560,
+      "ts": 1786092770784,
       "ok": true,
       "newCount": 0
     },
@@ -21141,7 +21197,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090331044,
+      "ts": 1786092772368,
       "ok": true,
       "newCount": 0
     },
@@ -21348,7 +21404,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090338221,
+      "ts": 1786092778922,
       "ok": true,
       "newCount": 0
     },
@@ -21555,7 +21611,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090346260,
+      "ts": 1786092785240,
       "ok": true,
       "newCount": 0
     },
@@ -24562,7 +24618,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786090348497,
+      "ts": 1786092787435,
       "ok": true,
       "newCount": 0
     }
