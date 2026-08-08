@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T09:33:25.734Z",
+  "generatedAt": "2026-08-08T10:36:53.403Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -53,8 +53,9 @@
         }
       ],
       "ts": 1786181275065,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -99,18 +100,18 @@
           "isNew": false
         }
       ],
-      "ts": 1786181276812,
+      "ts": 1786184592115,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_3": {
       "rows": [],
-      "ts": 1786181279484,
+      "ts": 1786184594529,
       "ok": true
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786181280915,
+      "ts": 1786184595895,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -123,7 +124,7 @@
           "title": "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-us-stocks-062902244.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -147,6 +148,16 @@
         },
         {
           "sr": 4,
+          "date": "08 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
           "date": "06 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -156,18 +167,18 @@
           "isNew": false
         }
       ],
-      "ts": 1786181282272,
+      "ts": 1786184597277,
       "ok": true,
       "newCount": 1
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786181283533,
+      "ts": 1786184598619,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786181285475,
+      "ts": 1786184600276,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -183,7 +194,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181287559,
+      "ts": 1786184602275,
       "ok": true,
       "newCount": 0
     },
@@ -3191,8 +3202,9 @@
         }
       ],
       "ts": 1786181323584,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_1": {
       "rows": [
@@ -4528,8 +4540,9 @@
         }
       ],
       "ts": 1786181343232,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_2": {
       "rows": [
@@ -4785,8 +4798,9 @@
         }
       ],
       "ts": 1786181346081,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_3": {
       "rows": [
@@ -7792,8 +7806,9 @@
         }
       ],
       "ts": 1786181381986,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_4": {
       "rows": [
@@ -9039,8 +9054,9 @@
         }
       ],
       "ts": 1786181386360,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_5": {
       "rows": [
@@ -9066,8 +9082,9 @@
         }
       ],
       "ts": 1786181388073,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_6": {
       "rows": [
@@ -12073,8 +12090,9 @@
         }
       ],
       "ts": 1786181425691,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "RBI_0": {
       "rows": [
@@ -13229,7 +13247,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181428151,
+      "ts": 1786185223431,
       "ok": true,
       "newCount": 0
     },
@@ -16236,7 +16254,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181431564,
+      "ts": 1786185229683,
       "ok": true,
       "newCount": 0
     },
@@ -16403,7 +16421,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181434037,
+      "ts": 1786185232092,
       "ok": true,
       "newCount": 0
     },
@@ -16610,7 +16628,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181437678,
+      "ts": 1786185234598,
       "ok": true,
       "newCount": 0
     },
@@ -16624,7 +16642,7 @@
           "title": "Structural Digital Database (SDD) – SEBI (Prohibition of Insider Trading) Regulations, 2015 - Suggested Best Practices",
           "desc": "",
           "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -16867,9 +16885,9 @@
           "isNew": false
         }
       ],
-      "ts": 1786181446924,
+      "ts": 1786185244210,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NSE_0": {
       "rows": [
@@ -19874,7 +19892,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181449424,
+      "ts": 1786185246766,
       "ok": true,
       "newCount": 0
     },
@@ -20081,7 +20099,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181452928,
+      "ts": 1786185250335,
       "ok": true,
       "newCount": 0
     },
@@ -20288,7 +20306,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181456393,
+      "ts": 1786185253981,
       "ok": true,
       "newCount": 0
     },
@@ -20495,7 +20513,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181460146,
+      "ts": 1786185257612,
       "ok": true,
       "newCount": 0
     },
@@ -20552,7 +20570,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181474371,
+      "ts": 1786185272745,
       "ok": true,
       "newCount": 0
     },
@@ -20609,7 +20627,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181479199,
+      "ts": 1786185277559,
       "ok": true,
       "newCount": 0
     },
@@ -20666,7 +20684,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181483962,
+      "ts": 1786185282328,
       "ok": true,
       "newCount": 0
     },
@@ -20683,28 +20701,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786181499793,
+      "ts": 1786185293042,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786181519172,
+      "ts": 1786185316502,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786181535964,
+      "ts": 1786185343893,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786181555067,
+      "ts": 1786185363938,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786181573812,
+      "ts": 1786185382008,
       "ok": true
     },
     "NFRA_0": {
@@ -20770,7 +20788,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181576845,
+      "ts": 1786185385175,
       "ok": true,
       "newCount": 0
     },
@@ -20897,7 +20915,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181578341,
+      "ts": 1786185386694,
       "ok": true,
       "newCount": 0
     },
@@ -21014,7 +21032,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181579835,
+      "ts": 1786185388211,
       "ok": true,
       "newCount": 0
     },
@@ -21141,7 +21159,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181581329,
+      "ts": 1786185389721,
       "ok": true,
       "newCount": 0
     },
@@ -21348,7 +21366,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181588723,
+      "ts": 1786185396647,
       "ok": true,
       "newCount": 0
     },
@@ -21555,7 +21573,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181595097,
+      "ts": 1786185402895,
       "ok": true,
       "newCount": 0
     },
@@ -24562,7 +24580,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786181597472,
+      "ts": 1786185405273,
       "ok": true,
       "newCount": 0
     }
