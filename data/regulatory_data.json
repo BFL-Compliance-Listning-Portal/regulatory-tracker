@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T18:30:55.952Z",
+  "generatedAt": "2026-08-08T19:28:05.130Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -52,7 +52,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213371053,
+      "ts": 1786216939911,
       "ok": true,
       "newCount": 0
     },
@@ -99,7 +99,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213372930,
+      "ts": 1786216941707,
       "ok": true,
       "newCount": 0
     },
@@ -114,15 +114,25 @@
           "desc": "Union Minister of Cooperation Amit Shah on Saturday urged urban cooperative banks (UCBs) to look at the RBI from a \"different viewpoint\", underlining that the central bank has \"proactively helped\" the",
           "link": "https://www.business-standard.com/industry/banking/rbi-has-proactively-helped-ucbs-cooperatives-should-rethink-approach-shah-126080800719_1.html",
           "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "07 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "We have definitely missed the payments bus, says SBI Chairman Setty",
+          "desc": "SBI's YONO Pay is gaining traction among the bank's customers, but its volumes remain far behind market leaders PhonePe and Google Pay, which dominate UPI transactions",
+          "link": "https://www.business-standard.com/companies/news/we-have-definitely-missed-the-payments-bus-says-sbi-chairman-setty-126080702098_1.html",
+          "isNew": true
         }
       ],
-      "ts": 1786213374311,
+      "ts": 1786216943565,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786213375764,
+      "ts": 1786216945113,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -139,22 +149,22 @@
         },
         {
           "sr": 2,
-          "date": "03 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Best high-yield savings interest rates today, Friday, August 7, 2026: Earn up to 4.15% APY to maximize savings",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-7-2026-earn-up-to-415-apy-to-maximize-savings-100000400.html",
-          "isNew": false
-        },
-        {
-          "sr": 3,
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
           "title": "Mortgage and refinance interest rates today, Friday, August 7, 2026: Rates fall ahead of jobs report",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-7-2026-rates-fall-ahead-of-jobs-report-100000207.html",
+          "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "03 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Best high-yield savings interest rates today, Friday, August 7, 2026: Earn up to 4.15% APY to maximize savings",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-7-2026-earn-up-to-415-apy-to-maximize-savings-100000400.html",
           "isNew": false
         },
         {
@@ -168,23 +178,24 @@
           "isNew": false
         }
       ],
-      "ts": 1786213377052,
+      "ts": 1786216946481,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786213378317,
+      "ts": 1786216947749,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
       "ts": 1786213379687,
-      "ok": true
+      "ok": false,
+      "error": "HTTP 403"
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1786213381350,
+      "ts": 1786216969362,
       "ok": true
     },
     "SEBI_0": {
@@ -3190,7 +3201,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213416767,
+      "ts": 1786217005892,
       "ok": true,
       "newCount": 0
     },
@@ -4028,7 +4039,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4038,7 +4049,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4527,7 +4538,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213435784,
+      "ts": 1786217025220,
       "ok": true,
       "newCount": 0
     },
@@ -4784,7 +4795,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213439149,
+      "ts": 1786217027626,
       "ok": true,
       "newCount": 0
     },
@@ -7791,7 +7802,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213474179,
+      "ts": 1786217063778,
       "ok": true,
       "newCount": 0
     },
@@ -9038,7 +9049,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213477931,
+      "ts": 1786217067075,
       "ok": true,
       "newCount": 0
     },
@@ -9065,7 +9076,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213479574,
+      "ts": 1786217068789,
       "ok": true,
       "newCount": 0
     },
@@ -12072,7 +12083,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213515719,
+      "ts": 1786217106623,
       "ok": true,
       "newCount": 0
     },
@@ -13239,7 +13250,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213518113,
+      "ts": 1786217109110,
       "ok": true,
       "newCount": 0
     },
@@ -16246,7 +16257,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213521478,
+      "ts": 1786217112587,
       "ok": true,
       "newCount": 0
     },
@@ -16413,7 +16424,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213523722,
+      "ts": 1786217114867,
       "ok": true,
       "newCount": 0
     },
@@ -16620,7 +16631,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213525961,
+      "ts": 1786217117146,
       "ok": true,
       "newCount": 0
     },
@@ -16877,7 +16888,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213535141,
+      "ts": 1786217126268,
       "ok": true,
       "newCount": 0
     },
@@ -19884,7 +19895,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213537499,
+      "ts": 1786217128648,
       "ok": true,
       "newCount": 0
     },
@@ -20091,7 +20102,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213540768,
+      "ts": 1786217132057,
       "ok": true,
       "newCount": 0
     },
@@ -20298,7 +20309,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213544156,
+      "ts": 1786217135523,
       "ok": true,
       "newCount": 0
     },
@@ -20505,7 +20516,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213547653,
+      "ts": 1786217139066,
       "ok": true,
       "newCount": 0
     },
@@ -20562,7 +20573,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213566977,
+      "ts": 1786217148610,
       "ok": true,
       "newCount": 0
     },
@@ -20603,7 +20614,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20613,13 +20624,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1786213571739,
+      "ts": 1786217153373,
       "ok": true,
       "newCount": 0
     },
@@ -20660,7 +20671,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20670,13 +20681,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1786213576485,
+      "ts": 1786217158092,
       "ok": true,
       "newCount": 0
     },
@@ -20693,28 +20704,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786213594763,
+      "ts": 1786217170542,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786213615589,
+      "ts": 1786217193577,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786213633950,
+      "ts": 1786217212115,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786213655314,
+      "ts": 1786217238048,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786213672644,
+      "ts": 1786217254014,
       "ok": true
     },
     "NFRA_0": {
@@ -20726,8 +20737,7 @@
           "cat": "Circulars",
           "title": "NFRA Circular on Effective Communication Between Statutory Auditors and Those Charged with Governance, Including Audit Committees",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/01/20260107299607819.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/01/20260107299607819.pdf"
         },
         {
           "sr": 2,
@@ -20736,8 +20746,7 @@
           "cat": "Circulars",
           "title": "NFRA Circular on Maintenance, archival and submission of Audit File to NFRA.",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/12/202512172091109797.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/12/202512172091109797.pdf"
         },
         {
           "sr": 3,
@@ -20746,8 +20755,7 @@
           "cat": "Circulars",
           "title": "NFRA Circular on Responsibilities of Principal Auditor and Other Auditors in Group Audits",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241003679863187.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241003679863187.pdf"
         },
         {
           "sr": 4,
@@ -20756,8 +20764,7 @@
           "cat": "Circulars",
           "title": "NFRA circular on Statutory Auditors’ responsibilities in relation to Fraud in a Company",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/06/2023062673.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/06/2023062673.pdf"
         },
         {
           "sr": 5,
@@ -20766,8 +20773,7 @@
           "cat": "Circulars",
           "title": "NFRA Circular Non Compliance with Ind AS policies on Revenue",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/03/2023032940.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/03/2023032940.pdf"
         },
         {
           "sr": 6,
@@ -20776,14 +20782,12 @@
           "cat": "Circulars",
           "title": "Non-Accrual of interest on borrowings by the companies in violation of Indian Accounting Standards",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf"
         }
       ],
-      "ts": 1786209973530,
-      "ok": false,
-      "newCount": 0,
-      "error": "fetch failed"
+      "ts": 1786217257074,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_1": {
       "rows": [
@@ -20794,8 +20798,7 @@
           "cat": "Orders",
           "title": "Order in the matter of M/s. Religare Finvest Limited against CA Neeraj Bansal For FY 2017-18",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/01/202608061682830703.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/01/202608061682830703.pdf"
         },
         {
           "sr": 2,
@@ -20804,8 +20807,7 @@
           "cat": "Orders",
           "title": "Errata – Order in the matter of Zee Entertainment Enterprises Limited for the FY 2018-19 and 2019- 20",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/12/202412271758055001.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/12/202412271758055001.pdf"
         },
         {
           "sr": 3,
@@ -20814,8 +20816,7 @@
           "cat": "Orders",
           "title": "Order in the matter of DB Realty Limited for the FY 2015-16 against CA Chetan Desai and CA Rakesh Rathi",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/12/202412261842389651.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/12/202412261842389651.pdf"
         },
         {
           "sr": 4,
@@ -20824,8 +20825,7 @@
           "cat": "Orders",
           "title": "Order in the matter of M/s. Ushdev International Limited for FY 2017-18 against CA Chirag Doshi",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241021682027687.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241021682027687.pdf"
         },
         {
           "sr": 5,
@@ -20834,8 +20834,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Coffee Day Enterprises Limited for FY 2019-20 against M/s Venkatesh & Co. and CA Dasaraty & CA Desikan G.",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241010657531408.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241010657531408.pdf"
         },
         {
           "sr": 6,
@@ -20844,8 +20843,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Sanwaria Consumer Limited against CA Santosh Deshmukh for FY 2017-18",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409102065844602.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409102065844602.pdf"
         },
         {
           "sr": 7,
@@ -20854,8 +20852,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Mysore Amalgamated Coffee Estates Limited (MACEL) against M/s Lavitha & Associates Statutory Auditor and Engagement Partner (EP)",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/20240909677548557.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/20240909677548557.pdf"
         },
         {
           "sr": 8,
@@ -20864,8 +20861,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Coffee Day Enterprises Ltd (CDEL) for the FY 2018-19 against M/s BSR & Associates LLP, CA Aravind Maiya and CA Amit Somani",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/08/202408191036463933.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/08/202408191036463933.pdf"
         },
         {
           "sr": 9,
@@ -20874,8 +20870,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Vikas Proppant and Granite Limited for the FY 2018-19 to 2019-20 against CA Yogesh Mahipal",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/07/20240705153040844.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/07/20240705153040844.pdf"
         },
         {
           "sr": 10,
@@ -20884,8 +20879,7 @@
           "cat": "Orders",
           "title": "Order in the matter of Vikas Proppant and Granite Limited for the FY 2020-21 against M/s Singh Ajay & Co. and CA Priyank Mittal",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/07/20240705380026246.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/07/20240705380026246.pdf"
         },
         {
           "sr": 11,
@@ -20894,8 +20888,7 @@
           "cat": "Orders",
           "title": "Order against CA Kashinath Chaturvedi in the matter of DHFL Branch Audit",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406212101761437.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406212101761437.pdf"
         },
         {
           "sr": 12,
@@ -20904,14 +20897,12 @@
           "cat": "Orders",
           "title": "Order against CA Krishna Bihari Chaturvedi in the matter of DHFL Branch Audit",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf"
         }
       ],
-      "ts": 1786209975030,
-      "ok": false,
-      "newCount": 0,
-      "error": "fetch failed"
+      "ts": 1786217258552,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_2": {
       "rows": [
@@ -20922,8 +20913,7 @@
           "cat": "Consultation Paper",
           "title": "Request for public comments – Draft SA 600 (Revised)",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409171313688475.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409171313688475.pdf"
         },
         {
           "sr": 2,
@@ -20932,8 +20922,7 @@
           "cat": "Consultation Paper",
           "title": "Note for public consultation with rationale and background on proposed revisions to SA 600-inviting comments",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409171923319285.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/09/202409171923319285.pdf"
         },
         {
           "sr": 3,
@@ -20942,8 +20931,7 @@
           "cat": "Consultation Paper",
           "title": "Annual Transparency Report by Statutory Auditors of PIEs-Invitation for public comment",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020672.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020672.pdf"
         },
         {
           "sr": 4,
@@ -20952,8 +20940,7 @@
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Statutory Audit and Auditing Standards for Micro, Small and Medium Companies (MSMCs)- Extension of last date for submission of comments to 30 November 2021",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020713.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020713.pdf"
         },
         {
           "sr": 5,
@@ -20962,8 +20949,7 @@
           "cat": "Consultation Paper",
           "title": "NFRA Consultation Paper on Statutory Audit & Auditing Standards for MSMCs",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020734.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020734.pdf"
         },
         {
           "sr": 6,
@@ -20972,8 +20958,7 @@
           "cat": "Consultation Paper",
           "title": "Regulatory Impact Assessment (RIA) for revision of existing Accounting Standards",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020766.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020766.pdf"
         },
         {
           "sr": 7,
@@ -20982,8 +20967,7 @@
           "cat": "Consultation Paper",
           "title": "Public Comments Received on Questions Posed in Consultation Paper based on Report of the Technical Advisory Committee on Enhancing Engagement with Stakeholders",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020753.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020753.pdf"
         },
         {
           "sr": 8,
@@ -20992,8 +20976,7 @@
           "cat": "Consultation Paper",
           "title": "NFRA Conclusions on Questions Posed in its Consultation Paper on Enhancing Engagement with Stakeholders",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020743.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020743.pdf"
         },
         {
           "sr": 9,
@@ -21002,8 +20985,7 @@
           "cat": "Consultation Paper",
           "title": "NFRA Consultation paper on Enhancing Engagement with Stakeholders- Extension of last date for submission of public comments to 30th July, 2021",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020741.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020741.pdf"
         },
         {
           "sr": 10,
@@ -21012,8 +20994,7 @@
           "cat": "Consultation Paper",
           "title": "NFRA Consultation Paper on Enhancing Engagement with Stakeholders Report of Technical Advisory Committee (March 2021)",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/20230207100.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/20230207100.pdf"
         },
         {
           "sr": 11,
@@ -21022,14 +21003,12 @@
           "cat": "Consultation Paper",
           "title": "Report of Technical Advisory Committee (TAC)",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf"
         }
       ],
-      "ts": 1786209976519,
-      "ok": false,
-      "newCount": 0,
-      "error": "fetch failed"
+      "ts": 1786217260039,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_3": {
       "rows": [
@@ -21040,8 +21019,7 @@
           "cat": "Inspection Report",
           "title": "M/s CNK & Associates LLP – Inspection Report No.132.2-2024-09",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271602779421.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271602779421.pdf"
         },
         {
           "sr": 2,
@@ -21050,8 +21028,7 @@
           "cat": "Inspection Report",
           "title": "M/s B D G & CO LLP – Inspection Report No. 132.2-2024-08",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327184757266.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327184757266.pdf"
         },
         {
           "sr": 3,
@@ -21060,8 +21037,7 @@
           "cat": "Inspection Report",
           "title": "Deloitte Haskins & Sells & Affiliates – Inspection Report No.132.2-2024-05",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327329777596.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327329777596.pdf"
         },
         {
           "sr": 4,
@@ -21070,8 +21046,7 @@
           "cat": "Inspection Report",
           "title": "M/s Singhi & Co. – Inspection Report No.132.2-2024-10",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271697133162.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271697133162.pdf"
         },
         {
           "sr": 5,
@@ -21080,8 +21055,7 @@
           "cat": "Inspection Report",
           "title": "Walker Chandiok & Co LLP – Inspection Report No. 132.2-2024-06",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327472312265.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327472312265.pdf"
         },
         {
           "sr": 6,
@@ -21090,8 +21064,7 @@
           "cat": "Inspection Report",
           "title": "M/s Umamaheswara Rao & Co. – Inspection Report No.132.2-2024-07",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327320356470.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327320356470.pdf"
         },
         {
           "sr": 7,
@@ -21100,8 +21073,7 @@
           "cat": "Inspection Report",
           "title": "Price Waterhouse & Affiliates’ Network – Inspection Report No.132.2-2024-01",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316375432609.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316375432609.pdf"
         },
         {
           "sr": 8,
@@ -21110,8 +21082,7 @@
           "cat": "Inspection Report",
           "title": "BSR Affiliates Network – Inspection Report No.132.2-2024-04",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603161208398009.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603161208398009.pdf"
         },
         {
           "sr": 9,
@@ -21120,8 +21091,7 @@
           "cat": "Inspection Report",
           "title": "M/s SRBC & Co. LLP – Inspection Report No.132.2-2024-02",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316322158579.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316322158579.pdf"
         },
         {
           "sr": 10,
@@ -21130,8 +21100,7 @@
           "cat": "Inspection Report",
           "title": "M/s MSKA & Associates LLP– Inspection Report No. 132.2-2024-03",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316866297865.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316866297865.pdf"
         },
         {
           "sr": 11,
@@ -21140,8 +21109,7 @@
           "cat": "Inspection Report",
           "title": "M/s Walker Chandiok & Co LLP – Inspection Report No.132.2-2023-06",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281125535815.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281125535815.pdf"
         },
         {
           "sr": 12,
@@ -21150,14 +21118,12 @@
           "cat": "Inspection Report",
           "title": "M/s Deloitte Haskins & Sells LLP – Inspection Report No.132.2-2023-07",
           "desc": "",
-          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf",
-          "isNew": false
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf"
         }
       ],
-      "ts": 1786209978009,
-      "ok": false,
-      "newCount": 0,
-      "error": "fetch failed"
+      "ts": 1786217261529,
+      "ok": true,
+      "newCount": 0
     },
     "PCAOB_0": {
       "rows": [
@@ -21362,7 +21328,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213846144,
+      "ts": 1786217268393,
       "ok": true,
       "newCount": 0
     },
@@ -21569,7 +21535,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213852478,
+      "ts": 1786217274573,
       "ok": true,
       "newCount": 0
     },
@@ -24576,7 +24542,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786213854747,
+      "ts": 1786217276947,
       "ok": true,
       "newCount": 0
     }
