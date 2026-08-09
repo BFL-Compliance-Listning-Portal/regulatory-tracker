@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T12:36:14.886Z",
+  "generatedAt": "2026-08-09T13:47:56.581Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -40,10 +40,20 @@
       "error": "HTTP 403"
     },
     "NEWSLETTER_1": {
-      "rows": [],
-      "ts": 1786274487239,
-      "ok": false,
-      "error": "Navigation timeout of 45000 ms exceeded"
+      "rows": [
+        {
+          "sr": 1,
+          "date": "09 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "HDFC Bank, PolicyBazaar & REC Removed From Jefferies India PortfolioAug 9, 2026, 17:04 IST",
+          "desc": "",
+          "link": "https://www.timesnownews.com/business-economy/markets/hdfc-bank-policybazaar-rec-removed-from-jefferies-india-portfolio-article-155404061"
+        }
+      ],
+      "ts": 1786282930338,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -88,7 +98,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278616985,
+      "ts": 1786282932101,
       "ok": true,
       "newCount": 0
     },
@@ -102,7 +112,7 @@
           "title": "El Nino, below-normal monsoon emerge as key risks for Indian NBFC sector",
           "desc": "A weak monsoon and El Nino could hurt rural incomes and repayments, prompting major NBFCs to tighten portfolio monitoring and underwriting in vulnerable segments",
           "link": "https://www.business-standard.com/industry/banking/el-nino-below-normal-monsoon-emerge-as-key-risks-for-indian-nbfc-sector-126080900434_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -112,7 +122,7 @@
           "title": "PSBs target nearly $30 billion under RBI's concessional forex swap window",
           "desc": "State-owned banks are targeting nearly $30 billion through foreign currency deposits and borrowings under the RBI's concessional swap window as inflows remain robust",
           "link": "https://www.business-standard.com/industry/banking/psbs-target-nearly-30-billion-under-rbi-s-concessional-forex-swap-window-126080900428_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -133,25 +143,15 @@
           "desc": "The combined market valuation of four of the top-10 most valued firms jumped Rs 1.43 lakh crore last week, with State Bank of India emerging as the biggest gainer.\nLast week, the BSE benchmark Sensex ",
           "link": "https://www.business-standard.com/markets/news/mcap-of-4-of-top-10-most-valued-firms-jumps-1-43-trn-sbi-biggest-winner-126080900106_1.html",
           "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "08 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI has proactively helped UCBs, cooperatives should rethink approach: Shah",
-          "desc": "Union Minister of Cooperation Amit Shah on Saturday urged urban cooperative banks (UCBs) to look at the RBI from a \"different viewpoint\", underlining that the central bank has \"proactively helped\" the",
-          "link": "https://www.business-standard.com/industry/banking/rbi-has-proactively-helped-ucbs-cooperatives-should-rethink-approach-shah-126080800719_1.html",
-          "isNew": false
         }
       ],
-      "ts": 1786278627505,
+      "ts": 1786282943950,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786278628821,
+      "ts": 1786282945321,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -197,18 +197,18 @@
           "isNew": false
         }
       ],
-      "ts": 1786278630101,
+      "ts": 1786282946603,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786278631334,
+      "ts": 1786282947929,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786278633526,
+      "ts": 1786282949448,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -224,7 +224,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278635344,
+      "ts": 1786282951382,
       "ok": true,
       "newCount": 0
     },
@@ -3231,7 +3231,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278671207,
+      "ts": 1786282987392,
       "ok": true,
       "newCount": 0
     },
@@ -4069,7 +4069,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4079,7 +4079,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4568,7 +4568,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278690876,
+      "ts": 1786283006695,
       "ok": true,
       "newCount": 0
     },
@@ -4825,7 +4825,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278694022,
+      "ts": 1786283009421,
       "ok": true,
       "newCount": 0
     },
@@ -7832,7 +7832,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278729856,
+      "ts": 1786283044880,
       "ok": true,
       "newCount": 0
     },
@@ -9079,7 +9079,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278733305,
+      "ts": 1786283049026,
       "ok": true,
       "newCount": 0
     },
@@ -9106,7 +9106,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278734999,
+      "ts": 1786283050713,
       "ok": true,
       "newCount": 0
     },
@@ -12113,7 +12113,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278772365,
+      "ts": 1786283087959,
       "ok": true,
       "newCount": 0
     },
@@ -13280,7 +13280,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278776244,
+      "ts": 1786283090328,
       "ok": true,
       "newCount": 0
     },
@@ -16287,7 +16287,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278779939,
+      "ts": 1786283093623,
       "ok": true,
       "newCount": 0
     },
@@ -16454,7 +16454,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278782180,
+      "ts": 1786283097230,
       "ok": true,
       "newCount": 0
     },
@@ -16661,7 +16661,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278784534,
+      "ts": 1786283099107,
       "ok": true,
       "newCount": 0
     },
@@ -16918,7 +16918,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278793736,
+      "ts": 1786283108390,
       "ok": true,
       "newCount": 0
     },
@@ -19925,7 +19925,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278795945,
+      "ts": 1786283111121,
       "ok": true,
       "newCount": 0
     },
@@ -20132,7 +20132,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278799221,
+      "ts": 1786283114375,
       "ok": true,
       "newCount": 0
     },
@@ -20339,7 +20339,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278802502,
+      "ts": 1786283118157,
       "ok": true,
       "newCount": 0
     },
@@ -20546,7 +20546,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278805841,
+      "ts": 1786283121598,
       "ok": true,
       "newCount": 0
     },
@@ -20603,7 +20603,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278812633,
+      "ts": 1786283131901,
       "ok": true,
       "newCount": 0
     },
@@ -20660,7 +20660,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278817488,
+      "ts": 1786283136701,
       "ok": true,
       "newCount": 0
     },
@@ -20717,7 +20717,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278822315,
+      "ts": 1786283141466,
       "ok": true,
       "newCount": 0
     },
@@ -20734,28 +20734,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786278835298,
+      "ts": 1786283161645,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786278861951,
+      "ts": 1786283193036,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786278902808,
+      "ts": 1786283209963,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786278924490,
+      "ts": 1786283232600,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786278944090,
+      "ts": 1786283252530,
       "ok": true
     },
     "NFRA_0": {
@@ -20821,7 +20821,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278947109,
+      "ts": 1786283255464,
       "ok": true,
       "newCount": 0
     },
@@ -20948,7 +20948,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278948598,
+      "ts": 1786283256949,
       "ok": true,
       "newCount": 0
     },
@@ -21065,7 +21065,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278950072,
+      "ts": 1786283258425,
       "ok": true,
       "newCount": 0
     },
@@ -21192,7 +21192,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278951541,
+      "ts": 1786283259903,
       "ok": true,
       "newCount": 0
     },
@@ -21399,7 +21399,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278958427,
+      "ts": 1786283266845,
       "ok": true,
       "newCount": 0
     },
@@ -21606,7 +21606,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278964787,
+      "ts": 1786283273126,
       "ok": true,
       "newCount": 0
     },
@@ -24613,7 +24613,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786278967050,
+      "ts": 1786283275376,
       "ok": true,
       "newCount": 0
     }
