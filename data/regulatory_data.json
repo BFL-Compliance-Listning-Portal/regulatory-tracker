@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T11:26:47.926Z",
+  "generatedAt": "2026-08-09T12:36:14.886Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -42,7 +42,8 @@
     "NEWSLETTER_1": {
       "rows": [],
       "ts": 1786274487239,
-      "ok": true
+      "ok": false,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -87,7 +88,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274488868,
+      "ts": 1786278616985,
       "ok": true,
       "newCount": 0
     },
@@ -98,13 +99,33 @@
           "date": "09 Aug 2026",
           "year": 2026,
           "cat": "News",
+          "title": "El Nino, below-normal monsoon emerge as key risks for Indian NBFC sector",
+          "desc": "A weak monsoon and El Nino could hurt rural incomes and repayments, prompting major NBFCs to tighten portfolio monitoring and underwriting in vulnerable segments",
+          "link": "https://www.business-standard.com/industry/banking/el-nino-below-normal-monsoon-emerge-as-key-risks-for-indian-nbfc-sector-126080900434_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "09 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "PSBs target nearly $30 billion under RBI's concessional forex swap window",
+          "desc": "State-owned banks are targeting nearly $30 billion through foreign currency deposits and borrowings under the RBI's concessional swap window as inflows remain robust",
+          "link": "https://www.business-standard.com/industry/banking/psbs-target-nearly-30-billion-under-rbi-s-concessional-forex-swap-window-126080900428_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "09 Aug 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "PNB to roll out wealth management services to boost non-interest income",
           "desc": "To enhance its non-interest income, Punjab National Bank is planning to roll out wealth management services by December, the bank's managing director and CEO Ashok Chandra said.\n\"The first stage of ou",
           "link": "https://www.business-standard.com/industry/banking/pnb-to-roll-out-wealth-management-services-to-boost-non-interest-income-126080900267_1.html",
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 4,
           "date": "09 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -114,7 +135,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 5,
           "date": "08 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -124,13 +145,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786274499569,
+      "ts": 1786278627505,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786274500882,
+      "ts": 1786278628821,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -140,9 +161,9 @@
           "date": "08 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+          "title": "The AI boom ripples into regional banks as lending picks up",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+          "link": "https://finance.yahoo.com/markets/article/the-ai-boom-ripples-into-regional-banks-as-lending-picks-up-112917906.html",
           "isNew": false
         },
         {
@@ -150,10 +171,10 @@
           "date": "08 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "The AI boom ripples into regional banks as lending picks up",
+          "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
           "desc": "",
-          "link": "https://finance.yahoo.com/markets/article/the-ai-boom-ripples-into-regional-banks-as-lending-picks-up-112917906.html",
-          "isNew": true
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+          "isNew": false
         },
         {
           "sr": 3,
@@ -176,18 +197,18 @@
           "isNew": false
         }
       ],
-      "ts": 1786274502124,
+      "ts": 1786278630101,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786274503422,
+      "ts": 1786278631334,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786274504932,
+      "ts": 1786278633526,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -203,7 +224,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274506677,
+      "ts": 1786278635344,
       "ok": true,
       "newCount": 0
     },
@@ -3210,7 +3231,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274541948,
+      "ts": 1786278671207,
       "ok": true,
       "newCount": 0
     },
@@ -3828,7 +3849,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4238,7 +4259,7 @@
         },
         {
           "sr": 103,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4248,18 +4269,8 @@
         },
         {
           "sr": 104,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4267,9 +4278,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4278,18 +4299,8 @@
         },
         {
           "sr": 107,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4297,9 +4308,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4308,8 +4329,8 @@
         },
         {
           "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4318,8 +4339,8 @@
         },
         {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4328,8 +4349,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4338,18 +4359,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4357,9 +4368,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4368,8 +4389,8 @@
         },
         {
           "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4378,8 +4399,8 @@
         },
         {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4388,8 +4409,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4398,8 +4419,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4408,38 +4429,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "AML/CFT- Master Circular",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master circular for Exchange Traded Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4447,9 +4438,39 @@
           "isNew": false
         },
         {
+          "sr": 121,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "AML/CFT- Master Circular",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
+          "isNew": false
+        },
+        {
+          "sr": 122,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master circular for Exchange Traded Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4458,8 +4479,8 @@
         },
         {
           "sr": 125,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4468,8 +4489,8 @@
         },
         {
           "sr": 126,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -4478,38 +4499,38 @@
         },
         {
           "sr": 127,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
           "isNew": false
         },
         {
           "sr": 128,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "—",
-          "year": null,
+          "date": "17 Mar 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -4518,36 +4539,36 @@
         },
         {
           "sr": 131,
-          "date": "—",
-          "year": null,
+          "date": "12 Feb 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
           "isNew": false
         },
         {
           "sr": 132,
-          "date": "—",
-          "year": null,
+          "date": "01 Jan 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "—",
-          "year": null,
+          "date": "19 Dec 2008",
+          "year": 2008,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
           "isNew": false
         }
       ],
-      "ts": 1786274560959,
+      "ts": 1786278690876,
       "ok": true,
       "newCount": 0
     },
@@ -4804,7 +4825,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274564443,
+      "ts": 1786278694022,
       "ok": true,
       "newCount": 0
     },
@@ -7811,7 +7832,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274599706,
+      "ts": 1786278729856,
       "ok": true,
       "newCount": 0
     },
@@ -9058,7 +9079,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274603128,
+      "ts": 1786278733305,
       "ok": true,
       "newCount": 0
     },
@@ -9085,7 +9106,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274604783,
+      "ts": 1786278734999,
       "ok": true,
       "newCount": 0
     },
@@ -12092,7 +12113,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274642079,
+      "ts": 1786278772365,
       "ok": true,
       "newCount": 0
     },
@@ -13259,7 +13280,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274644535,
+      "ts": 1786278776244,
       "ok": true,
       "newCount": 0
     },
@@ -16266,7 +16287,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274649111,
+      "ts": 1786278779939,
       "ok": true,
       "newCount": 0
     },
@@ -16433,7 +16454,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274651398,
+      "ts": 1786278782180,
       "ok": true,
       "newCount": 0
     },
@@ -16640,7 +16661,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274653768,
+      "ts": 1786278784534,
       "ok": true,
       "newCount": 0
     },
@@ -16897,7 +16918,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274663052,
+      "ts": 1786278793736,
       "ok": true,
       "newCount": 0
     },
@@ -19904,7 +19925,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274665760,
+      "ts": 1786278795945,
       "ok": true,
       "newCount": 0
     },
@@ -20111,7 +20132,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274669089,
+      "ts": 1786278799221,
       "ok": true,
       "newCount": 0
     },
@@ -20318,7 +20339,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274672387,
+      "ts": 1786278802502,
       "ok": true,
       "newCount": 0
     },
@@ -20525,7 +20546,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274675666,
+      "ts": 1786278805841,
       "ok": true,
       "newCount": 0
     },
@@ -20582,7 +20603,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274683442,
+      "ts": 1786278812633,
       "ok": true,
       "newCount": 0
     },
@@ -20639,7 +20660,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274688176,
+      "ts": 1786278817488,
       "ok": true,
       "newCount": 0
     },
@@ -20696,7 +20717,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274692948,
+      "ts": 1786278822315,
       "ok": true,
       "newCount": 0
     },
@@ -20713,28 +20734,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786274704862,
+      "ts": 1786278835298,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786274726435,
+      "ts": 1786278861951,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786274742592,
+      "ts": 1786278902808,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786274761922,
+      "ts": 1786278924490,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786274778158,
+      "ts": 1786278944090,
       "ok": true
     },
     "NFRA_0": {
@@ -20800,7 +20821,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274781070,
+      "ts": 1786278947109,
       "ok": true,
       "newCount": 0
     },
@@ -20927,7 +20948,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274782540,
+      "ts": 1786278948598,
       "ok": true,
       "newCount": 0
     },
@@ -21044,7 +21065,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274784004,
+      "ts": 1786278950072,
       "ok": true,
       "newCount": 0
     },
@@ -21171,7 +21192,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274785470,
+      "ts": 1786278951541,
       "ok": true,
       "newCount": 0
     },
@@ -21378,7 +21399,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274791935,
+      "ts": 1786278958427,
       "ok": true,
       "newCount": 0
     },
@@ -21585,7 +21606,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274797964,
+      "ts": 1786278964787,
       "ok": true,
       "newCount": 0
     },
@@ -24592,7 +24613,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786274800027,
+      "ts": 1786278967050,
       "ok": true,
       "newCount": 0
     }
