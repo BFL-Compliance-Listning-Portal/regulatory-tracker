@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:22:58.535Z",
+  "generatedAt": "2026-08-09T05:46:47.088Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -52,7 +52,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786248946665,
+      "ts": 1786254072945,
       "ok": true,
       "newCount": 0
     },
@@ -99,7 +99,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786248948672,
+      "ts": 1786254074633,
       "ok": true,
       "newCount": 0
     },
@@ -107,6 +107,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "09 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mcap of 4 of top-10 most valued firms jumps â‚¹1.43 trn, SBI biggest winner",
+          "desc": "The combined market valuation of four of the top-10 most valued firms jumped Rs 1.43 lakh crore last week, with State Bank of India emerging as the biggest gainer.\nLast week, the BSE benchmark Sensex ",
+          "link": "https://www.business-standard.com/markets/news/mcap-of-4-of-top-10-most-valued-firms-jumps-1-43-trn-sbi-biggest-winner-126080900106_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "08 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -116,13 +126,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786248950122,
+      "ts": 1786254085285,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786248951606,
+      "ts": 1786254086605,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -132,9 +142,9 @@
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Stock Market Today: Nasdaq Leaps As Fed Rate-Hike Odds Sink; Biotech Jumps 20%, Sezzle Fizzles Out",
+          "title": "US regulator rejects Dutch fintech Bunq's application for national bank charter",
           "desc": "",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo",
+          "link": "https://finance.yahoo.com/technology/ai/articles/us-regulator-rejects-dutch-fintech-224025636.html",
           "isNew": false
         },
         {
@@ -142,24 +152,34 @@
           "date": "07 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq jump to cap winning week as Fed rate hike fears fade",
           "desc": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-settle-higher-weak-jobs-203708765.html",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html",
           "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "08 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+          "isNew": true
         }
       ],
-      "ts": 1786248952983,
+      "ts": 1786254087833,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786248954326,
+      "ts": 1786254089095,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786248955768,
+      "ts": 1786254090421,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -175,7 +195,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786248957817,
+      "ts": 1786254092129,
       "ok": true,
       "newCount": 0
     },
@@ -3182,7 +3202,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786248994724,
+      "ts": 1786254128198,
       "ok": true,
       "newCount": 0
     },
@@ -4020,7 +4040,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4030,7 +4050,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4519,7 +4539,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249014332,
+      "ts": 1786254147506,
       "ok": true,
       "newCount": 0
     },
@@ -4776,7 +4796,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249017871,
+      "ts": 1786254149836,
       "ok": true,
       "newCount": 0
     },
@@ -7783,7 +7803,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249053832,
+      "ts": 1786254185113,
       "ok": true,
       "newCount": 0
     },
@@ -9030,7 +9050,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249057140,
+      "ts": 1786254188933,
       "ok": true,
       "newCount": 0
     },
@@ -9057,7 +9077,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249058861,
+      "ts": 1786254190614,
       "ok": true,
       "newCount": 0
     },
@@ -12064,7 +12084,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249096863,
+      "ts": 1786254227644,
       "ok": true,
       "newCount": 0
     },
@@ -13231,7 +13251,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249099352,
+      "ts": 1786254230011,
       "ok": true,
       "newCount": 0
     },
@@ -16238,7 +16258,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249102848,
+      "ts": 1786254233089,
       "ok": true,
       "newCount": 0
     },
@@ -16405,7 +16425,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249105220,
+      "ts": 1786254235313,
       "ok": true,
       "newCount": 0
     },
@@ -16612,7 +16632,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249107529,
+      "ts": 1786254238728,
       "ok": true,
       "newCount": 0
     },
@@ -16869,7 +16889,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249116876,
+      "ts": 1786254249087,
       "ok": true,
       "newCount": 0
     },
@@ -19876,7 +19896,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249119284,
+      "ts": 1786254251332,
       "ok": true,
       "newCount": 0
     },
@@ -20083,7 +20103,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249122633,
+      "ts": 1786254254659,
       "ok": true,
       "newCount": 0
     },
@@ -20290,7 +20310,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249126026,
+      "ts": 1786254257780,
       "ok": true,
       "newCount": 0
     },
@@ -20497,7 +20517,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249129600,
+      "ts": 1786254261010,
       "ok": true,
       "newCount": 0
     },
@@ -20554,7 +20574,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249139217,
+      "ts": 1786254271578,
       "ok": true,
       "newCount": 0
     },
@@ -20595,7 +20615,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20605,13 +20625,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1786249144051,
+      "ts": 1786254276335,
       "ok": true,
       "newCount": 0
     },
@@ -20652,7 +20672,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20662,13 +20682,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1786249148848,
+      "ts": 1786254281104,
       "ok": true,
       "newCount": 0
     },
@@ -20685,28 +20705,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786249160171,
+      "ts": 1786254293664,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786249182790,
+      "ts": 1786254315857,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786249198437,
+      "ts": 1786254335732,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786249216078,
+      "ts": 1786254354767,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786249354371,
+      "ts": 1786254377639,
       "ok": true
     },
     "NFRA_0": {
@@ -20772,7 +20792,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249357201,
+      "ts": 1786254380429,
       "ok": true,
       "newCount": 0
     },
@@ -20899,7 +20919,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249358710,
+      "ts": 1786254381884,
       "ok": true,
       "newCount": 0
     },
@@ -21016,7 +21036,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249360208,
+      "ts": 1786254383340,
       "ok": true,
       "newCount": 0
     },
@@ -21143,7 +21163,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249361707,
+      "ts": 1786254384804,
       "ok": true,
       "newCount": 0
     },
@@ -21350,7 +21370,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249368576,
+      "ts": 1786254391432,
       "ok": true,
       "newCount": 0
     },
@@ -21557,7 +21577,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249375063,
+      "ts": 1786254397662,
       "ok": true,
       "newCount": 0
     },
@@ -24564,7 +24584,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786249377330,
+      "ts": 1786254399845,
       "ok": true,
       "newCount": 0
     }
