@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T14:19:11.882Z",
+  "generatedAt": "2026-08-10T15:56:44.882Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -62,7 +62,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371228501,
+      "ts": 1786377065602,
       "ok": true,
       "newCount": 0
     },
@@ -109,7 +109,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371230477,
+      "ts": 1786377067445,
       "ok": true,
       "newCount": 0
     },
@@ -120,13 +120,23 @@
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
+          "title": "FCNR(B) swaps: Banks limited to 1 day a week, delaying $ transfer to RBI",
+          "desc": "Banks can access the RBI's concessional FCNR(B) swap window only once a week, creating a lag between dollar mobilisation and transfer to the central bank.",
+          "link": "https://www.business-standard.com/finance/news/fcnr-b-swaps-banks-limited-to-1-day-a-week-delaying-transfer-to-rbi-126081001736_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "10 Aug 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "Recovery calls, agent visits, phone locks: Experts explain RBI's new rules",
           "desc": "RBI loan recovery New rules: 'Recovery finally has a paper trail': Experts on RBI's new curbs on calls, agent visits, harassment and phone locking",
           "link": "https://www.business-standard.com/finance/personal-finance/recovery-calls-agent-visits-phone-locks-experts-explain-rbi-s-new-rules-126081001164_1.html",
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -136,7 +146,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -146,7 +156,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -156,7 +166,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -166,7 +176,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -176,7 +186,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -186,28 +196,39 @@
           "isNew": false
         }
       ],
-      "ts": 1786371231937,
+      "ts": 1786377068927,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786371233319,
+      "ts": 1786377070401,
       "ok": true
     },
     "NEWSLETTER_5": {
-      "rows": [],
-      "ts": 1786371234547,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "10 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Brazil central bank eyes expansion for Pix payment system as US trade scrutiny intensifies",
+          "desc": "",
+          "link": "https://finance.yahoo.com/economy/policy/articles/brazil-central-bank-eyes-expansion-144953798.html"
+        }
+      ],
+      "ts": 1786377071759,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786371235794,
+      "ts": 1786377073011,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786371237389,
+      "ts": 1786377074655,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -221,19 +242,9 @@
           "desc": "Currency gives up roughly half its gains from joint action with investors citing lack of ‘unified voice’ among central banks",
           "link": "https://www.ft.com/content/47d2ab3c-0423-49ed-89ca-68683761ed98?syn-25a6b1a6=1",
           "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "10 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Start-up bank backed by Palmer Luckey set to raise $1.5bn",
-          "desc": "Funding values Erebor at $8bn, underscoring growth of lender supported by Silicon Valley investors",
-          "link": "https://www.ft.com/content/eae5a1cc-5d15-48c9-9d24-2b7094fda5ba?syn-25a6b1a6=1",
-          "isNew": false
         }
       ],
-      "ts": 1786371239204,
+      "ts": 1786377076980,
       "ok": true,
       "newCount": 0
     },
@@ -3240,7 +3251,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371275402,
+      "ts": 1786377113269,
       "ok": true,
       "newCount": 0
     },
@@ -3858,7 +3869,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4577,7 +4588,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371294844,
+      "ts": 1786377132781,
       "ok": true,
       "newCount": 0
     },
@@ -4834,7 +4845,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371297335,
+      "ts": 1786377135683,
       "ok": true,
       "newCount": 0
     },
@@ -7841,7 +7852,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371333345,
+      "ts": 1786377171773,
       "ok": true,
       "newCount": 0
     },
@@ -9088,7 +9099,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371338080,
+      "ts": 1786377176620,
       "ok": true,
       "newCount": 0
     },
@@ -9115,7 +9126,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371339776,
+      "ts": 1786377178402,
       "ok": true,
       "newCount": 0
     },
@@ -12122,7 +12133,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371377958,
+      "ts": 1786377216590,
       "ok": true,
       "newCount": 0
     },
@@ -13239,7 +13250,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371379270,
+      "ts": 1786377220439,
       "ok": true,
       "newCount": 0
     },
@@ -16246,7 +16257,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371382795,
+      "ts": 1786377223849,
       "ok": true,
       "newCount": 0
     },
@@ -16413,7 +16424,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371385101,
+      "ts": 1786377226155,
       "ok": true,
       "newCount": 0
     },
@@ -16620,7 +16631,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371387615,
+      "ts": 1786377228541,
       "ok": true,
       "newCount": 0
     },
@@ -16877,7 +16888,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371397024,
+      "ts": 1786377237700,
       "ok": true,
       "newCount": 0
     },
@@ -19884,7 +19895,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371399733,
+      "ts": 1786377239953,
       "ok": true,
       "newCount": 0
     },
@@ -20091,7 +20102,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371403198,
+      "ts": 1786377243759,
       "ok": true,
       "newCount": 0
     },
@@ -20298,7 +20309,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371406692,
+      "ts": 1786377247246,
       "ok": true,
       "newCount": 0
     },
@@ -20505,14 +20516,61 @@
           "isNew": false
         }
       ],
-      "ts": 1786371409990,
+      "ts": 1786377250726,
       "ok": true,
       "newCount": 0
     },
     "IEPFA_0": {
-      "rows": [],
-      "ts": 1786371421579,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "—",
+          "year": null,
+          "cat": "Rules",
+          "title": "Investor Education and Protection Fund Authority(Acounting, Audit, Transfer and Refund) Second Amendment Rules, 2019 | 803 KB",
+          "desc": "",
+          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
+        },
+        {
+          "sr": 2,
+          "date": "—",
+          "year": null,
+          "cat": "Rules",
+          "title": "Investor Education and Protection Fund Authority(Accounting, Audit, Transfer And Refund) Amendment Rules,2019 | 750 KB",
+          "desc": "",
+          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
+        },
+        {
+          "sr": 3,
+          "date": "—",
+          "year": null,
+          "cat": "Rules",
+          "title": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016. | 139 KB",
+          "desc": "",
+          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
+        },
+        {
+          "sr": 4,
+          "date": "—",
+          "year": null,
+          "cat": "Rules",
+          "title": "Investor Education and Protection Fund (Uploading of information regarding unpaid and unclaimed amounts lying with companies) Rules, 2012. | 174 KB",
+          "desc": "",
+          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
+        },
+        {
+          "sr": 5,
+          "date": "—",
+          "year": null,
+          "cat": "Rules",
+          "title": "Investor Education and Protection Fund (awareness and protection of investors) Rules, 2001. | 177 KB",
+          "desc": "",
+          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
+        }
+      ],
+      "ts": 1786377260979,
+      "ok": true,
+      "newCount": 0
     },
     "IEPFA_1": {
       "rows": [
@@ -20567,7 +20625,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371426467,
+      "ts": 1786377265789,
       "ok": true,
       "newCount": 0
     },
@@ -20624,7 +20682,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371431320,
+      "ts": 1786377270530,
       "ok": true,
       "newCount": 0
     },
@@ -20641,23 +20699,23 @@
           "isNew": false
         }
       ],
-      "ts": 1786371443040,
+      "ts": 1786377286865,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786371463008,
+      "ts": 1786377307197,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786371479722,
+      "ts": 1786377325355,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786371507185,
+      "ts": 1786377341396,
       "ok": true
     },
     "MCA_4": {
@@ -20714,8 +20772,9 @@
         }
       ],
       "ts": 1786371525172,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Execution context was destroyed, most likely because of a navigation."
     },
     "NFRA_0": {
       "rows": [
@@ -20780,7 +20839,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371528191,
+      "ts": 1786377376387,
       "ok": true,
       "newCount": 0
     },
@@ -20907,7 +20966,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371529693,
+      "ts": 1786377377911,
       "ok": true,
       "newCount": 0
     },
@@ -21024,7 +21083,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371531183,
+      "ts": 1786377379416,
       "ok": true,
       "newCount": 0
     },
@@ -21151,7 +21210,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371532669,
+      "ts": 1786377380931,
       "ok": true,
       "newCount": 0
     },
@@ -21159,6 +21218,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "10 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "The PCAOB announced that Kyle S. Hauptman was sworn in as a Board Member.",
+          "desc": "",
+          "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/kyle-s.-hauptman-sworn-in-as-pcaob-board-member",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "20 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -21168,7 +21237,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -21178,7 +21247,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -21188,7 +21257,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "09 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -21198,7 +21267,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "01 Jul 2026",
           "year": 2026,
           "cat": "News",
@@ -21208,7 +21277,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "29 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21218,7 +21287,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "26 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21228,7 +21297,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21238,7 +21307,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "23 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21248,7 +21317,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "15 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21258,7 +21327,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "11 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21268,7 +21337,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "09 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21278,7 +21347,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "03 Jun 2026",
           "year": 2026,
           "cat": "News",
@@ -21288,7 +21357,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "28 May 2026",
           "year": 2026,
           "cat": "News",
@@ -21298,7 +21367,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 16,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "News",
@@ -21308,7 +21377,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 17,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "News",
@@ -21318,7 +21387,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 18,
           "date": "30 Apr 2026",
           "year": 2026,
           "cat": "News",
@@ -21328,7 +21397,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 19,
           "date": "30 Apr 2026",
           "year": 2026,
           "cat": "News",
@@ -21338,7 +21407,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 20,
           "date": "27 Apr 2026",
           "year": 2026,
           "cat": "News",
@@ -21346,21 +21415,11 @@
           "desc": "",
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-shares-perspectives-from-2025-conversations-with-audit-committee-chairs",
           "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "23 Apr 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "The PCAOB will hold a meeting of its Investor Advisory Group on April 29, 2026, at 9:30 a.m. ET.",
-          "desc": "",
-          "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-investor-advisory-group-to-meet-on-april-29",
-          "isNew": false
         }
       ],
-      "ts": 1786371541734,
+      "ts": 1786377387868,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "PCAOB_1": {
       "rows": [
@@ -21565,7 +21624,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371547967,
+      "ts": 1786377394200,
       "ok": true,
       "newCount": 0
     },
@@ -24572,7 +24631,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786371550678,
+      "ts": 1786377396522,
       "ok": true,
       "newCount": 0
     }
