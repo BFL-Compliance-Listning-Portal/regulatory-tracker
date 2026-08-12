@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T15:56:40.205Z",
+  "generatedAt": "2026-08-12T16:52:47.400Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -48,44 +48,43 @@
           "cat": "News",
           "title": "Bank of Baroda, Canara Bank Increase Lending Rates: Will Your EMIs RiseAug 12, 2026, 14:05 IST",
           "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/personal-finance/bank-of-baroda-canara-bank-increase-lending-rates-will-your-emis-rise-article-155598728"
+          "link": "https://www.timesnownews.com/business-economy/personal-finance/bank-of-baroda-canara-bank-increase-lending-rates-will-your-emis-rise-article-155598728",
+          "isNew": false
         }
       ],
-      "ts": 1786549858670,
+      "ts": 1786553184786,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_2": {
+      "rows": [],
+      "ts": 1786553186470,
+      "ok": true
+    },
+    "NEWSLETTER_3": {
       "rows": [
         {
           "sr": 1,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "RBI invites public comments on draft rules to standardise how lenders set interest rates",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-invites-public-comments-on-draft-rules-to-standardise-how-lenders-set-interest-rates/articleshow/133182161.cms",
-          "isNew": false
+          "title": "RBI draft keeps external benchmark optional for NBFCs in loan-rate rules",
+          "desc": "The proposed harmonised framework requires banks to link certain floating-rate loans to external benchmarks while giving NBFCs and other lenders discretion over adoption",
+          "link": "https://www.business-standard.com/finance/news/rbi-draft-keeps-external-benchmark-optional-for-nbfcs-in-loan-rate-rules-126081201977_1.html",
+          "isNew": true
         },
         {
           "sr": 2,
-          "date": "07 Aug 2026",
+          "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "RBI's FCNR(B) scheme attracts $41 billion, Jefferies says inflows may double to $80-100 billion",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbis-fcnrb-scheme-attracts-41-billion-jefferies-says-inflows-may-double-to-80-100-billion/articleshow/133025166.cms",
-          "isNew": false
-        }
-      ],
-      "ts": 1786549860652,
-      "ok": true,
-      "newCount": 0
-    },
-    "NEWSLETTER_3": {
-      "rows": [
+          "title": "Retail inflation breaches RBI's median target again to hit 4.45% in July",
+          "desc": "India's retail inflation rose to 4.45% in July, driven by higher food prices, while economists expect no immediate RBI rate hike despite rising upside risks",
+          "link": "https://www.business-standard.com/economy/news/retail-inflation-breaches-rbi-s-median-target-again-to-hit-4-45-in-july-126081201939_1.html",
+          "isNew": true
+        },
         {
-          "sr": 1,
+          "sr": 3,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -95,7 +94,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 4,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -105,7 +104,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 5,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -115,7 +114,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 6,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -125,7 +124,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 7,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -135,7 +134,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 8,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -145,7 +144,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 9,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -155,7 +154,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 10,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -165,7 +164,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 11,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -175,13 +174,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786549862287,
+      "ts": 1786553187812,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786549867211,
+      "ts": 1786553189256,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -195,31 +194,22 @@
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-august-12-2026-earn-up-to-415-apy-100000399.html",
           "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "12 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Wednesday, August 12, 2026: Fixed rates move higher",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-wednesday-august-12-2026-fixed-rates-move-higher-100000633.html",
-          "isNew": true
         }
       ],
-      "ts": 1786549868643,
+      "ts": 1786553190485,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786549869929,
+      "ts": 1786553191732,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
       "ts": 1786549872257,
-      "ok": true
+      "ok": false,
+      "error": "HTTP 404"
     },
     "NEWSLETTER_8": {
       "rows": [
@@ -254,7 +244,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549874274,
+      "ts": 1786553207235,
       "ok": true,
       "newCount": 0
     },
@@ -3261,7 +3251,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549910610,
+      "ts": 1786553243642,
       "ok": true,
       "newCount": 0
     },
@@ -4099,7 +4089,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4109,7 +4099,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4289,7 +4279,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4299,18 +4289,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4318,9 +4298,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4329,18 +4319,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4348,9 +4328,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4359,8 +4349,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4369,8 +4359,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4379,8 +4369,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4389,18 +4379,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4408,9 +4388,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4419,8 +4409,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4429,8 +4419,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4439,8 +4429,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4449,8 +4439,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4459,18 +4449,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4478,9 +4458,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4488,9 +4468,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -4498,9 +4478,19 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4509,8 +4499,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4598,7 +4588,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549930192,
+      "ts": 1786553263449,
       "ok": true,
       "newCount": 0
     },
@@ -4855,7 +4845,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549933017,
+      "ts": 1786553266961,
       "ok": true,
       "newCount": 0
     },
@@ -7862,7 +7852,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549969082,
+      "ts": 1786553303508,
       "ok": true,
       "newCount": 0
     },
@@ -9109,7 +9099,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549973702,
+      "ts": 1786553308418,
       "ok": true,
       "newCount": 0
     },
@@ -9136,7 +9126,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786549975420,
+      "ts": 1786553310153,
       "ok": true,
       "newCount": 0
     },
@@ -12143,7 +12133,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550013308,
+      "ts": 1786553348518,
       "ok": true,
       "newCount": 0
     },
@@ -13260,7 +13250,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550016345,
+      "ts": 1786553350972,
       "ok": true,
       "newCount": 0
     },
@@ -16267,7 +16257,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550019737,
+      "ts": 1786553354100,
       "ok": true,
       "newCount": 0
     },
@@ -16434,7 +16424,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550022021,
+      "ts": 1786553356330,
       "ok": true,
       "newCount": 0
     },
@@ -16641,7 +16631,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550024332,
+      "ts": 1786553358275,
       "ok": true,
       "newCount": 0
     },
@@ -16654,7 +16644,8 @@
           "cat": "Circular",
           "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
+          "isNew": false
         },
         {
           "sr": 2,
@@ -16663,7 +16654,8 @@
           "cat": "Circular",
           "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
+          "isNew": false
         },
         {
           "sr": 3,
@@ -16672,7 +16664,8 @@
           "cat": "Circular",
           "title": "Update of single filing system through API-based integration between Stock Exchanges.",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
+          "isNew": false
         },
         {
           "sr": 4,
@@ -16681,7 +16674,8 @@
           "cat": "Circular",
           "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
+          "isNew": false
         },
         {
           "sr": 5,
@@ -16690,7 +16684,8 @@
           "cat": "Circular",
           "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
+          "isNew": false
         },
         {
           "sr": 6,
@@ -16699,7 +16694,8 @@
           "cat": "Circular",
           "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
+          "isNew": false
         },
         {
           "sr": 7,
@@ -16708,7 +16704,8 @@
           "cat": "Circular",
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
+          "isNew": false
         },
         {
           "sr": 8,
@@ -16717,7 +16714,8 @@
           "cat": "Circular",
           "title": "Status of SPVs post conclusion or termination of Concession Agreement",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
+          "isNew": false
         },
         {
           "sr": 9,
@@ -16726,7 +16724,8 @@
           "cat": "Circular",
           "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
+          "isNew": false
         },
         {
           "sr": 10,
@@ -16735,7 +16734,8 @@
           "cat": "Circular",
           "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
+          "isNew": false
         },
         {
           "sr": 11,
@@ -16744,7 +16744,8 @@
           "cat": "Circular",
           "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
+          "isNew": false
         },
         {
           "sr": 12,
@@ -16753,7 +16754,8 @@
           "cat": "Circular",
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
+          "isNew": false
         },
         {
           "sr": 13,
@@ -16762,7 +16764,8 @@
           "cat": "Circular",
           "title": "Master Circular - Listing Compliance",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
+          "isNew": false
         },
         {
           "sr": 14,
@@ -16771,7 +16774,8 @@
           "cat": "Circular",
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
+          "isNew": false
         },
         {
           "sr": 15,
@@ -16780,7 +16784,8 @@
           "cat": "Circular",
           "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
+          "isNew": false
         },
         {
           "sr": 16,
@@ -16789,7 +16794,8 @@
           "cat": "Circular",
           "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
+          "isNew": false
         },
         {
           "sr": 17,
@@ -16798,7 +16804,8 @@
           "cat": "Circular",
           "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
+          "isNew": false
         },
         {
           "sr": 18,
@@ -16807,7 +16814,8 @@
           "cat": "Circular",
           "title": "Listing of Units of Raajmarg Infra Investment Trust",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf"
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf",
+          "isNew": false
         },
         {
           "sr": 19,
@@ -16816,7 +16824,8 @@
           "cat": "Circular",
           "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1",
+          "isNew": false
         },
         {
           "sr": 20,
@@ -16825,7 +16834,8 @@
           "cat": "Circular",
           "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25",
+          "isNew": false
         },
         {
           "sr": 21,
@@ -16834,7 +16844,8 @@
           "cat": "Circular",
           "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44",
+          "isNew": false
         },
         {
           "sr": 22,
@@ -16843,7 +16854,8 @@
           "cat": "Circular",
           "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 by listed entities",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14",
+          "isNew": false
         },
         {
           "sr": 23,
@@ -16852,7 +16864,8 @@
           "cat": "Circular",
           "title": "SEBI (Issue and Listing of Non-Convertible Securities)(Amendment) Regulations, 2026",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13",
+          "isNew": false
         },
         {
           "sr": 24,
@@ -16861,7 +16874,8 @@
           "cat": "Circular",
           "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12",
+          "isNew": false
         },
         {
           "sr": 25,
@@ -16870,10 +16884,11 @@
           "cat": "Circular",
           "title": "Ease of Doing Investment -Special Window for Transfer and Dematerialisation of Physical Securities",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37"
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
+          "isNew": false
         }
       ],
-      "ts": 1786550033769,
+      "ts": 1786553367448,
       "ok": true,
       "newCount": 0
     },
@@ -16954,9 +16969,9 @@
           "date": "05 Apr 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Filing of disclosures in XBRL format under Regulation 7(2) and Regulation 7(3) of SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Prohibition_of_Insider_Trading_20260504195923.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Violation_of_Code_of_Conduct_20260504201244.pdf",
           "isNew": false
         },
         {
@@ -16964,9 +16979,9 @@
           "date": "05 Apr 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "title": "Filing of disclosures in XBRL format under Regulation 7(2) and Regulation 7(3) of SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Violation_of_Code_of_Conduct_20260504201244.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Prohibition_of_Insider_Trading_20260504195923.pdf",
           "isNew": false
         },
         {
@@ -17194,9 +17209,9 @@
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Review of - (a) disclosure of financial information in offer document, and (b) continuous disclosures and compliances by Real Estate Investment Trusts (REITs)",
+          "title": "Review of - (a) disclosure of financial information in offer document / placement memorandum, and (b) continuous disclosures and compliances by Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Real_Estate_Investment_Trusts_REITs_Circular_20250508194309.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Infrastructure_Investment_Trusts_InvITs_Circular_20250508194108.pdf",
           "isNew": false
         },
         {
@@ -17204,9 +17219,9 @@
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Review of - (a) disclosure of financial information in offer document / placement memorandum, and (b) continuous disclosures and compliances by Infrastructure Investment Trusts (InvITs)",
+          "title": "Review of - (a) disclosure of financial information in offer document, and (b) continuous disclosures and compliances by Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Infrastructure_Investment_Trusts_InvITs_Circular_20250508194108.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Real_Estate_Investment_Trusts_REITs_Circular_20250508194309.pdf",
           "isNew": false
         },
         {
@@ -17294,9 +17309,9 @@
           "date": "04 Jan 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "SEBI Circular on Amendment to Master Circular for Infrastructure Investment Trusts (InvITs) dated May 15, 2024",
+          "title": "SEBI Circular on Measures to facilitate ease of doing business with respect to framework for assurance or assessment, ESG disclosures for value chain, and introduction of voluntary disclosure on green credits.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01042025_INVIT_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/ESG.pdf",
           "isNew": false
         },
         {
@@ -17304,9 +17319,9 @@
           "date": "04 Jan 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "SEBI Circular on Measures to facilitate ease of doing business with respect to framework for assurance or assessment, ESG disclosures for value chain, and introduction of voluntary disclosure on green credits.",
+          "title": "SEBI Circular on Amendment to Master Circular for Infrastructure Investment Trusts (InvITs) dated May 15, 2024",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/ESG.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01042025_INVIT_0.pdf",
           "isNew": false
         },
         {
@@ -17724,9 +17739,9 @@
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Circular",
-          "title": "Self Regulatory Organizations for Social Impact Assessors in the context of Social Stock Exchange (“SSE”)",
+          "title": "Timelines for disclosures by Social Enterprises on Social Stock Exchange (\"SSE\") for FY 2023-2024",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0060_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0059_1.pdf",
           "isNew": false
         },
         {
@@ -17734,9 +17749,9 @@
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Circular",
-          "title": "Timelines for disclosures by Social Enterprises on Social Stock Exchange (\"SSE\") for FY 2023-2024",
+          "title": "Self Regulatory Organizations for Social Impact Assessors in the context of Social Stock Exchange (“SSE”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0059_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0060_1.pdf",
           "isNew": false
         },
         {
@@ -17944,9 +17959,9 @@
           "date": "07 Dec 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Real Estate Investment Trusts (REITs).",
+          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Infrastructure Investment Trusts (InvITs).",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_REITs.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_InvITs.pdf",
           "isNew": false
         },
         {
@@ -17954,9 +17969,9 @@
           "date": "07 Dec 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Infrastructure Investment Trusts (InvITs).",
+          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Real Estate Investment Trusts (REITs).",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_InvITs.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_REITs.pdf",
           "isNew": false
         },
         {
@@ -18224,9 +18239,9 @@
           "date": "14 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "BRSR Core – Framework for assurance and ESG disclosures for value chain",
+          "title": "Disclosure of material events / information by listed entities under Regulations 30 and 30A of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023_2.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023.pdf",
           "isNew": false
         },
         {
@@ -18234,9 +18249,9 @@
           "date": "14 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Disclosure of material events / information by listed entities under Regulations 30 and 30A of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "title": "BRSR Core – Framework for assurance and ESG disclosures for value chain",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023_2.pdf",
           "isNew": false
         },
         {
@@ -18264,9 +18279,9 @@
           "date": "07 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
+          "title": "Master Circular for Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_REIT_0.pdf",
           "isNew": false
         },
         {
@@ -18274,9 +18289,9 @@
           "date": "07 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Master Circular for Real Estate Investment Trusts (REITs)",
+          "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_REIT_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_0.pdf",
           "isNew": false
         },
         {
@@ -18284,9 +18299,9 @@
           "date": "06 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed InvIT",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023_0.pdf",
           "isNew": false
         },
         {
@@ -18294,9 +18309,9 @@
           "date": "06 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed InvIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023.pdf",
           "isNew": false
         },
         {
@@ -18334,33 +18349,13 @@
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Format for Annual Secretarial Compliance Report for REITs",
+          "title": "Manner of achieving minimum public unitholding – REITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_4.pdf",
           "isNew": false
         },
         {
           "sr": 147,
-          "date": "27 Jun 2023",
-          "year": 2023,
-          "cat": "Circular",
-          "title": "Format of Compliance Report on Governance for REITs",
-          "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_1.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 148,
-          "date": "27 Jun 2023",
-          "year": 2023,
-          "cat": "Circular",
-          "title": "Format of Compliance Report on Governance for InvITs",
-          "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_2.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 149,
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
@@ -18370,13 +18365,33 @@
           "isNew": false
         },
         {
+          "sr": 148,
+          "date": "27 Jun 2023",
+          "year": 2023,
+          "cat": "Circular",
+          "title": "Format for Annual Secretarial Compliance Report for InvITs",
+          "desc": "",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023.pdf",
+          "isNew": false
+        },
+        {
+          "sr": 149,
+          "date": "27 Jun 2023",
+          "year": 2023,
+          "cat": "Circular",
+          "title": "Format for Annual Secretarial Compliance Report for REITs",
+          "desc": "",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_0.pdf",
+          "isNew": false
+        },
+        {
           "sr": 150,
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Manner of achieving minimum public unitholding – REITs",
+          "title": "Format of Compliance Report on Governance for REITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_4.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_1.pdf",
           "isNew": false
         },
         {
@@ -18384,9 +18399,9 @@
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Format for Annual Secretarial Compliance Report for InvITs",
+          "title": "Format of Compliance Report on Governance for InvITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_2.pdf",
           "isNew": false
         },
         {
@@ -18464,9 +18479,9 @@
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Dematerialization of securities of Hold Cos and SPVs held by Infrastructure Investment Trusts (InvITs)",
+          "title": "Dematerialization of securities of Hold Cos and SPVs held by Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023.pdf",
           "isNew": false
         },
         {
@@ -18474,9 +18489,9 @@
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Dematerialization of securities of Hold Cos and SPVs held by Real Estate Investment Trusts (REITs)",
+          "title": "Dematerialization of securities of Hold Cos and SPVs held by Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023_0.pdf",
           "isNew": false
         },
         {
@@ -18504,9 +18519,9 @@
           "date": "10 Apr 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "FAQs on the submission of the quarterly Corporate Governance Report.",
+          "title": "Introduction of Issue Summary Document (ISD) – Further Issues.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_10042023_2_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-04/NSE_Circular_10042023_1.zip",
           "isNew": false
         },
         {
@@ -18514,9 +18529,9 @@
           "date": "10 Apr 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Introduction of Issue Summary Document (ISD) – Further Issues.",
+          "title": "FAQs on the submission of the quarterly Corporate Governance Report.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-04/NSE_Circular_10042023_1.zip",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_10042023_2_0.pdf",
           "isNew": false
         },
         {
@@ -18834,9 +18849,9 @@
           "date": "19 Dec 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Clarifications with respect to SEBI Circular no. SEBI/HO/DDHS/DDHS\u0002RACPOD1/P/CIR/2022/156 dated November 17, 2022 (“SEBI Circular”), on Scheme(s) of Arrangement by entities who have listed their Non-convertible Debt securities (NCDs)/ Non-convertible Redeemable Preference shares (NCRPS)’",
+          "title": "Circular pertaining to submission of the Aadhar details in the Announcement/Offer Documents submitted to the Exchange.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_19122022_Equity.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/Circular%20pertaining%20to%20submission%20of%20the%20Aadhar%20details%20in%20the%20Announcements%20or%20Offer%20Documents%20submitted%20to%20the%20Exchange.pdf",
           "isNew": false
         },
         {
@@ -18844,9 +18859,9 @@
           "date": "19 Dec 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Circular pertaining to submission of the Aadhar details in the Announcement/Offer Documents submitted to the Exchange.",
+          "title": "Clarifications with respect to SEBI Circular no. SEBI/HO/DDHS/DDHS\u0002RACPOD1/P/CIR/2022/156 dated November 17, 2022 (“SEBI Circular”), on Scheme(s) of Arrangement by entities who have listed their Non-convertible Debt securities (NCDs)/ Non-convertible Redeemable Preference shares (NCRPS)’",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/Circular%20pertaining%20to%20submission%20of%20the%20Aadhar%20details%20in%20the%20Announcements%20or%20Offer%20Documents%20submitted%20to%20the%20Exchange.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_19122022_Equity.pdf",
           "isNew": false
         },
         {
@@ -18944,9 +18959,9 @@
           "date": "30 Sept 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
+          "title": "XBRL based filing of Shareholding Pattern Report for Listed Companies at NSE",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_0.pdf",
           "isNew": false
         },
         {
@@ -18954,9 +18969,9 @@
           "date": "30 Sept 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "XBRL based filing of Shareholding Pattern Report for Listed Companies at NSE",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_1.pdf",
           "isNew": false
         },
         {
@@ -19344,9 +19359,9 @@
           "date": "25 Feb 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Extension to SEBI Circular on “Relaxation in adherence to prescribed timelines issued by SEBI due to Covid 19” dated April 13, 2020",
+          "title": "Approach to securities market data access and terms of usage of data provided by data sources in Indian securities market",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022_1.pdf",
           "isNew": false
         },
         {
@@ -19354,9 +19369,9 @@
           "date": "25 Feb 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Approach to securities market data access and terms of usage of data provided by data sources in Indian securities market",
+          "title": "Extension to SEBI Circular on “Relaxation in adherence to prescribed timelines issued by SEBI due to Covid 19” dated April 13, 2020",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_25022022.pdf",
           "isNew": false
         },
         {
@@ -19374,9 +19389,9 @@
           "date": "15 Feb 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Conversion of Private Unlisted InvIT into Private Listed InvIT",
+          "title": "Framework for conversion of Private Listed InvIT into Public InvIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_8.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_7.pdf",
           "isNew": false
         },
         {
@@ -19394,9 +19409,9 @@
           "date": "15 Feb 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Framework for conversion of Private Listed InvIT into Public InvIT",
+          "title": "Conversion of Private Unlisted InvIT into Private Listed InvIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_7.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_15022022_8.pdf",
           "isNew": false
         },
         {
@@ -19604,9 +19619,9 @@
           "date": "05 Oct 2021",
           "year": 2021,
           "cat": "Circular",
-          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(6A) and Regulation 22(8) of SEBI (Real Estate Investment Trusts) Regulations, 2014 (“SEBI (REIT) Regulations”)",
+          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(5C) and Regulation 22(7) of SEBI (Infrastructure Investment Trusts) Regulations, 2014 (“SEBI (InvIT) Regulations”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_2.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_1.pdf",
           "isNew": false
         },
         {
@@ -19614,9 +19629,9 @@
           "date": "05 Oct 2021",
           "year": 2021,
           "cat": "Circular",
-          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(5C) and Regulation 22(7) of SEBI (Infrastructure Investment Trusts) Regulations, 2014 (“SEBI (InvIT) Regulations”)",
+          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(6A) and Regulation 22(8) of SEBI (Real Estate Investment Trusts) Regulations, 2014 (“SEBI (REIT) Regulations”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_2.pdf",
           "isNew": false
         },
         {
@@ -19880,7 +19895,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550036252,
+      "ts": 1786553369925,
       "ok": true,
       "newCount": 0
     },
@@ -20087,7 +20102,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550039793,
+      "ts": 1786553373273,
       "ok": true,
       "newCount": 0
     },
@@ -20294,7 +20309,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550043252,
+      "ts": 1786553376579,
       "ok": true,
       "newCount": 0
     },
@@ -20501,7 +20516,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550047453,
+      "ts": 1786553379846,
       "ok": true,
       "newCount": 0
     },
@@ -20558,7 +20573,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550062093,
+      "ts": 1786553401340,
       "ok": true,
       "newCount": 0
     },
@@ -20599,7 +20614,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20609,13 +20624,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1786550066924,
+      "ts": 1786553406323,
       "ok": true,
       "newCount": 0
     },
@@ -20672,7 +20687,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550071755,
+      "ts": 1786553411523,
       "ok": true,
       "newCount": 0
     },
@@ -20689,28 +20704,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786550083947,
+      "ts": 1786553465904,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786550106448,
+      "ts": 1786553484478,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786550134498,
+      "ts": 1786553501772,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786550153426,
+      "ts": 1786553520111,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786550168870,
+      "ts": 1786553537086,
       "ok": true
     },
     "NFRA_0": {
@@ -20776,7 +20791,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550171983,
+      "ts": 1786553540197,
       "ok": true,
       "newCount": 0
     },
@@ -20903,7 +20918,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550173490,
+      "ts": 1786553541710,
       "ok": true,
       "newCount": 0
     },
@@ -21020,7 +21035,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550174987,
+      "ts": 1786553543205,
       "ok": true,
       "newCount": 0
     },
@@ -21147,7 +21162,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550176483,
+      "ts": 1786553544711,
       "ok": true,
       "newCount": 0
     },
@@ -21354,7 +21369,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550183252,
+      "ts": 1786553551544,
       "ok": true,
       "newCount": 0
     },
@@ -21561,7 +21576,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550189562,
+      "ts": 1786553557844,
       "ok": true,
       "newCount": 0
     },
@@ -24568,7 +24583,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786550191935,
+      "ts": 1786553560062,
       "ok": true,
       "newCount": 0
     }
