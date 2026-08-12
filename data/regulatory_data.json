@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:02:34.829Z",
+  "generatedAt": "2026-08-12T20:42:45.792Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -53,12 +53,13 @@
         }
       ],
       "ts": 1786564611159,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "NEWSLETTER_2": {
       "rows": [],
-      "ts": 1786564613025,
+      "ts": 1786567037145,
       "ok": true
     },
     "NEWSLETTER_3": {
@@ -124,13 +125,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786564614564,
+      "ts": 1786567040026,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786564615928,
+      "ts": 1786567041555,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -143,26 +144,36 @@
           "title": "Bank of America sends blunt message to Nvidia stock investors",
           "desc": "",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
           "date": "11 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "U.S. Treasury is paying $3 billion a day in interest on national debt, says the CBO—having spent $10 billion to prop up the currency of its top lender",
+          "title": "Louisiana bank agrees to FDIC consent order over credit quality",
           "desc": "",
-          "link": "https://finance.yahoo.com/economy/policy/articles/u-treasury-paying-3-billion-104918826.html",
+          "link": "https://finance.yahoo.com/economy/policy/articles/louisiana-bank-agrees-fdic-consent-120255951.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "11 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Optimum Communications (OPTU): Evaluating a Tender Offer Arbitrage",
+          "desc": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/optimum-communications-optu-evaluating-tender-120934380.html",
           "isNew": true
         }
       ],
-      "ts": 1786564617299,
+      "ts": 1786567042853,
       "ok": true,
       "newCount": 2
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786564618608,
+      "ts": 1786567044163,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -184,7 +195,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564640334,
+      "ts": 1786567065872,
       "ok": true,
       "newCount": 0
     },
@@ -3191,7 +3202,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564677405,
+      "ts": 1786567101288,
       "ok": true,
       "newCount": 0
     },
@@ -3809,7 +3820,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4029,7 +4040,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4039,7 +4050,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4449,8 +4460,8 @@
         },
         {
           "sr": 126,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -4459,38 +4470,38 @@
         },
         {
           "sr": 127,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
           "isNew": false
         },
         {
           "sr": 128,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "—",
-          "year": null,
+          "date": "17 Mar 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -4499,36 +4510,36 @@
         },
         {
           "sr": 131,
-          "date": "—",
-          "year": null,
+          "date": "12 Feb 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
           "isNew": false
         },
         {
           "sr": 132,
-          "date": "—",
-          "year": null,
+          "date": "01 Jan 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "—",
-          "year": null,
+          "date": "19 Dec 2008",
+          "year": 2008,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
           "isNew": false
         }
       ],
-      "ts": 1786564696898,
+      "ts": 1786567120702,
       "ok": true,
       "newCount": 0
     },
@@ -4785,7 +4796,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564699265,
+      "ts": 1786567123096,
       "ok": true,
       "newCount": 0
     },
@@ -7792,7 +7803,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564735236,
+      "ts": 1786567158740,
       "ok": true,
       "newCount": 0
     },
@@ -9039,7 +9050,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564738503,
+      "ts": 1786567162004,
       "ok": true,
       "newCount": 0
     },
@@ -9066,7 +9077,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564740221,
+      "ts": 1786567163672,
       "ok": true,
       "newCount": 0
     },
@@ -12073,7 +12084,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564778136,
+      "ts": 1786567200768,
       "ok": true,
       "newCount": 0
     },
@@ -13190,7 +13201,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564780710,
+      "ts": 1786567203196,
       "ok": true,
       "newCount": 0
     },
@@ -16197,7 +16208,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564783210,
+      "ts": 1786567206570,
       "ok": true,
       "newCount": 0
     },
@@ -16364,7 +16375,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564785391,
+      "ts": 1786567208780,
       "ok": true,
       "newCount": 0
     },
@@ -16571,7 +16582,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564787635,
+      "ts": 1786567211178,
       "ok": true,
       "newCount": 0
     },
@@ -16828,7 +16839,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564797078,
+      "ts": 1786567221270,
       "ok": true,
       "newCount": 0
     },
@@ -19835,7 +19846,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564800406,
+      "ts": 1786567229985,
       "ok": true,
       "newCount": 0
     },
@@ -20042,7 +20053,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564803750,
+      "ts": 1786567233373,
       "ok": true,
       "newCount": 0
     },
@@ -20249,7 +20260,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564807023,
+      "ts": 1786567236623,
       "ok": true,
       "newCount": 0
     },
@@ -20456,7 +20467,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564810552,
+      "ts": 1786567239958,
       "ok": true,
       "newCount": 0
     },
@@ -20513,7 +20524,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564823068,
+      "ts": 1786567255061,
       "ok": true,
       "newCount": 0
     },
@@ -20570,7 +20581,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564828035,
+      "ts": 1786567259948,
       "ok": true,
       "newCount": 0
     },
@@ -20611,7 +20622,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20621,13 +20632,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1786564832894,
+      "ts": 1786567264780,
       "ok": true,
       "newCount": 0
     },
@@ -20644,28 +20655,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786564843521,
+      "ts": 1786567275643,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786564860989,
+      "ts": 1786567289931,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786564891320,
+      "ts": 1786567306060,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786564911217,
+      "ts": 1786567322688,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786564925388,
+      "ts": 1786567335805,
       "ok": true
     },
     "NFRA_0": {
@@ -20731,7 +20742,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564928428,
+      "ts": 1786567338593,
       "ok": true,
       "newCount": 0
     },
@@ -20858,7 +20869,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564929916,
+      "ts": 1786567340094,
       "ok": true,
       "newCount": 0
     },
@@ -20975,7 +20986,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564931403,
+      "ts": 1786567341590,
       "ok": true,
       "newCount": 0
     },
@@ -21102,7 +21113,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564932873,
+      "ts": 1786567343071,
       "ok": true,
       "newCount": 0
     },
@@ -21309,7 +21320,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564939643,
+      "ts": 1786567349791,
       "ok": true,
       "newCount": 0
     },
@@ -21516,7 +21527,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564946033,
+      "ts": 1786567356039,
       "ok": true,
       "newCount": 0
     },
@@ -24523,7 +24534,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786564948453,
+      "ts": 1786567358310,
       "ok": true,
       "newCount": 0
     }
