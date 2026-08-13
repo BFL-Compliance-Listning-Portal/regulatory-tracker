@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T04:05:44.642Z",
+  "generatedAt": "2026-08-13T05:47:43.121Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -52,13 +52,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786593623207,
+      "ts": 1786599750837,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_2": {
       "rows": [],
-      "ts": 1786593624917,
+      "ts": 1786599752647,
       "ok": true
     },
     "NEWSLETTER_3": {
@@ -68,9 +68,9 @@
           "date": "13 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Technical view: Indian Bank, PB Fintech, Shriram Finance show bullish setup",
-          "desc": "Ajit Mishra of Religare Broking said that 24,000-24,200 zone has emerged as the next major support for Nifty. He also said that Indian Bank, PB Fintech and Shriram Finance are showing a bullish setup.",
-          "link": "https://www.business-standard.com/markets/news/technical-view-indian-bank-pb-fintech-shriram-finance-show-bullish-setup-126081300080_1.html",
+          "title": "RBI turns upbeat as worst of West Asia war shock recedes, demand holds up",
+          "desc": "Five months after the Iran war stoked fears of an oil-driven inflation surge and economic slowdown, resilient demand and easing price pressures are giving RBI officials more confidence",
+          "link": "https://www.business-standard.com/finance/news/rbi-turns-upbeat-as-worst-of-west-asia-war-shock-recedes-demand-holds-up-126081300635_1.html",
           "isNew": true
         },
         {
@@ -78,52 +78,80 @@
           "date": "13 Aug 2026",
           "year": 2026,
           "cat": "News",
+          "title": "Boss Scam: That urgent payment request from your CEO could be a trap",
+          "desc": "HDFC Bank advises customers to remain vigilant against Boss Scam (impersonation of a business leader/ senior company executive). The aim is to increase awareness about such frauds to safeguard custom",
+          "link": "https://www.business-standard.com/finance/personal-finance/boss-scam-that-urgent-payment-request-from-your-ceo-could-be-a-trap-126081300445_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "13 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Technical view: Indian Bank, PB Fintech, Shriram Finance show bullish setup",
+          "desc": "Ajit Mishra of Religare Broking said that 24,000-24,200 zone has emerged as the next major support for Nifty. He also said that Indian Bank, PB Fintech and Shriram Finance are showing a bullish setup.",
+          "link": "https://www.business-standard.com/markets/news/technical-view-indian-bank-pb-fintech-shriram-finance-show-bullish-setup-126081300080_1.html",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "13 Aug 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "Paytm CEO, CFO get Sebi notice over 2023 disclosure curbing small loans",
           "desc": "The company, in a statement on December 6, 2023, said it would issue fewer sub-₹50,000 (about $525) personal loans, after the ‌Reserve Bank of India tightened rules on consumer lending",
           "link": "https://www.business-standard.com/companies/news/paytm-ceo-cfo-get-sebi-notice-over-2023-disclosure-curbing-small-loans-126081300033_1.html",
-          "isNew": true
+          "isNew": false
         }
       ],
-      "ts": 1786593626226,
+      "ts": 1786599755148,
       "ok": true,
       "newCount": 2
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786593627532,
+      "ts": 1786599756653,
       "ok": true
     },
     "NEWSLETTER_5": {
-      "rows": [],
-      "ts": 1786593628793,
-      "ok": true
-    },
-    "NEWSLETTER_6": {
-      "rows": [],
-      "ts": 1786593630183,
-      "ok": true
-    },
-    "NEWSLETTER_7": {
-      "rows": [],
-      "ts": 1786593631531,
-      "ok": true
-    },
-    "NEWSLETTER_8": {
       "rows": [
         {
           "sr": 1,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Poorer Americans are struggling to make ‘ends meet’, top Fed official says",
-          "desc": "Boston central bank branch head Susan Collins will back September interest rate rise if inflation remains hot",
-          "link": "https://www.ft.com/content/56c300d3-3632-476e-96d6-da84d4558bda?syn-25a6b1a6=1",
-          "isNew": false
+          "title": "Bank of America sends blunt message to Nvidia stock investors",
+          "desc": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html"
+        },
+        {
+          "sr": 2,
+          "date": "10 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Best high-yield savings interest rates today, Wednesday, August 12, 2026: Earn up to 4.15% APY",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-august-12-2026-earn-up-to-415-apy-100000399.html"
         }
       ],
-      "ts": 1786593633251,
+      "ts": 1786599757991,
       "ok": true,
       "newCount": 0
+    },
+    "NEWSLETTER_6": {
+      "rows": [],
+      "ts": 1786599759434,
+      "ok": true
+    },
+    "NEWSLETTER_7": {
+      "rows": [],
+      "ts": 1786599761149,
+      "ok": true
+    },
+    "NEWSLETTER_8": {
+      "rows": [],
+      "ts": 1786599762993,
+      "ok": true
     },
     "SEBI_0": {
       "rows": [
@@ -3128,7 +3156,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593668430,
+      "ts": 1786599800595,
       "ok": true,
       "newCount": 0
     },
@@ -3966,7 +3994,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -3976,7 +4004,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4465,7 +4493,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593687546,
+      "ts": 1786599820940,
       "ok": true,
       "newCount": 0
     },
@@ -4722,7 +4750,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593689860,
+      "ts": 1786599824158,
       "ok": true,
       "newCount": 0
     },
@@ -7729,7 +7757,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593724579,
+      "ts": 1786599861841,
       "ok": true,
       "newCount": 0
     },
@@ -8976,7 +9004,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593734006,
+      "ts": 1786599866108,
       "ok": true,
       "newCount": 0
     },
@@ -9003,7 +9031,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593736504,
+      "ts": 1786599867942,
       "ok": true,
       "newCount": 0
     },
@@ -12010,7 +12038,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593772863,
+      "ts": 1786599906945,
       "ok": true,
       "newCount": 0
     },
@@ -13127,7 +13155,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593775232,
+      "ts": 1786599909342,
       "ok": true,
       "newCount": 0
     },
@@ -16134,7 +16162,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593778938,
+      "ts": 1786599912991,
       "ok": true,
       "newCount": 0
     },
@@ -16301,7 +16329,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593781109,
+      "ts": 1786599915290,
       "ok": true,
       "newCount": 0
     },
@@ -16508,7 +16536,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593783365,
+      "ts": 1786599917694,
       "ok": true,
       "newCount": 0
     },
@@ -16516,186 +16544,6 @@
       "rows": [
         {
           "sr": 1,
-          "date": "07 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "22 Jul 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "19 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "12 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "29 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "06 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "30 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular - Listing Compliance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "24 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "30 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Listing of Units of Raajmarg Infra Investment Trust",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 19,
           "date": "10 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16705,7 +16553,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 2,
           "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16715,7 +16563,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 3,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16725,7 +16573,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 4,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16735,7 +16583,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 5,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16745,7 +16593,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 6,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16755,7 +16603,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 7,
           "date": "02 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -16763,9 +16611,189 @@
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
           "isNew": false
+        },
+        {
+          "sr": 8,
+          "date": "02 Jan 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23",
+          "isNew": false
+        },
+        {
+          "sr": 9,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modification in the conditions specified for reduction in denomination of debt securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26",
+          "isNew": false
+        },
+        {
+          "sr": 10,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25",
+          "isNew": false
+        },
+        {
+          "sr": 11,
+          "date": "18 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
+          "isNew": false
+        },
+        {
+          "sr": 12,
+          "date": "09 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53",
+          "isNew": false
+        },
+        {
+          "sr": 13,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66",
+          "isNew": false
+        },
+        {
+          "sr": 14,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
+          "isNew": false
+        },
+        {
+          "sr": 15,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64",
+          "isNew": false
+        },
+        {
+          "sr": 16,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63",
+          "isNew": false
+        },
+        {
+          "sr": 17,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73",
+          "isNew": false
+        },
+        {
+          "sr": 18,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
+          "isNew": false
+        },
+        {
+          "sr": 19,
+          "date": "17 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20",
+          "isNew": false
+        },
+        {
+          "sr": 20,
+          "date": "14 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
+          "isNew": false
+        },
+        {
+          "sr": 21,
+          "date": "09 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
+          "isNew": false
+        },
+        {
+          "sr": 22,
+          "date": "26 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Framework on Social Stock Exchange (“SSE”)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67",
+          "isNew": false
+        },
+        {
+          "sr": 23,
+          "date": "24 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42",
+          "isNew": false
+        },
+        {
+          "sr": 24,
+          "date": "12 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
+          "isNew": false
+        },
+        {
+          "sr": 25,
+          "date": "11 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86",
+          "isNew": false
         }
       ],
-      "ts": 1786593792562,
+      "ts": 1786599926935,
       "ok": true,
       "newCount": 0
     },
@@ -19772,7 +19800,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593794749,
+      "ts": 1786599929150,
       "ok": true,
       "newCount": 0
     },
@@ -19979,7 +20007,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593798437,
+      "ts": 1786599932486,
       "ok": true,
       "newCount": 0
     },
@@ -20186,7 +20214,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593801606,
+      "ts": 1786599935847,
       "ok": true,
       "newCount": 0
     },
@@ -20393,7 +20421,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593804765,
+      "ts": 1786599939150,
       "ok": true,
       "newCount": 0
     },
@@ -20450,7 +20478,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593818418,
+      "ts": 1786599950659,
       "ok": true,
       "newCount": 0
     },
@@ -20507,7 +20535,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593823202,
+      "ts": 1786599955498,
       "ok": true,
       "newCount": 0
     },
@@ -20564,7 +20592,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593827952,
+      "ts": 1786599960225,
       "ok": true,
       "newCount": 0
     },
@@ -20581,28 +20609,75 @@
           "isNew": false
         }
       ],
-      "ts": 1786593839369,
+      "ts": 1786599971757,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786593858577,
+      "ts": 1786599989617,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786593875557,
+      "ts": 1786600003225,
       "ok": true
     },
     "MCA_3": {
-      "rows": [],
-      "ts": 1786593897179,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
+        }
+      ],
+      "ts": 1786600018079,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786593915386,
+      "ts": 1786600032341,
       "ok": true
     },
     "NFRA_0": {
@@ -20668,7 +20743,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593918123,
+      "ts": 1786600035465,
       "ok": true,
       "newCount": 0
     },
@@ -20795,7 +20870,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593919591,
+      "ts": 1786600036987,
       "ok": true,
       "newCount": 0
     },
@@ -20912,7 +20987,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593921108,
+      "ts": 1786600038491,
       "ok": true,
       "newCount": 0
     },
@@ -21039,7 +21114,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593922581,
+      "ts": 1786600040000,
       "ok": true,
       "newCount": 0
     },
@@ -21246,7 +21321,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593929109,
+      "ts": 1786600046840,
       "ok": true,
       "newCount": 0
     },
@@ -21453,7 +21528,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593935377,
+      "ts": 1786600052842,
       "ok": true,
       "newCount": 0
     },
@@ -24460,7 +24535,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786593937618,
+      "ts": 1786600055038,
       "ok": true,
       "newCount": 0
     }
