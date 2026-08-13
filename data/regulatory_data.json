@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:36:40.260Z",
+  "generatedAt": "2026-08-13T23:37:23.941Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -62,7 +62,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660279951,
+      "ts": 1786663922502,
       "ok": true,
       "newCount": 0
     },
@@ -89,7 +89,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660281737,
+      "ts": 1786663924592,
       "ok": true,
       "newCount": 0
     },
@@ -176,13 +176,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786660283120,
+      "ts": 1786663925910,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786660284513,
+      "ts": 1786663927556,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -196,15 +196,35 @@
           "desc": "",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
           "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "12 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Inflation dips, affirming Fed decision to keep interest rates steady",
+          "desc": "",
+          "link": "https://finance.yahoo.com/economy/policy/articles/inflation-dips-affirming-fed-decision-155639528.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "12 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Vestas Shares Surge as Wind Turbine Orders Rebound",
+          "desc": "",
+          "link": "https://finance.yahoo.com/energy/articles/vestas-shares-surge-wind-turbine-161341125.html",
+          "isNew": true
         }
       ],
-      "ts": 1786660285753,
+      "ts": 1786663928809,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786660286992,
+      "ts": 1786663930131,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -215,7 +235,7 @@
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1786660308236,
+      "ts": 1786663951423,
       "ok": true
     },
     "SEBI_0": {
@@ -3221,7 +3241,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660343263,
+      "ts": 1786663986609,
       "ok": true,
       "newCount": 0
     },
@@ -4059,7 +4079,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4069,7 +4089,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4558,7 +4578,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660362472,
+      "ts": 1786664005809,
       "ok": true,
       "newCount": 0
     },
@@ -4815,7 +4835,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660364834,
+      "ts": 1786664008141,
       "ok": true,
       "newCount": 0
     },
@@ -7822,7 +7842,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660399958,
+      "ts": 1786664043143,
       "ok": true,
       "newCount": 0
     },
@@ -9069,7 +9089,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660405289,
+      "ts": 1786664046278,
       "ok": true,
       "newCount": 0
     },
@@ -9096,7 +9116,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660407010,
+      "ts": 1786664047967,
       "ok": true,
       "newCount": 0
     },
@@ -12103,7 +12123,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660443341,
+      "ts": 1786664084648,
       "ok": true,
       "newCount": 0
     },
@@ -13220,7 +13240,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660445655,
+      "ts": 1786664086992,
       "ok": true,
       "newCount": 0
     },
@@ -16227,7 +16247,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660448870,
+      "ts": 1786664090190,
       "ok": true,
       "newCount": 0
     },
@@ -16394,7 +16414,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660451171,
+      "ts": 1786664092200,
       "ok": true,
       "newCount": 0
     },
@@ -16601,7 +16621,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660452966,
+      "ts": 1786664094497,
       "ok": true,
       "newCount": 0
     },
@@ -16858,7 +16878,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660462400,
+      "ts": 1786664103786,
       "ok": true,
       "newCount": 0
     },
@@ -16939,9 +16959,9 @@
           "date": "05 Apr 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Filing of disclosures in XBRL format under Regulation 7(2) and Regulation 7(3) of SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Prohibition_of_Insider_Trading_20260504195923.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Violation_of_Code_of_Conduct_20260504201244.pdf",
           "isNew": false
         },
         {
@@ -16949,9 +16969,9 @@
           "date": "05 Apr 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
+          "title": "Filing of disclosures in XBRL format under Regulation 7(2) and Regulation 7(3) of SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Violation_of_Code_of_Conduct_20260504201244.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-05/Prohibition_of_Insider_Trading_20260504195923.pdf",
           "isNew": false
         },
         {
@@ -17179,9 +17199,9 @@
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Review of - (a) disclosure of financial information in offer document, and (b) continuous disclosures and compliances by Real Estate Investment Trusts (REITs)",
+          "title": "Review of - (a) disclosure of financial information in offer document / placement memorandum, and (b) continuous disclosures and compliances by Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Real_Estate_Investment_Trusts_REITs_Circular_20250508194309.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Infrastructure_Investment_Trusts_InvITs_Circular_20250508194108.pdf",
           "isNew": false
         },
         {
@@ -17189,9 +17209,9 @@
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Review of - (a) disclosure of financial information in offer document / placement memorandum, and (b) continuous disclosures and compliances by Infrastructure Investment Trusts (InvITs)",
+          "title": "Review of - (a) disclosure of financial information in offer document, and (b) continuous disclosures and compliances by Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Infrastructure_Investment_Trusts_InvITs_Circular_20250508194108.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2025-05/Real_Estate_Investment_Trusts_REITs_Circular_20250508194309.pdf",
           "isNew": false
         },
         {
@@ -17279,9 +17299,9 @@
           "date": "04 Jan 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "SEBI Circular on Amendment to Master Circular for Infrastructure Investment Trusts (InvITs) dated May 15, 2024",
+          "title": "SEBI Circular on Measures to facilitate ease of doing business with respect to framework for assurance or assessment, ESG disclosures for value chain, and introduction of voluntary disclosure on green credits.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01042025_INVIT_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/ESG.pdf",
           "isNew": false
         },
         {
@@ -17289,9 +17309,9 @@
           "date": "04 Jan 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "SEBI Circular on Measures to facilitate ease of doing business with respect to framework for assurance or assessment, ESG disclosures for value chain, and introduction of voluntary disclosure on green credits.",
+          "title": "SEBI Circular on Amendment to Master Circular for Infrastructure Investment Trusts (InvITs) dated May 15, 2024",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/ESG.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_01042025_INVIT_0.pdf",
           "isNew": false
         },
         {
@@ -17709,9 +17729,9 @@
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Circular",
-          "title": "Self Regulatory Organizations for Social Impact Assessors in the context of Social Stock Exchange (“SSE”)",
+          "title": "Timelines for disclosures by Social Enterprises on Social Stock Exchange (\"SSE\") for FY 2023-2024",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0060_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0059_1.pdf",
           "isNew": false
         },
         {
@@ -17719,9 +17739,9 @@
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Circular",
-          "title": "Timelines for disclosures by Social Enterprises on Social Stock Exchange (\"SSE\") for FY 2023-2024",
+          "title": "Self Regulatory Organizations for Social Impact Assessors in the context of Social Stock Exchange (“SSE”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0059_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_0060_1.pdf",
           "isNew": false
         },
         {
@@ -17929,9 +17949,9 @@
           "date": "07 Dec 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Real Estate Investment Trusts (REITs).",
+          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Infrastructure Investment Trusts (InvITs).",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_REITs.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_InvITs.pdf",
           "isNew": false
         },
         {
@@ -17939,9 +17959,9 @@
           "date": "07 Dec 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Infrastructure Investment Trusts (InvITs).",
+          "title": "Revised framework for computation of Net Distributable Cash Flow (NDCF) by Real Estate Investment Trusts (REITs).",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_InvITs.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07122023_REITs.pdf",
           "isNew": false
         },
         {
@@ -18209,9 +18229,9 @@
           "date": "14 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "BRSR Core – Framework for assurance and ESG disclosures for value chain",
+          "title": "Disclosure of material events / information by listed entities under Regulations 30 and 30A of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023_2.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023.pdf",
           "isNew": false
         },
         {
@@ -18219,9 +18239,9 @@
           "date": "14 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Disclosure of material events / information by listed entities under Regulations 30 and 30A of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "title": "BRSR Core – Framework for assurance and ESG disclosures for value chain",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_14072023_2.pdf",
           "isNew": false
         },
         {
@@ -18249,9 +18269,9 @@
           "date": "07 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
+          "title": "Master Circular for Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_REIT_0.pdf",
           "isNew": false
         },
         {
@@ -18259,9 +18279,9 @@
           "date": "07 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Master Circular for Real Estate Investment Trusts (REITs)",
+          "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_REIT_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07072023_0.pdf",
           "isNew": false
         },
         {
@@ -18269,9 +18289,9 @@
           "date": "06 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed InvIT",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023_0.pdf",
           "isNew": false
         },
         {
@@ -18279,9 +18299,9 @@
           "date": "06 Jul 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed InvIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_06072023.pdf",
           "isNew": false
         },
         {
@@ -18319,33 +18339,13 @@
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Format for Annual Secretarial Compliance Report for REITs",
+          "title": "Manner of achieving minimum public unitholding – REITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_4.pdf",
           "isNew": false
         },
         {
           "sr": 147,
-          "date": "27 Jun 2023",
-          "year": 2023,
-          "cat": "Circular",
-          "title": "Format of Compliance Report on Governance for REITs",
-          "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_1.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 148,
-          "date": "27 Jun 2023",
-          "year": 2023,
-          "cat": "Circular",
-          "title": "Format of Compliance Report on Governance for InvITs",
-          "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_2.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 149,
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
@@ -18355,13 +18355,33 @@
           "isNew": false
         },
         {
+          "sr": 148,
+          "date": "27 Jun 2023",
+          "year": 2023,
+          "cat": "Circular",
+          "title": "Format for Annual Secretarial Compliance Report for InvITs",
+          "desc": "",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023.pdf",
+          "isNew": false
+        },
+        {
+          "sr": 149,
+          "date": "27 Jun 2023",
+          "year": 2023,
+          "cat": "Circular",
+          "title": "Format for Annual Secretarial Compliance Report for REITs",
+          "desc": "",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_0.pdf",
+          "isNew": false
+        },
+        {
           "sr": 150,
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Manner of achieving minimum public unitholding – REITs",
+          "title": "Format of Compliance Report on Governance for REITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_4.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_1.pdf",
           "isNew": false
         },
         {
@@ -18369,9 +18389,9 @@
           "date": "27 Jun 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Format for Annual Secretarial Compliance Report for InvITs",
+          "title": "Format of Compliance Report on Governance for InvITs",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_27062023_2.pdf",
           "isNew": false
         },
         {
@@ -18449,9 +18469,9 @@
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Dematerialization of securities of Hold Cos and SPVs held by Infrastructure Investment Trusts (InvITs)",
+          "title": "Dematerialization of securities of Hold Cos and SPVs held by Real Estate Investment Trusts (REITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023.pdf",
           "isNew": false
         },
         {
@@ -18459,9 +18479,9 @@
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Dematerialization of securities of Hold Cos and SPVs held by Real Estate Investment Trusts (REITs)",
+          "title": "Dematerialization of securities of Hold Cos and SPVs held by Infrastructure Investment Trusts (InvITs)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_23052023_0.pdf",
           "isNew": false
         },
         {
@@ -18489,9 +18509,9 @@
           "date": "10 Apr 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "FAQs on the submission of the quarterly Corporate Governance Report.",
+          "title": "Introduction of Issue Summary Document (ISD) – Further Issues.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_10042023_2_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/circular/2026-04/NSE_Circular_10042023_1.zip",
           "isNew": false
         },
         {
@@ -18499,9 +18519,9 @@
           "date": "10 Apr 2023",
           "year": 2023,
           "cat": "Circular",
-          "title": "Introduction of Issue Summary Document (ISD) – Further Issues.",
+          "title": "FAQs on the submission of the quarterly Corporate Governance Report.",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/circular/2026-04/NSE_Circular_10042023_1.zip",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_10042023_2_0.pdf",
           "isNew": false
         },
         {
@@ -18879,9 +18899,9 @@
           "date": "09 Nov 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": ": Master Circular on issuance of No Objection Certificate (NOC) for release of 1% of Issue Amount",
+          "title": "Addendum to SEBI Circular on Development of Passive Funds",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_09112022_4.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/09-11-2022.pdf",
           "isNew": false
         },
         {
@@ -18889,9 +18909,9 @@
           "date": "09 Nov 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Addendum to SEBI Circular on Development of Passive Funds",
+          "title": ": Master Circular on issuance of No Objection Certificate (NOC) for release of 1% of Issue Amount",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/09-11-2022.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_09112022_4.pdf",
           "isNew": false
         },
         {
@@ -18929,9 +18949,9 @@
           "date": "30 Sept 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
+          "title": "XBRL based filing of Shareholding Pattern Report for Listed Companies at NSE",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_0.pdf",
           "isNew": false
         },
         {
@@ -18939,9 +18959,9 @@
           "date": "30 Sept 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "XBRL based filing of Shareholding Pattern Report for Listed Companies at NSE",
+          "title": "Amendments to guidelines for preferential issue and institutional placement of units by a listed REIT",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30092022_1.pdf",
           "isNew": false
         },
         {
@@ -19109,9 +19129,9 @@
           "date": "30 Jun 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "FAQ's - Disclosure of holding of specified securities and Holding of specified securities in dematerialized form",
+          "title": "Disclosure of holding of specified securities and Holding of specified securities in dematerialized form",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30062022%20FAQ.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30062022.pdf",
           "isNew": false
         },
         {
@@ -19119,9 +19139,9 @@
           "date": "30 Jun 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Disclosure of holding of specified securities and Holding of specified securities in dematerialized form",
+          "title": "FAQ's - Disclosure of holding of specified securities and Holding of specified securities in dematerialized form",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30062022.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_30062022%20FAQ.pdf",
           "isNew": false
         },
         {
@@ -19149,9 +19169,9 @@
           "date": "07 Jun 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Guidance note for filing intimations w.r.t. Insolvency and Bankruptcy Code (IBC) / Inter-Creditors Agreement (ICA)",
+          "title": "Extension of facility for conducting annual meeting and other meetings of unitholders of REITs and InvITs through Video Conferencing (VC) or through Other Audio-Visual means (OAVM)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_CIRCULAR_070622.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07062022_0.pdf",
           "isNew": false
         },
         {
@@ -19159,9 +19179,9 @@
           "date": "07 Jun 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Extension of facility for conducting annual meeting and other meetings of unitholders of REITs and InvITs through Video Conferencing (VC) or through Other Audio-Visual means (OAVM)",
+          "title": "Guidance note for filing intimations w.r.t. Insolvency and Bankruptcy Code (IBC) / Inter-Creditors Agreement (ICA)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_07062022_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_CIRCULAR_070622.pdf",
           "isNew": false
         },
         {
@@ -19229,9 +19249,9 @@
           "date": "02 May 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Reduction of timelines for listing of units of Infrastructure Investment Trust (InvIT)",
+          "title": "Reduction of timelines for listing of units of Real Estate Investment Trust (REIT)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_02052022_19_0.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_02052022_20.pdf",
           "isNew": false
         },
         {
@@ -19239,9 +19259,9 @@
           "date": "02 May 2022",
           "year": 2022,
           "cat": "Circular",
-          "title": "Reduction of timelines for listing of units of Real Estate Investment Trust (REIT)",
+          "title": "Reduction of timelines for listing of units of Infrastructure Investment Trust (InvIT)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_02052022_20.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_02052022_19_0.pdf",
           "isNew": false
         },
         {
@@ -19589,9 +19609,9 @@
           "date": "05 Oct 2021",
           "year": 2021,
           "cat": "Circular",
-          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(6A) and Regulation 22(8) of SEBI (Real Estate Investment Trusts) Regulations, 2014 (“SEBI (REIT) Regulations”)",
+          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(5C) and Regulation 22(7) of SEBI (Infrastructure Investment Trusts) Regulations, 2014 (“SEBI (InvIT) Regulations”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_2.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_1.pdf",
           "isNew": false
         },
         {
@@ -19599,9 +19619,9 @@
           "date": "05 Oct 2021",
           "year": 2021,
           "cat": "Circular",
-          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(5C) and Regulation 22(7) of SEBI (Infrastructure Investment Trusts) Regulations, 2014 (“SEBI (InvIT) Regulations”)",
+          "title": "Amendments to manner and mechanism of providing exit option to dissenting unit holders pursuant to Regulation 22(6A) and Regulation 22(8) of SEBI (Real Estate Investment Trusts) Regulations, 2014 (“SEBI (REIT) Regulations”)",
           "desc": "",
-          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_1.pdf",
+          "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/NSE_Circular_05102021_2.pdf",
           "isNew": false
         },
         {
@@ -19865,7 +19885,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660465204,
+      "ts": 1786664106096,
       "ok": true,
       "newCount": 0
     },
@@ -20072,7 +20092,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660468548,
+      "ts": 1786664109677,
       "ok": true,
       "newCount": 0
     },
@@ -20279,7 +20299,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660472028,
+      "ts": 1786664113131,
       "ok": true,
       "newCount": 0
     },
@@ -20486,7 +20506,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660475593,
+      "ts": 1786664116447,
       "ok": true,
       "newCount": 0
     },
@@ -20543,7 +20563,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660488507,
+      "ts": 1786664126881,
       "ok": true,
       "newCount": 0
     },
@@ -20584,7 +20604,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20594,13 +20614,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1786660493288,
+      "ts": 1786664131696,
       "ok": true,
       "newCount": 0
     },
@@ -20641,7 +20661,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20651,13 +20671,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1786660498072,
+      "ts": 1786664136499,
       "ok": true,
       "newCount": 0
     },
@@ -20674,28 +20694,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786660511467,
+      "ts": 1786664147459,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786660527630,
+      "ts": 1786664166191,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786660541240,
+      "ts": 1786664180649,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786660559306,
+      "ts": 1786664199087,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786660576375,
+      "ts": 1786664214602,
       "ok": true
     },
     "NFRA_0": {
@@ -20761,7 +20781,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660579318,
+      "ts": 1786664217532,
       "ok": true,
       "newCount": 0
     },
@@ -20888,7 +20908,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660580814,
+      "ts": 1786664219024,
       "ok": true,
       "newCount": 0
     },
@@ -21005,7 +21025,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660582290,
+      "ts": 1786664220499,
       "ok": true,
       "newCount": 0
     },
@@ -21132,7 +21152,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660583781,
+      "ts": 1786664221973,
       "ok": true,
       "newCount": 0
     },
@@ -21339,7 +21359,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660590427,
+      "ts": 1786664228588,
       "ok": true,
       "newCount": 0
     },
@@ -21546,7 +21566,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660596884,
+      "ts": 1786664234865,
       "ok": true,
       "newCount": 0
     },
@@ -24553,7 +24573,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786660599055,
+      "ts": 1786664237066,
       "ok": true,
       "newCount": 0
     }
