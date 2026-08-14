@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:46:34.394Z",
+  "generatedAt": "2026-08-14T19:48:48.956Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -62,7 +62,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732871201,
+      "ts": 1786736528595,
       "ok": true,
       "newCount": 0
     },
@@ -70,16 +70,6 @@
       "rows": [
         {
           "sr": 1,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI shortens FCNR (B) deposit swap window to Aug 31",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-shortens-fcnr-b-deposit-swap-window-to-aug-31/articleshow/133243209.cms",
-          "isNew": false
-        },
-        {
-          "sr": 2,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -89,7 +79,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 2,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -99,7 +89,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732874403,
+      "ts": 1786736530314,
       "ok": true,
       "newCount": 0
     },
@@ -113,7 +103,7 @@
           "title": "At 15.4%, bank deposit growth highest since December 2016: RBI data",
           "desc": "The current account deficit widened to $6.2 billion in June from a $1.2 billion surplus in June 2025, as the merchandise trade deficit increased to $30.2 billion from $19.2 billion",
           "link": "https://www.business-standard.com/industry/banking/at-15-4-bank-deposit-growth-highest-since-december-2016-rbi-data-126081402123_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -186,13 +176,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786732875763,
+      "ts": 1786736531609,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786732877079,
+      "ts": 1786736533068,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -218,13 +208,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786732878350,
+      "ts": 1786736534307,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786732879609,
+      "ts": 1786736535538,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -246,7 +236,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732900707,
+      "ts": 1786736556852,
       "ok": true,
       "newCount": 0
     },
@@ -3253,7 +3243,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732936340,
+      "ts": 1786736593231,
       "ok": true,
       "newCount": 0
     },
@@ -4590,7 +4580,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732955625,
+      "ts": 1786736612819,
       "ok": true,
       "newCount": 0
     },
@@ -4847,7 +4837,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732957798,
+      "ts": 1786736616037,
       "ok": true,
       "newCount": 0
     },
@@ -7854,7 +7844,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732992673,
+      "ts": 1786736651784,
       "ok": true,
       "newCount": 0
     },
@@ -9121,7 +9111,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732995533,
+      "ts": 1786736655121,
       "ok": true,
       "newCount": 0
     },
@@ -9148,7 +9138,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786732997260,
+      "ts": 1786736656813,
       "ok": true,
       "newCount": 0
     },
@@ -12155,7 +12145,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733033911,
+      "ts": 1786736694249,
       "ok": true,
       "newCount": 0
     },
@@ -13272,7 +13262,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733036310,
+      "ts": 1786736696672,
       "ok": true,
       "newCount": 0
     },
@@ -16279,7 +16269,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733039273,
+      "ts": 1786736699956,
       "ok": true,
       "newCount": 0
     },
@@ -16446,7 +16436,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733041581,
+      "ts": 1786736702192,
       "ok": true,
       "newCount": 0
     },
@@ -16653,7 +16643,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733043712,
+      "ts": 1786736704496,
       "ok": true,
       "newCount": 0
     },
@@ -16910,7 +16900,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733052745,
+      "ts": 1786736713800,
       "ok": true,
       "newCount": 0
     },
@@ -19918,8 +19908,9 @@
         }
       ],
       "ts": 1786733054950,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "This operation was aborted"
     },
     "IRDAI_0": {
       "rows": [
@@ -20124,7 +20115,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733058200,
+      "ts": 1786736787323,
       "ok": true,
       "newCount": 0
     },
@@ -20331,7 +20322,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733061213,
+      "ts": 1786736790592,
       "ok": true,
       "newCount": 0
     },
@@ -20538,7 +20529,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733064555,
+      "ts": 1786736793852,
       "ok": true,
       "newCount": 0
     },
@@ -20595,7 +20586,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733076443,
+      "ts": 1786736804045,
       "ok": true,
       "newCount": 0
     },
@@ -20616,7 +20607,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
+          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20626,7 +20617,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
+          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20636,7 +20627,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20646,13 +20637,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1786733081505,
+      "ts": 1786736808836,
       "ok": true,
       "newCount": 0
     },
@@ -20693,7 +20684,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20703,13 +20694,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1786733086295,
+      "ts": 1786736813604,
       "ok": true,
       "newCount": 0
     },
@@ -20726,28 +20717,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786733096749,
+      "ts": 1786736823426,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786733115709,
+      "ts": 1786736842630,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786733132901,
+      "ts": 1786736857941,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786733149435,
+      "ts": 1786736876796,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786733164726,
+      "ts": 1786736905102,
       "ok": true
     },
     "NFRA_0": {
@@ -20813,7 +20804,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733167598,
+      "ts": 1786736907909,
       "ok": true,
       "newCount": 0
     },
@@ -20940,7 +20931,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733169096,
+      "ts": 1786736909424,
       "ok": true,
       "newCount": 0
     },
@@ -21057,7 +21048,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733170563,
+      "ts": 1786736910919,
       "ok": true,
       "newCount": 0
     },
@@ -21184,7 +21175,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733172027,
+      "ts": 1786736912410,
       "ok": true,
       "newCount": 0
     },
@@ -21391,7 +21382,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733178431,
+      "ts": 1786736919037,
       "ok": true,
       "newCount": 0
     },
@@ -21598,7 +21589,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733184753,
+      "ts": 1786736925312,
       "ok": true,
       "newCount": 0
     },
@@ -24605,7 +24596,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786733186924,
+      "ts": 1786736927752,
       "ok": true,
       "newCount": 0
     }
