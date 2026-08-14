@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:50:16.744Z",
+  "generatedAt": "2026-08-14T18:46:34.394Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -62,7 +62,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729506281,
+      "ts": 1786732871201,
       "ok": true,
       "newCount": 0
     },
@@ -99,7 +99,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729508084,
+      "ts": 1786732874403,
       "ok": true,
       "newCount": 0
     },
@@ -110,13 +110,23 @@
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
+          "title": "At 15.4%, bank deposit growth highest since December 2016: RBI data",
+          "desc": "The current account deficit widened to $6.2 billion in June from a $1.2 billion surplus in June 2025, as the merchandise trade deficit increased to $30.2 billion from $19.2 billion",
+          "link": "https://www.business-standard.com/industry/banking/at-15-4-bank-deposit-growth-highest-since-december-2016-rbi-data-126081402123_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "14 Aug 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "RBI slaps penalty on IndusInd Bank, three NBFCs for regulatory lapses",
           "desc": "The RBI imposed a Rs 59.20 lakh penalty on IndusInd Bank and also penalised Fusion Finance, Northern Arc Capital and Muthoot MCred for regulatory lapses",
           "link": "https://www.business-standard.com/industry/banking/rbi-slaps-penalty-on-indusind-bank-three-nbfcs-for-regulatory-lapses-126081402007_1.html",
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -126,7 +136,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -136,7 +146,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -146,7 +156,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -156,7 +166,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -166,43 +176,23 @@
           "isNew": false
         },
         {
-          "sr": 7,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI to prematurely end FCNR(B) swap facility, deposits allowed till Aug 31",
-          "desc": "According to data by the RBI, forex inflows under the facility stood at $56.85 billion as on August 13, 2026",
-          "link": "https://www.business-standard.com/finance/news/rbi-to-close-discounted-foreign-exchange-deposit-swap-facility-prematurely-126081401606_1.html",
-          "isNew": false
-        },
-        {
           "sr": 8,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "ICICI Bank joins Indian banks chasing dollar loans as demand swells",
-          "desc": "The nation's second-largest private lender first signed a loan agreement with Bank of America Corp. for about $1 billion",
-          "link": "https://www.business-standard.com/industry/banking/icici-bank-joins-indian-banks-chasing-dollar-loans-as-demand-swells-126081400747_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Jio Fin, M&M, Shriram Finance: Mirae Asset Sharekhan analyst decodes charts",
-          "desc": "Muthuselvaraj M, technical research analyst at Mirae Asset Sharekhan says Mahindra & Mahindra, Jio Financial Services and Shriram Finance stocks look favourably placed on the technical charts.",
-          "link": "https://www.business-standard.com/markets/news/jio-fin-m-m-shriram-finance-mirae-asset-sharekhan-analyst-decodes-charts-of-these-3-largecap-stocks-126081400404_1.html",
+          "title": "Inflows over $52 bn, RBI opts to shut FCNR(B) tap ahead of schedule",
+          "desc": "Forex booster gambit to end Aug 31, a month ahead of schedule",
+          "link": "https://www.business-standard.com/finance/news/rbi-to-close-discounted-foreign-exchange-deposit-swap-facility-prematurely-126081401606_1.html",
           "isNew": false
         }
       ],
-      "ts": 1786729509502,
+      "ts": 1786732875763,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786729510889,
+      "ts": 1786732877079,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -219,16 +209,6 @@
         },
         {
           "sr": 2,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "SEC filing shows Softbank initiates stake in Capital One; sells 71.5% of its Taiwan Semi holdings",
-          "desc": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sec-filing-shows-softbank-initiates-165615828.html",
-          "isNew": true
-        },
-        {
-          "sr": 3,
           "date": "13 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -236,41 +216,22 @@
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-see-first-drop-in-six-weeks-mortgage-and-refinance-interest-rates-today-thursday-august-13-2026-100000704.html",
           "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "10 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Best high-yield savings interest rates today, Friday, August 14, 2026: Earn up to 4.15% APY with Forbright Bank",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-14-2026-earn-up-to-415-apy-with-forbright-bank-100000399.html",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Friday, August 14, 2026: Fixed rates rise, ARMs fall",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-14-2026-fixed-rates-rise-arms-fall-100000631.html",
-          "isNew": false
         }
       ],
-      "ts": 1786729512157,
+      "ts": 1786732878350,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786729513409,
+      "ts": 1786732879609,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
       "ts": 1786729514998,
-      "ok": true
+      "ok": false,
+      "error": "HTTP 403"
     },
     "NEWSLETTER_8": {
       "rows": [
@@ -285,7 +246,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729516852,
+      "ts": 1786732900707,
       "ok": true,
       "newCount": 0
     },
@@ -3292,7 +3253,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729553044,
+      "ts": 1786732936340,
       "ok": true,
       "newCount": 0
     },
@@ -4130,7 +4091,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4140,7 +4101,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4629,7 +4590,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729572443,
+      "ts": 1786732955625,
       "ok": true,
       "newCount": 0
     },
@@ -4886,7 +4847,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729574867,
+      "ts": 1786732957798,
       "ok": true,
       "newCount": 0
     },
@@ -7893,7 +7854,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729610508,
+      "ts": 1786732992673,
       "ok": true,
       "newCount": 0
     },
@@ -9160,7 +9121,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729613739,
+      "ts": 1786732995533,
       "ok": true,
       "newCount": 0
     },
@@ -9187,7 +9148,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729615456,
+      "ts": 1786732997260,
       "ok": true,
       "newCount": 0
     },
@@ -12194,7 +12155,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729652793,
+      "ts": 1786733033911,
       "ok": true,
       "newCount": 0
     },
@@ -13311,7 +13272,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729655257,
+      "ts": 1786733036310,
       "ok": true,
       "newCount": 0
     },
@@ -16318,7 +16279,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729658299,
+      "ts": 1786733039273,
       "ok": true,
       "newCount": 0
     },
@@ -16485,7 +16446,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729660617,
+      "ts": 1786733041581,
       "ok": true,
       "newCount": 0
     },
@@ -16692,7 +16653,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729662929,
+      "ts": 1786733043712,
       "ok": true,
       "newCount": 0
     },
@@ -16949,7 +16910,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729672522,
+      "ts": 1786733052745,
       "ok": true,
       "newCount": 0
     },
@@ -19956,7 +19917,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729674735,
+      "ts": 1786733054950,
       "ok": true,
       "newCount": 0
     },
@@ -20163,7 +20124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729678137,
+      "ts": 1786733058200,
       "ok": true,
       "newCount": 0
     },
@@ -20370,7 +20331,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729681559,
+      "ts": 1786733061213,
       "ok": true,
       "newCount": 0
     },
@@ -20577,7 +20538,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729684945,
+      "ts": 1786733064555,
       "ok": true,
       "newCount": 0
     },
@@ -20634,7 +20595,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729698424,
+      "ts": 1786733076443,
       "ok": true,
       "newCount": 0
     },
@@ -20655,7 +20616,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
+          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20665,7 +20626,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
+          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20691,7 +20652,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729703271,
+      "ts": 1786733081505,
       "ok": true,
       "newCount": 0
     },
@@ -20748,7 +20709,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729708076,
+      "ts": 1786733086295,
       "ok": true,
       "newCount": 0
     },
@@ -20765,76 +20726,29 @@
           "isNew": false
         }
       ],
-      "ts": 1786729720283,
+      "ts": 1786733096749,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786729735246,
+      "ts": 1786733115709,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786729752578,
+      "ts": 1786733132901,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786729769240,
+      "ts": 1786733149435,
       "ok": true
     },
     "MCA_4": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 2,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 3,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 4,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 5,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
-        }
-      ],
-      "ts": 1786729779679,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1786733164726,
+      "ok": true
     },
     "NFRA_0": {
       "rows": [
@@ -20899,7 +20813,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729782679,
+      "ts": 1786733167598,
       "ok": true,
       "newCount": 0
     },
@@ -21026,7 +20940,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729784163,
+      "ts": 1786733169096,
       "ok": true,
       "newCount": 0
     },
@@ -21143,7 +21057,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729785644,
+      "ts": 1786733170563,
       "ok": true,
       "newCount": 0
     },
@@ -21270,7 +21184,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729788941,
+      "ts": 1786733172027,
       "ok": true,
       "newCount": 0
     },
@@ -21477,7 +21391,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729800632,
+      "ts": 1786733178431,
       "ok": true,
       "newCount": 0
     },
@@ -21684,7 +21598,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729806532,
+      "ts": 1786733184753,
       "ok": true,
       "newCount": 0
     },
@@ -24691,7 +24605,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786729808773,
+      "ts": 1786733186924,
       "ok": true,
       "newCount": 0
     }
