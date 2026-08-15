@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T23:18:35.465Z",
+  "generatedAt": "2026-08-15T00:44:13.686Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -62,7 +62,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749173825,
+      "ts": 1786754313404,
       "ok": true,
       "newCount": 0
     },
@@ -70,6 +70,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "15 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "RBI shortens FCNR (B) deposit swap window to Aug 31",
+          "desc": "",
+          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-shortens-fcnr-b-deposit-swap-window-to-aug-31/articleshow/133243209.cms",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -79,7 +89,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -89,9 +99,9 @@
           "isNew": false
         }
       ],
-      "ts": 1786749175692,
+      "ts": 1786754314807,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_3": {
       "rows": [
@@ -176,13 +186,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786749177026,
+      "ts": 1786754316290,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786749178487,
+      "ts": 1786754317534,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -206,45 +216,15 @@
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-see-first-drop-in-six-weeks-mortgage-and-refinance-interest-rates-today-thursday-august-13-2026-100000704.html",
           "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "13 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Bitcoin Price Forecast: BTC Could Resume Its Rally as Rate Hike Odds Drop to 30%",
-          "desc": "",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-forecast-btc-could-153349928.html",
-          "isNew": true
-        },
-        {
-          "sr": 4,
-          "date": "10 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Best high-yield savings interest rates today, Friday, August 14, 2026: Earn up to 4.15% APY with Forbright Bank",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-14-2026-earn-up-to-415-apy-with-forbright-bank-100000399.html",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Friday, August 14, 2026: Fixed rates rise, ARMs fall",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-14-2026-fixed-rates-rise-arms-fall-100000631.html",
-          "isNew": true
         }
       ],
-      "ts": 1786749179853,
+      "ts": 1786754318796,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786749181095,
+      "ts": 1786754320159,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -255,7 +235,7 @@
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1786749202699,
+      "ts": 1786754341314,
       "ok": true
     },
     "SEBI_0": {
@@ -3261,7 +3241,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749239240,
+      "ts": 1786754377727,
       "ok": true,
       "newCount": 0
     },
@@ -3879,7 +3859,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4099,7 +4079,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4109,7 +4089,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4519,8 +4499,8 @@
         },
         {
           "sr": 126,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -4529,38 +4509,38 @@
         },
         {
           "sr": 127,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
           "isNew": false
         },
         {
           "sr": 128,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "—",
-          "year": null,
+          "date": "17 Mar 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -4569,36 +4549,36 @@
         },
         {
           "sr": 131,
-          "date": "—",
-          "year": null,
+          "date": "12 Feb 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
           "isNew": false
         },
         {
           "sr": 132,
-          "date": "—",
-          "year": null,
+          "date": "01 Jan 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "—",
-          "year": null,
+          "date": "19 Dec 2008",
+          "year": 2008,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
           "isNew": false
         }
       ],
-      "ts": 1786749258937,
+      "ts": 1786754396684,
       "ok": true,
       "newCount": 0
     },
@@ -4855,7 +4835,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749261812,
+      "ts": 1786754398884,
       "ok": true,
       "newCount": 0
     },
@@ -7862,7 +7842,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749297857,
+      "ts": 1786754433409,
       "ok": true,
       "newCount": 0
     },
@@ -9129,7 +9109,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749302289,
+      "ts": 1786754436885,
       "ok": true,
       "newCount": 0
     },
@@ -9156,7 +9136,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749304024,
+      "ts": 1786754438634,
       "ok": true,
       "newCount": 0
     },
@@ -12163,7 +12143,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749341922,
+      "ts": 1786754475475,
       "ok": true,
       "newCount": 0
     },
@@ -13280,7 +13260,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749345692,
+      "ts": 1786754477454,
       "ok": true,
       "newCount": 0
     },
@@ -16287,7 +16267,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749348894,
+      "ts": 1786754480459,
       "ok": true,
       "newCount": 0
     },
@@ -16454,7 +16434,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749351178,
+      "ts": 1786754482589,
       "ok": true,
       "newCount": 0
     },
@@ -16661,7 +16641,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749353555,
+      "ts": 1786754484752,
       "ok": true,
       "newCount": 0
     },
@@ -16918,7 +16898,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749362925,
+      "ts": 1786754494123,
       "ok": true,
       "newCount": 0
     },
@@ -19925,7 +19905,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749365810,
+      "ts": 1786754496573,
       "ok": true,
       "newCount": 0
     },
@@ -20132,7 +20112,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749369294,
+      "ts": 1786754499664,
       "ok": true,
       "newCount": 0
     },
@@ -20339,7 +20319,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749372945,
+      "ts": 1786754502739,
       "ok": true,
       "newCount": 0
     },
@@ -20546,7 +20526,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749376427,
+      "ts": 1786754506039,
       "ok": true,
       "newCount": 0
     },
@@ -20603,7 +20583,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749387539,
+      "ts": 1786754517924,
       "ok": true,
       "newCount": 0
     },
@@ -20660,7 +20640,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749392414,
+      "ts": 1786754522720,
       "ok": true,
       "newCount": 0
     },
@@ -20717,7 +20697,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749397258,
+      "ts": 1786754527506,
       "ok": true,
       "newCount": 0
     },
@@ -20734,75 +20714,28 @@
           "isNew": false
         }
       ],
-      "ts": 1786749410528,
+      "ts": 1786754539889,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 2,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 3,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 4,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        },
-        {
-          "sr": 5,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
-        }
-      ],
-      "ts": 1786749427260,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1786754561673,
+      "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786749443755,
+      "ts": 1786754581581,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786749465686,
+      "ts": 1786754603869,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1786749484487,
+      "ts": 1786754624161,
       "ok": true
     },
     "NFRA_0": {
@@ -20868,7 +20801,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749487312,
+      "ts": 1786754627052,
       "ok": true,
       "newCount": 0
     },
@@ -20995,7 +20928,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749488824,
+      "ts": 1786754628514,
       "ok": true,
       "newCount": 0
     },
@@ -21112,7 +21045,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749490329,
+      "ts": 1786754629974,
       "ok": true,
       "newCount": 0
     },
@@ -21239,7 +21172,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749491823,
+      "ts": 1786754631436,
       "ok": true,
       "newCount": 0
     },
@@ -21446,7 +21379,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749498757,
+      "ts": 1786754638001,
       "ok": true,
       "newCount": 0
     },
@@ -21653,7 +21586,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749505193,
+      "ts": 1786754644233,
       "ok": true,
       "newCount": 0
     },
@@ -24660,7 +24593,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786749507488,
+      "ts": 1786754646639,
       "ok": true,
       "newCount": 0
     }
