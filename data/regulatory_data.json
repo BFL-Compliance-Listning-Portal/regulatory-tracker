@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:17:07.411Z",
+  "generatedAt": "2026-08-15T16:18:28.325Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -41,7 +41,7 @@
     },
     "NEWSLETTER_1": {
       "rows": [],
-      "ts": 1786806672510,
+      "ts": 1786810376856,
       "ok": true
     },
     "NEWSLETTER_2": {
@@ -77,7 +77,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806674185,
+      "ts": 1786810378645,
       "ok": true,
       "newCount": 0
     },
@@ -94,72 +94,85 @@
           "isNew": false
         }
       ],
-      "ts": 1786806675435,
+      "ts": 1786810380034,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786806676798,
+      "ts": 1786810381575,
       "ok": true
     },
     "NEWSLETTER_5": {
       "rows": [
         {
           "sr": 1,
-          "date": "10 Aug 2026",
+          "date": "15 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Best high-yield savings interest rates today, Friday, August 14, 2026: Earn up to 4.15% APY with Forbright Bank",
+          "title": "209-year-old bank reveals XRP holdings",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-14-2026-earn-up-to-415-apy-with-forbright-bank-100000399.html"
+          "link": "https://finance.yahoo.com/markets/crypto/articles/209-old-bank-reveals-xrp-160000368.html",
+          "isNew": true
         },
         {
           "sr": 2,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Friday, August 14, 2026: Fixed rates rise, ARMs fall",
+          "title": "U.S. Bank Triple Cash Rewards Visa Business Card review: A solid option for everyday business costs",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-14-2026-fixed-rates-rise-arms-fall-100000631.html"
+          "link": "https://finance.yahoo.com/personal-finance/credit-cards/review/us-bank-triple-cash-rewards-visa-business-card-220252786.html",
+          "isNew": false
         },
         {
           "sr": 3,
-          "date": "14 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "U.S. Bank Triple Cash Rewards Visa Business Card review: A solid option for everyday business costs",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/credit-cards/review/us-bank-triple-cash-rewards-visa-business-card-220252786.html"
-        },
-        {
-          "sr": 4,
           "date": "15 Aug 2026",
           "year": 2026,
           "cat": "News",
           "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html"
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "10 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Best high-yield savings interest rates today, Friday, August 14, 2026: Earn up to 4.15% APY with Forbright Bank",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-14-2026-earn-up-to-415-apy-with-forbright-bank-100000399.html",
+          "isNew": false
+        },
+        {
+          "sr": 5,
+          "date": "14 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mortgage and refinance interest rates today, Friday, August 14, 2026: Fixed rates rise, ARMs fall",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-14-2026-fixed-rates-rise-arms-fall-100000631.html",
+          "isNew": false
         }
       ],
-      "ts": 1786806678240,
+      "ts": 1786810382955,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786806679611,
+      "ts": 1786810384251,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1786803189837,
-      "ok": false,
-      "error": "HTTP 404"
+      "ts": 1786810385676,
+      "ok": true
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1786806694293,
+      "ts": 1786810387838,
       "ok": true
     },
     "SEBI_0": {
@@ -3165,7 +3178,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806730437,
+      "ts": 1786810425074,
       "ok": true,
       "newCount": 0
     },
@@ -4193,7 +4206,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4203,18 +4216,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4222,9 +4225,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4233,18 +4246,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4252,9 +4255,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4263,8 +4276,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4273,8 +4286,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4283,8 +4296,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4293,18 +4306,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4312,9 +4315,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4323,8 +4336,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4333,8 +4346,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4343,8 +4356,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4353,8 +4366,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4363,18 +4376,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4382,9 +4385,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4392,9 +4395,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -4402,9 +4405,19 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4413,8 +4426,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4502,7 +4515,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806750002,
+      "ts": 1786810444710,
       "ok": true,
       "newCount": 0
     },
@@ -4759,7 +4772,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806753384,
+      "ts": 1786810448705,
       "ok": true,
       "newCount": 0
     },
@@ -7766,7 +7779,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806789093,
+      "ts": 1786810484925,
       "ok": true,
       "newCount": 0
     },
@@ -9033,7 +9046,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806794380,
+      "ts": 1786810489891,
       "ok": true,
       "newCount": 0
     },
@@ -9060,7 +9073,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806796161,
+      "ts": 1786810491691,
       "ok": true,
       "newCount": 0
     },
@@ -12067,7 +12080,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806834431,
+      "ts": 1786810530074,
       "ok": true,
       "newCount": 0
     },
@@ -13184,7 +13197,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806836914,
+      "ts": 1786810532526,
       "ok": true,
       "newCount": 0
     },
@@ -16191,7 +16204,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806840084,
+      "ts": 1786810535701,
       "ok": true,
       "newCount": 0
     },
@@ -16358,7 +16371,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806842327,
+      "ts": 1786810537856,
       "ok": true,
       "newCount": 0
     },
@@ -16565,7 +16578,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806844613,
+      "ts": 1786810540119,
       "ok": true,
       "newCount": 0
     },
@@ -16822,7 +16835,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806854041,
+      "ts": 1786810549995,
       "ok": true,
       "newCount": 0
     },
@@ -19829,7 +19842,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806856464,
+      "ts": 1786810553962,
       "ok": true,
       "newCount": 0
     },
@@ -20036,7 +20049,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806860951,
+      "ts": 1786810557320,
       "ok": true,
       "newCount": 0
     },
@@ -20243,7 +20256,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806864465,
+      "ts": 1786810560571,
       "ok": true,
       "newCount": 0
     },
@@ -20450,7 +20463,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806867791,
+      "ts": 1786810563860,
       "ok": true,
       "newCount": 0
     },
@@ -20507,7 +20520,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806880473,
+      "ts": 1786810571051,
       "ok": true,
       "newCount": 0
     },
@@ -20564,7 +20577,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806885280,
+      "ts": 1786810575903,
       "ok": true,
       "newCount": 0
     },
@@ -20621,7 +20634,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786806890053,
+      "ts": 1786810580665,
       "ok": true,
       "newCount": 0
     },
@@ -20638,29 +20651,76 @@
           "isNew": false
         }
       ],
-      "ts": 1786806903227,
+      "ts": 1786810597123,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786806944419,
+      "ts": 1786810615157,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1786806964613,
+      "ts": 1786810632036,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786806985933,
+      "ts": 1786810655388,
       "ok": true
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1786807002856,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1786810673384,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -20725,7 +20785,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807005918,
+      "ts": 1786810676557,
       "ok": true,
       "newCount": 0
     },
@@ -20852,7 +20912,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807007439,
+      "ts": 1786810678085,
       "ok": true,
       "newCount": 0
     },
@@ -20969,7 +21029,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807008945,
+      "ts": 1786810679594,
       "ok": true,
       "newCount": 0
     },
@@ -21096,7 +21156,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807010448,
+      "ts": 1786810681109,
       "ok": true,
       "newCount": 0
     },
@@ -21303,7 +21363,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807017289,
+      "ts": 1786810688381,
       "ok": true,
       "newCount": 0
     },
@@ -21510,7 +21570,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807023628,
+      "ts": 1786810694911,
       "ok": true,
       "newCount": 0
     },
@@ -24517,7 +24577,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786807026207,
+      "ts": 1786810697454,
       "ok": true,
       "newCount": 0
     }
