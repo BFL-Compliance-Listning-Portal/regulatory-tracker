@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:19:59.800Z",
+  "generatedAt": "2026-08-16T20:16:45.007Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -52,7 +52,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907645495,
+      "ts": 1786911067212,
       "ok": true,
       "newCount": 0
     },
@@ -89,7 +89,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907647471,
+      "ts": 1786911070672,
       "ok": true,
       "newCount": 0
     },
@@ -146,35 +146,35 @@
           "isNew": false
         }
       ],
-      "ts": 1786907648834,
+      "ts": 1786911072058,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1786907650390,
+      "ts": 1786911073532,
       "ok": true
     },
     "NEWSLETTER_5": {
       "rows": [
         {
           "sr": 1,
-          "date": "15 Aug 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
-          "isNew": false
-        },
-        {
-          "sr": 2,
           "date": "16 Aug 2026",
           "year": 2026,
           "cat": "News",
           "title": "Mortgage and refinance interest rates today, Sunday, August 16, 2026: Rates mostly lower than last week",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-16-2026-rates-mostly-lower-than-last-week-100000512.html",
+          "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "15 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
+          "desc": "",
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
           "isNew": false
         },
         {
@@ -195,16 +195,16 @@
           "title": "Casino operator liquidated as Chapter 11 bankruptcy ends",
           "desc": "",
           "link": "https://finance.yahoo.com/small-business/articles/casino-operator-liquidated-chapter-11-183942370.html",
-          "isNew": true
+          "isNew": false
         }
       ],
-      "ts": 1786907651769,
+      "ts": 1786911074890,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1786907653009,
+      "ts": 1786911076139,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -214,9 +214,20 @@
       "error": "HTTP 403"
     },
     "NEWSLETTER_8": {
-      "rows": [],
-      "ts": 1786907674603,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "16 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Jamie Dimon warns UK chancellor against higher bank taxes",
+          "desc": "JPMorgan chief’s call to John Healey is part of lobbying by financial services sector ahead of October Budget",
+          "link": "https://www.ft.com/content/44c08ae9-f209-4992-8744-cfff430eca07?syn-25a6b1a6=1"
+        }
+      ],
+      "ts": 1786911097908,
+      "ok": true,
+      "newCount": 0
     },
     "SEBI_0": {
       "rows": [
@@ -3221,7 +3232,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907710699,
+      "ts": 1786911134765,
       "ok": true,
       "newCount": 0
     },
@@ -4249,7 +4260,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4259,18 +4270,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4278,9 +4279,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4289,18 +4300,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4308,9 +4309,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4319,8 +4330,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4329,8 +4340,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4339,8 +4350,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4349,18 +4360,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4368,9 +4369,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4379,8 +4390,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4389,8 +4400,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4399,8 +4410,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4409,8 +4420,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4419,18 +4430,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4438,9 +4439,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4448,9 +4449,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -4458,9 +4459,19 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4469,8 +4480,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4558,7 +4569,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907730352,
+      "ts": 1786911154998,
       "ok": true,
       "newCount": 0
     },
@@ -4815,7 +4826,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907732750,
+      "ts": 1786911158131,
       "ok": true,
       "newCount": 0
     },
@@ -7822,7 +7833,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907768716,
+      "ts": 1786911194962,
       "ok": true,
       "newCount": 0
     },
@@ -9089,7 +9100,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907773475,
+      "ts": 1786911199523,
       "ok": true,
       "newCount": 0
     },
@@ -9116,7 +9127,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907775201,
+      "ts": 1786911201280,
       "ok": true,
       "newCount": 0
     },
@@ -12123,7 +12134,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907812805,
+      "ts": 1786911239752,
       "ok": true,
       "newCount": 0
     },
@@ -13240,7 +13251,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907815318,
+      "ts": 1786911242298,
       "ok": true,
       "newCount": 0
     },
@@ -16247,7 +16258,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907817882,
+      "ts": 1786911245832,
       "ok": true,
       "newCount": 0
     },
@@ -16414,7 +16425,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907820188,
+      "ts": 1786911248071,
       "ok": true,
       "newCount": 0
     },
@@ -16621,7 +16632,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907822575,
+      "ts": 1786911250382,
       "ok": true,
       "newCount": 0
     },
@@ -16878,7 +16889,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907831723,
+      "ts": 1786911259401,
       "ok": true,
       "newCount": 0
     },
@@ -19885,7 +19896,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907834970,
+      "ts": 1786911262013,
       "ok": true,
       "newCount": 0
     },
@@ -20092,7 +20103,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907838438,
+      "ts": 1786911265174,
       "ok": true,
       "newCount": 0
     },
@@ -20299,7 +20310,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907842060,
+      "ts": 1786911268600,
       "ok": true,
       "newCount": 0
     },
@@ -20506,7 +20517,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907845578,
+      "ts": 1786911272378,
       "ok": true,
       "newCount": 0
     },
@@ -20563,7 +20574,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907855966,
+      "ts": 1786911287660,
       "ok": true,
       "newCount": 0
     },
@@ -20620,7 +20631,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907860683,
+      "ts": 1786911292394,
       "ok": true,
       "newCount": 0
     },
@@ -20677,7 +20688,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907865379,
+      "ts": 1786911297111,
       "ok": true,
       "newCount": 0
     },
@@ -20694,13 +20705,13 @@
           "isNew": false
         }
       ],
-      "ts": 1786907877072,
+      "ts": 1786911310599,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1786907900794,
+      "ts": 1786911328800,
       "ok": true
     },
     "MCA_2": {
@@ -20710,60 +20721,112 @@
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "isNew": false
         },
         {
           "sr": 2,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "isNew": false
         },
         {
           "sr": 3,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "isNew": false
         },
         {
           "sr": 4,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "isNew": false
         },
         {
           "sr": 5,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED - SUNDERESHA & ASSOCIATES, CHARTERED ACCOUNTANTS | 236 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "isNew": false
         }
       ],
-      "ts": 1786907929465,
+      "ts": 1786911343865,
       "ok": true,
       "newCount": 0
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1786907951740,
+      "ts": 1786911366286,
       "ok": true
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1786907969720,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1786911381211,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -20828,7 +20891,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907972600,
+      "ts": 1786911384052,
       "ok": true,
       "newCount": 0
     },
@@ -20955,7 +21018,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907974106,
+      "ts": 1786911385566,
       "ok": true,
       "newCount": 0
     },
@@ -21072,7 +21135,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907975611,
+      "ts": 1786911387069,
       "ok": true,
       "newCount": 0
     },
@@ -21199,7 +21262,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907977113,
+      "ts": 1786911388572,
       "ok": true,
       "newCount": 0
     },
@@ -21406,7 +21469,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907983661,
+      "ts": 1786911395489,
       "ok": true,
       "newCount": 0
     },
@@ -21613,7 +21676,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907989884,
+      "ts": 1786911401586,
       "ok": true,
       "newCount": 0
     },
@@ -24620,7 +24683,7 @@
           "isNew": false
         }
       ],
-      "ts": 1786907992073,
+      "ts": 1786911403803,
       "ok": true,
       "newCount": 0
     }
