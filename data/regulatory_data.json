@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:19:28.385Z",
+  "generatedAt": "2026-08-17T23:19:23.238Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -52,7 +52,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004834476,
+      "ts": 1787008423635,
       "ok": true,
       "newCount": 0
     },
@@ -99,7 +99,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004836234,
+      "ts": 1787008425446,
       "ok": true,
       "newCount": 0
     },
@@ -186,19 +186,39 @@
           "isNew": false
         }
       ],
-      "ts": 1787004837506,
+      "ts": 1787008426791,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1787004838931,
+      "ts": 1787008428187,
       "ok": true
     },
     "NEWSLETTER_5": {
       "rows": [
         {
           "sr": 1,
+          "date": "16 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "The Bank of Nvidia",
+          "desc": "",
+          "link": "https://www.wsj.com/tech/ai/the-bank-of-nvidia-407f5a7a?siteid=yhoof2&yptr=yahoo",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "16 Aug 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
+          "desc": "",
+          "link": "https://finance.yahoo.com/economy/policy/articles/odds-september-fed-rate-hike-143848214.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
           "date": "17 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -208,13 +228,13 @@
           "isNew": false
         }
       ],
-      "ts": 1787004840276,
+      "ts": 1787008429690,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1787004841508,
+      "ts": 1787008430943,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -236,7 +256,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004862815,
+      "ts": 1787008452056,
       "ok": true,
       "newCount": 0
     },
@@ -244,6 +264,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Revision of Application Form for Mutual Fund Registration",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -253,7 +283,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -263,7 +293,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -273,7 +303,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "11 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -283,7 +313,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "03 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -293,7 +323,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "31 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -303,7 +333,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -313,7 +343,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "23 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -323,7 +353,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "21 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -333,7 +363,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "21 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -343,7 +373,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -353,7 +383,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "10 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -363,7 +393,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "07 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -373,7 +403,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "03 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -383,7 +413,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 16,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -393,7 +423,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 17,
           "date": "19 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -403,7 +433,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 18,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -413,7 +443,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 19,
           "date": "15 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -423,7 +453,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 20,
           "date": "11 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -433,7 +463,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 21,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -443,7 +473,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 22,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -453,7 +483,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 23,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -463,7 +493,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 24,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -473,23 +503,13 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 25,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Circulars",
           "title": "Norms for sharing and usage of price data for educational purposes",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/may-2026/norms-for-sharing-and-usage-of-price-data-for-educational-purposes_101293.html",
-          "isNew": false
-        },
-        {
-          "sr": 25,
-          "date": "07 May 2026",
-          "year": 2026,
-          "cat": "Circulars",
-          "title": "Discontinuation of Investor Risk Reduction Access (IRRA) platform",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/may-2026/discontinuation-of-investor-risk-reduction-access-irra-platform_101300.html",
           "isNew": false
         },
         {
@@ -734,6 +754,16 @@
         },
         {
           "sr": 50,
+          "date": "26 Feb 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Categorization and Rationalization of Mutual Fund Schemes",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/feb-2026/categorization-and-rationalization-of-mutual-fund-schemes_99983.html",
+          "isNew": false
+        },
+        {
+          "sr": 51,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -743,7 +773,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 52,
           "date": "11 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -753,7 +783,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 53,
           "date": "10 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -763,7 +793,7 @@
           "isNew": false
         },
         {
-          "sr": 53,
+          "sr": 54,
           "date": "06 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -773,7 +803,7 @@
           "isNew": false
         },
         {
-          "sr": 54,
+          "sr": 55,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -783,7 +813,7 @@
           "isNew": false
         },
         {
-          "sr": 55,
+          "sr": 56,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -793,7 +823,7 @@
           "isNew": false
         },
         {
-          "sr": 56,
+          "sr": 57,
           "date": "04 Feb 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -803,7 +833,7 @@
           "isNew": false
         },
         {
-          "sr": 57,
+          "sr": 58,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -813,7 +843,7 @@
           "isNew": false
         },
         {
-          "sr": 58,
+          "sr": 59,
           "date": "30 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -823,7 +853,7 @@
           "isNew": false
         },
         {
-          "sr": 59,
+          "sr": 60,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -833,7 +863,7 @@
           "isNew": false
         },
         {
-          "sr": 60,
+          "sr": 61,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -843,7 +873,7 @@
           "isNew": false
         },
         {
-          "sr": 61,
+          "sr": 62,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -853,7 +883,7 @@
           "isNew": false
         },
         {
-          "sr": 62,
+          "sr": 63,
           "date": "09 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -863,7 +893,7 @@
           "isNew": false
         },
         {
-          "sr": 63,
+          "sr": 64,
           "date": "09 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -873,7 +903,7 @@
           "isNew": false
         },
         {
-          "sr": 64,
+          "sr": 65,
           "date": "08 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -883,7 +913,7 @@
           "isNew": false
         },
         {
-          "sr": 65,
+          "sr": 66,
           "date": "07 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -893,7 +923,7 @@
           "isNew": false
         },
         {
-          "sr": 66,
+          "sr": 67,
           "date": "02 Jan 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -903,7 +933,7 @@
           "isNew": false
         },
         {
-          "sr": 67,
+          "sr": 68,
           "date": "30 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -913,7 +943,7 @@
           "isNew": false
         },
         {
-          "sr": 68,
+          "sr": 69,
           "date": "24 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -923,7 +953,7 @@
           "isNew": false
         },
         {
-          "sr": 69,
+          "sr": 70,
           "date": "24 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -933,7 +963,7 @@
           "isNew": false
         },
         {
-          "sr": 70,
+          "sr": 71,
           "date": "18 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -943,7 +973,7 @@
           "isNew": false
         },
         {
-          "sr": 71,
+          "sr": 72,
           "date": "16 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -953,7 +983,7 @@
           "isNew": false
         },
         {
-          "sr": 72,
+          "sr": 73,
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -963,7 +993,7 @@
           "isNew": false
         },
         {
-          "sr": 73,
+          "sr": 74,
           "date": "11 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -973,7 +1003,7 @@
           "isNew": false
         },
         {
-          "sr": 74,
+          "sr": 75,
           "date": "10 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -983,7 +1013,7 @@
           "isNew": false
         },
         {
-          "sr": 75,
+          "sr": 76,
           "date": "08 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -993,7 +1023,7 @@
           "isNew": false
         },
         {
-          "sr": 76,
+          "sr": 77,
           "date": "08 Dec 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1003,7 +1033,7 @@
           "isNew": false
         },
         {
-          "sr": 77,
+          "sr": 78,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1013,7 +1043,7 @@
           "isNew": false
         },
         {
-          "sr": 78,
+          "sr": 79,
           "date": "27 Nov 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1023,7 +1053,7 @@
           "isNew": false
         },
         {
-          "sr": 79,
+          "sr": 80,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1033,7 +1063,7 @@
           "isNew": false
         },
         {
-          "sr": 80,
+          "sr": 81,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1043,7 +1073,7 @@
           "isNew": false
         },
         {
-          "sr": 81,
+          "sr": 82,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1053,7 +1083,7 @@
           "isNew": false
         },
         {
-          "sr": 82,
+          "sr": 83,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1063,7 +1093,7 @@
           "isNew": false
         },
         {
-          "sr": 83,
+          "sr": 84,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1073,7 +1103,7 @@
           "isNew": false
         },
         {
-          "sr": 84,
+          "sr": 85,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1083,7 +1113,7 @@
           "isNew": false
         },
         {
-          "sr": 85,
+          "sr": 86,
           "date": "30 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1093,7 +1123,7 @@
           "isNew": false
         },
         {
-          "sr": 86,
+          "sr": 87,
           "date": "24 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1103,7 +1133,7 @@
           "isNew": false
         },
         {
-          "sr": 87,
+          "sr": 88,
           "date": "15 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1113,7 +1143,7 @@
           "isNew": false
         },
         {
-          "sr": 88,
+          "sr": 89,
           "date": "13 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1123,7 +1153,7 @@
           "isNew": false
         },
         {
-          "sr": 89,
+          "sr": 90,
           "date": "08 Oct 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1133,7 +1163,7 @@
           "isNew": false
         },
         {
-          "sr": 90,
+          "sr": 91,
           "date": "30 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1143,7 +1173,7 @@
           "isNew": false
         },
         {
-          "sr": 91,
+          "sr": 92,
           "date": "25 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1153,7 +1183,7 @@
           "isNew": false
         },
         {
-          "sr": 92,
+          "sr": 93,
           "date": "19 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1163,7 +1193,7 @@
           "isNew": false
         },
         {
-          "sr": 93,
+          "sr": 94,
           "date": "19 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1173,7 +1203,7 @@
           "isNew": false
         },
         {
-          "sr": 94,
+          "sr": 95,
           "date": "10 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1183,7 +1213,7 @@
           "isNew": false
         },
         {
-          "sr": 95,
+          "sr": 96,
           "date": "10 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1193,7 +1223,7 @@
           "isNew": false
         },
         {
-          "sr": 96,
+          "sr": 97,
           "date": "09 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1203,7 +1233,7 @@
           "isNew": false
         },
         {
-          "sr": 97,
+          "sr": 98,
           "date": "09 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1213,7 +1243,7 @@
           "isNew": false
         },
         {
-          "sr": 98,
+          "sr": 99,
           "date": "05 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1223,7 +1253,7 @@
           "isNew": false
         },
         {
-          "sr": 99,
+          "sr": 100,
           "date": "01 Sept 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1233,7 +1263,7 @@
           "isNew": false
         },
         {
-          "sr": 100,
+          "sr": 101,
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1243,7 +1273,7 @@
           "isNew": false
         },
         {
-          "sr": 101,
+          "sr": 102,
           "date": "28 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1253,7 +1283,7 @@
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 103,
           "date": "26 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1263,7 +1293,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 104,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1273,7 +1303,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 105,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1283,7 +1313,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 106,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1293,7 +1323,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 107,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1303,7 +1333,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 108,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1313,7 +1343,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 109,
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1323,7 +1353,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 110,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1333,7 +1363,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 111,
           "date": "30 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1343,7 +1373,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 112,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1353,7 +1383,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 113,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1363,7 +1393,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 114,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1373,7 +1403,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 115,
           "date": "23 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1383,7 +1413,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 116,
           "date": "02 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1393,7 +1423,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 117,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1403,7 +1433,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 118,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1413,7 +1443,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 119,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1423,7 +1453,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 120,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1433,7 +1463,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 121,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1443,7 +1473,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 122,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1453,7 +1483,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 123,
           "date": "11 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1463,7 +1493,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 124,
           "date": "06 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1473,7 +1503,7 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 125,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1483,7 +1513,7 @@
           "isNew": false
         },
         {
-          "sr": 125,
+          "sr": 126,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1493,7 +1523,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 127,
           "date": "03 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1503,7 +1533,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 128,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1513,7 +1543,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 129,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1523,7 +1553,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 130,
           "date": "29 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1533,7 +1563,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 131,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1543,7 +1573,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 132,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1553,7 +1583,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 133,
           "date": "23 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1563,7 +1593,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 134,
           "date": "19 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1573,7 +1603,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 135,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1583,7 +1613,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 136,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1593,7 +1623,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 137,
           "date": "15 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1603,7 +1633,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 138,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1613,7 +1643,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 139,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1623,7 +1653,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 140,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1633,7 +1663,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 141,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1643,7 +1673,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 142,
           "date": "07 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1653,7 +1683,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 143,
           "date": "07 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1663,7 +1693,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 144,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1673,7 +1703,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 145,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1683,7 +1713,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 146,
           "date": "30 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1693,7 +1723,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 147,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1703,7 +1733,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 148,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1713,23 +1743,13 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 149,
           "date": "28 Apr 2025",
           "year": 2025,
           "cat": "Circulars",
           "title": "Timelines for collection of Margins other than Upfront Margins – Alignment to settlement cycle",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/apr-2025/timelines-for-collection-of-margins-other-than-upfront-margins-alignment-to-settlement-cycle_93685.html",
-          "isNew": false
-        },
-        {
-          "sr": 149,
-          "date": "22 Apr 2025",
-          "year": 2025,
-          "cat": "Circulars",
-          "title": "Change in cut-off timings to determine applicable NAV with respect  to repurchase/ redemption of units in overnight schemes of Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/apr-2025/change-in-cut-off-timings-to-determine-applicable-nav-with-respect-to-repurchase-redemption-of-units-in-overnight-schemes-of-mutual-funds_93541.html",
           "isNew": false
         },
         {
@@ -3223,9 +3243,9 @@
           "isNew": false
         }
       ],
-      "ts": 1787004899258,
+      "ts": 1787008487642,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "SEBI_1": {
       "rows": [
@@ -3841,7 +3861,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4251,7 +4271,7 @@
         },
         {
           "sr": 103,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4261,18 +4281,8 @@
         },
         {
           "sr": 104,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4280,9 +4290,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4291,18 +4311,8 @@
         },
         {
           "sr": 107,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4310,9 +4320,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4321,8 +4341,8 @@
         },
         {
           "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4331,8 +4351,8 @@
         },
         {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4341,8 +4361,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4351,18 +4371,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4370,9 +4380,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4381,8 +4401,8 @@
         },
         {
           "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4391,8 +4411,8 @@
         },
         {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4401,8 +4421,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4411,8 +4431,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4421,38 +4441,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "AML/CFT- Master Circular",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master circular for Exchange Traded Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4460,9 +4450,39 @@
           "isNew": false
         },
         {
+          "sr": 121,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "AML/CFT- Master Circular",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
+          "isNew": false
+        },
+        {
+          "sr": 122,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master circular for Exchange Traded Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4471,8 +4491,8 @@
         },
         {
           "sr": 125,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4481,8 +4501,8 @@
         },
         {
           "sr": 126,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -4491,38 +4511,38 @@
         },
         {
           "sr": 127,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
           "isNew": false
         },
         {
           "sr": 128,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "—",
-          "year": null,
+          "date": "06 Apr 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "—",
-          "year": null,
+          "date": "17 Mar 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -4531,36 +4551,36 @@
         },
         {
           "sr": 131,
-          "date": "—",
-          "year": null,
+          "date": "12 Feb 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
           "isNew": false
         },
         {
           "sr": 132,
-          "date": "—",
-          "year": null,
+          "date": "01 Jan 2010",
+          "year": 2010,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "—",
-          "year": null,
+          "date": "19 Dec 2008",
+          "year": 2008,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
           "isNew": false
         }
       ],
-      "ts": 1787004918791,
+      "ts": 1787008506836,
       "ok": true,
       "newCount": 0
     },
@@ -4568,16 +4588,6 @@
       "rows": [
         {
           "sr": 1,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Informal Guidance",
-          "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Share India Securities Limited in relation to the provisions of the Securities and Exchange Board of India (Portfolio Managers) Regulations, 2020 regarding permitting pledging of securities purchased under Discretionary Portfolio Management Services",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/aug-2026/request-for-informal-guidance-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-share-india-securities-limited-in-relation-to-the-provisions-of-the-securi-_103723.html",
-          "isNew": false
-        },
-        {
-          "sr": 2,
           "date": "10 Aug 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4587,7 +4597,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 2,
           "date": "31 Jul 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4597,7 +4607,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 3,
           "date": "20 Jul 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4607,7 +4617,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 4,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4617,7 +4627,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 5,
           "date": "01 Jun 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4627,7 +4637,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 6,
           "date": "22 May 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4637,7 +4647,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 7,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4647,7 +4657,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 8,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4657,7 +4667,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 9,
           "date": "20 Apr 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4667,7 +4677,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 10,
           "date": "09 Apr 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4677,7 +4687,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 11,
           "date": "23 Mar 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4687,7 +4697,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 12,
           "date": "20 Mar 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4697,7 +4707,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 13,
           "date": "16 Mar 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4707,7 +4717,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 14,
           "date": "09 Feb 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4717,7 +4727,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 15,
           "date": "06 Feb 2026",
           "year": 2026,
           "cat": "Informal Guidance",
@@ -4727,7 +4737,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 16,
           "date": "03 Nov 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4737,7 +4747,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 17,
           "date": "24 Sept 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4747,7 +4757,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 18,
           "date": "23 Sept 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4757,7 +4767,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 19,
           "date": "22 Aug 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4767,7 +4777,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 20,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4777,7 +4787,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 21,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4787,7 +4797,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 22,
           "date": "19 Jun 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4797,7 +4807,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 23,
           "date": "03 Jun 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4807,7 +4817,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 24,
           "date": "15 May 2025",
           "year": 2025,
           "cat": "Informal Guidance",
@@ -4815,9 +4825,19 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2025/informal-guidance-application-received-from-infobeans-technologies-limited-seeking-interpretation-of-regulation-16-1-b-iv-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-_93935.html",
           "isNew": false
+        },
+        {
+          "sr": 25,
+          "date": "09 May 2025",
+          "year": 2025,
+          "cat": "Informal Guidance",
+          "title": "In the matter of Century Plyboards (India) Limited under SEBI (Prohibition of Insider Trading) Regulations, 2015”",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/informal-guidance/may-2025/in-the-matter-of-century-plyboards-india-limited-under-sebi-prohibition-of-insider-trading-regulations-2015-_93869.html",
+          "isNew": false
         }
       ],
-      "ts": 1787004922187,
+      "ts": 1787008509688,
       "ok": true,
       "newCount": 0
     },
@@ -7824,7 +7844,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004957965,
+      "ts": 1787008544584,
       "ok": true,
       "newCount": 0
     },
@@ -9091,7 +9111,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004961984,
+      "ts": 1787008547517,
       "ok": true,
       "newCount": 0
     },
@@ -9118,7 +9138,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787004963691,
+      "ts": 1787008549269,
       "ok": true,
       "newCount": 0
     },
@@ -12125,7 +12145,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005001443,
+      "ts": 1787008586846,
       "ok": true,
       "newCount": 0
     },
@@ -13242,7 +13262,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005003859,
+      "ts": 1787008589296,
       "ok": true,
       "newCount": 0
     },
@@ -16249,7 +16269,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005006984,
+      "ts": 1787008592876,
       "ok": true,
       "newCount": 0
     },
@@ -16416,7 +16436,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005009222,
+      "ts": 1787008595075,
       "ok": true,
       "newCount": 0
     },
@@ -16623,7 +16643,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005011484,
+      "ts": 1787008597226,
       "ok": true,
       "newCount": 0
     },
@@ -16880,7 +16900,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005020945,
+      "ts": 1787008606345,
       "ok": true,
       "newCount": 0
     },
@@ -19887,7 +19907,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005023173,
+      "ts": 1787008608949,
       "ok": true,
       "newCount": 0
     },
@@ -20094,7 +20114,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005026709,
+      "ts": 1787008612216,
       "ok": true,
       "newCount": 0
     },
@@ -20301,7 +20321,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005030250,
+      "ts": 1787008615413,
       "ok": true,
       "newCount": 0
     },
@@ -20508,7 +20528,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005033801,
+      "ts": 1787008618698,
       "ok": true,
       "newCount": 0
     },
@@ -20565,7 +20585,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005041004,
+      "ts": 1787008630751,
       "ok": true,
       "newCount": 0
     },
@@ -20606,7 +20626,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20616,13 +20636,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1787005045769,
+      "ts": 1787008635620,
       "ok": true,
       "newCount": 0
     },
@@ -20663,7 +20683,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20673,13 +20693,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1787005050752,
+      "ts": 1787008640447,
       "ok": true,
       "newCount": 0
     },
@@ -20696,28 +20716,28 @@
           "isNew": false
         }
       ],
-      "ts": 1787005063358,
+      "ts": 1787008657983,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1787005082857,
+      "ts": 1787008679335,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1787005107854,
+      "ts": 1787008698862,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1787005124620,
+      "ts": 1787008716700,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1787005143718,
+      "ts": 1787008734352,
       "ok": true
     },
     "NFRA_0": {
@@ -20783,7 +20803,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005146795,
+      "ts": 1787008737013,
       "ok": true,
       "newCount": 0
     },
@@ -20910,7 +20930,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005148299,
+      "ts": 1787008738484,
       "ok": true,
       "newCount": 0
     },
@@ -21027,7 +21047,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005149796,
+      "ts": 1787008739950,
       "ok": true,
       "newCount": 0
     },
@@ -21154,7 +21174,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005151298,
+      "ts": 1787008741408,
       "ok": true,
       "newCount": 0
     },
@@ -21361,7 +21381,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005158387,
+      "ts": 1787008748025,
       "ok": true,
       "newCount": 0
     },
@@ -21568,7 +21588,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005164802,
+      "ts": 1787008754230,
       "ok": true,
       "newCount": 0
     },
@@ -24575,7 +24595,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787005167181,
+      "ts": 1787008756504,
       "ok": true,
       "newCount": 0
     }
