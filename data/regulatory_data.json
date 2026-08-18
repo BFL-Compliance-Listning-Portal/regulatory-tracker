@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:34:51.249Z",
+  "generatedAt": "2026-08-18T08:30:49.277Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -42,7 +42,8 @@
     "NEWSLETTER_1": {
       "rows": [],
       "ts": 1787038193367,
-      "ok": true
+      "ok": false,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -67,7 +68,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038195538,
+      "ts": 1787041523881,
       "ok": true,
       "newCount": 0
     },
@@ -78,13 +79,23 @@
           "date": "18 Aug 2026",
           "year": 2026,
           "cat": "News",
+          "title": "Cash in circulation rises, complicating RBI's currency planning: SC Murmu",
+          "desc": "India has 176 billion banknotes in circulation; RBI produces 28-30 billion notes and retires around 21 billion annually",
+          "link": "https://www.business-standard.com/finance/news/rbi-cash-demand-digital-payments-currency-circulation-murmu-126081800521_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "18 Aug 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "Sunshine Pictures IPO fully booked within 2 hrs of opening; should you bid?",
           "desc": "Sunshine Pictures IPO review: Analysts at SBI Securities have recommended 'Avoid' on Sunshine Pictures IPO, while Master Capital Services sees a long-term investment opportunity.",
           "link": "https://www.business-standard.com/markets/ipo/sunshine-pictures-ipo-review-analysts-divided-gmp-at-20-key-details-126081800337_1.html",
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "18 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -94,7 +105,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "18 Aug 2026",
           "year": 2026,
           "cat": "News",
@@ -104,13 +115,13 @@
           "isNew": false
         }
       ],
-      "ts": 1787038196879,
+      "ts": 1787041525309,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1787038198242,
+      "ts": 1787041526711,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -136,39 +147,29 @@
           "isNew": false
         }
       ],
-      "ts": 1787038199500,
+      "ts": 1787041527996,
       "ok": true,
       "newCount": 0
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1787038200798,
+      "ts": 1787041529310,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1787038202052,
+      "ts": 1787041530779,
       "ok": true
     },
     "NEWSLETTER_8": {
       "rows": [],
-      "ts": 1787038203676,
+      "ts": 1787041532686,
       "ok": true
     },
     "SEBI_0": {
       "rows": [
         {
           "sr": 1,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Circulars",
-          "title": "Revision of Application Form for Mutual Fund Registration",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
-          "isNew": false
-        },
-        {
-          "sr": 2,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -178,7 +179,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 2,
           "date": "14 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -188,7 +189,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 3,
           "date": "12 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -198,7 +199,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 4,
           "date": "11 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -208,7 +209,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 5,
           "date": "03 Aug 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -218,7 +219,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 6,
           "date": "31 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -228,7 +229,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 7,
           "date": "30 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -238,7 +239,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 8,
           "date": "23 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -248,7 +249,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 9,
           "date": "21 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -258,7 +259,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 10,
           "date": "21 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -268,7 +269,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 11,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -278,7 +279,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 12,
           "date": "10 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -288,7 +289,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 13,
           "date": "07 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -298,7 +299,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 14,
           "date": "03 Jul 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -308,7 +309,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 15,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -318,7 +319,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 16,
           "date": "19 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -328,7 +329,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 17,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -338,7 +339,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 18,
           "date": "15 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -348,7 +349,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 19,
           "date": "11 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -358,7 +359,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 20,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -368,7 +369,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 21,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -378,7 +379,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 22,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -388,7 +389,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 23,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -398,13 +399,23 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 24,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Circulars",
           "title": "Norms for sharing and usage of price data for educational purposes",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/may-2026/norms-for-sharing-and-usage-of-price-data-for-educational-purposes_101293.html",
+          "isNew": false
+        },
+        {
+          "sr": 25,
+          "date": "07 May 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Discontinuation of Investor Risk Reduction Access (IRRA) platform",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/may-2026/discontinuation-of-investor-risk-reduction-access-irra-platform_101300.html",
           "isNew": false
         },
         {
@@ -1149,16 +1160,6 @@
         },
         {
           "sr": 100,
-          "date": "01 Sept 2025",
-          "year": 2025,
-          "cat": "Circulars",
-          "title": "Framework for Intraday Position Limits Monitoring for Equity Index Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/sep-2025/framework-for-intraday-position-limits-monitoring-for-equity-index-derivatives_96376.html",
-          "isNew": false
-        },
-        {
-          "sr": 101,
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1168,7 +1169,7 @@
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 101,
           "date": "28 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1178,7 +1179,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 102,
           "date": "26 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1188,7 +1189,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 103,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1198,7 +1199,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 104,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1208,7 +1209,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 105,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1218,7 +1219,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 106,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1228,7 +1229,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 107,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1238,7 +1239,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 108,
           "date": "05 Aug 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1248,7 +1249,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 109,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1258,7 +1259,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 110,
           "date": "30 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1268,7 +1269,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 111,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1278,7 +1279,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 112,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1288,7 +1289,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 113,
           "date": "29 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1298,7 +1299,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 114,
           "date": "23 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1308,7 +1309,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 115,
           "date": "02 Jul 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1318,7 +1319,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 116,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1328,7 +1329,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 117,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1338,7 +1339,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 118,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1348,7 +1349,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 119,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1358,7 +1359,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 120,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1368,7 +1369,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 121,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1378,7 +1379,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 122,
           "date": "11 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1388,13 +1389,23 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 123,
           "date": "06 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
           "title": "Extension of timeline of additional liquidation period for VCFs migrating to SEBI (Alternative Investment Funds) Regulations, 2012",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/jun-2025/extension-of-timeline-of-additional-liquidation-period-for-vcfs-migrating-to-sebi-alternative-investment-funds-regulations-2012_94433.html",
+          "isNew": false
+        },
+        {
+          "sr": 124,
+          "date": "05 Jun 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Framework for Environment, Social and Governance (ESG) Debt Securities (other than green debt securities)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/jun-2025/framework-for-environment-social-and-governance-esg-debt-securities-other-than-green-debt-securities-_94424.html",
           "isNew": false
         },
         {
@@ -3138,7 +3149,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038238875,
+      "ts": 1787041567947,
       "ok": true,
       "newCount": 0
     },
@@ -3756,7 +3767,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -3976,7 +3987,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -3986,7 +3997,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4166,7 +4177,7 @@
         },
         {
           "sr": 103,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4176,18 +4187,8 @@
         },
         {
           "sr": 104,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4195,9 +4196,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4206,18 +4217,8 @@
         },
         {
           "sr": 107,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4225,9 +4226,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4236,8 +4247,8 @@
         },
         {
           "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4246,8 +4257,8 @@
         },
         {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4256,8 +4267,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4266,18 +4277,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4285,9 +4286,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4296,8 +4307,8 @@
         },
         {
           "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4306,8 +4317,8 @@
         },
         {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4316,8 +4327,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4326,8 +4337,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4336,38 +4347,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "AML/CFT- Master Circular",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master circular for Exchange Traded Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4375,9 +4356,39 @@
           "isNew": false
         },
         {
+          "sr": 121,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "AML/CFT- Master Circular",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
+          "isNew": false
+        },
+        {
+          "sr": 122,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master circular for Exchange Traded Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4386,8 +4397,8 @@
         },
         {
           "sr": 125,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4475,7 +4486,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038258339,
+      "ts": 1787041587378,
       "ok": true,
       "newCount": 0
     },
@@ -4732,7 +4743,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038260745,
+      "ts": 1787041590143,
       "ok": true,
       "newCount": 0
     },
@@ -7739,7 +7750,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038296960,
+      "ts": 1787041626532,
       "ok": true,
       "newCount": 0
     },
@@ -9006,7 +9017,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038300614,
+      "ts": 1787041630894,
       "ok": true,
       "newCount": 0
     },
@@ -9033,7 +9044,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038302423,
+      "ts": 1787041632591,
       "ok": true,
       "newCount": 0
     },
@@ -12040,7 +12051,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038340603,
+      "ts": 1787041670003,
       "ok": true,
       "newCount": 0
     },
@@ -13157,7 +13168,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038343303,
+      "ts": 1787041672033,
       "ok": true,
       "newCount": 0
     },
@@ -16164,7 +16175,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038345833,
+      "ts": 1787041674989,
       "ok": true,
       "newCount": 0
     },
@@ -16331,7 +16342,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038348101,
+      "ts": 1787041677267,
       "ok": true,
       "newCount": 0
     },
@@ -16538,7 +16549,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038350580,
+      "ts": 1787041679814,
       "ok": true,
       "newCount": 0
     },
@@ -16795,7 +16806,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038359735,
+      "ts": 1787041689541,
       "ok": true,
       "newCount": 0
     },
@@ -19802,7 +19813,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038361941,
+      "ts": 1787041692446,
       "ok": true,
       "newCount": 0
     },
@@ -20009,7 +20020,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038365328,
+      "ts": 1787041695580,
       "ok": true,
       "newCount": 0
     },
@@ -20216,7 +20227,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038368645,
+      "ts": 1787041698888,
       "ok": true,
       "newCount": 0
     },
@@ -20423,7 +20434,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038371856,
+      "ts": 1787041702269,
       "ok": true,
       "newCount": 0
     },
@@ -20480,66 +20491,14 @@
           "isNew": false
         }
       ],
-      "ts": 1787038380071,
+      "ts": 1787041713447,
       "ok": true,
       "newCount": 0
     },
     "IEPFA_1": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "28 Jan 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Notice inviting comments from various stakeholders on draft rules for refund process from IEPF Authority | 1 MB",
-          "desc": "",
-          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "12 Dec 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
-          "desc": "",
-          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "12 Dec 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
-          "desc": "",
-          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "29 Aug 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
-          "desc": "",
-          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "29 Aug 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
-          "desc": "",
-          "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
-          "isNew": false
-        }
-      ],
-      "ts": 1787038384827,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1787041718240,
+      "ok": true
     },
     "IEPFA_2": {
       "rows": [
@@ -20594,7 +20553,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038389564,
+      "ts": 1787041723016,
       "ok": true,
       "newCount": 0
     },
@@ -20611,80 +20570,28 @@
           "isNew": false
         }
       ],
-      "ts": 1787038399397,
+      "ts": 1787041733103,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1787038419259,
+      "ts": 1787041760951,
       "ok": true
     },
     "MCA_2": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        }
-      ],
-      "ts": 1787038433308,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1787041776798,
+      "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1787038450270,
+      "ts": 1787041800619,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1787038467367,
+      "ts": 1787041819066,
       "ok": true
     },
     "NFRA_0": {
@@ -20750,7 +20657,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038470282,
+      "ts": 1787041822043,
       "ok": true,
       "newCount": 0
     },
@@ -20877,7 +20784,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038471799,
+      "ts": 1787041823512,
       "ok": true,
       "newCount": 0
     },
@@ -20994,7 +20901,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038473306,
+      "ts": 1787041824979,
       "ok": true,
       "newCount": 0
     },
@@ -21121,7 +21028,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038474823,
+      "ts": 1787041826455,
       "ok": true,
       "newCount": 0
     },
@@ -21328,7 +21235,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038481479,
+      "ts": 1787041833224,
       "ok": true,
       "newCount": 0
     },
@@ -21535,7 +21442,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038487697,
+      "ts": 1787041839612,
       "ok": true,
       "newCount": 0
     },
@@ -24542,7 +24449,7 @@
           "isNew": false
         }
       ],
-      "ts": 1787038490044,
+      "ts": 1787041841792,
       "ok": true,
       "newCount": 0
     }
