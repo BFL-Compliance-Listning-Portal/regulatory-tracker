@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T08:09:21.842Z",
+  "generatedAt": "2026-09-20T13:24:51.969Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -40,9 +40,20 @@
       "error": "HTTP 403"
     },
     "NEWSLETTER_1": {
-      "rows": [],
-      "ts": 1789891420882,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "20 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bank Strike From Sep 28 to 30: SBI Issues Fresh Advisory; Will ATMs Work?Sep 20, 2026, 15:52 IST",
+          "desc": "",
+          "link": "https://www.timesnownews.com/business-economy/personal-finance/bank-strike-from-sep-28-to-30-sbi-issues-fresh-advisory-will-atms-work-article-156191444"
+        }
+      ],
+      "ts": 1789910342617,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -57,7 +68,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891422542,
+      "ts": 1789910344479,
       "ok": true,
       "newCount": 0
     },
@@ -65,6 +76,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "20 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "India's software services exports rise 8.2% to $221.4 bn in FY26: RBI data",
+          "desc": "India's software services exports rose 8.2 per cent in 2025-26, led by computer services, while the US remained the top destination with a 54.1 per cent share of exports",
+          "link": "https://www.business-standard.com/economy/news/india-s-software-services-exports-rise-8-2-to-221-4-bn-in-fy26-rbi-data-126092000478_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "19 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -74,7 +95,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "19 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -84,13 +105,13 @@
           "isNew": false
         }
       ],
-      "ts": 1789891423999,
+      "ts": 1789910345944,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1789891425313,
+      "ts": 1789910347664,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -100,34 +121,44 @@
           "date": "19 Sept 2026",
           "year": 2026,
           "cat": "News",
+          "title": "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points",
+          "desc": "",
+          "link": "https://www.investors.com/news/robinhood-stock-spacex-stocks-near-buy-points/?src=A00220&yptr=yahoo",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "19 Sept 2026",
+          "year": 2026,
+          "cat": "News",
           "title": "Mortgage and refinance interest rates today, Saturday, September 19, 2026: Mortgage rates move lower to start the weekend",
           "desc": "",
           "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-19-2026-mortgage-rates-move-lower-to-start-the-weekend-100000254.html",
           "isNew": false
         },
         {
-          "sr": 2,
-          "date": "18 Sept 2026",
+          "sr": 3,
+          "date": "20 Sept 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Friday, September 18, 2026: Rates climb above 7%",
+          "title": "Mortgage and refinance interest rates today, Sunday, September 20, 2026: Mortgage rates moved higher again compared to last week",
           "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-18-2026-rates-climb-above-7-100000327.html",
-          "isNew": false
+          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-20-2026-mortgage-rates-moved-higher-again-compared-to-last-week-100000702.html",
+          "isNew": true
         }
       ],
-      "ts": 1789891426656,
+      "ts": 1789910348977,
       "ok": true,
-      "newCount": 0
+      "newCount": 2
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1789891427901,
+      "ts": 1789910350290,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1789891429153,
+      "ts": 1789910351772,
       "ok": true
     },
     "NEWSLETTER_8": {
@@ -139,10 +170,11 @@
           "cat": "News",
           "title": "Saudi Arabia quits China-led cross-border currency platform",
           "desc": "Kingdom’s central bank withdrew from programme which is part of Beijing’s effort to develop an alternative system to the dollar",
-          "link": "https://www.ft.com/content/ac104987-f43d-4e7d-97b6-057d98f7e422?syn-25a6b1a6=1"
+          "link": "https://www.ft.com/content/ac104987-f43d-4e7d-97b6-057d98f7e422?syn-25a6b1a6=1",
+          "isNew": false
         }
       ],
-      "ts": 1789891431125,
+      "ts": 1789910353547,
       "ok": true,
       "newCount": 0
     },
@@ -1390,6 +1422,16 @@
         },
         {
           "sr": 125,
+          "date": "30 Jun 2025",
+          "year": 2025,
+          "cat": "Circulars",
+          "title": "Extension towards Adoption and Implementation of Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/jun-2025/extension-towards-adoption-and-implementation-of-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_94902.html",
+          "isNew": false
+        },
+        {
+          "sr": 126,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1399,7 +1441,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 127,
           "date": "26 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1409,7 +1451,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 128,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1419,7 +1461,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 129,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1429,7 +1471,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 130,
           "date": "12 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1439,7 +1481,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 131,
           "date": "11 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1449,7 +1491,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 132,
           "date": "06 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1459,7 +1501,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 133,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1469,7 +1511,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 134,
           "date": "05 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1479,7 +1521,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 135,
           "date": "03 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1489,7 +1531,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 136,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1499,7 +1541,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 137,
           "date": "02 Jun 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1509,7 +1551,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 138,
           "date": "29 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1519,7 +1561,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 139,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1529,7 +1571,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 140,
           "date": "26 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1539,7 +1581,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 141,
           "date": "23 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1549,7 +1591,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 142,
           "date": "19 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1559,7 +1601,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 143,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1569,7 +1611,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 144,
           "date": "16 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1579,7 +1621,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 145,
           "date": "15 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1589,7 +1631,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 146,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1599,7 +1641,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 147,
           "date": "14 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1609,7 +1651,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 148,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
@@ -1619,23 +1661,13 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 149,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Circulars",
           "title": "Extension of timeline for complying with the certification requirement for the key investment team of the Manager of AIF",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/may-2025/extension-of-timeline-for-complying-with-the-certification-requirement-for-the-key-investment-team-of-the-manager-of-aif_93904.html",
-          "isNew": false
-        },
-        {
-          "sr": 149,
-          "date": "07 May 2025",
-          "year": 2025,
-          "cat": "Circulars",
-          "title": "Review of - (a) disclosure of financial information in offer document, and (b) continuous disclosures and compliances by Real Estate Investment Trusts (REITs)",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/may-2025/review-of-a-disclosure-of-financial-information-in-offer-document-and-b-continuous-disclosures-and-compliances-by-real-estate-investment-trusts-reits-_93837.html",
           "isNew": false
         },
         {
@@ -3119,7 +3151,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891467598,
+      "ts": 1789910397883,
       "ok": true,
       "newCount": 0
     },
@@ -3737,7 +3769,7 @@
         },
         {
           "sr": 62,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -3957,7 +3989,7 @@
         },
         {
           "sr": 84,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -3967,7 +3999,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4147,7 +4179,7 @@
         },
         {
           "sr": 103,
-          "date": "09 Apr 2018",
+          "date": "10 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4157,18 +4189,8 @@
         },
         {
           "sr": 104,
-          "date": "16 Dec 2016",
-          "year": 2016,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "15 Dec 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4176,9 +4198,19 @@
           "isNew": false
         },
         {
+          "sr": 105,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-stock-exchange-and-clearing-corporation_33797.html",
+          "isNew": false
+        },
+        {
           "sr": 106,
-          "date": "14 Sept 2016",
-          "year": 2016,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4187,18 +4219,8 @@
         },
         {
           "sr": 107,
-          "date": "26 May 2015",
-          "year": 2015,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange and Clearing Corporation",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "07 May 2015",
-          "year": 2015,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4206,9 +4228,19 @@
           "isNew": false
         },
         {
+          "sr": 108,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange and Clearing Corporation",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-stock-exchange-and-clearing-corporation_29849.html",
+          "isNew": false
+        },
+        {
           "sr": 109,
-          "date": "01 Oct 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4217,8 +4249,8 @@
         },
         {
           "sr": 110,
-          "date": "20 May 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4227,8 +4259,8 @@
         },
         {
           "sr": 111,
-          "date": "07 Apr 2014",
-          "year": 2014,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4237,8 +4269,8 @@
         },
         {
           "sr": 112,
-          "date": "11 Sept 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4247,18 +4279,8 @@
         },
         {
           "sr": 113,
-          "date": "17 Apr 2013",
-          "year": 2013,
-          "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "15 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4266,9 +4288,19 @@
           "isNew": false
         },
         {
+          "sr": 114,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Stock Exchange - Cash Market",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-stock-exchange-cash-market_24630.html",
+          "isNew": false
+        },
+        {
           "sr": 115,
-          "date": "01 Apr 2013",
-          "year": 2013,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4277,8 +4309,8 @@
         },
         {
           "sr": 116,
-          "date": "11 May 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4287,8 +4319,8 @@
         },
         {
           "sr": 117,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4297,8 +4329,8 @@
         },
         {
           "sr": 118,
-          "date": "13 Apr 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4307,8 +4339,8 @@
         },
         {
           "sr": 119,
-          "date": "02 Jan 2012",
-          "year": 2012,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4317,18 +4349,8 @@
         },
         {
           "sr": 120,
-          "date": "07 Jan 2011",
-          "year": 2011,
-          "cat": "Master Circular",
-          "title": "Master Circular for Mutual Funds",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "AML/CFT- Master Circular",
           "desc": "",
@@ -4336,9 +4358,9 @@
           "isNew": false
         },
         {
-          "sr": 122,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 121,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4346,9 +4368,9 @@
           "isNew": false
         },
         {
-          "sr": 123,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "sr": 122,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master circular for Exchange Traded Derivatives",
           "desc": "",
@@ -4356,9 +4378,19 @@
           "isNew": false
         },
         {
+          "sr": 123,
+          "date": "—",
+          "year": null,
+          "cat": "Master Circular",
+          "title": "Master Circular for Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2011/master-circular-for-mutual-funds_14415.html",
+          "isNew": false
+        },
+        {
           "sr": 124,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4367,8 +4399,8 @@
         },
         {
           "sr": 125,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -4456,7 +4488,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891486849,
+      "ts": 1789910420384,
       "ok": true,
       "newCount": 0
     },
@@ -4713,7 +4745,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891490332,
+      "ts": 1789910423141,
       "ok": true,
       "newCount": 0
     },
@@ -4774,9 +4806,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
           "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -5074,23 +5106,13 @@
           "date": "12 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on review of position limits for clients and penalty provision for violation / breach of position limits for Commodity Derivatives Segment. Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-position-limits-for-clients-and-penalty-provision-for-violation-breach-of-position-limits-for-commodity-derivatives-segment-_101384.html",
-          "isNew": false
-        },
-        {
-          "sr": 37,
-          "date": "12 May 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
           "title": "Consultation Paper on ‘Phased Introduction of Physical Settlement in Select Agricultural Commodity Derivatives Contracts'. Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-phased-introduction-of-physical-settlement-in-select-agricultural-commodity-derivatives-contracts-_101380.html",
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 37,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5100,7 +5122,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 38,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5110,7 +5132,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 39,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5120,17 +5142,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
-          "date": "05 May 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Draft Circular on Clarification with respect to Applicability of the benefit of Early Pay-In in Commodity Derivatives Segment  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-on-clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_101257.html",
-          "isNew": false
-        },
-        {
-          "sr": 42,
+          "sr": 40,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5140,7 +5152,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 41,
           "date": "04 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5150,7 +5162,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 42,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5160,7 +5172,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 43,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5170,7 +5182,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 44,
           "date": "02 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5180,7 +5192,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 45,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5190,7 +5202,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 46,
           "date": "24 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5200,7 +5212,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 47,
           "date": "17 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -5210,13 +5222,33 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 48,
           "date": "12 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Ease of investing - Simplification of documentation requirement for transmission of securities and revision in threshold limits for simplified documentation. Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/mar-2026/consultation-paper-on-ease-of-investing-simplification-of-documentation-requirement-for-transmission-of-securities-and-revision-in-threshold-limits-for-simplified-documentation-_100289.html",
+          "isNew": false
+        },
+        {
+          "sr": 49,
+          "date": "13 Feb 2026",
+          "year": 2026,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of provisions related to Base Price and Price Bands for Exchange Traded Funds (ETFs). Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/consultation-paper-on-review-of-provisions-related-to-base-price-and-price-bands-for-exchange-traded-funds-etfs-_99760.html",
+          "isNew": false
+        },
+        {
+          "sr": 50,
+          "date": "13 Feb 2026",
+          "year": 2026,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Ease of doing business-Relaxations in the reporting requirements for stock brokers. Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/consultation-paper-on-ease-of-doing-business-relaxations-in-the-reporting-requirements-for-stock-brokers-_99758.html",
           "isNew": false
         },
         {
@@ -6681,6 +6713,26 @@
         },
         {
           "sr": 197,
+          "date": "30 Aug 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on review of the Securities and Exchange Board of India (Informal Guidance) Scheme, 2003  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2024/consultation-paper-on-review-of-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2003_86350.html",
+          "isNew": false
+        },
+        {
+          "sr": 198,
+          "date": "29 Aug 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on “Provisions pertaining to appointment of Public Interest Directors”  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2024/consultation-paper-on-provisions-pertaining-to-appointment-of-public-interest-directors-_86313.html",
+          "isNew": false
+        },
+        {
+          "sr": 199,
           "date": "29 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6690,7 +6742,7 @@
           "isNew": false
         },
         {
-          "sr": 198,
+          "sr": 200,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6700,7 +6752,7 @@
           "isNew": false
         },
         {
-          "sr": 199,
+          "sr": 201,
           "date": "28 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6710,7 +6762,7 @@
           "isNew": false
         },
         {
-          "sr": 200,
+          "sr": 202,
           "date": "22 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6720,7 +6772,7 @@
           "isNew": false
         },
         {
-          "sr": 201,
+          "sr": 203,
           "date": "21 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6730,7 +6782,7 @@
           "isNew": false
         },
         {
-          "sr": 202,
+          "sr": 204,
           "date": "20 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6740,7 +6792,7 @@
           "isNew": false
         },
         {
-          "sr": 203,
+          "sr": 205,
           "date": "17 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6750,7 +6802,7 @@
           "isNew": false
         },
         {
-          "sr": 204,
+          "sr": 206,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6760,7 +6812,7 @@
           "isNew": false
         },
         {
-          "sr": 205,
+          "sr": 207,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6770,7 +6822,7 @@
           "isNew": false
         },
         {
-          "sr": 206,
+          "sr": 208,
           "date": "16 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6780,7 +6832,7 @@
           "isNew": false
         },
         {
-          "sr": 207,
+          "sr": 209,
           "date": "09 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6790,7 +6842,7 @@
           "isNew": false
         },
         {
-          "sr": 208,
+          "sr": 210,
           "date": "08 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6800,7 +6852,7 @@
           "isNew": false
         },
         {
-          "sr": 209,
+          "sr": 211,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6810,7 +6862,7 @@
           "isNew": false
         },
         {
-          "sr": 210,
+          "sr": 212,
           "date": "06 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6820,7 +6872,7 @@
           "isNew": false
         },
         {
-          "sr": 211,
+          "sr": 213,
           "date": "05 Aug 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6830,7 +6882,7 @@
           "isNew": false
         },
         {
-          "sr": 212,
+          "sr": 214,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6840,7 +6892,7 @@
           "isNew": false
         },
         {
-          "sr": 213,
+          "sr": 215,
           "date": "30 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6850,7 +6902,7 @@
           "isNew": false
         },
         {
-          "sr": 214,
+          "sr": 216,
           "date": "29 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6860,7 +6912,7 @@
           "isNew": false
         },
         {
-          "sr": 215,
+          "sr": 217,
           "date": "25 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6870,7 +6922,7 @@
           "isNew": false
         },
         {
-          "sr": 216,
+          "sr": 218,
           "date": "22 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6880,7 +6932,7 @@
           "isNew": false
         },
         {
-          "sr": 217,
+          "sr": 219,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6890,7 +6942,7 @@
           "isNew": false
         },
         {
-          "sr": 218,
+          "sr": 220,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6900,7 +6952,7 @@
           "isNew": false
         },
         {
-          "sr": 219,
+          "sr": 221,
           "date": "09 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6910,7 +6962,7 @@
           "isNew": false
         },
         {
-          "sr": 220,
+          "sr": 222,
           "date": "05 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6920,7 +6972,7 @@
           "isNew": false
         },
         {
-          "sr": 221,
+          "sr": 223,
           "date": "01 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6930,7 +6982,7 @@
           "isNew": false
         },
         {
-          "sr": 222,
+          "sr": 224,
           "date": "28 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6940,7 +6992,7 @@
           "isNew": false
         },
         {
-          "sr": 223,
+          "sr": 225,
           "date": "26 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6950,7 +7002,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 226,
           "date": "08 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6960,7 +7012,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 227,
           "date": "07 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6970,7 +7022,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 228,
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6980,7 +7032,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 229,
           "date": "23 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6990,7 +7042,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 230,
           "date": "22 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7000,7 +7052,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 231,
           "date": "21 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7010,7 +7062,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 232,
           "date": "17 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7020,7 +7072,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 233,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7030,7 +7082,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 234,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7040,7 +7092,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 235,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7050,7 +7102,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 236,
           "date": "19 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7060,7 +7112,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 237,
           "date": "05 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7070,7 +7122,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 238,
           "date": "19 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7080,7 +7132,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 239,
           "date": "08 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7090,7 +7142,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 240,
           "date": "27 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7100,7 +7152,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 241,
           "date": "23 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7110,7 +7162,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 242,
           "date": "15 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7120,7 +7172,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 243,
           "date": "07 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7130,7 +7182,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 244,
           "date": "07 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7140,7 +7192,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 245,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7150,7 +7202,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 246,
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7160,7 +7212,27 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 247,
+          "date": "02 Feb 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper to revise and revamp nomination facilities in the Indian Securities Market  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-to-revise-and-revamp-nomination-facilities-in-the-indian-securities-market_81023.html",
+          "isNew": false
+        },
+        {
+          "sr": 248,
+          "date": "19 Jan 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on proposal to enhance trust in the Alternative Investment Funds (‘AIF’) ecosystem to facilitate Ease of Doing Business measures   Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jan-2024/consultation-paper-on-proposal-to-enhance-trust-in-the-alternative-investment-funds-aif-ecosystem-to-facilitate-ease-of-doing-business-measures_80799.html",
+          "isNew": false
+        },
+        {
+          "sr": 249,
           "date": "12 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7170,7 +7242,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 250,
           "date": "11 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7180,7 +7252,7 @@
           "isNew": false
         },
         {
-          "sr": 247,
+          "sr": 251,
           "date": "10 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7190,7 +7262,7 @@
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 252,
           "date": "28 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7200,7 +7272,7 @@
           "isNew": false
         },
         {
-          "sr": 249,
+          "sr": 253,
           "date": "22 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7210,7 +7282,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 254,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7220,7 +7292,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 255,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7230,7 +7302,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 256,
           "date": "28 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7240,7 +7312,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 257,
           "date": "24 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7250,7 +7322,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 258,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7260,7 +7332,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 259,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7270,7 +7342,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 260,
           "date": "29 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7280,7 +7352,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 261,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7290,7 +7362,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 262,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7300,7 +7372,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 263,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7310,7 +7382,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 264,
           "date": "22 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7320,7 +7392,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 265,
           "date": "14 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7330,7 +7402,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 266,
           "date": "10 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7340,7 +7412,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 267,
           "date": "01 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7350,7 +7422,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 268,
           "date": "21 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7360,7 +7432,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 269,
           "date": "20 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7370,7 +7442,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 270,
           "date": "05 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7380,7 +7452,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 271,
           "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7390,27 +7462,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
-          "date": "01 Jun 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Extension of timeline for submission of public comments on the consultation paper on Review of Total Expense Ratio charged by Asset Management Companies (AMCs) to unitholders of schemes of Mutual Funds to facilitate greater transparency and accrual of interest of economies of scale to investors",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-review-of-total-expense-ratio-charged-by-asset-management-companies-amcs-to-unitholders-of-schemes-of-mutual-fund-_72166.html",
-          "isNew": false
-        },
-        {
-          "sr": 269,
-          "date": "01 Jun 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Extension of timeline for submission of public comments on the consultation paper on Institutional Mechanism for Asset Management Companies for deterrence of possible market abuse and fraudulent transactions",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-institutional-mechanism-for-asset-management-companies-for-deterrence-of-possible-market-abuse-and-fraudulent-trans-_72164.html",
-          "isNew": false
-        },
-        {
-          "sr": 270,
+          "sr": 272,
           "date": "31 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7420,7 +7472,7 @@
           "isNew": false
         },
         {
-          "sr": 271,
+          "sr": 273,
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7430,7 +7482,7 @@
           "isNew": false
         },
         {
-          "sr": 272,
+          "sr": 274,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7440,7 +7492,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 275,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7450,7 +7502,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 276,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7460,7 +7512,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 277,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7470,7 +7522,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 278,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7480,7 +7532,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 279,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7490,7 +7542,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 280,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7500,7 +7552,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 281,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7510,7 +7562,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 282,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7520,7 +7572,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 283,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7530,7 +7582,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 284,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7540,7 +7592,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 285,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7550,7 +7602,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 286,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7560,7 +7612,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 287,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7570,7 +7622,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 288,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7580,7 +7632,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 289,
           "date": "09 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7590,7 +7642,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 290,
           "date": "08 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7600,7 +7652,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 291,
           "date": "23 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7610,7 +7662,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 292,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7620,7 +7672,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 293,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7630,7 +7682,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 294,
           "date": "21 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7638,9 +7690,29 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-strengthening-corporate-governance-at-listed-entities-by-empowering-shareholders-amendments-to-the-sebi-lodr-regulations-2015_68261.html",
           "isNew": false
+        },
+        {
+          "sr": 295,
+          "date": "20 Feb 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Streamlining Disclosures by Listed Entities and Strengthening Compliance with SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-streamlining-disclosures-by-listed-entities-and-strengthening-compliance-with-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_68194.html",
+          "isNew": false
+        },
+        {
+          "sr": 296,
+          "date": "20 Feb 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on ESG Disclosures, Ratings and Investing",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-esg-disclosures-ratings-and-investing_68193.html",
+          "isNew": false
         }
       ],
-      "ts": 1789891526447,
+      "ts": 1789910471280,
       "ok": true,
       "newCount": 0
     },
@@ -8907,7 +8979,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891529316,
+      "ts": 1789910475552,
       "ok": true,
       "newCount": 0
     },
@@ -8934,7 +9006,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891531071,
+      "ts": 1789910478610,
       "ok": true,
       "newCount": 0
     },
@@ -9689,2259 +9761,9 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-ecospace-suppliers-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_101001.html",
           "isNew": false
-        },
-        {
-          "sr": 76,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Fastino Dealers Private Limited in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-fastino-dealers-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_101003.html",
-          "isNew": false
-        },
-        {
-          "sr": 77,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mukund Dubey and Nitesh Singh in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-mukund-dubey-and-nitesh-singh-in-the-matter-of-illiquid-stock-options-at-bse_100995.html",
-          "isNew": false
-        },
-        {
-          "sr": 78,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Parmeswar Commercial Private Limited in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-parmeswar-commercial-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_100997.html",
-          "isNew": false
-        },
-        {
-          "sr": 79,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Plastika Industries in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-plastika-industries-in-the-matter-of-illiquid-stock-options-at-bse_100999.html",
-          "isNew": false
-        },
-        {
-          "sr": 80,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Prabhat in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-prabhat-in-the-matter-of-illiquid-stock-options-on-bse_101005.html",
-          "isNew": false
-        },
-        {
-          "sr": 81,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Adhunik Ventures Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-adhunik-ventures-private-limited-in-the-matter-of-illiquid-stock-options_100986.html",
-          "isNew": false
-        },
-        {
-          "sr": 82,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Arjun Jagdish Dungarshi in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-arjun-jagdish-dungarshi-in-the-matter-of-illiquid-stock-options_100976.html",
-          "isNew": false
-        },
-        {
-          "sr": 83,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Grand Dealtrade Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-grand-dealtrade-private-limited-in-the-matter-of-illiquid-stock-options_100980.html",
-          "isNew": false
-        },
-        {
-          "sr": 84,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajwadi Retail Trade Systems Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-rajwadi-retail-trade-systems-private-limited-in-the-matter-of-illiquid-stock-options_100982.html",
-          "isNew": false
-        },
-        {
-          "sr": 85,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rose Securities Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-rose-securities-limited-in-the-matter-of-illiquid-stock-options_100978.html",
-          "isNew": false
-        },
-        {
-          "sr": 86,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of SIC Stocks Services Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-sic-stocks-services-private-limited-in-the-matter-of-illiquid-stock-options_100984.html",
-          "isNew": false
-        },
-        {
-          "sr": 87,
-          "date": "16 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication order in the matter of Lypsa Gems and Jewellery Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-the-matter-of-lypsa-gems-and-jewellery-limited_100939.html",
-          "isNew": false
-        },
-        {
-          "sr": 88,
-          "date": "16 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Growthlift Investment Advisories Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-the-matter-of-growthlift-investment-advisories-private-limited_100941.html",
-          "isNew": false
-        },
-        {
-          "sr": 89,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Asan Steels Private Limited in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-asan-steels-private-limited-in-the-matter-of-illiquid-stock-options-on-bse_100922.html",
-          "isNew": false
-        },
-        {
-          "sr": 90,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ashwin Chunibhai Shah in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-ashwin-chunibhai-shah-in-the-matter-of-illiquid-stock-options-on-bse_100918.html",
-          "isNew": false
-        },
-        {
-          "sr": 91,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Bimla Devi Killa in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-bimla-devi-killa-in-the-matter-of-illiquid-stock-options-on-bse_100920.html",
-          "isNew": false
-        },
-        {
-          "sr": 92,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Nitin Jain in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-nitin-jain-in-the-matter-of-illiquid-stock-options-on-bse_100916.html",
-          "isNew": false
-        },
-        {
-          "sr": 93,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of S K Garments Private Limited in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-s-k-garments-private-limited-in-the-matter-of-illiquid-stock-options-on-bse_100914.html",
-          "isNew": false
-        },
-        {
-          "sr": 94,
-          "date": "13 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sagarotharaka Vanijya Private Limited in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-sagarotharaka-vanijya-private-limited-in-the-matter-of-illiquid-stock-options-on-bse_100912.html",
-          "isNew": false
-        },
-        {
-          "sr": 95,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Trdez Investment Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-the-matter-of-trdez-investment-private-limited_100846.html",
-          "isNew": false
-        },
-        {
-          "sr": 96,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Diganta Agencies Pvt Ltd in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-diganta-agencies-pvt-ltd-in-the-matter-of-illiquid-stock-options-on-bse_100822.html",
-          "isNew": false
-        },
-        {
-          "sr": 97,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rupee Services Private Limited in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-rupee-services-private-limited-in-the-matter-of-illiquid-stock-options-on-bse_100824.html",
-          "isNew": false
-        },
-        {
-          "sr": 98,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Prachi Tradevine Pvt Ltd in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-prachi-tradevine-pvt-ltd-in-the-matter-of-illiquid-stock-options-on-bse_100813.html",
-          "isNew": false
-        },
-        {
-          "sr": 99,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Saffire Exports And Agency Private Limited in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-saffire-exports-and-agency-private-limited-in-the-matter-of-illiquid-stock-options-on-bse_100811.html",
-          "isNew": false
-        },
-        {
-          "sr": 100,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amritphal Mercantile Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-amritphal-mercantile-private-limited-in-the-matter-of-illiquid-stock-options_100808.html",
-          "isNew": false
-        },
-        {
-          "sr": 101,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Longview Suppliers Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-longview-suppliers-private-limited-in-the-matter-of-illiquid-stock-options_100810.html",
-          "isNew": false
-        },
-        {
-          "sr": 102,
-          "date": "08 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ritu Overseas Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-ritu-overseas-private-limited-in-the-matter-of-illiquid-stock-options_100806.html",
-          "isNew": false
-        },
-        {
-          "sr": 103,
-          "date": "06 Apr 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Bimal Jha in the matter of Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/apr-2026/adjudication-order-in-respect-of-bimal-jha-in-the-matter-of-illiquid-stock-options-on-bse_100742.html",
-          "isNew": false
-        },
-        {
-          "sr": 104,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rashmi Chandak in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rashmi-chandak-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100656.html",
-          "isNew": false
-        },
-        {
-          "sr": 105,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ravindra Kumar Gupta HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ravindra-kumar-gupta-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100654.html",
-          "isNew": false
-        },
-        {
-          "sr": 106,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mange Lal Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-mange-lal-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100652.html",
-          "isNew": false
-        },
-        {
-          "sr": 107,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajeev Chandak HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rajeev-chandak-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100650.html",
-          "isNew": false
-        },
-        {
-          "sr": 108,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Bhagat Ram Agarwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-bhagat-ram-agarwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100639.html",
-          "isNew": false
-        },
-        {
-          "sr": 109,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Late Juneja Ranjitsingh in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-late-juneja-ranjitsingh-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100637.html",
-          "isNew": false
-        },
-        {
-          "sr": 110,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Pawan Kumar Agarwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-pawan-kumar-agarwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100635.html",
-          "isNew": false
-        },
-        {
-          "sr": 111,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rekha M Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rekha-m-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100633.html",
-          "isNew": false
-        },
-        {
-          "sr": 112,
-          "date": "27 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of HKC Techind Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-hkc-techind-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100631.html",
-          "isNew": false
-        },
-        {
-          "sr": 113,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ashlar Securities Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ashlar-securities-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100607.html",
-          "isNew": false
-        },
-        {
-          "sr": 114,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of ATS Share Brokers Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ats-share-brokers-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100609.html",
-          "isNew": false
-        },
-        {
-          "sr": 115,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of First Global Stockbroking Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-first-global-stockbroking-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100611.html",
-          "isNew": false
-        },
-        {
-          "sr": 116,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ganganagar Commodity Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ganganagar-commodity-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100601.html",
-          "isNew": false
-        },
-        {
-          "sr": 117,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Growth Securities Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-growth-securities-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100613.html",
-          "isNew": false
-        },
-        {
-          "sr": 118,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of ITI Securities Broking Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-iti-securities-broking-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100605.html",
-          "isNew": false
-        },
-        {
-          "sr": 119,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Northeast Broking Services Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-northeast-broking-services-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100603.html",
-          "isNew": false
-        },
-        {
-          "sr": 120,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of R. K. Stockholding Pvt. Ltd. in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-r-k-stockholding-pvt-ltd-in-the-matter-of-tradetron-and-other-algo-platforms_100595.html",
-          "isNew": false
-        },
-        {
-          "sr": 121,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Samco Securities Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-samco-securities-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100597.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Shri Parasram Holdings Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-shri-parasram-holdings-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100599.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Pentad Securities Private Limited in the matter of TradeTron and other Algo Platforms",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-pentad-securities-private-limited-in-the-matter-of-tradetron-and-other-algo-platforms_100593.html",
-          "isNew": false
-        },
-        {
-          "sr": 124,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Incap Financial Services Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-incap-financial-services-limited_100572.html",
-          "isNew": false
-        },
-        {
-          "sr": 125,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anagha C Bambardekar in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-anagha-c-bambardekar-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100559.html",
-          "isNew": false
-        },
-        {
-          "sr": 126,
-          "date": "25 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Lal Kamleshbhai N HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-lal-kamleshbhai-n-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100555.html",
-          "isNew": false
-        },
-        {
-          "sr": 127,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Madhu Gupta in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-madhu-gupta-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100509.html",
-          "isNew": false
-        },
-        {
-          "sr": 128,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Nagarjuna Fertilizers and Chemicals Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-nagarjuna-fertilizers-and-chemicals-limited_100507.html",
-          "isNew": false
-        },
-        {
-          "sr": 129,
-          "date": "20 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Galaxy Mercantiles Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-galaxy-mercantiles-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100490.html",
-          "isNew": false
-        },
-        {
-          "sr": 130,
-          "date": "18 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rahul Fiscal and Credit Co. Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-rahul-fiscal-and-credit-co-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100462.html",
-          "isNew": false
-        },
-        {
-          "sr": 131,
-          "date": "18 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sanjay Kumar in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-sanjay-kumar-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100453.html",
-          "isNew": false
-        },
-        {
-          "sr": 132,
-          "date": "18 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of DMI Capital Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-dmi-capital-private-limited_100455.html",
-          "isNew": false
-        },
-        {
-          "sr": 133,
-          "date": "18 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anju Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-anju-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100449.html",
-          "isNew": false
-        },
-        {
-          "sr": 134,
-          "date": "13 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Shanti Bhutra in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-shanti-bhutra-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100340.html",
-          "isNew": false
-        },
-        {
-          "sr": 135,
-          "date": "13 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Anand Rathi Shares and Stock Brokers Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-anand-rathi-shares-and-stock-brokers-limited_100327.html",
-          "isNew": false
-        },
-        {
-          "sr": 136,
-          "date": "11 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Blue Coast Hotels Limited[Corrigendum]",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-blue-coast-hotels-limited_100277.html",
-          "isNew": false
-        },
-        {
-          "sr": 137,
-          "date": "11 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Maa Mahamaya Rolling Mill Pvt. Ltd. in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-maa-mahamaya-rolling-mill-pvt-ltd-in-the-matter-of-illiquid-stock-options-at-bse_100275.html",
-          "isNew": false
-        },
-        {
-          "sr": 138,
-          "date": "11 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of IM+ Capital Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-im-capital-limited_100264.html",
-          "isNew": false
-        },
-        {
-          "sr": 139,
-          "date": "11 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amit Jain in the matter of Himalaya Granites Limited.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-amit-jain-in-the-matter-of-himalaya-granites-limited-_100260.html",
-          "isNew": false
-        },
-        {
-          "sr": 140,
-          "date": "09 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mrs. Rukmani Devi Poddar in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-mrs-rukmani-devi-poddar-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100204.html",
-          "isNew": false
-        },
-        {
-          "sr": 141,
-          "date": "09 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anita Jhajharia in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-anita-jhajharia-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100199.html",
-          "isNew": false
-        },
-        {
-          "sr": 142,
-          "date": "09 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anupama Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-anupama-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100197.html",
-          "isNew": false
-        },
-        {
-          "sr": 143,
-          "date": "09 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ratan Kumar Sikaria HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ratan-kumar-sikaria-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100201.html",
-          "isNew": false
-        },
-        {
-          "sr": 144,
-          "date": "09 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Akash in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-akash-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100190.html",
-          "isNew": false
-        },
-        {
-          "sr": 145,
-          "date": "05 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ravi Himmatramka and Sons HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-ravi-himmatramka-and-sons-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100134.html",
-          "isNew": false
-        },
-        {
-          "sr": 146,
-          "date": "05 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication order in respect of Gita Devi Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-gita-devi-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100130.html",
-          "isNew": false
-        },
-        {
-          "sr": 147,
-          "date": "05 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Kusum Devi Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-kusum-devi-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100128.html",
-          "isNew": false
-        },
-        {
-          "sr": 148,
-          "date": "04 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Jitendra Hansraj Vithalani in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-respect-of-jitendra-hansraj-vithalani-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100122.html",
-          "isNew": false
-        },
-        {
-          "sr": 149,
-          "date": "02 Mar 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of financial mis-statements of Coffee Day Enterprises Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/mar-2026/adjudication-order-in-the-matter-of-financial-mis-statements-of-coffee-day-enterprises-limited_100080.html",
-          "isNew": false
-        },
-        {
-          "sr": 150,
-          "date": "26 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Tarang Stock Broking Services Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-tarang-stock-broking-services-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100036.html",
-          "isNew": false
-        },
-        {
-          "sr": 151,
-          "date": "26 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Goldenmaple Commodities Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-goldenmaple-commodities-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_100033.html",
-          "isNew": false
-        },
-        {
-          "sr": 152,
-          "date": "24 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ashok Kumar Gupta and Sons HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-ashok-kumar-gupta-and-sons-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99943.html",
-          "isNew": false
-        },
-        {
-          "sr": 153,
-          "date": "24 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Vishnu Prakash R Punglia Ltd",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-vishnu-prakash-r-punglia-ltd_99931.html",
-          "isNew": false
-        },
-        {
-          "sr": 154,
-          "date": "23 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of India Knowledge Manufacturing Fund-I, a scheme of Forum Synergies India Trust",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-india-knowledge-manufacturing-fund-i-a-scheme-of-forum-synergies-india-trust_99924.html",
-          "isNew": false
-        },
-        {
-          "sr": 155,
-          "date": "23 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of ANS Pvt. Ltd",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-ans-pvt-ltd_99918.html",
-          "isNew": false
-        },
-        {
-          "sr": 156,
-          "date": "20 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Raman Kumar and Sons HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-raman-kumar-and-sons-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99901.html",
-          "isNew": false
-        },
-        {
-          "sr": 157,
-          "date": "20 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Chenthil R Iyer, Investment Adviser",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-chenthil-r-iyer-investment-adviser_99895.html",
-          "isNew": false
-        },
-        {
-          "sr": 158,
-          "date": "18 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Late Alok Kumar Singhania in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-late-alok-kumar-singhania-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99860.html",
-          "isNew": false
-        },
-        {
-          "sr": 159,
-          "date": "18 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Salween Securities Private Limited. in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-salween-securities-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_99858.html",
-          "isNew": false
-        },
-        {
-          "sr": 160,
-          "date": "18 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Investigation in the Financial Statements of Oriental Trimex Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-investigation-in-the-financial-statements-of-oriental-trimex-limited_99823.html",
-          "isNew": false
-        },
-        {
-          "sr": 161,
-          "date": "17 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amit Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-amit-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99820.html",
-          "isNew": false
-        },
-        {
-          "sr": 162,
-          "date": "17 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anjali Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-anjali-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99818.html",
-          "isNew": false
-        },
-        {
-          "sr": 163,
-          "date": "17 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ramgopal Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-ramgopal-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99788.html",
-          "isNew": false
-        },
-        {
-          "sr": 164,
-          "date": "17 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rashidaben Rahimbhai Sanghi in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-rashidaben-rahimbhai-sanghi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99790.html",
-          "isNew": false
-        },
-        {
-          "sr": 165,
-          "date": "13 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Shilush Trading Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-shilush-trading-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99762.html",
-          "isNew": false
-        },
-        {
-          "sr": 166,
-          "date": "12 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of trading activity in the scrip of ANI Integrated Services Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-trading-activity-in-the-scrip-of-ani-integrated-services-limited_99723.html",
-          "isNew": false
-        },
-        {
-          "sr": 167,
-          "date": "12 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Dinesh Manwani HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-dinesh-manwani-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99717.html",
-          "isNew": false
-        },
-        {
-          "sr": 168,
-          "date": "12 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication order in respect of Late Ms. Malti Devi in the matter of dealings in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-late-ms-malti-devi-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_99719.html",
-          "isNew": false
-        },
-        {
-          "sr": 169,
-          "date": "11 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Shah Investors Home Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-shah-investors-home-limited_99698.html",
-          "isNew": false
-        },
-        {
-          "sr": 170,
-          "date": "10 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Parish Kirit Bhai Patel in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-parish-kirit-bhai-patel-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99661.html",
-          "isNew": false
-        },
-        {
-          "sr": 171,
-          "date": "10 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Cyquator Media Services Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-cyquator-media-services-private-limited_99655.html",
-          "isNew": false
-        },
-        {
-          "sr": 172,
-          "date": "05 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Archana Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-archana-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99540.html",
-          "isNew": false
-        },
-        {
-          "sr": 173,
-          "date": "05 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication order in the matter of Ashapura Minechem Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-ashapura-minechem-limited_99536.html",
-          "isNew": false
-        },
-        {
-          "sr": 174,
-          "date": "04 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Nilesh Pramodbhai Shah HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-nilesh-pramodbhai-shah-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99511.html",
-          "isNew": false
-        },
-        {
-          "sr": 175,
-          "date": "04 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ravi Ludhiyani HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-ravi-ludhiyani-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99513.html",
-          "isNew": false
-        },
-        {
-          "sr": 176,
-          "date": "04 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Pragnya Fund II",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-the-matter-of-pragnya-fund-ii_99509.html",
-          "isNew": false
-        },
-        {
-          "sr": 177,
-          "date": "03 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amit S Yadav in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-amit-s-yadav-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99473.html",
-          "isNew": false
-        },
-        {
-          "sr": 178,
-          "date": "02 Feb 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anil N Pacholi in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/feb-2026/adjudication-order-in-respect-of-anil-n-pacholi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99446.html",
-          "isNew": false
-        },
-        {
-          "sr": 179,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sandeep Agarwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-sandeep-agarwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99426.html",
-          "isNew": false
-        },
-        {
-          "sr": 180,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Vineet Rajkumar Chopda HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-vineet-rajkumar-chopda-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99428.html",
-          "isNew": false
-        },
-        {
-          "sr": 181,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of execution of three-way reversals by certain entities in Illiquid Stock Options segment contract on NSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-execution-of-three-way-reversals-by-certain-entities-in-illiquid-stock-options-segment-contract-on-nse_99424.html",
-          "isNew": false
-        },
-        {
-          "sr": 182,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Bimala Joshi in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-bimala-joshi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99392.html",
-          "isNew": false
-        },
-        {
-          "sr": 183,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Padmavathi Darak in the matter of trading in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-padmavathi-darak-in-the-matter-of-trading-in-illiquid-stock-options-at-bse_99390.html",
-          "isNew": false
-        },
-        {
-          "sr": 184,
-          "date": "30 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ratan Lal Rathi in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ratan-lal-rathi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99387.html",
-          "isNew": false
-        },
-        {
-          "sr": 185,
-          "date": "28 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Agomoni Commercial Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-agomoni-commercial-private-limited-in-the-matter-of-illiquid-stock-options_99334.html",
-          "isNew": false
-        },
-        {
-          "sr": 186,
-          "date": "28 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amanat Developers Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-amanat-developers-private-limited-in-the-matter-of-illiquid-stock-options_99332.html",
-          "isNew": false
-        },
-        {
-          "sr": 187,
-          "date": "28 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amit Kumar Agarwal HUF in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-amit-kumar-agarwal-huf-in-the-matter-of-illiquid-stock-options_99330.html",
-          "isNew": false
-        },
-        {
-          "sr": 188,
-          "date": "23 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajendra Madan Lal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-rajendra-madan-lal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99289.html",
-          "isNew": false
-        },
-        {
-          "sr": 189,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Research Guru, Proprietor - Mrs. Veena Sharma",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-research-guru-proprietor-mrs-veena-sharma_99254.html",
-          "isNew": false
-        },
-        {
-          "sr": 190,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ambaashree Infratech Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ambaashree-infratech-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99250.html",
-          "isNew": false
-        },
-        {
-          "sr": 191,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Basundhara Marcom Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-basundhara-marcom-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse-_99248.html",
-          "isNew": false
-        },
-        {
-          "sr": 192,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sanjay V Mohare HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-sanjay-v-mohare-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99252.html",
-          "isNew": false
-        },
-        {
-          "sr": 193,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Aashish Kumar Goenka in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-aashish-kumar-goenka-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse-_99246.html",
-          "isNew": false
-        },
-        {
-          "sr": 194,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ranjeet Singh Baid HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ranjeet-singh-baid-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99244.html",
-          "isNew": false
-        },
-        {
-          "sr": 195,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amita Bhalla in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-amita-bhalla-in-the-matter-of-illiquid-stock-options_99238.html",
-          "isNew": false
-        },
-        {
-          "sr": 196,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of I Zone Academy Private Limited in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-i-zone-academy-private-limited-in-the-matter-of-illiquid-stock-options_99240.html",
-          "isNew": false
-        },
-        {
-          "sr": 197,
-          "date": "22 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Swift Dealmark Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-swift-dealmark-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99242.html",
-          "isNew": false
-        },
-        {
-          "sr": 198,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of B S Aggarwal and Sons HUF in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-b-s-aggarwal-and-sons-huf-in-the-matter-of-illiquid-stock-options-at-bse_99183.html",
-          "isNew": false
-        },
-        {
-          "sr": 199,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Devendra Pareek HUF in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-devendra-pareek-huf-in-the-matter-of-illiquid-stock-options-at-bse_99181.html",
-          "isNew": false
-        },
-        {
-          "sr": 200,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Parasnath Buildwell Private Limited in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-parasnath-buildwell-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_99187.html",
-          "isNew": false
-        },
-        {
-          "sr": 201,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Pragnesh Bhupendrabhai Thakkar in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-pragnesh-bhupendrabhai-thakkar-in-the-matter-of-illiquid-stock-options-at-bse_99189.html",
-          "isNew": false
-        },
-        {
-          "sr": 202,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ram Gopal Gupta HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ram-gopal-gupta-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99191.html",
-          "isNew": false
-        },
-        {
-          "sr": 203,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Upendra Tarachand Mahadule in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-upendra-tarachand-mahadule-in-the-matter-of-illiquid-stock-options_99193.html",
-          "isNew": false
-        },
-        {
-          "sr": 204,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Usha Awasthi in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-usha-awasthi-in-the-matter-of-illiquid-stock-options-at-bse_99185.html",
-          "isNew": false
-        },
-        {
-          "sr": 205,
-          "date": "21 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ramkrishna Karmakar in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ramkrishna-karmakar-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99179.html",
-          "isNew": false
-        },
-        {
-          "sr": 206,
-          "date": "20 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sushil Kumar Saraf in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-sushil-kumar-saraf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99165.html",
-          "isNew": false
-        },
-        {
-          "sr": 207,
-          "date": "19 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Akshat Incorporation in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-akshat-incorporation-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99142.html",
-          "isNew": false
-        },
-        {
-          "sr": 208,
-          "date": "19 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Makwana Dhiru S. HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-makwana-dhiru-s-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99136.html",
-          "isNew": false
-        },
-        {
-          "sr": 209,
-          "date": "19 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Makwana Jitubhai S. HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-makwana-jitubhai-s-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99138.html",
-          "isNew": false
-        },
-        {
-          "sr": 210,
-          "date": "19 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ramesh Kumar Deosaria in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ramesh-kumar-deosaria-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99140.html",
-          "isNew": false
-        },
-        {
-          "sr": 211,
-          "date": "16 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of trading activities of an entity in the scrip of Torrent Power Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-trading-activities-of-an-entity-in-the-scrip-of-torrent-power-limited_99117.html",
-          "isNew": false
-        },
-        {
-          "sr": 212,
-          "date": "16 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Makwana Bharat S. HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-makwana-bharat-s-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99104.html",
-          "isNew": false
-        },
-        {
-          "sr": 213,
-          "date": "16 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Jigar Rasiklal Patel in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-jigar-rasiklal-patel-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99099.html",
-          "isNew": false
-        },
-        {
-          "sr": 214,
-          "date": "16 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Vikram Anand HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-vikram-anand-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99101.html",
-          "isNew": false
-        },
-        {
-          "sr": 215,
-          "date": "14 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Amar Nath Das and Rajesh Kumar Agarwal in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-amar-nath-das-and-rajesh-kumar-agarwal-in-the-matter-of-illiquid-stock-options-at-bse_99065.html",
-          "isNew": false
-        },
-        {
-          "sr": 216,
-          "date": "14 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Yash Chemex Limited.[Corrigendum]",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-yash-chemex-limited-_99056.html",
-          "isNew": false
-        },
-        {
-          "sr": 217,
-          "date": "13 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Hasina Kasambhai Shekh in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-hasina-kasambhai-shekh-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99037.html",
-          "isNew": false
-        },
-        {
-          "sr": 218,
-          "date": "13 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Gretex Corporate Services Limited.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-gretex-corporate-services-limited-_99039.html",
-          "isNew": false
-        },
-        {
-          "sr": 219,
-          "date": "13 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ayusri Health Products Limited in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-ayusri-health-products-limited-in-the-matter-of-illiquid-stock-options-at-bse_99035.html",
-          "isNew": false
-        },
-        {
-          "sr": 220,
-          "date": "12 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Meghraj Agarwala in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-meghraj-agarwala-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99029.html",
-          "isNew": false
-        },
-        {
-          "sr": 221,
-          "date": "12 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Hacxad Infotech Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-hacxad-infotech-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_99025.html",
-          "isNew": false
-        },
-        {
-          "sr": 222,
-          "date": "12 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Tarun Kumar Ghai in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-tarun-kumar-ghai-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse-_99027.html",
-          "isNew": false
-        },
-        {
-          "sr": 223,
-          "date": "09 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mrs. Alkaben Matadar in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-mrs-alkaben-matadar-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98999.html",
-          "isNew": false
-        },
-        {
-          "sr": 224,
-          "date": "08 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Riju Rajpal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-riju-rajpal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse-_98986.html",
-          "isNew": false
-        },
-        {
-          "sr": 225,
-          "date": "08 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Decent Contractors Private Limited in the matter of trading in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-decent-contractors-private-limited-in-the-matter-of-trading-in-illiquid-stock-options-at-bse_98982.html",
-          "isNew": false
-        },
-        {
-          "sr": 226,
-          "date": "08 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Corrigendum Order in the matter of Birla Pacific Medspa Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/corrigendum-order-in-the-matter-of-birla-pacific-medspa-limited_98980.html",
-          "isNew": false
-        },
-        {
-          "sr": 227,
-          "date": "07 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Nishaa Anand in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-nishaa-anand-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98964.html",
-          "isNew": false
-        },
-        {
-          "sr": 228,
-          "date": "07 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Accretion Pharmaceuticals Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-accretion-pharmaceuticals-limited_98959.html",
-          "isNew": false
-        },
-        {
-          "sr": 229,
-          "date": "05 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Eiko Lifesciences Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-the-matter-of-eiko-lifesciences-limited_98889.html",
-          "isNew": false
-        },
-        {
-          "sr": 230,
-          "date": "05 Jan 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajesh Kapoor in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/jan-2026/adjudication-order-in-respect-of-rajesh-kapoor-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98847.html",
-          "isNew": false
-        },
-        {
-          "sr": 231,
-          "date": "31 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order in the matter of Samdhyan Commodities Brokers Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-samdhyan-commodities-brokers-private-limited_98768.html",
-          "isNew": false
-        },
-        {
-          "sr": 232,
-          "date": "30 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of SSRK Mohan Babu in the matter of AFCO Capital India Private Limited, Merchant Banker",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-ssrk-mohan-babu-in-the-matter-of-afco-capital-india-private-limited-merchant-banker_98748.html",
-          "isNew": false
-        },
-        {
-          "sr": 233,
-          "date": "30 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Proceedings in the matter of Prerna Sharma Research Anaylst",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-proceedings-in-the-matter-of-prerna-sharma-research-anaylst_98742.html",
-          "isNew": false
-        },
-        {
-          "sr": 234,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mohammed Moinul Haque in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-mohammed-moinul-haque-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98504.html",
-          "isNew": false
-        },
-        {
-          "sr": 235,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mr. Gagan Omprakash Arora in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-mr-gagan-omprakash-arora-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98508.html",
-          "isNew": false
-        },
-        {
-          "sr": 236,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajender Singh Chhatwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-rajender-singh-chhatwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98506.html",
-          "isNew": false
-        },
-        {
-          "sr": 237,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sheo Kumar Kejriwal HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-sheo-kumar-kejriwal-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98510.html",
-          "isNew": false
-        },
-        {
-          "sr": 238,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of G G Engineering Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-g-g-engineering-limited_98502.html",
-          "isNew": false
-        },
-        {
-          "sr": 239,
-          "date": "19 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Madhuri Tandon in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-madhuri-tandon-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98500.html",
-          "isNew": false
-        },
-        {
-          "sr": 240,
-          "date": "18 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Primesoft Dealer Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-primesoft-dealer-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98472.html",
-          "isNew": false
-        },
-        {
-          "sr": 241,
-          "date": "18 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rajendra Kumar Garg in the matter of dealings in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-rajendra-kumar-garg-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_98458.html",
-          "isNew": false
-        },
-        {
-          "sr": 242,
-          "date": "17 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Allo Roy in the matter of dealings in Illiquid Stock Options on BSE[Correigendum]",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-allo-roy-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98431.html",
-          "isNew": false
-        },
-        {
-          "sr": 243,
-          "date": "17 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ashirwad Tie Up Private Limited in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-ashirwad-tie-up-private-limited-in-the-matter-of-illiquid-stock-options-at-bse_98427.html",
-          "isNew": false
-        },
-        {
-          "sr": 244,
-          "date": "17 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sachin Kumar Jhawar HUF in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/Sachin_Kumar_Jhawar_HUF_Ashirwad.html",
-          "isNew": false
-        },
-        {
-          "sr": 245,
-          "date": "17 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Vikash Chirimar in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/Mr.Vikas_Chirimar_Iliiquid_stock.html",
-          "isNew": false
-        },
-        {
-          "sr": 246,
-          "date": "17 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Mawana Sugars Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-mawana-sugars-limited_98421.html",
-          "isNew": false
-        },
-        {
-          "sr": 247,
-          "date": "15 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Abhishek Kumar Singh, Prop. Supreme Investrade and Research Services",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-abhishek-kumar-singh-prop-supreme-investrade-and-research-services_98397.html",
-          "isNew": false
-        },
-        {
-          "sr": 248,
-          "date": "15 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Aditya Dhabria in the matter of trading in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-aditya-dhabria-in-the-matter-of-trading-in-illiquid-stock-options-on-bse_98377.html",
-          "isNew": false
-        },
-        {
-          "sr": 249,
-          "date": "12 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of insider trading activities of certain entities in the scrip of Refex Industries Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-insider-trading-activities-of-certain-entities-in-the-scrip-of-refex-industries-limited_98328.html",
-          "isNew": false
-        },
-        {
-          "sr": 250,
-          "date": "10 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Fast Track Finsec Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/Fast_Track_Finsec.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 251,
-          "date": "09 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of ANS Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-ans-private-limited_98270.html",
-          "isNew": false
-        },
-        {
-          "sr": 252,
-          "date": "09 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Samena Special Situations Mauritius",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-the-matter-of-samena-special-situations-mauritius_98262.html",
-          "isNew": false
-        },
-        {
-          "sr": 253,
-          "date": "08 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Parasmani Tradelink Private Limited in the matter of trading in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-parasmani-tradelink-private-limited-in-the-matter-of-trading-in-illiquid-stock-options-at-bse_98237.html",
-          "isNew": false
-        },
-        {
-          "sr": 254,
-          "date": "08 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Alternative Dealers Private Limited in the matter of trading in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/adjudication-order-in-respect-of-alternative-dealers-private-limited-in-the-matter-of-trading-in-illiquid-stock-options-at-bse_98231.html",
-          "isNew": false
-        },
-        {
-          "sr": 255,
-          "date": "01 Dec 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "In the matter of Nuvama Wealth and Investment Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/dec-2025/in-the-matter-of-nuvama-wealth-and-investment-limited_98089.html",
-          "isNew": false
-        },
-        {
-          "sr": 256,
-          "date": "28 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Anil Bajaj HUF in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-anil-bajaj-huf-in-the-matter-of-illiquid-stock-options-at-bse_98028.html",
-          "isNew": false
-        },
-        {
-          "sr": 257,
-          "date": "28 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Shiw Mohan Jaiswal  in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-shiw-mohan-jaiswal-in-the-matter-of-illiquid-stock-options-at-bse_98030.html",
-          "isNew": false
-        },
-        {
-          "sr": 258,
-          "date": "28 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Mangalkamna Dealer Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-mangalkamna-dealer-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_98019.html",
-          "isNew": false
-        },
-        {
-          "sr": 259,
-          "date": "28 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Tavarya Trade-Link Pvt. Ltd. in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-tavarya-trade-link-pvt-ltd-in-the-matter-of-illiquid-stock-options-at-bse_98017.html",
-          "isNew": false
-        },
-        {
-          "sr": 260,
-          "date": "28 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Kreo Capital Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-kreo-capital-private-limited_98015.html",
-          "isNew": false
-        },
-        {
-          "sr": 261,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Inspection of Launchpad Fintech Pvt. Ltd.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-inspection-of-launchpad-fintech-pvt-ltd-_98000.html",
-          "isNew": false
-        },
-        {
-          "sr": 262,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order in respect of Parduman Kumar Jain in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-parduman-kumar-jain-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97990.html",
-          "isNew": false
-        },
-        {
-          "sr": 263,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ms. Anita Devi Chokhani in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-ms-anita-devi-chokhani-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97979.html",
-          "isNew": false
-        },
-        {
-          "sr": 264,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Octant Interactive Technologies Limited.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-octant-interactive-technologies-limited-_97977.html",
-          "isNew": false
-        },
-        {
-          "sr": 265,
-          "date": "26 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Modex International Securities Limited in the matter of Trading Members in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-modex-international-securities-limited-in-the-matter-of-trading-members-in-illiquid-stock-options-at-bse_97970.html",
-          "isNew": false
-        },
-        {
-          "sr": 266,
-          "date": "26 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Alpine Commercial Company Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-alpine-commercial-company-limited_97968.html",
-          "isNew": false
-        },
-        {
-          "sr": 267,
-          "date": "26 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Jainam Broking Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-jainam-broking-limited_97958.html",
-          "isNew": false
-        },
-        {
-          "sr": 268,
-          "date": "26 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Reliance Securities Limited w.r.t. Cyber Security and Cyber Resilience",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-reliance-securities-limited-w-r-t-cyber-security-and-cyber-resilience_97956.html",
-          "isNew": false
-        },
-        {
-          "sr": 269,
-          "date": "25 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Emkay Consultants Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-emkay-consultants-limited_97949.html",
-          "isNew": false
-        },
-        {
-          "sr": 270,
-          "date": "25 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Abhijit Mangaldas Shanghavi in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-abhijit-mangaldas-shanghavi-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97941.html",
-          "isNew": false
-        },
-        {
-          "sr": 271,
-          "date": "25 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Corrigendum Order in respect of Urijita Commerce Private Limited in the matter of Allied Computer International Asia Limited.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/corrigendum-order-in-respect-of-urijita-commerce-private-limited-in-the-matter-of-allied-computer-international-asia-limited-_97928.html",
-          "isNew": false
-        },
-        {
-          "sr": 272,
-          "date": "24 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Arrowlink Chemical Pvt Ltd in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-arrowlink-chemical-pvt-ltd-in-the-matter-of-illiquid-stock-options-at-bse_97896.html",
-          "isNew": false
-        },
-        {
-          "sr": 273,
-          "date": "24 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rudramukhi Infrastructure Pvt. Ltd in the matter of Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-rudramukhi-infrastructure-pvt-ltd-in-the-matter-of-illiquid-stock-options-at-bse_97900.html",
-          "isNew": false
-        },
-        {
-          "sr": 274,
-          "date": "24 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of AFCO Capital India Private Limited.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-afco-capital-india-private-limited-_97894.html",
-          "isNew": false
-        },
-        {
-          "sr": 275,
-          "date": "24 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Prithvi Finmart Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-prithvi-finmart-private-limited_97898.html",
-          "isNew": false
-        },
-        {
-          "sr": 276,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of inspection of Fourdegreewater Services Private Limited as stock broker acting as an Online Bond Platform Provider",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-inspection-of-fourdegreewater-services-private-limited-as-stock-broker-acting-as-an-online-bond-platform-provider_97884.html",
-          "isNew": false
-        },
-        {
-          "sr": 277,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Kusum Devi Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-kusum-devi-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97883.html",
-          "isNew": false
-        },
-        {
-          "sr": 278,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Tarkeshwar Kaloya in the matter of Illiquid Stock Options",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-tarkeshwar-kaloya-in-the-matter-of-illiquid-stock-options_97881.html",
-          "isNew": false
-        },
-        {
-          "sr": 279,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Late Ms. Geeta Devi Agarwal in the matter of dealings in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-late-ms-geeta-devi-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_97852.html",
-          "isNew": false
-        },
-        {
-          "sr": 280,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Sankat Mochan Holdings Private Limited in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-sankat-mochan-holdings-private-limited-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97854.html",
-          "isNew": false
-        },
-        {
-          "sr": 281,
-          "date": "19 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Rakesh Kumar Khetan HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-rakesh-kumar-khetan-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97824.html",
-          "isNew": false
-        },
-        {
-          "sr": 282,
-          "date": "11 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order in respect of Pranab Nandy in the matter of dealings in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-pranab-nandy-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_97721.html",
-          "isNew": false
-        },
-        {
-          "sr": 283,
-          "date": "11 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Harish Kumar Sakaria in the matter of Gala Global Products Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-respect-of-harish-kumar-sakaria-in-the-matter-of-gala-global-products-limited_97713.html",
-          "isNew": false
-        },
-        {
-          "sr": 284,
-          "date": "11 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Angel One Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-angel-one-limited_97715.html",
-          "isNew": false
-        },
-        {
-          "sr": 285,
-          "date": "07 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Mediaone Global Entertainment Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/nov-2025/adjudication-order-in-the-matter-of-mediaone-global-entertainment-limited_97673.html",
-          "isNew": false
-        },
-        {
-          "sr": 286,
-          "date": "31 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of price and volume manipulation in the scrip of Quasar India Limited [Corrigendum]",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-price-and-volume-manipulation-in-the-scrip-of-quasar-india-limited_97578.html",
-          "isNew": false
-        },
-        {
-          "sr": 287,
-          "date": "30 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Ritu Agarwal in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-respect-of-ritu-agarwal-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97547.html",
-          "isNew": false
-        },
-        {
-          "sr": 288,
-          "date": "30 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Shyam Sunder Vyas HUF in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-respect-of-shyam-sunder-vyas-huf-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97549.html",
-          "isNew": false
-        },
-        {
-          "sr": 289,
-          "date": "30 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Binny Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-binny-limited_97543.html",
-          "isNew": false
-        },
-        {
-          "sr": 290,
-          "date": "30 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order in the matter of inspection of Choice Equity Broking Private Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-inspection-of-choice-equity-broking-private-limited_97545.html",
-          "isNew": false
-        },
-        {
-          "sr": 291,
-          "date": "30 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Middleton Goods Pvt. Ltd. in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-respect-of-middleton-goods-pvt-ltd-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97535.html",
-          "isNew": false
-        },
-        {
-          "sr": 292,
-          "date": "28 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of investigation in the trading activities of certain entities in the scrip of Vinny Overseas Ltd.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-investigation-in-the-trading-activities-of-certain-entities-in-the-scrip-of-vinny-overseas-ltd-_97493.html",
-          "isNew": false
-        },
-        {
-          "sr": 293,
-          "date": "27 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of Front Running activities by Dilip Kumar Kanoria and related entities",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-front-running-activities-by-dilip-kumar-kanoria-and-related-entities_97455.html",
-          "isNew": false
-        },
-        {
-          "sr": 294,
-          "date": "16 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Chinmay P Vora in the matter of dealings in Illiquid Stock Options on BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-respect-of-chinmay-p-vora-in-the-matter-of-dealings-in-illiquid-stock-options-on-bse_97356.html",
-          "isNew": false
-        },
-        {
-          "sr": 295,
-          "date": "14 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Nimisha Hemani in the matter of dealings in Illiquid Stock Options at BSE",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-respect-of-nimisha-hemani-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_97315.html",
-          "isNew": false
-        },
-        {
-          "sr": 296,
-          "date": "13 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of inspection of 5Paisa Capital Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-inspection-of-5paisa-capital-limited_97279.html",
-          "isNew": false
-        },
-        {
-          "sr": 297,
-          "date": "10 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of M/s Alliance Research, Proprietor, Mudassir Hasan",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-m-s-alliance-research-proprietor-mudassir-hasan_97245.html",
-          "isNew": false
-        },
-        {
-          "sr": 298,
-          "date": "07 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of inspection of Oneview Corporate Advisors Pvt. Ltd.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-inspection-of-oneview-corporate-advisors-pvt-ltd-_97105.html",
-          "isNew": false
-        },
-        {
-          "sr": 299,
-          "date": "06 Oct 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication Order in the matter of front running activities by multiple clients Big Client referred as Eastman Group",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/oct-2025/adjudication-order-in-the-matter-of-front-running-activities-by-multiple-clients-big-client-referred-as-eastman-group_97078.html",
-          "isNew": false
-        },
-        {
-          "sr": 300,
-          "date": "30 Sept 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order in the matter of Finshore Management Services Limited",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/sep-2025/adjudication-order-in-the-matter-of-finshore-management-services-limited_96983.html",
-          "isNew": false
         }
       ],
-      "ts": 1789891586176,
+      "ts": 1789910533048,
       "ok": true,
       "newCount": 0
     },
@@ -12218,7 +10040,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891589940,
+      "ts": 1789910535434,
       "ok": true,
       "newCount": 0
     },
@@ -15225,7 +13047,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891596650,
+      "ts": 1789910540131,
       "ok": true,
       "newCount": 0
     },
@@ -15392,7 +13214,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891599021,
+      "ts": 1789910542375,
       "ok": true,
       "newCount": 0
     },
@@ -15599,7 +13421,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891602690,
+      "ts": 1789910544801,
       "ok": true,
       "newCount": 0
     },
@@ -15607,206 +13429,6 @@
       "rows": [
         {
           "sr": 1,
-          "date": "18 Sept 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260918-25/20260918-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "24 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on Record Date for Corporate Actions",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260824-16/20260824-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "07 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "22 Jul 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "19 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "12 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "29 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "06 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "30 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular - Listing Compliance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "24 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "30 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Listing of Units of Raajmarg Infra Investment Trust",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 21,
           "date": "10 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -15816,7 +13438,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 2,
           "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -15826,7 +13448,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 3,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -15836,7 +13458,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 4,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -15846,7 +13468,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 5,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -15854,9 +13476,209 @@
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13",
           "isNew": false
+        },
+        {
+          "sr": 6,
+          "date": "03 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12",
+          "isNew": false
+        },
+        {
+          "sr": 7,
+          "date": "02 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Ease of Doing Investment -Special Window for Transfer and Dematerialisation of Physical Securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
+          "isNew": false
+        },
+        {
+          "sr": 8,
+          "date": "02 Jan 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23",
+          "isNew": false
+        },
+        {
+          "sr": 9,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modification in the conditions specified for reduction in denomination of debt securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26",
+          "isNew": false
+        },
+        {
+          "sr": 10,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25",
+          "isNew": false
+        },
+        {
+          "sr": 11,
+          "date": "18 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
+          "isNew": false
+        },
+        {
+          "sr": 12,
+          "date": "09 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53",
+          "isNew": false
+        },
+        {
+          "sr": 13,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66",
+          "isNew": false
+        },
+        {
+          "sr": 14,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
+          "isNew": false
+        },
+        {
+          "sr": 15,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64",
+          "isNew": false
+        },
+        {
+          "sr": 16,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63",
+          "isNew": false
+        },
+        {
+          "sr": 17,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73",
+          "isNew": false
+        },
+        {
+          "sr": 18,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
+          "isNew": false
+        },
+        {
+          "sr": 19,
+          "date": "17 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20",
+          "isNew": false
+        },
+        {
+          "sr": 20,
+          "date": "14 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
+          "isNew": false
+        },
+        {
+          "sr": 21,
+          "date": "09 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
+          "isNew": false
+        },
+        {
+          "sr": 22,
+          "date": "26 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Framework on Social Stock Exchange (“SSE”)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67",
+          "isNew": false
+        },
+        {
+          "sr": 23,
+          "date": "24 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42",
+          "isNew": false
+        },
+        {
+          "sr": 24,
+          "date": "12 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
+          "isNew": false
+        },
+        {
+          "sr": 25,
+          "date": "11 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86",
+          "isNew": false
         }
       ],
-      "ts": 1789891611214,
+      "ts": 1789910553627,
       "ok": true,
       "newCount": 0
     },
@@ -18863,7 +16685,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891613443,
+      "ts": 1789910557575,
       "ok": true,
       "newCount": 0
     },
@@ -19070,7 +16892,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891616854,
+      "ts": 1789910560920,
       "ok": true,
       "newCount": 0
     },
@@ -19277,7 +17099,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891620113,
+      "ts": 1789910564191,
       "ok": true,
       "newCount": 0
     },
@@ -19484,7 +17306,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891623459,
+      "ts": 1789910567556,
       "ok": true,
       "newCount": 0
     },
@@ -19541,7 +17363,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891635900,
+      "ts": 1789910578856,
       "ok": true,
       "newCount": 0
     },
@@ -19598,7 +17420,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891640701,
+      "ts": 1789910583690,
       "ok": true,
       "newCount": 0
     },
@@ -19655,7 +17477,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891645485,
+      "ts": 1789910588471,
       "ok": true,
       "newCount": 0
     },
@@ -19672,29 +17494,123 @@
           "isNew": false
         }
       ],
-      "ts": 1789891659578,
+      "ts": 1789910601058,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1789891680826,
+      "ts": 1789910619642,
       "ok": true
     },
     "MCA_2": {
-      "rows": [],
-      "ts": 1789891699775,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "20 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "16 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143(12) OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU TRAVELS PRIVATE LIMITED (TP SHIVAPRASAD) | 882 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1789910631402,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1789891721147,
+      "ts": 1789910649638,
       "ok": true
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1789891738139,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1789910660086,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -19759,7 +17675,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891740897,
+      "ts": 1789910662965,
       "ok": true,
       "newCount": 0
     },
@@ -19886,7 +17802,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891742395,
+      "ts": 1789910664480,
       "ok": true,
       "newCount": 0
     },
@@ -20003,7 +17919,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891743879,
+      "ts": 1789910667063,
       "ok": true,
       "newCount": 0
     },
@@ -20130,7 +18046,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891745359,
+      "ts": 1789910668570,
       "ok": true,
       "newCount": 0
     },
@@ -20337,7 +18253,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891752080,
+      "ts": 1789910675449,
       "ok": true,
       "newCount": 0
     },
@@ -20544,7 +18460,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891758449,
+      "ts": 1789910681549,
       "ok": true,
       "newCount": 0
     },
@@ -23551,7 +21467,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789891760638,
+      "ts": 1789910683887,
       "ok": true,
       "newCount": 0
     }
