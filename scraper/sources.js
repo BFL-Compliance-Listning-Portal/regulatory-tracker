@@ -23,7 +23,7 @@ const BANK_NBFC_KEYWORDS = [
   'psu bank', 'public sector bank', 'private sector bank', 'nbfc-mfi',
   'NFRA','National Financial Reporting Authority','PCOB',
   'Public Company Accounting Oversight Board','ICAI',
-  'The Institute of Chartered Accountants of India','Big4','PWC','KPMG','Deloitte,'EY',
+  'The Institute of Chartered Accountants of India','Big4','PWC','KPMG','Deloitte','EY'
 ];
 
 // Broader term set for GLOBAL outlets (Reuters, CNBC, Yahoo Finance, MarketWatch,
@@ -42,7 +42,7 @@ const GLOBAL_BANKING_KEYWORDS = [
   'emerging market bank', 'global bank', 'bank earnings', 'bank stock',
   'NFRA','National Financial Reporting Authority','PCOB',
   'Public Company Accounting Oversight Board','ICAI',
-  'The Institute of Chartered Accountants of India','Big4','PWC','KPMG','Deloitte,'EY'
+  'The Institute of Chartered Accountants of India','Big4','PWC','KPMG','Deloitte','EY'
 ];
 
 module.exports = {
