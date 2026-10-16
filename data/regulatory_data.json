@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:21:40.784Z",
+  "generatedAt": "2026-10-16T23:14:57.272Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -82,7 +82,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181703710,
+      "ts": 1792192080048,
       "ok": true,
       "newCount": 0
     },
@@ -129,7 +129,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181705758,
+      "ts": 1792192083277,
       "ok": true,
       "newCount": 0
     },
@@ -143,7 +143,7 @@
           "title": "Festival demand already picking up: Canara Bank CEO Brajesh Kumar Singh",
           "desc": "Brajesh Kumar Singh says treasury and forex income should improve, while the bank aims to raise ₹8,500 crore in capital this fiscal",
           "link": "https://www.business-standard.com/industry/banking/festival-demand-already-picking-up-canara-bank-ceo-brajesh-kumar-singh-126101601079_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -153,7 +153,7 @@
           "title": "Datanomics: India's capital productivity has declined in recent years",
           "desc": "In its over 75-year journey since national accounts data has been available, the economy has delivered at least an eight per cent growth rate in seven years",
           "link": "https://www.business-standard.com/economy/news/datanomics-india-s-capital-productivity-has-declined-in-recent-years-126101600760_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -243,7 +243,7 @@
           "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
           "desc": "Iveco shareholders approved key resolutions for Tata Motors' €3.91 billion acquisition, lowering the minimum share acceptance threshold from 95% to 80% and easing the path to completion.",
           "link": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 12,
@@ -376,13 +376,13 @@
           "isNew": false
         }
       ],
-      "ts": 1792181707089,
+      "ts": 1792192086257,
       "ok": true,
-      "newCount": 3
+      "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
-      "ts": 1792181708374,
+      "ts": 1792192087657,
       "ok": true
     },
     "NEWSLETTER_5": {
@@ -393,7 +393,7 @@
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1792181729531,
+      "ts": 1792192108863,
       "ok": true
     },
     "NEWSLETTER_7": {
@@ -439,15 +439,15 @@
           "date": "16 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Anthropic assigned highest junk credit rating in June",
-          "desc": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status",
-          "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-          "isNew": false
+          "title": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank",
+          "desc": "Washington Post journalist among those injured during violence in the Palestinian territory",
+          "link": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
+          "isNew": true
         }
       ],
-      "ts": 1792181750908,
+      "ts": 1792192130397,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "SEBI_0": {
       "rows": [
@@ -3452,7 +3452,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181785678,
+      "ts": 1792192165374,
       "ok": true,
       "newCount": 0
     },
@@ -4300,7 +4300,7 @@
         },
         {
           "sr": 85,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4310,7 +4310,7 @@
         },
         {
           "sr": 86,
-          "date": "30 Nov 2021",
+          "date": "29 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4799,7 +4799,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181804920,
+      "ts": 1792192184672,
       "ok": true,
       "newCount": 0
     },
@@ -5056,7 +5056,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181807158,
+      "ts": 1792192186977,
       "ok": true,
       "newCount": 0
     },
@@ -7527,13 +7527,33 @@
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
+          "title": "Consultation paper on flexibility to Category I and II AIFs to create encumbrance on their holding of equity in infrastructure sector investee companies to facilitate raising of debt by such investee companies  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html",
+          "isNew": false
+        },
+        {
+          "sr": 248,
+          "date": "02 Feb 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Addendum to Consultation Paper on Interim Recommendations of the Expert Committee for facilitating ease of doing business and harmonization of the provisions of ICDR and LODR Regulations",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/addendum-to-consultation-paper-on-interim-recommendations-of-the-expert-committee-for-facilitating-ease-of-doing-business-and-harmonization-of-the-provisions-of-icdr-and-lodr-regulations_81040.html",
+          "isNew": false
+        },
+        {
+          "sr": 249,
+          "date": "02 Feb 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
           "title": "Consultation Paper to revise and revamp nomination facilities in the Indian Securities Market  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-to-revise-and-revamp-nomination-facilities-in-the-indian-securities-market_81023.html",
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 250,
           "date": "19 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7543,7 +7563,7 @@
           "isNew": false
         },
         {
-          "sr": 249,
+          "sr": 251,
           "date": "12 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7553,7 +7573,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 252,
           "date": "11 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7563,7 +7583,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 253,
           "date": "10 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7573,7 +7593,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 254,
           "date": "28 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7583,7 +7603,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 255,
           "date": "22 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7593,7 +7613,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 256,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7603,7 +7623,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 257,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7613,7 +7633,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 258,
           "date": "28 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7623,7 +7643,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 259,
           "date": "24 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7633,7 +7653,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 260,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7643,7 +7663,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 261,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7653,7 +7673,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 262,
           "date": "29 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7663,7 +7683,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 263,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7673,7 +7693,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 264,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7683,7 +7703,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 265,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7693,7 +7713,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 266,
           "date": "22 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7703,7 +7723,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 267,
           "date": "14 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7713,7 +7733,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 268,
           "date": "10 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7723,7 +7743,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 269,
           "date": "01 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7733,7 +7753,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
+          "sr": 270,
           "date": "21 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7743,33 +7763,13 @@
           "isNew": false
         },
         {
-          "sr": 269,
+          "sr": 271,
           "date": "20 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
           "title": "Consultation paper on ‘Prudential norms for exposure of Clearing Corporations’",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-prudential-norms-for-exposure-of-clearing-corporations-_74194.html",
-          "isNew": false
-        },
-        {
-          "sr": 270,
-          "date": "05 Jul 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on mandating FPIs to route a specific percentage of certain transactions in secondary market trades through Request for Quote (RFQ) platform of stock exchanges",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-mandating-fpis-to-route-a-specific-percentage-of-certain-transactions-in-secondary-market-trades-through-request-for-quote-rfq-platform-of-stock-exchanges_73525.html",
-          "isNew": false
-        },
-        {
-          "sr": 271,
-          "date": "04 Jul 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-consolidated-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities_73442.html",
           "isNew": false
         },
         {
@@ -8001,9 +8001,29 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-regulatory-framework-for-esg-rating-providers-erps-in-securities-market_68337.html",
           "isNew": false
+        },
+        {
+          "sr": 295,
+          "date": "22 Feb 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on certain Amendments to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018, with the objective of increasing transparency and streamlining certain processes",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-certain-amendments-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-increasing-transparency-and-s-_68336.html",
+          "isNew": false
+        },
+        {
+          "sr": 296,
+          "date": "21 Feb 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "CONSULTATION PAPER ON STRENGTHENING CORPORATE GOVERNANCE AT LISTED ENTITIES BY EMPOWERING SHAREHOLDERS – AMENDMENTS TO THE SEBI (LODR) REGULATIONS, 2015",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-strengthening-corporate-governance-at-listed-entities-by-empowering-shareholders-amendments-to-the-sebi-lodr-regulations-2015_68261.html",
+          "isNew": false
         }
       ],
-      "ts": 1792181842268,
+      "ts": 1792192222102,
       "ok": true,
       "newCount": 0
     },
@@ -9210,7 +9230,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181846236,
+      "ts": 1792192225265,
       "ok": true,
       "newCount": 0
     },
@@ -9237,7 +9257,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181847973,
+      "ts": 1792192226944,
       "ok": true,
       "newCount": 0
     },
@@ -12244,7 +12264,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181884864,
+      "ts": 1792192264125,
       "ok": true,
       "newCount": 0
     },
@@ -12491,7 +12511,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181887149,
+      "ts": 1792192265424,
       "ok": true,
       "newCount": 0
     },
@@ -15498,7 +15518,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181890437,
+      "ts": 1792192268503,
       "ok": true,
       "newCount": 0
     },
@@ -15515,7 +15535,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181892517,
+      "ts": 1792192270497,
       "ok": true,
       "newCount": 0
     },
@@ -15722,266 +15742,14 @@
           "isNew": false
         }
       ],
-      "ts": 1792181894734,
+      "ts": 1792192272747,
       "ok": true,
       "newCount": 0
     },
     "BSE_0": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "14 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update in the formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Filing of Financial Results in XBRL Mode by all Insurers and Reinsurers",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261014-25/20261014-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-23/20261008-23.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-22/20261008-22.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-21/20261008-21.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "18 Sept 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260918-25/20260918-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "24 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on Record Date for Corporate Actions",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260824-16/20260824-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "07 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "22 Jul 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "19 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "12 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "29 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "06 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "30 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular - Listing Compliance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "24 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 21,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 22,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 23,
-          "date": "30 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 24,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Listing of Units of Raajmarg Infra Investment Trust",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 25,
-          "date": "10 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1",
-          "isNew": false
-        }
-      ],
-      "ts": 1792181903457,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1792192282119,
+      "ok": true
     },
     "NSE_0": {
       "rows": [
@@ -18986,7 +18754,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181905650,
+      "ts": 1792192284746,
       "ok": true,
       "newCount": 0
     },
@@ -18999,7 +18767,8 @@
           "cat": "Notifications",
           "title": "शक्ति का प्रत्यायोजन संबंधी राजपत्र अधिसूचना Gazette Notification on Delegation of Powers.pdf\n\t\t\t\t\t\t\t\t\t\t\t705 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+Gazette+Notification+on+Delegation+of+Powers.pdf/de5f72bb-de3c-9788-d8e8-d3aa524cb975?version=1.0&t=1790069624018&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+Gazette+Notification+on+Delegation+of+Powers.pdf/de5f72bb-de3c-9788-d8e8-d3aa524cb975?version=1.0&t=1790069624018&download=true",
+          "isNew": false
         },
         {
           "sr": 2,
@@ -19008,7 +18777,8 @@
           "cat": "Notifications",
           "title": "अधिसूचना - अनिवार्य अध्यर्पण अधिसूचना में संशोधन _ Notification - Amendment to Obligatory Cession Notification.pdf\n\t\t\t\t\t\t\t\t\t\t\t1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+-+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+_+Notification+-+Amendment+to+Obligatory+Cession+Notification.pdf/5ed319f5-2dd9-6bad-cc60-aa9110e5bfc2?version=1.1&t=1783663770023&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+-+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+_+Notification+-+Amendment+to+Obligatory+Cession+Notification.pdf/5ed319f5-2dd9-6bad-cc60-aa9110e5bfc2?version=1.1&t=1783663770023&download=true",
+          "isNew": false
         },
         {
           "sr": 3,
@@ -19017,7 +18787,8 @@
           "cat": "Notifications",
           "title": "शक्ति का प्रत्यायोजन सम्बंधी राजपत्र अधिसूचना _ Gazette Notification on Delegation of powers.pdf\n\t\t\t\t\t\t\t\t\t\t\t976 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Gazette+Notification+on+Delegation+of+powers.pdf/a0886e9e-bf2f-f938-52d0-bb82e3e62569?version=1.0&t=1776842029919&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B6%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Gazette+Notification+on+Delegation+of+powers.pdf/a0886e9e-bf2f-f938-52d0-bb82e3e62569?version=1.0&t=1776842029919&download=true",
+          "isNew": false
         },
         {
           "sr": 4,
@@ -19026,7 +18797,8 @@
           "cat": "Notifications",
           "title": "पुनर्बीमा सलाहकार समिति (आरएसी) का पुनर्गठन - 28.01.2026 _ Reconstitution of Reinsurance Advisory Committee (RAC) - 28.01.2026.pdf\n\t\t\t\t\t\t\t\t\t\t\t141 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%28%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%B8%E0%A5%80%29+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+-+28.01.2026+_+Reconstitution+of+Reinsurance+Advisory+Committee+%28RAC%29+-+28.01.2026.pdf/579023f9-2d8d-0c7f-d306-379630465ebf?version=2.0&t=1769605702014&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%28%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%B8%E0%A5%80%29+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+-+28.01.2026+_+Reconstitution+of+Reinsurance+Advisory+Committee+%28RAC%29+-+28.01.2026.pdf/579023f9-2d8d-0c7f-d306-379630465ebf?version=2.0&t=1769605702014&download=true",
+          "isNew": false
         },
         {
           "sr": 5,
@@ -19035,7 +18807,8 @@
           "cat": "Notifications",
           "title": "वित्तीय वर्ष 2025-26 के लिए अनिवार्य अध्यर्पण _ Obligatory Cession for the financial year 2025-26.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.8 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2025-26+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2025-26.pdf/38f7aeca-f5b2-ef2c-0a0e-94323a19aa13?version=1.0&t=1740733994485&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2025-26+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2025-26.pdf/38f7aeca-f5b2-ef2c-0a0e-94323a19aa13?version=1.0&t=1740733994485&download=true",
+          "isNew": false
         },
         {
           "sr": 6,
@@ -19044,7 +18817,8 @@
           "cat": "Notifications",
           "title": "सभी प्रशुल्कों की अधिसूचना निरस्तीकरण _ De-Notification of All Tariffs.pdf\n\t\t\t\t\t\t\t\t\t\t\t748 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B8%E0%A4%AD%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+De-Notification+of+All+Tariffs.pdf/b0d027f1-ce91-816f-8e67-633275b0d862?version=1.1&t=1712311034900&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B8%E0%A4%AD%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+De-Notification+of+All+Tariffs.pdf/b0d027f1-ce91-816f-8e67-633275b0d862?version=1.1&t=1712311034900&download=true",
+          "isNew": false
         },
         {
           "sr": 7,
@@ -19053,7 +18827,8 @@
           "cat": "Notifications",
           "title": "वित्तीय वर्ष 2024-25 के लिए अनिवार्य अध्यर्पण _ Obligatory Cession for the financial year 2024-25.pdf\n\t\t\t\t\t\t\t\t\t\t\t629 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2024-25+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2024-25.pdf/6d4f9688-59b7-e593-992f-5439659574b5?version=1.0&t=1708691186133&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2024-25+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2024-25.pdf/6d4f9688-59b7-e593-992f-5439659574b5?version=1.0&t=1708691186133&download=true",
+          "isNew": false
         },
         {
           "sr": 8,
@@ -19062,7 +18837,8 @@
           "cat": "Notifications",
           "title": "विवाचन खंड अधिसूचना निरस्तीकरण पर राजपत्र अधिसूचना _ Gazette Notification on Denotification of Arbitration Clause.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%9A%E0%A4%A8+%E0%A4%96%E0%A4%82%E0%A4%A1+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%B0+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Gazette+Notification+on+Denotification+of+Arbitration+Clause.pdf/5cd9641b-8acb-d927-3f47-aabc1830ad46?version=1.1&t=1706174461040&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%9A%E0%A4%A8+%E0%A4%96%E0%A4%82%E0%A4%A1+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%B0+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Gazette+Notification+on+Denotification+of+Arbitration+Clause.pdf/5cd9641b-8acb-d927-3f47-aabc1830ad46?version=1.1&t=1706174461040&download=true",
+          "isNew": false
         },
         {
           "sr": 9,
@@ -19071,7 +18847,8 @@
           "cat": "Notifications",
           "title": "बीमा लोकपाल (संशोधन) नियम, 2023 _ Insurance Ombudsman (Amendment)Rules, 2023.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2023+_+Insurance+Ombudsman+%28Amendment%29Rules%2C+2023.pdf/6a8d58e3-da6e-a45f-1865-fb6fdb20736b?version=1.1&t=1700733169946&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2023+_+Insurance+Ombudsman+%28Amendment%29Rules%2C+2023.pdf/6a8d58e3-da6e-a45f-1865-fb6fdb20736b?version=1.1&t=1700733169946&download=true",
+          "isNew": false
         },
         {
           "sr": 10,
@@ -19080,7 +18857,8 @@
           "cat": "Notifications",
           "title": "विज्ञापन एजेंसियों के पैनल के लिए अभिरूचि की अभिव्यक्ति – 2022 का शून्यकरण _ Annulment of Expression of interest for Empanelment of Advertising Agencies-2022.pdf\n\t\t\t\t\t\t\t\t\t\t\t772 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%8F%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%88%E0%A4%A8%E0%A4%B2+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B0%E0%A5%82%E0%A4%9A%E0%A4%BF+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E2%80%93+2022+%E0%A4%95%E0%A4%BE+%E0%A4%B6%E0%A5%82%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Annulment+of+Expression+of+interest+for+Empanelment+of+Advertising+Agencies-2022.pdf/eb018dce-945b-41b5-d3b3-963499dd53ae?version=2.1&t=1685001411005&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8+%E0%A4%8F%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%88%E0%A4%A8%E0%A4%B2+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B0%E0%A5%82%E0%A4%9A%E0%A4%BF+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E2%80%93+2022+%E0%A4%95%E0%A4%BE+%E0%A4%B6%E0%A5%82%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Annulment+of+Expression+of+interest+for+Empanelment+of+Advertising+Agencies-2022.pdf/eb018dce-945b-41b5-d3b3-963499dd53ae?version=2.1&t=1685001411005&download=true",
+          "isNew": false
         },
         {
           "sr": 11,
@@ -19089,7 +18867,8 @@
           "cat": "Notifications",
           "title": "वित्तीय वर्ष 2023-24 के लिए अनिवार्य अध्यर्पण _ Obligatory Cession for the financial year 2023-24.pdf\n\t\t\t\t\t\t\t\t\t\t\t622 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2023-24+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2023-24.pdf/20b71247-88f2-bee9-7800-aa0fe674cf57?version=1.2&t=1688470351212&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2023-24+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2023-24.pdf/20b71247-88f2-bee9-7800-aa0fe674cf57?version=1.2&t=1688470351212&download=true",
+          "isNew": false
         },
         {
           "sr": 12,
@@ -19098,7 +18877,8 @@
           "cat": "Notifications",
           "title": "आईआरडीएआई बीमा मध्यस्थ (संशोधन) विनियम 2022 _  IRDAI Insurance Intermediaries (Amendment) Regulations 2022.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%A5+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+2022+_++IRDAI+Insurance+Intermediaries+%28Amendment%29+Regulations+2022.pdf/72e2da55-495f-2343-51a5-538b401d5168?version=1.1&t=1688449954298&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%A5+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+2022+_++IRDAI+Insurance+Intermediaries+%28Amendment%29+Regulations+2022.pdf/72e2da55-495f-2343-51a5-538b401d5168?version=1.1&t=1688449954298&download=true",
+          "isNew": false
         },
         {
           "sr": 13,
@@ -19107,7 +18887,8 @@
           "cat": "Notifications",
           "title": "आईआरडीएआई (अन्य प्रकार की पूँजी) विनियम, 2022 _ IRDAI (Other Forms of Capital) Regulations, 2022.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.6 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2022+_+IRDAI+%28Other+Forms+of+Capital%29+Regulations%2C+2022.pdf/46ca7deb-2573-8020-bad6-5655c1707a3f?version=1.1&t=1688450321874&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2022+_+IRDAI+%28Other+Forms+of+Capital%29+Regulations%2C+2022.pdf/46ca7deb-2573-8020-bad6-5655c1707a3f?version=1.1&t=1688450321874&download=true",
+          "isNew": false
         },
         {
           "sr": 14,
@@ -19116,7 +18897,8 @@
           "cat": "Notifications",
           "title": "पुनर्बीमा सलाहकार समिति का पुनर्गठन _ Reconstitution of Reinsurance Advisory Committee.pdf\n\t\t\t\t\t\t\t\t\t\t\t606 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+Reconstitution+of+Reinsurance+Advisory+Committee.pdf/2a9c6ede-0b1d-87c3-9994-61eac7f88b74?version=1.2&t=1688455005965&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+Reconstitution+of+Reinsurance+Advisory+Committee.pdf/2a9c6ede-0b1d-87c3-9994-61eac7f88b74?version=1.2&t=1688455005965&download=true",
+          "isNew": false
         },
         {
           "sr": 15,
@@ -19125,7 +18907,8 @@
           "cat": "Notifications",
           "title": "बीमा सलाहकार समिति के सदस्यों की नियुक्ति अधिसूचना _ Appointment Notification of Insurance Advisory committee Members.pdf\n\t\t\t\t\t\t\t\t\t\t\t925 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Appointment+Notification+of+Insurance+Advisory+committee+Members.pdf/e2c6b236-733c-d381-a995-bc8ba72c39b8?version=1.2&t=1688451486309&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+_+Appointment+Notification+of+Insurance+Advisory+committee+Members.pdf/e2c6b236-733c-d381-a995-bc8ba72c39b8?version=1.2&t=1688451486309&download=true",
+          "isNew": false
         },
         {
           "sr": 16,
@@ -19134,7 +18917,8 @@
           "cat": "Notifications",
           "title": "वित्तीय वर्ष 2022-23 के लिए अनिवार्य अध्यर्पण _ Obligatory cession for financial year 2022-2023.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.3 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2022-23+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+cession+for+financial+year+2022-2023.pdf/35861f62-ea94-dba0-5224-04af588909ea?version=1.4&t=1688451745156&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2022-23+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A4%A3+_+Obligatory+cession+for+financial+year+2022-2023.pdf/35861f62-ea94-dba0-5224-04af588909ea?version=1.4&t=1688451745156&download=true",
+          "isNew": false
         },
         {
           "sr": 17,
@@ -19143,7 +18927,8 @@
           "cat": "Notifications",
           "title": "बीमा सलाहकार समिति का पुनर्गठन _ Reconstitution Of Insurance Advisory Committee 2021-08-09.pdf\n\t\t\t\t\t\t\t\t\t\t\t1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+Reconstitution+Of+Insurance+Advisory+Committee+2021-08-09.pdf/91d5da73-5bea-8498-8604-56845bd147a1?version=1.3&t=1688464483893&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+Reconstitution+Of+Insurance+Advisory+Committee+2021-08-09.pdf/91d5da73-5bea-8498-8604-56845bd147a1?version=1.3&t=1688464483893&download=true",
+          "isNew": false
         },
         {
           "sr": 18,
@@ -19152,7 +18937,8 @@
           "cat": "Notifications",
           "title": "आईआरडीएआई (भारतीय बीमा कंपनियाँ) (संशोधन) विनियम, 2021 _ IRDAI (Indian Insurance Companies)(Amendment) Regulations, 2021.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.5 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81%29+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+IRDAI+%28Indian+Insurance+Companies%29%28Amendment%29+Regulations%2C+2021.pdf/9541100b-3b2c-daf8-fd8a-7131173f9b3c?version=1.4&t=1688452394557&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81%29+%28%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%29+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+IRDAI+%28Indian+Insurance+Companies%29%28Amendment%29+Regulations%2C+2021.pdf/9541100b-3b2c-daf8-fd8a-7131173f9b3c?version=1.4&t=1688452394557&download=true",
+          "isNew": false
         },
         {
           "sr": 19,
@@ -19161,7 +18947,8 @@
           "cat": "Notifications",
           "title": "भारतीय बीमा कंपनी (विदेशी विनिधान) संशोधन नियम, 2021 _ Indian Insurance Companies (Foreign Investment) Amendment Rules, 2021.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.2 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%28%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%A8%29+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+Indian+Insurance+Companies+%28Foreign+Investment%29+Amendment+Rules%2C+2021.pdf/15a8001b-713a-79f5-8728-e9e4fc3a7183?version=1.2&t=1688452709085&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%28%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%80+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%A7%E0%A4%BE%E0%A4%A8%29+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C+2021+_+Indian+Insurance+Companies+%28Foreign+Investment%29+Amendment+Rules%2C+2021.pdf/15a8001b-713a-79f5-8728-e9e4fc3a7183?version=1.2&t=1688452709085&download=true",
+          "isNew": false
         },
         {
           "sr": 20,
@@ -19170,10 +18957,11 @@
           "cat": "Notifications",
           "title": "बीमा सलाहकार समिति का पुनर्गठन _ RECONSTITUTION OF INSURANCE ADVISORY COMMITTEE, Feb2021.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+RECONSTITUTION+OF+INSURANCE+ADVISORY+COMMITTEE%2C+Feb2021.pdf/df92a42d-c369-21ad-032f-77277a727dc6?version=1.2&t=1688464844931&download=true"
+          "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B8%E0%A4%B2%E0%A4%BE%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A0%E0%A4%A8+_+RECONSTITUTION+OF+INSURANCE+ADVISORY+COMMITTEE%2C+Feb2021.pdf/df92a42d-c369-21ad-032f-77277a727dc6?version=1.2&t=1688464844931&download=true",
+          "isNew": false
         }
       ],
-      "ts": 1792181908935,
+      "ts": 1792192287956,
       "ok": true,
       "newCount": 0
     },
@@ -19380,7 +19168,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181912284,
+      "ts": 1792192291628,
       "ok": true,
       "newCount": 0
     },
@@ -19587,7 +19375,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181915622,
+      "ts": 1792192294866,
       "ok": true,
       "newCount": 0
     },
@@ -19644,7 +19432,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792181928403,
+      "ts": 1792192303575,
       "ok": true,
       "newCount": 0
     },
@@ -19685,7 +19473,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -19695,13 +19483,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1792181933232,
+      "ts": 1792192308379,
       "ok": true,
       "newCount": 0
     },
@@ -19742,7 +19530,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -19752,13 +19540,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1792181938034,
+      "ts": 1792192313144,
       "ok": true,
       "newCount": 0
     },
@@ -19775,29 +19563,123 @@
           "isNew": false
         }
       ],
-      "ts": 1792181953975,
+      "ts": 1792192334445,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1792181982271,
+      "ts": 1792192372797,
       "ok": true
     },
     "MCA_2": {
-      "rows": [],
-      "ts": 1792182007571,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "29 Sept 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "20 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1792192406532,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1792182037358,
+      "ts": 1792192442954,
       "ok": true
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1792182068287,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1792192461594,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -19862,7 +19744,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792182070922,
+      "ts": 1792192464462,
       "ok": true,
       "newCount": 0
     },
@@ -19989,7 +19871,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792182072390,
+      "ts": 1792192465970,
       "ok": true,
       "newCount": 0
     },
@@ -20106,7 +19988,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792182073845,
+      "ts": 1792192467480,
       "ok": true,
       "newCount": 0
     },
@@ -20233,15 +20115,14 @@
           "isNew": false
         }
       ],
-      "ts": 1792182075320,
+      "ts": 1792192468983,
       "ok": true,
       "newCount": 0
     },
     "PCAOB_0": {
       "rows": [],
-      "ts": 1791491199579,
-      "ok": false,
-      "error": "HTTP 403"
+      "ts": 1792192475793,
+      "ok": true
     },
     "PCAOB_1": {
       "rows": [],
