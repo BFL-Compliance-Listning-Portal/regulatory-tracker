@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T13:53:56.968Z",
+  "generatedAt": "2026-10-27T19:15:45.390Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -49,7 +49,7 @@
           "title": "RBI May Raise Repo Rate To 6.25% By H1 2027 As Inflation Risks PersistOct 27, 2026, 14:53 IST",
           "desc": "",
           "link": "https://www.timesnownews.com/business-economy/economy/rbi-may-raise-repo-rate-to-6-25-by-h1-2027-as-inflation-risks-persist-article-156414506",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -72,14 +72,25 @@
           "isNew": false
         }
       ],
-      "ts": 1793108722417,
+      "ts": 1793127869200,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "NEWSLETTER_2": {
-      "rows": [],
-      "ts": 1793108724271,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "27 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "RBI Governor Sanjay Malhotra urges states to ensure quality spending, prudent borrowing",
+          "desc": "",
+          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms"
+        }
+      ],
+      "ts": 1793127871000,
+      "ok": true,
+      "newCount": 0
     },
     "NEWSLETTER_3": {
       "rows": [
@@ -88,9 +99,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Wabtec bags $94 mn Vande Bharat Sleeper deal, eyes India as export hub",
-          "desc": "Wabtec secures a $94 million Vande Bharat Sleeper deal with Indian Railways and plans to develop India as a global manufacturing and engineering hub for exports",
-          "link": "https://www.business-standard.com/companies/news/wabtec-bags-94-mn-vande-bharat-sleeper-deal-eyes-india-as-export-hub-126102701409_1.html",
+          "title": "Insurance must grow 1.5-2x faster than GDP: Irdai chief Ajay Seth",
+          "desc": "Ajay Seth says India's insurance sector must grow 1.5-2 times faster than the economy, with faster claims settlement, greater transparency and lower distribution costs key to expanding coverage",
+          "link": "https://www.business-standard.com/specials/bs-events/insurance-must-grow-1-5-2x-faster-than-gdp-irdai-chief-ajay-seth-126102800009_1.html",
           "isNew": true
         },
         {
@@ -98,9 +109,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Healthy diet unaffordable for 36% of Indians in 2025, says KPMG report",
-          "desc": "The report says nearly 520.1 million people could not afford a healthy diet in 2025, highlighting gaps in nutrition security despite food production exceeding dietary requirements",
-          "link": "https://www.business-standard.com/industry/agriculture/healthy-diet-unaffordable-for-36-of-indians-in-2025-says-kpmg-report-126102701388_1.html",
+          "title": "Unlocking pension funds for infra financing a priority: PFRDA Chairperson",
+          "desc": "At the BFSI Insight Summit 2026, PFRDA chief S Ramann outlined plans to expand pension coverage, strengthen APY, integrate NPS with payroll systems and fund infrastructure",
+          "link": "https://www.business-standard.com/specials/bs-events/unlocking-pension-funds-for-infra-financing-a-priority-pfrda-chairperson-126102800007_1.html",
           "isNew": true
         },
         {
@@ -108,9 +119,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "GST relief not enough to make health insurance affordable, say experts",
-          "desc": "Business Standard BFSI Insight Summit 2026: Experts said GST relief has eased premiums, but high medical costs, underinsurance, and a trust deficit remain key barriers to wider coverage",
-          "link": "https://www.business-standard.com/specials/bs-events/gst-relief-not-enough-to-make-health-insurance-affordable-say-experts-126102701362_1.html",
+          "title": "Gold loan stress rising: How to avoid a debt trap and manage repayments",
+          "desc": "Rising repayment delays and tighter renewal rules underline the risks of using gold loans to manage existing debt",
+          "link": "https://www.business-standard.com/markets/news/gold-loan-stress-rising-how-to-avoid-a-debt-trap-and-manage-repayments-126102800003_1.html",
           "isNew": true
         },
         {
@@ -118,9 +129,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Tata Capital Q2FY27 results: Net profit surges 51% to ₹1,660 crore",
-          "desc": "Tata Capital on Tuesday reported a 51 per cent growth in consolidated net profit to Rs 1,660 crore for the September quarter of FY27.\nThe company had posted a net profit of Rs 1,097 crore in the July-",
-          "link": "https://www.business-standard.com/companies/quarterly-results/tata-capital-q2fy27-results-net-profit-surges-51-to-1-660-crore-126102701217_1.html",
+          "title": "Jio Platforms shares trade at 22% premium in grey market ahead of IPO debut",
+          "desc": "Strong investor demand and a resilient grey market premium fuel expectations of a blockbuster listing for Mukesh Ambani's digital giant",
+          "link": "https://www.business-standard.com/markets/news/jio-platforms-shares-trade-at-22-premium-in-grey-market-ahead-of-ipo-debut-126102701879_1.html",
           "isNew": true
         },
         {
@@ -128,9 +139,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "91Springboard to add 8,000 seats across 3.6 lakh sq ft in five new hubs",
-          "desc": "The workspace provider is expanding across Chennai, MMR and NCR, with plans to strengthen its presence in key markets before accelerating its entry into Tier-2 cities",
-          "link": "https://www.business-standard.com/industry/news/91springboard-to-add-8-000-seats-across-3-6-lakh-sq-ft-in-five-new-hubs-126102701283_1.html",
+          "title": "BFSI Insight Summit 2026: 'Real-time fraud check key in digital payments'",
+          "desc": "At the BFSI Insight Summit 2026, payments leaders called for AI-driven fraud detection, real-time risk scoring and greater industry collaboration to tackle rising digital payment scams",
+          "link": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-2026-real-time-fraud-check-key-in-digital-payments-126102701518_1.html",
           "isNew": true
         },
         {
@@ -138,9 +149,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "India needs $500 bn by 2030 to decarbonise key sectors: CEEW report",
-          "desc": "A CEEW-GFC and Tata Sons report says $10 billion in catalytic capital could mobilise $50 billion in blended finance to support India's transition to low-carbon technologies.",
-          "link": "https://www.business-standard.com/economy/news/india-needs-500-bn-by-2030-to-decarbonise-key-sectors-ceew-report-126102701254_1.html",
+          "title": "Saudi Arabia intercepts Houthi missiles, drones; Egypt backs Riyadh",
+          "desc": "Fresh Houthi attacks raise security concerns around Saudi Arabia's oil infrastructure as Egypt authorises steps to support Riyadh",
+          "link": "https://www.business-standard.com/world-news/saudi-arabia-intercepts-houthi-missiles-drones-egypt-backs-riyadh-126102701851_1.html",
           "isNew": true
         },
         {
@@ -148,9 +159,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "L&T Q2 net profit rises 33% to ₹5,202 crore on strong order inflows",
-          "desc": "Larsen & Toubro reported a 33 per cent rise in second-quarter profit to Rs 5,202 crore, driven by healthy order inflows, infrastructure spending and reconstruction activity in West Asia",
-          "link": "https://www.business-standard.com/companies/quarterly-results/l-t-q2-net-profit-rises-33-to-5-202-crore-on-strong-order-inflows-126102701204_1.html",
+          "title": "Qualcomm looks beyond chips to smart glasses, edge data: Rajen Vagadia",
+          "desc": "Qualcomm sees growth opportunities in smart glasses, AI inference, edge data centres and satellite connectivity, with India emerging as a key market for affordable next-generation technology",
+          "link": "https://www.business-standard.com/companies/people/qualcomm-looks-beyond-chips-to-smart-glasses-edge-data-rajen-vagadia-126102500615_1.html",
           "isNew": true
         },
         {
@@ -158,9 +169,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Audit can't replace a lender's due diligence: NFRA Chairperson Nitin Gupta",
-          "desc": "Speaking at the Business Standard BFSI Insight Summit, Gupta said responsibility for the quality of financial reporting rests with multiple stakeholders",
-          "link": "https://www.business-standard.com/specials/bs-events/nfra-chairperson-nitin-gupta-auditor-lenders-bs-bfsi-summit-2026-126102701165_1.html",
+          "title": "The new rules of cybersecurity",
+          "desc": "Beyond compliance, regulations must prioritise speed and preparedness in responding to threats in the AI age",
+          "link": "https://www.business-standard.com/opinion/columns/the-new-rules-of-cybersecurity-126102701822_1.html",
           "isNew": true
         },
         {
@@ -168,9 +179,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Central Bank of India RTGS glitch: What to know about your deposits",
-          "desc": "The bank says its core banking system remains secure and services have been restored. Here is what customers should check and do",
-          "link": "https://www.business-standard.com/finance/personal-finance/central-bank-of-india-rtgs-glitch-what-to-know-about-your-deposits-126102701066_1.html",
+          "title": "Looking beyond GST 2.0: Why compliance reforms are the next big test",
+          "desc": "The next phase of GST reforms, promises simpler registration, quicker refunds and wider input tax credit, but businesses say deeper structural and administrative changes are needed",
+          "link": "https://www.business-standard.com/economy/news/looking-beyond-gst-2-0-why-compliance-reforms-are-the-next-big-test-126102701760_1.html",
           "isNew": true
         },
         {
@@ -178,9 +189,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "India's oil imports, external finance remain key challenges: RBI Dy Guv",
-          "desc": "At the Business Standard BFSI Insight Summit 2026, RBI Deputy Governor Poonam Gupta said India's dependence on imported oil remains a challenge, despite the economy's resilience to global shocks",
-          "link": "https://www.business-standard.com/specials/bs-events/india-oil-imports-external-finance-challenges-rbi-dy-guv-poonam-gupta-126102701012_1.html",
+          "title": "Strong audit oversight is Viksit Bharat bedrock: NFRA's Nitin Gupta",
+          "desc": "At the BFSI Insight Summit 2026, NFRA chief Nitin Gupta said credible financial reporting and independent audits are vital to attracting long-term capital for Viksit Bharat 2047",
+          "link": "https://www.business-standard.com/specials/bs-events/credible-financial-reporting-bedrock-of-viksit-bharat-says-nitin-gupta-126102701752_1.html",
           "isNew": true
         },
         {
@@ -188,9 +199,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Anthropic's Mythos 5 ignored risks, targeted real GitHub project in test",
-          "desc": "Anthropic's Mythos 5 incident has raised concerns over AI agents acting beyond their intended tasks, prompting calls for stronger cybersecurity safeguards, independent testing and global oversight",
-          "link": "https://www.business-standard.com/technology/artificial-intelligence/anthropic-s-mythos-5-ignored-risks-targeted-real-github-project-in-test-126102700977_1.html",
+          "title": "Building Wealth Beyond the Market Cycle: The Viren Punjabi Story",
+          "desc": "The US government isn't doing enough to fight the surge in cyberscams, and partnerships with the private sector remain fragmented and voluntary, an investigation into the global scam industry led by t",
+          "link": "https://www.business-standard.com/content/specials/building-wealth-beyond-the-market-cycle-the-viren-punjabi-story-126102600832_1.html",
           "isNew": true
         },
         {
@@ -198,9 +209,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Crypto boom or risk trap? Experts explain what young investors need to know",
-          "desc": "Business Standard Smart Investor Arena 2026: Experts urged young investors to understand crypto's risks, technology and use cases before putting money into it",
-          "link": "https://www.business-standard.com/specials/bs-events/crypto-boom-or-risk-trap-experts-explain-what-young-investors-need-to-know-126102700935_1.html",
+          "title": "Expenditure quality key to states' long-term fiscal health: RBI Governor",
+          "desc": "RBI Governor Sanjay Malhotra urged states to improve expenditure quality, adopt prudent borrowing and cash management practices, and use ULI and programmable CBDC for direct transfers",
+          "link": "https://www.business-standard.com/economy/news/expenditure-quality-key-to-states-long-term-fiscal-health-rbi-governor-126102701642_1.html",
           "isNew": true
         },
         {
@@ -208,9 +219,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Amazon plans 3,000 electric trucks with Tata Motors for India logistics",
-          "desc": "The rollout will begin in Delhi and later expand to key highways, with Amazon targeting electrification of the 2,800-km Delhi-Bengaluru-Chennai freight corridor",
-          "link": "https://www.business-standard.com/companies/news/amazon-tata-motors-3000-electric-trucks-india-logistics-126102700875_1.html",
+          "title": "Army chief visits Uttarakhand border posts, reviews operational readiness",
+          "desc": "Army chief General Dhiraj Seth reviewed operational readiness and infrastructure in Uttarakhand's middle sector, calling for vigilance amid India-China border tensions",
+          "link": "https://www.business-standard.com/external-affairs-defence-security/news/army-chief-visits-uttarakhand-border-posts-reviews-operational-readiness-126102701510_1.html",
           "isNew": true
         },
         {
@@ -218,9 +229,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "No intention to increase ethanol blending in fuel beyond 20%: Hardeep Puri",
-          "desc": "Union Minister of Petroleum and Natural Gas Hardeep Singh Puri on Tuesday said the Centre has no immediate plan to increase the ethanol blending in petrol beyond the current 20 per cent.\nDuring an int",
-          "link": "https://www.business-standard.com/industry/news/no-intention-to-increase-ethanol-blending-in-fuel-beyond-20-hardeep-puri-126102700663_1.html",
+          "title": "Amazon expects India EV fleet to cross 20,000 vehicles over next year",
+          "desc": "Amazon plans to expand its electric vehicle fleet from over 15,000 currently, while partnering with Tata Motors to deploy 3,000 electric trucks and boost charging infrastructure",
+          "link": "https://www.business-standard.com/companies/news/amazon-expects-india-ev-fleet-to-cross-20-000-vehicles-over-next-year-126102701463_1.html",
           "isNew": true
         },
         {
@@ -228,9 +239,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "India's workers feel financially secure, but savings reveal major gap: Survey",
-          "desc": "Over 80% of respondents in a Grant Thornton Bharat survey said they could sustain living expenses for less than a year if their income stopped",
-          "link": "https://www.business-standard.com/finance/personal-finance/india-s-workers-feel-financially-secure-but-savings-reveal-major-gap-survey-126102700641_1.html",
+          "title": "Better intelligence sharing key to curbing digital fraud, say experts",
+          "desc": "At the Business Standard BFSI Insight Summit 2026, experts called for better intelligence sharing, stronger fraud detection and wider use of AI to curb digital payment fraud and protect users",
+          "link": "https://www.business-standard.com/specials/bs-events/better-intelligence-sharing-curbing-digital-payment-fraud-bfsi-summit-2026-126102701430_1.html",
           "isNew": true
         },
         {
@@ -238,69 +249,69 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "L&T secures ₹5,000 crore-plus orders for Dhaka Metro Line 1 systems",
-          "desc": "The company will execute key track and electrical packages for Bangladesh's first underground metro project, along with Sumitomo Corporation",
-          "link": "https://www.business-standard.com/companies/news/lt-dhaka-metro-line-1-bangladesh-major-orders-transportation-126102700703_1.html",
-          "isNew": true
+          "title": "Healthy diet unaffordable for 36% of Indians in 2025, says KPMG report",
+          "desc": "The report says nearly 520.1 million people could not afford a healthy diet in 2025, highlighting gaps in nutrition security despite food production exceeding dietary requirements",
+          "link": "https://www.business-standard.com/industry/agriculture/healthy-diet-unaffordable-for-36-of-indians-in-2025-says-kpmg-report-126102701388_1.html",
+          "isNew": false
         },
         {
           "sr": 17,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Coal India spends ₹7,996 crore in H1 FY27, exceeds capex target by 9%",
-          "desc": "The state-owned miner achieved 109 per cent of its first-half capex target, with mine infrastructure, land acquisition, machinery and diversification driving spending",
-          "link": "https://www.business-standard.com/companies/news/coal-india-h1-fy27-capex-mining-infrastructure-diversification-126102700691_1.html",
-          "isNew": true
+          "title": "GST relief not enough to make health insurance affordable, say experts",
+          "desc": "Business Standard BFSI Insight Summit 2026: Experts said GST relief has eased premiums, but high medical costs, underinsurance, and a trust deficit remain key barriers to wider coverage",
+          "link": "https://www.business-standard.com/specials/bs-events/gst-relief-not-enough-to-make-health-insurance-affordable-say-experts-126102701362_1.html",
+          "isNew": false
         },
         {
           "sr": 18,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Money best way to buy your freedom; gain choices in life: Ankur Warikoo",
-          "desc": "\"Having choices is what puts you truly in control. Once you have that, you realise you're truly rich,\" said Ankur Warikoo.",
-          "link": "https://www.business-standard.com/markets/interviews/money-best-way-to-buy-your-freedom-gain-choices-in-life-ankur-warikoo-126102700683_1.html",
-          "isNew": true
+          "title": "Tata Capital Q2FY27 results: Net profit surges 51% to ₹1,660 crore",
+          "desc": "Tata Capital on Tuesday reported a 51 per cent growth in consolidated net profit to Rs 1,660 crore for the September quarter of FY27.\nThe company had posted a net profit of Rs 1,097 crore in the July-",
+          "link": "https://www.business-standard.com/companies/quarterly-results/tata-capital-q2fy27-results-net-profit-surges-51-to-1-660-crore-126102701217_1.html",
+          "isNew": false
         },
         {
           "sr": 19,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Agilisium shifts Asia HQ to Hyderabad; eyes $500 mn revenue in 5-7 yrs",
-          "desc": "The life sciences technology company plans to move its Asia headquarters from Chennai as it targets about 5,000 specialised professionals and $500 million in revenue over five to seven years",
-          "link": "https://www.business-standard.com/companies/news/agilisium-asia-headquarters-hyderabad-life-sciences-revenue-workforce-126102700599_1.html",
-          "isNew": true
+          "title": "91Springboard to add 8,000 seats across 3.6 lakh sq ft in five new hubs",
+          "desc": "The workspace provider is expanding across Chennai, MMR and NCR, with plans to strengthen its presence in key markets before accelerating its entry into Tier-2 cities",
+          "link": "https://www.business-standard.com/industry/news/91springboard-to-add-8-000-seats-across-3-6-lakh-sq-ft-in-five-new-hubs-126102701283_1.html",
+          "isNew": false
         },
         {
           "sr": 20,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Meta eyes record $97.5 billion equity raise to fund AI infrastructure push",
-          "desc": "The social media giant said it was increasing the common stock offering it announced on Monday from $22.5 billion to $25 billion, priced at $625.00 per share",
-          "link": "https://www.business-standard.com/world-news/meta-eyes-record-97-5-billion-equity-raise-to-fund-ai-infrastructure-push-126102700558_1.html",
-          "isNew": true
+          "title": "India needs $500 bn by 2030 to decarbonise key sectors: CEEW report",
+          "desc": "A CEEW-GFC and Tata Sons report says $10 billion in catalytic capital could mobilise $50 billion in blended finance to support India's transition to low-carbon technologies.",
+          "link": "https://www.business-standard.com/economy/news/india-needs-500-bn-by-2030-to-decarbonise-key-sectors-ceew-report-126102701254_1.html",
+          "isNew": false
         },
         {
           "sr": 21,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "BFSI sector must lead infra and manufacturing funding, says Shaktikanta Das",
-          "desc": "At the Business Standard BFSI Insight Summit 2026, Shaktikanta Das called on banks and financial institutions to boost funding for infrastructure, advanced manufacturing, green finance and MSMEs",
-          "link": "https://www.business-standard.com/specials/bs-events/shaktikanta-das-bfsi-sector-infrastructure-advanced-manufacturing-financing-126102700542_1.html",
-          "isNew": true
+          "title": "L&T Q2 profit jumps 33% to ₹5,202 cr, order inflow at ₹1.47 trillion",
+          "desc": "Infrastructure major L&T reported 16% revenue growth to Rs 78,750 crore in Q2 FY27, while its consolidated order book reached Rs 8.53 trillion, with 54% from international orders",
+          "link": "https://www.business-standard.com/companies/quarterly-results/l-t-q2-net-profit-rises-33-to-5-202-crore-on-strong-order-inflows-126102701204_1.html",
+          "isNew": false
         },
         {
           "sr": 22,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "SC notice to govt on news publishers' plea challenging data protection law",
-          "desc": "The Supreme Court on Tuesday sought a response of the Centre on a petition challenging provisions of the Digital Personal Data Protection (DPDP) Act and the DPDP Rules on the ground that they allegedl",
-          "link": "https://www.business-standard.com/india-news/sc-notice-to-govt-on-news-publishers-plea-challenging-data-protection-law-126102700488_1.html",
+          "title": "Audit can't replace a lender's due diligence: NFRA Chairperson Nitin Gupta",
+          "desc": "Speaking at the Business Standard BFSI Insight Summit, Gupta said responsibility for the quality of financial reporting rests with multiple stakeholders",
+          "link": "https://www.business-standard.com/specials/bs-events/nfra-chairperson-nitin-gupta-auditor-lenders-bs-bfsi-summit-2026-126102701165_1.html",
           "isNew": false
         },
         {
@@ -308,9 +319,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Sarvam to build AI framework for Army, Navy and Air Force under HQ IDS",
-          "desc": "The framework will cover the Army, Navy and Air Force, with Sarvam developing AI applications for operational, training and decision-support requirements on sovereign infrastructure",
-          "link": "https://www.business-standard.com/technology/artificial-intelligence/sarvam-hq-ids-ai-projects-indian-armed-forces-defence-126102700495_1.html",
+          "title": "Central Bank of India RTGS glitch: What to know about your deposits",
+          "desc": "The bank says its core banking system remains secure and services have been restored. Here is what customers should check and do",
+          "link": "https://www.business-standard.com/finance/personal-finance/central-bank-of-india-rtgs-glitch-what-to-know-about-your-deposits-126102701066_1.html",
           "isNew": false
         },
         {
@@ -318,9 +329,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Anup Bagchi takes charge as HDFC Bank CEO and MD, succeeds Jagdishan",
-          "desc": "Country's largest private sector lender HDFC Bank on  Tuesday said that Anup Bagchi has taken charge as its managing director and chief executive.\nHis predecessor, Sashidhar Jagdishan, vacated office ",
-          "link": "https://www.business-standard.com/companies/news/anup-bagchi-takes-charge-as-hdfc-bank-ceo-and-md-succeeds-jagdishan-126102700313_1.html",
+          "title": "India's oil imports, external finance remain key challenges: RBI Dy Guv",
+          "desc": "At the Business Standard BFSI Insight Summit 2026, RBI Deputy Governor Poonam Gupta said India's dependence on imported oil remains a challenge, despite the economy's resilience to global shocks",
+          "link": "https://www.business-standard.com/specials/bs-events/india-oil-imports-external-finance-challenges-rbi-dy-guv-poonam-gupta-126102701012_1.html",
           "isNew": false
         },
         {
@@ -328,9 +339,9 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "25% of S Asian Americans who backed Trump plan to back Democrats: Survey",
-          "desc": "At least 25 per cent of South Asian Americans who voted for US President Donald Trump in the 2024 presidential election plan to support Democratic candidates in the November 3 midterm elections, accor",
-          "link": "https://www.business-standard.com/world-news/25-of-s-asian-americans-who-backed-trump-plan-to-back-democrats-survey-126102700244_1.html",
+          "title": "Anthropic's Mythos 5 ignored risks, targeted real GitHub project in test",
+          "desc": "Anthropic's Mythos 5 incident has raised concerns over AI agents acting beyond their intended tasks, prompting calls for stronger cybersecurity safeguards, independent testing and global oversight",
+          "link": "https://www.business-standard.com/technology/artificial-intelligence/anthropic-s-mythos-5-ignored-risks-targeted-real-github-project-in-test-126102700977_1.html",
           "isNew": false
         },
         {
@@ -338,125 +349,15 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Ather Energy extends rally, EV stock surges 20% in 2 days; here's why",
-          "desc": "Ather Energy: Overall, the outlook is positive, with volume growth, Konarc's market acceptance and sustained profitability being the key triggers to watch, say analysts at ICICI Securities.",
-          "link": "https://www.business-standard.com/markets/news/ather-energy-extends-rally-ev-stock-surges-20-in-2-days-here-s-why-126102700280_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 27,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Tata Consumer Products gains 4% after Q2 show; margin recovery keenly eyed",
-          "desc": "Tata Consumer Products share price: JM Financial analysts also expect margin delivery to improve, with full benefits of the price hikes in tea and salt to be seen in Q3FY27.",
-          "link": "https://www.business-standard.com/markets/news/tata-consumer-products-share-price-gains-4-after-q2-show-margin-recovery-keenly-eyed-126102700202_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 28,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Hindalco, ATGL: Analyst flags weak trend amid 'Death Cross' on daily charts",
-          "desc": "Sudeep Shah of SBI Securities says that the bias for Adani Total Gas stock is likely to remain weak as long as the stock trades below the ₹560-565 zone.",
-          "link": "https://www.business-standard.com/markets/news/hindalco-atgl-analyst-flags-weak-trend-amid-death-cross-formation-on-the-daily-charts-126102700191_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 29,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Trump approval rises from record low to 32% ahead of midterm election: Poll",
-          "desc": "The five-day nationwide ​poll also showed that registered voters broadly favored Democrats ​over Republicans by 47% to 36% when asked which party they would pick for Congress",
-          "link": "https://www.business-standard.com/world-news/trump-approval-rises-from-record-low-to-32-ahead-of-midterm-election-poll-126102700113_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 30,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Who are the key investors backing AI startup Anthropic ahead of IPO?",
-          "desc": "Amazon, Google and leading investment firms have poured billions into the Claude maker, whose public listing will test investor appetite for AI companies beyond Silicon Valley",
-          "link": "https://www.business-standard.com/world-news/who-are-the-key-investors-backing-ai-startup-anthropic-ahead-of-ipo-126102700105_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 31,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Here's why Kotak Neo recommends 'Buy' rating on ICICI Bank; 'Add' Nykaa",
-          "desc": "Nykaa offers an attractive combination of category leadership, strong execution, multiple growth levers, and improving profitability, says Shrikant Chouhan, Head of Equity Research at Kotak Neo.",
-          "link": "https://www.business-standard.com/markets/news/stocks-to-buy-today-here-s-why-kotak-neo-recommends-buy-rating-on-icici-bank-add-nykaa-126102700085_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 32,
-          "date": "27 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Stocks to watch: Tata group stocks, Paytm, Ather Energy, L&T, Maruti Suzuki",
-          "desc": "Stocks to watch today: L&T, Tata Steel, Maruti Suzuki, SBI Life, Bajaj Auto, and Tata Capital are among the marquee names slated to post their September quarter earnings.",
-          "link": "https://www.business-standard.com/markets/news/stocks-to-watch-october-27-tata-group-stocks-paytm-ather-energy-l-t-maruti-suzuki-126102700089_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 33,
-          "date": "26 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "CEOs need to pay more attention to succession: McKinsey's Joydeep Sengupta",
-          "desc": "Two-thirds of founder-CEOs struggle with succession planning, McKinsey's Joydeep Sengupta said, stressing the need for effective talent management and adaptability amid AI-driven change",
-          "link": "https://www.business-standard.com/specials/bs-events/ceos-need-to-pay-more-attention-to-succession-mckinsey-s-joydeep-sengupta-126102601339_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 34,
-          "date": "26 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "BFSI Insight Summit 2026: Oil, AI play weigh on funding and markets",
-          "desc": "Elevated oil prices, AI-driven capital flows and weak foreign inflows pressure the rupee and bond yields, while smaller NBFCs face tighter funding, experts at the summit say",
-          "link": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-2026-oil-ai-play-weigh-on-funding-and-markets-126102601583_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 35,
-          "date": "26 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "BFSI Summit 2026: 'Time to implement AI at scale, with clear objectives'",
-          "desc": "Private bank chiefs say AI adoption must move beyond pilots to large-scale implementation, with a focus on customer experience, productivity, data governance and cybersecurity",
-          "link": "https://www.business-standard.com/specials/bs-events/bfsi-summit-2026-time-to-implement-ai-at-scale-with-clear-objectives-126102601272_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 36,
-          "date": "26 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "BFSI Insight Summit 2026: FCNR(B) not a short-term fix, say PSB chiefs",
-          "desc": "At the BFSI Insight Summit 2026, PSB chiefs said attractive yields, leverage and RBI support helped banks mobilise a record $127 billion in FCNR(B) deposits, easing funding pressure",
-          "link": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-2026-fcnr-b-not-a-short-term-fix-say-psb-chiefs-126102601271_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 37,
-          "date": "26 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Advance Authorisation: Job work abroad and its key tax implications",
-          "desc": "Experts clarify rules on overseas job work under advance authorisation, leasing capital goods under EPCG and timelines for invoicing and export shipments",
-          "link": "https://www.business-standard.com/opinion/columns/advance-authorisation-job-work-abroad-and-its-key-tax-implications-126102700002_1.html",
+          "title": "Crypto boom or risk trap? Experts explain what young investors need to know",
+          "desc": "Business Standard Smart Investor Arena 2026: Experts urged young investors to understand crypto's risks, technology and use cases before putting money into it",
+          "link": "https://www.business-standard.com/specials/bs-events/crypto-boom-or-risk-trap-experts-explain-what-young-investors-need-to-know-126102700935_1.html",
           "isNew": false
         }
       ],
-      "ts": 1793108725716,
+      "ts": 1793127872406,
       "ok": true,
-      "newCount": 21
+      "newCount": 15
     },
     "NEWSLETTER_4": {
       "rows": [
@@ -471,7 +372,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108727051,
+      "ts": 1793127874057,
       "ok": true,
       "newCount": 0
     },
@@ -483,13 +384,14 @@
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1793108748157,
+      "ts": 1793127895276,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
       "ts": 1793108749504,
-      "ok": true
+      "ok": false,
+      "error": "HTTP 403"
     },
     "NEWSLETTER_8": {
       "rows": [
@@ -498,25 +400,25 @@
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "The winners and losers of the weight-loss economy",
-          "desc": "People on GLP-1s are spending their money differently. Some sectors will benefit, others must adapt or die",
-          "link": "https://www.ft.com/content/2f1667a8-ef1b-46a0-bc95-6061ec85fb8e?syn-25a6b1a6=1",
-          "isNew": false
+          "title": "Putin lectures Nordic leaders on Russian history",
+          "desc": "Russia’s leader goes on extended tangent in call with western European leaders as they seek to revive Ukraine peace talks",
+          "link": "https://www.ft.com/content/a384acd1-c90c-4b71-bf7d-6c6e00bf9822?syn-25a6b1a6=1",
+          "isNew": true
         },
         {
           "sr": 2,
           "date": "27 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Bolsonaro says he was ordered to surrender passport as his party concedes election",
-          "desc": "Hard-right Brazilian candidate is under criminal investigation related to an alleged money laundering scheme",
-          "link": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+          "title": "Flávio Bolsonaro’s passport cancelled as reports say he has fled Brazil",
+          "desc": "Defeated rightwing presidential candidate is under investigation by federal police over alleged corruption and money laundering",
+          "link": "https://www.ft.com/content/f294230a-0956-4c8c-9bb5-4dd5b6e7438a?syn-25a6b1a6=1",
           "isNew": true
         }
       ],
-      "ts": 1793108751341,
+      "ts": 1793127916989,
       "ok": true,
-      "newCount": 1
+      "newCount": 2
     },
     "SEBI_0": {
       "rows": [
@@ -528,7 +430,7 @@
           "title": "Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2026/extension-of-timeline-for-compliance-with-terms-and-conditions-by-debenture-trustees-dts-for-carrying-out-activities-outside-the-purview-of-sebi_105454.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -3521,9 +3423,9 @@
           "isNew": false
         }
       ],
-      "ts": 1793108788092,
+      "ts": 1793127952535,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "SEBI_1": {
       "rows": [
@@ -4868,7 +4770,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108807986,
+      "ts": 1793127972068,
       "ok": true,
       "newCount": 0
     },
@@ -5125,7 +5027,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108810412,
+      "ts": 1793127975864,
       "ok": true,
       "newCount": 0
     },
@@ -6116,33 +6018,13 @@
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
-          "title": "Modification in the conditions specified for reduction in denomination of debt securities and non-convertible redeemable preference shares (NCRPS)  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/modification-in-the-conditions-specified-for-reduction-in-denomination-of-debt-securities-and-non-convertible-redeemable-preference-shares-ncrps-_95769.html",
-          "isNew": false
-        },
-        {
-          "sr": 100,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security   Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/revised-norms-for-appointment-of-an-independent-third-party-reviewer-certifier-for-green-debt-security_95767.html",
-          "isNew": false
-        },
-        {
-          "sr": 101,
-          "date": "01 Aug 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
           "title": "Consultation Paper on Amendment to the definition of Strategic Investor for REITs and InvITs   Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-amendment-to-the-definition-of-strategic-investor-for-reits-and-invits_95764.html",
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 100,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6152,7 +6034,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 101,
           "date": "25 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6162,7 +6044,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 102,
           "date": "18 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6172,7 +6054,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 103,
           "date": "16 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6182,7 +6064,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 104,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6192,7 +6074,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 105,
           "date": "07 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6202,7 +6084,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 106,
           "date": "03 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6212,7 +6094,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 107,
           "date": "01 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6222,7 +6104,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 108,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6232,7 +6114,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 109,
           "date": "24 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6242,7 +6124,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 110,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6252,7 +6134,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 111,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6262,7 +6144,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 112,
           "date": "17 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6272,7 +6154,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 113,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6282,7 +6164,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 114,
           "date": "09 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6292,7 +6174,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 115,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6302,7 +6184,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 116,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6312,7 +6194,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 117,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6322,7 +6204,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 118,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6332,7 +6214,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 119,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6342,7 +6224,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 120,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6352,7 +6234,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 121,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6362,7 +6244,7 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 122,
           "date": "30 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6372,7 +6254,7 @@
           "isNew": false
         },
         {
-          "sr": 125,
+          "sr": 123,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6382,7 +6264,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 124,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6392,7 +6274,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 125,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6402,7 +6284,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 126,
           "date": "17 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6412,7 +6294,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 127,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6422,7 +6304,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 128,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6432,7 +6314,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 129,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6442,7 +6324,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 130,
           "date": "04 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6452,7 +6334,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 131,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6462,7 +6344,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 132,
           "date": "27 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6472,7 +6354,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 133,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6482,7 +6364,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 134,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6492,7 +6374,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 135,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6502,7 +6384,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 136,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6512,7 +6394,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 137,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6522,7 +6404,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 138,
           "date": "28 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6532,7 +6414,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 139,
           "date": "24 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6542,7 +6424,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 140,
           "date": "21 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6552,7 +6434,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 141,
           "date": "20 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6562,7 +6444,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 142,
           "date": "18 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6572,7 +6454,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 143,
           "date": "14 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6582,7 +6464,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 144,
           "date": "13 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6592,7 +6474,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 145,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6602,13 +6484,33 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 146,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Advance Fee to be charged by Investment Advisers and Research Analysts  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-advance-fee-to-be-charged-by-investment-advisers-and-research-analysts_91858.html",
+          "isNew": false
+        },
+        {
+          "sr": 147,
+          "date": "12 Feb 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Margin obligations to be given by way of Pledge / re-pledge in the Depository system  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/margin-obligations-to-be-given-by-way-of-pledge-re-pledge-in-the-depository-system_91849.html",
+          "isNew": false
+        },
+        {
+          "sr": 148,
+          "date": "11 Feb 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Treatment of unclaimed funds and securities of clients lying with Trading Members  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-treatment-of-unclaimed-funds-and-securities-of-clients-lying-with-trading-members_91811.html",
           "isNew": false
         },
         {
@@ -6843,26 +6745,6 @@
         },
         {
           "sr": 172,
-          "date": "22 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Process for appointment of specific KMPs of an MII; and cooling-off period for KMPs and Directors of an MII joining a competing MII  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-process-for-appointment-of-specific-kmps-of-an-mii-and-cooling-off-period-for-kmps-and-directors-of-an-mii-joining-a-competing-mii_88686.html",
-          "isNew": false
-        },
-        {
-          "sr": 173,
-          "date": "19 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Review of SME segment framework under SEBI (ICDR) Regulations, 2018, and applicability of corporate governance provisions under SEBI (LODR) Regulations, 2015 on SME companies to strengthen pre-listing and post-listing SME provisions  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-sme-segment-framework-under-sebi-icdr-regulations-2018-and-applicability-of-corporate-governance-provisions-under-sebi-lodr-regulations-2015-on-sme-companies-to-_88627.html",
-          "isNew": false
-        },
-        {
-          "sr": 174,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6872,7 +6754,7 @@
           "isNew": false
         },
         {
-          "sr": 175,
+          "sr": 173,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6882,7 +6764,7 @@
           "isNew": false
         },
         {
-          "sr": 176,
+          "sr": 174,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6892,7 +6774,7 @@
           "isNew": false
         },
         {
-          "sr": 177,
+          "sr": 175,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6902,7 +6784,7 @@
           "isNew": false
         },
         {
-          "sr": 178,
+          "sr": 176,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6912,7 +6794,7 @@
           "isNew": false
         },
         {
-          "sr": 179,
+          "sr": 177,
           "date": "09 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6922,7 +6804,7 @@
           "isNew": false
         },
         {
-          "sr": 180,
+          "sr": 178,
           "date": "06 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6932,7 +6814,7 @@
           "isNew": false
         },
         {
-          "sr": 181,
+          "sr": 179,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6942,7 +6824,7 @@
           "isNew": false
         },
         {
-          "sr": 182,
+          "sr": 180,
           "date": "01 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6952,7 +6834,7 @@
           "isNew": false
         },
         {
-          "sr": 183,
+          "sr": 181,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6962,7 +6844,7 @@
           "isNew": false
         },
         {
-          "sr": 184,
+          "sr": 182,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6972,7 +6854,7 @@
           "isNew": false
         },
         {
-          "sr": 185,
+          "sr": 183,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6982,7 +6864,7 @@
           "isNew": false
         },
         {
-          "sr": 186,
+          "sr": 184,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6992,7 +6874,7 @@
           "isNew": false
         },
         {
-          "sr": 187,
+          "sr": 185,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7002,7 +6884,7 @@
           "isNew": false
         },
         {
-          "sr": 188,
+          "sr": 186,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7012,7 +6894,7 @@
           "isNew": false
         },
         {
-          "sr": 189,
+          "sr": 187,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7022,7 +6904,7 @@
           "isNew": false
         },
         {
-          "sr": 190,
+          "sr": 188,
           "date": "28 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7032,7 +6914,7 @@
           "isNew": false
         },
         {
-          "sr": 191,
+          "sr": 189,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7042,7 +6924,7 @@
           "isNew": false
         },
         {
-          "sr": 192,
+          "sr": 190,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7052,7 +6934,7 @@
           "isNew": false
         },
         {
-          "sr": 193,
+          "sr": 191,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7062,7 +6944,7 @@
           "isNew": false
         },
         {
-          "sr": 194,
+          "sr": 192,
           "date": "08 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7072,7 +6954,7 @@
           "isNew": false
         },
         {
-          "sr": 195,
+          "sr": 193,
           "date": "04 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7082,13 +6964,33 @@
           "isNew": false
         },
         {
-          "sr": 196,
+          "sr": 194,
           "date": "27 Sept 2024",
           "year": 2024,
           "cat": "Consultation Paper",
           "title": "Consultation paper on draft circular for “Disclosure of expenses, half yearly returns, yield and risk-o-meter of schemes of Mutual Funds  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-draft-circular-for-disclosure-of-expenses-half-yearly-returns-yield-and-risk-o-meter-of-schemes-of-mutual-funds_87055.html",
+          "isNew": false
+        },
+        {
+          "sr": 195,
+          "date": "26 Sept 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on the proposal to exempt certain transactions from trading window restrictions",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-the-proposal-to-exempt-certain-transactions-from-trading-window-restrictions_87021.html",
+          "isNew": false
+        },
+        {
+          "sr": 196,
+          "date": "24 Sept 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on Draft Circular for “Simplified registration for Foreign Portfolio Investors (FPIs)”  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-draft-circular-for-simplified-registration-for-foreign-portfolio-investors-fpis-_86950.html",
           "isNew": false
         },
         {
@@ -8070,29 +7972,9 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-holding-of-sponsor-in-reits-and-invits_68358.html",
           "isNew": false
-        },
-        {
-          "sr": 295,
-          "date": "22 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Regulatory Framework for ESG Rating Providers (ERPs) in Securities Market",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-regulatory-framework-for-esg-rating-providers-erps-in-securities-market_68337.html",
-          "isNew": false
-        },
-        {
-          "sr": 296,
-          "date": "22 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on certain Amendments to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018, with the objective of increasing transparency and streamlining certain processes",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-certain-amendments-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-increasing-transparency-and-s-_68336.html",
-          "isNew": false
         }
       ],
-      "ts": 1793108846709,
+      "ts": 1793128011961,
       "ok": true,
       "newCount": 0
     },
@@ -9299,7 +9181,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108850547,
+      "ts": 1793128015207,
       "ok": true,
       "newCount": 0
     },
@@ -9326,7 +9208,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108852269,
+      "ts": 1793128016927,
       "ok": true,
       "newCount": 0
     },
@@ -9340,7 +9222,7 @@
           "title": "Adjudication Order in the matter of Taurian MPS Ltd.",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/adjudication-order-in-the-matter-of-taurian-mps-ltd-_105452.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -12333,9 +12215,9 @@
           "isNew": false
         }
       ],
-      "ts": 1793108891380,
+      "ts": 1793128055420,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "RBI_0": {
       "rows": [
@@ -12347,7 +12229,7 @@
           "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13748&amp;Mode=0",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -12357,7 +12239,7 @@
           "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Removal of 03 Entries",
           "desc": "",
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13747&amp;Mode=0",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -12550,9 +12432,9 @@
           "isNew": false
         }
       ],
-      "ts": 1793108893607,
+      "ts": 1793128057730,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "RBI_1": {
       "rows": [
@@ -15557,7 +15439,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108896821,
+      "ts": 1793128060784,
       "ok": true,
       "newCount": 0
     },
@@ -15574,7 +15456,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108900373,
+      "ts": 1793128062954,
       "ok": true,
       "newCount": 0
     },
@@ -15781,7 +15663,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108902286,
+      "ts": 1793128065158,
       "ok": true,
       "newCount": 0
     },
@@ -15789,256 +15671,256 @@
       "rows": [
         {
           "sr": 1,
-          "date": "10 Mar 2026",
+          "date": "23 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security",
+          "title": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026.",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261023-12/20261023-12.pdf",
           "isNew": false
         },
         {
           "sr": 2,
-          "date": "06 Mar 2026",
+          "date": "21 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "title": "Common Standard Operating Procedure (SOP) for grant of approvals for further issues by Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261021-14/20261021-14.pdf",
           "isNew": false
         },
         {
           "sr": 3,
-          "date": "20 Feb 2026",
+          "date": "14 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "title": "Update in the formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Filing of Financial Results in XBRL Mode by all Insurers and Reinsurers",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261014-25/20261014-25.pdf",
           "isNew": false
         },
         {
           "sr": 4,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 by listed entities",
+          "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-23/20261008-23.pdf",
           "isNew": false
         },
         {
           "sr": 5,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Issue and Listing of Non-Convertible Securities)(Amendment) Regulations, 2026",
+          "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers.",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-22/20261008-22.pdf",
           "isNew": false
         },
         {
           "sr": 6,
-          "date": "03 Feb 2026",
+          "date": "08 Oct 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026",
+          "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis.",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-21/20261008-21.pdf",
           "isNew": false
         },
         {
           "sr": 7,
-          "date": "02 Feb 2026",
+          "date": "18 Sept 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Ease of Doing Investment -Special Window for Transfer and Dematerialisation of Physical Securities",
+          "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260918-25/20260918-25.pdf",
           "isNew": false
         },
         {
           "sr": 8,
-          "date": "02 Jan 2026",
+          "date": "24 Aug 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "title": "Frequently Asked Questions (FAQs) on Record Date for Corporate Actions",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260824-16/20260824-16.pdf",
           "isNew": false
         },
         {
           "sr": 9,
-          "date": "22 Dec 2025",
-          "year": 2025,
+          "date": "07 Aug 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Modification in the conditions specified for reduction in denomination of debt securities",
+          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
           "isNew": false
         },
         {
           "sr": 10,
-          "date": "22 Dec 2025",
-          "year": 2025,
+          "date": "22 Jul 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
+          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
           "isNew": false
         },
         {
           "sr": 11,
-          "date": "18 Dec 2025",
-          "year": 2025,
+          "date": "19 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
           "isNew": false
         },
         {
           "sr": 12,
-          "date": "09 Dec 2025",
-          "year": 2025,
+          "date": "12 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
+          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
           "isNew": false
         },
         {
           "sr": 13,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "01 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
+          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
           "isNew": false
         },
         {
           "sr": 14,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "01 Jun 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
+          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
           "isNew": false
         },
         {
           "sr": 15,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "29 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
           "isNew": false
         },
         {
           "sr": 16,
-          "date": "27 Nov 2025",
-          "year": 2025,
+          "date": "20 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
+          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
           "isNew": false
         },
         {
           "sr": 17,
-          "date": "21 Nov 2025",
-          "year": 2025,
+          "date": "20 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
+          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
           "isNew": false
         },
         {
           "sr": 18,
-          "date": "21 Nov 2025",
-          "year": 2025,
+          "date": "06 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
+          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
           "isNew": false
         },
         {
           "sr": 19,
-          "date": "17 Nov 2025",
-          "year": 2025,
+          "date": "04 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
+          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
           "isNew": false
         },
         {
           "sr": 20,
-          "date": "14 Oct 2025",
-          "year": 2025,
+          "date": "04 May 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
           "isNew": false
         },
         {
           "sr": 21,
-          "date": "09 Oct 2025",
-          "year": 2025,
+          "date": "30 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
+          "title": "Master Circular - Listing Compliance",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
           "isNew": false
         },
         {
           "sr": 22,
-          "date": "26 Sept 2025",
-          "year": 2025,
+          "date": "24 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Framework on Social Stock Exchange (“SSE”)",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
           "isNew": false
         },
         {
           "sr": 23,
-          "date": "24 Sept 2025",
-          "year": 2025,
+          "date": "20 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
           "isNew": false
         },
         {
           "sr": 24,
-          "date": "12 Sept 2025",
-          "year": 2025,
+          "date": "09 Apr 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
           "isNew": false
         },
         {
           "sr": 25,
-          "date": "11 Sept 2025",
-          "year": 2025,
+          "date": "30 Mar 2026",
+          "year": 2026,
           "cat": "Circular",
-          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
           "isNew": false
         }
       ],
-      "ts": 1793108911902,
+      "ts": 1793128074597,
       "ok": true,
       "newCount": 0
     },
@@ -19045,7 +18927,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108914902,
+      "ts": 1793128077233,
       "ok": true,
       "newCount": 0
     },
@@ -19253,8 +19135,9 @@
         }
       ],
       "ts": 1793108918589,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "HTTP 504"
     },
     "IRDAI_1": {
       "rows": [
@@ -19440,8 +19323,9 @@
         }
       ],
       "ts": 1793108922171,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "HTTP 504"
     },
     "IRDAI_2": {
       "rows": [
@@ -19627,8 +19511,9 @@
         }
       ],
       "ts": 1793108925527,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "HTTP 504"
     },
     "IEPFA_0": {
       "rows": [
@@ -19683,7 +19568,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108938780,
+      "ts": 1793128190730,
       "ok": true,
       "newCount": 0
     },
@@ -19740,7 +19625,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108943667,
+      "ts": 1793128195664,
       "ok": true,
       "newCount": 0
     },
@@ -19797,7 +19682,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108948484,
+      "ts": 1793128200413,
       "ok": true,
       "newCount": 0
     },
@@ -19824,7 +19709,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793108971146,
+      "ts": 1793128232255,
       "ok": true,
       "newCount": 0
     },
@@ -19841,19 +19726,77 @@
           "isNew": false
         }
       ],
-      "ts": 1793109017847,
+      "ts": 1793128273029,
       "ok": true,
       "newCount": 0
     },
     "MCA_2": {
-      "rows": [],
-      "ts": 1793109087236,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "29 Sept 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "20 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1793128299611,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_3": {
-      "rows": [],
-      "ts": 1793109127238,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf"
+        }
+      ],
+      "ts": 1793128366410,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_4": {
       "rows": [
@@ -19868,7 +19811,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793109201012,
+      "ts": 1793128400473,
       "ok": true,
       "newCount": 0
     },
@@ -19935,7 +19878,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793109203990,
+      "ts": 1793128403741,
       "ok": true,
       "newCount": 0
     },
@@ -20062,7 +20005,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793109205528,
+      "ts": 1793128405316,
       "ok": true,
       "newCount": 0
     },
@@ -20179,7 +20122,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793109207057,
+      "ts": 1793128406888,
       "ok": true,
       "newCount": 0
     },
@@ -20306,7 +20249,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793109208579,
+      "ts": 1793128408452,
       "ok": true,
       "newCount": 0
     },
