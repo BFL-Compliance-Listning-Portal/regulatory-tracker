@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:24:29.723Z",
+  "generatedAt": "2026-11-19T11:01:17.148Z",
   "data": {
     "NEWSLETTER_0": {
       "rows": [
@@ -40,6 +40,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "'Move Beyond Domestic Market, Focus On World-Class Quality': PM Modi To India IncNov 19, 2026, 12:45 IST",
+          "desc": "",
+          "link": "https://www.timesnownews.com/business-economy/economy/move-beyond-domestic-market-focus-on-world-class-quality-pm-modi-to-india-inc-article-156535864",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "18 Nov 2026",
           "year": 2026,
           "cat": "News",
@@ -49,7 +59,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "18 Nov 2026",
           "year": 2026,
           "cat": "News",
@@ -59,261 +69,191 @@
           "isNew": false
         }
       ],
-      "ts": 1795054694153,
+      "ts": 1795085714330,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_2": {
       "rows": [],
-      "ts": 1795054695833,
+      "ts": 1795085715976,
       "ok": true
     },
     "NEWSLETTER_3": {
       "rows": [
         {
           "sr": 1,
-          "date": "18 Nov 2026",
+          "date": "19 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Panel on banking for Viksit Bharat seeks inputs from stakeholders",
-          "desc": "The panel has circulated questionnaires to banks, NBFCs, regulators and fintech firms to gather suggestions on reforms for a competitive, resilient and future-ready banking sector.",
-          "link": "https://www.business-standard.com/industry/banking/panel-on-banking-for-viksit-bharat-seeks-inputs-from-stakeholders-126111801537_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "SBI Funds, Punjab National Bank enter into distribution partnership",
-          "desc": "SBI Mutual Fund expands banking reach as institutional investors acquire stake in IIFL Finance",
-          "link": "https://www.business-standard.com/markets/news/sbi-funds-punjab-national-bank-enter-into-distribution-partnership-126111801508_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Tax breaks, refinancing support dominate financial sector's Budget pitch",
-          "desc": "MFs, NBFCs, microfinance lenders seek changes to lending and recovery frameworks",
-          "link": "https://www.business-standard.com/finance/news/tax-breaks-refinancing-support-dominate-financial-sector-s-budget-pitch-126111801460_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Delhi's toxic air demands citizen accountability, year-round action",
-          "desc": "Nobody is coming to rescue Delhi from itself. Its people must decide whether they and their children deserve to breathe",
-          "link": "https://www.business-standard.com/opinion/columns/delhi-s-toxic-air-demands-citizen-accountability-year-round-action-126111801451_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "PM discusses good governance initiatives at Council of Ministers meeting",
-          "desc": "The meeting reviewed poverty alleviation, governance reforms and welfare schemes, with 11 Union secretaries making presentations on key initiatives, including anti-Naxal operations",
-          "link": "https://www.business-standard.com/india-news/pm-modi-reviews-governance-reforms-poverty-alleviation-at-ministers-meet-126111801450_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Space tech firm Digantara eyes $200 million fundraise, expansion in US",
-          "desc": "Digantara is in early talks to raise $150-200 million over the next 18 months to expand in the US, scale up operations and pursue larger defence contracts.",
-          "link": "https://www.business-standard.com/companies/news/space-tech-firm-digantara-eyes-200-million-fundraise-expansion-in-us-126111801319_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Goldman Sachs sees RBI repo rate rising by 75 bps to 6.25% by mid-2027",
-          "desc": "Goldman Sachs expects 75 basis points of further RBI rate hikes by mid-2027 as inflation rises to 5.7 per cent and economic growth moderates to 7.2 per cent in CY27.",
-          "link": "https://www.business-standard.com/economy/news/goldman-sachs-sees-rbi-repo-rate-rising-by-75-bps-to-6-25-by-mid-2027-126111801292_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI asks lenders to tighten API security amid rising cyberattack risks",
-          "desc": "The RBI has asked banks, small finance banks and NBFCs to strengthen API controls, monitor fund transfers and tighten third-party safeguards amid growing cybersecurity threats.",
-          "link": "https://www.business-standard.com/industry/banking/rbi-asks-lenders-to-tighten-api-security-amid-rising-cyberattack-risks-126111801271_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Gold price slide drags Muthoot Finance, Manappuram shares down nearly 4%",
-          "desc": "Shares of gold-loan financiers declined as falling gold prices raised concerns over collateral values, asset quality and the impact of tighter loan-to-value regulations.",
-          "link": "https://www.business-standard.com/industry/news/gold-price-slide-drags-muthoot-finance-manappuram-shares-down-nearly-4-126111801259_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Nike eyes threefold growth in India over five years, bets on cricket",
-          "desc": "Nike plans to triple its India business over five years, focusing on running, training and sportswear, while tapping cricket through its Mumbai Indians partnership and new footwear",
-          "link": "https://www.business-standard.com/companies/news/nike-eyes-threefold-growth-in-india-over-five-years-bets-on-cricket-126111801247_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Extended market hours not a priority for India, says Sebi Chairman",
-          "desc": "Sebi Chairman Tuhin Kanta Pandey said extending trading hours may not improve market efficiency, citing cybersecurity risks, liquidity concerns and costs for market participants",
-          "link": "https://www.business-standard.com/markets/news/extended-market-hours-not-a-priority-for-india-says-sebi-chairman-126111801232_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "West Bengal plans new SOP for industrial land allocation, eyes law changes",
-          "desc": "The state is considering amendments to its land reforms legislation, including possible relaxation of landholding limits based on investment size, to facilitate industrial growth",
-          "link": "https://www.business-standard.com/india-news/west-bengal-plans-new-sop-for-industrial-land-allocation-eyes-law-changes-126111801201_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Bombay HC quashes sanction to prosecute Chanda Kochhar in Videocon case",
-          "desc": "The Bombay High Court held that the RBI, not ICICI Bank's board, was competent to sanction Chanda Kochhar's prosecution and found that the board had not independently assessed the evidence",
-          "link": "https://www.business-standard.com/companies/news/bombay-hc-quashes-sanction-to-prosecute-chanda-kochhar-in-videocon-case-126111801188_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "DPDP Act compliance: Firms face major data overhaul before May '27 deadline",
-          "desc": "Companies must map personal data flows, enforce consent withdrawal across systems and strengthen AI safeguards as they prepare for the May 2027 DPDP Act compliance deadline",
-          "link": "https://www.business-standard.com/technology/tech-news/dpdp-act-compliance-firms-face-major-data-overhaul-before-may-27-deadline-126111801154_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI may hike interest rates by 75 basis points by Q2 CY27: Goldman Sachs",
-          "desc": "Goldman Sachs expects RBI to raise rates by 75 bps by Q2 CY27 as inflationary pressures persist, slowing India's growth to 7.2%",
-          "link": "https://www.business-standard.com/finance/news/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-cy27-goldman-sachs-126111800832_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Tata Steel plans hydrogen facility at Kalinganagar to cut carbon emissions",
-          "desc": "Tata Steel has partnered with Utility Global to study a 10-tonne-per-day hydrogen facility using steel plant gases, aiming to reduce emissions without major infrastructure changes",
-          "link": "https://www.business-standard.com/companies/news/tata-steel-plans-hydrogen-facility-at-kalinganagar-to-cut-carbon-emissions-126111800997_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "India's power demand growth to average 8.5% in FY27, says ICRA report",
-          "desc": "Electricity demand rose 11.7 per cent in April-October, while low coal inventories and weather-related uncertainties remain key risks despite robust consumption trends",
-          "link": "https://www.business-standard.com/industry/news/india-s-power-demand-growth-to-average-8-5-in-fy27-says-icra-report-126111800966_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "AI startup Humyn Labs raises $47 million in Series A funding round",
-          "desc": "Humyn Labs raises $47 million to expand global operations and build real-world robot testing infrastructure",
-          "link": "https://www.business-standard.com/companies/news/ai-startup-humyn-labs-raises-47-million-in-series-a-funding-round-126111800765_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Tata Motors enters Syria, partners with Ghassan Aboud for CV distribution",
-          "desc": "Tata Motors will offer cargo and passenger vehicles in Syria through Ghassan Aboud Automotive's subsidiary GAMCO, targeting demand from infrastructure rebuilding and economic recovery",
-          "link": "https://www.business-standard.com/companies/news/tata-motors-enters-syria-partners-with-ghassan-aboud-for-cv-distribution-126111800962_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "GTA VI arrives after 13 years, unlocking a business world beyond gaming",
-          "desc": "From billion-dollar pre-orders and creator-led role-play to qcom deliveries and burger joints turning into fictional Vice City, the game's 13-year wait has created an economy well beyond the console",
-          "link": "https://www.business-standard.com/technology/tech-news/gta-vi-arrives-after-13-years-unlocking-a-business-world-beyond-gaming-126111800950_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 21,
-          "date": "18 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Why Shamshabad and the Airport Corridor Are Becoming South Hyderabad's Next Real Estate Hub",
-          "desc": "Dr Reddy's, Sun Pharma and Hetero lead the push as companies eye opportunities in Latin America, Africa and other emerging markets",
-          "link": "https://www.business-standard.com/content/specials/why-shamshabad-and-the-airport-corridor-are-becoming-south-hyderabad-s-next-real-estate-hub-126111700468_1.html",
+          "title": "Can a housing society hike maintenance arbitrarily? Know your legal rights",
+          "desc": "A Maharashtra court has stayed a steep maintenance increase for two flat owners, highlighting the need for proper approvals, cost calculations and transparency",
+          "link": "https://www.business-standard.com/finance/personal-finance/can-a-housing-society-hike-maintenance-arbitrarily-know-your-legal-rights-126111900759_1.html",
           "isNew": true
         },
         {
-          "sr": 22,
-          "date": "18 Nov 2026",
+          "sr": 2,
+          "date": "19 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "What the IPL will miss when MS Dhoni is no longer the next man in",
-          "desc": "MS Dhoni moves from player to CSK mentor. From Chepauk's roar to jersey sales and TV audiences, here's what the IPL will miss without Thala.",
-          "link": "https://www.business-standard.com/cricket/ipl/ms-dhoni-ipl-exit-csk-mentor-legacy-126111800795_1.html",
-          "isNew": false
+          "title": "Large diversified NBFCs may be better placed amid macro headwinds",
+          "desc": "Banks added ₹6.6 trillion of NBFC exposure over the past year, far exceeding additions in the previous three years combined, as higher bond yields shifted the funding mix towards bank loans",
+          "link": "https://www.business-standard.com/finance/news/bank-credit-nbfcs-jumps-42-percent-rs-22-5-trillion-h1-fy27-126111900638_1.html",
+          "isNew": true
         },
         {
-          "sr": 23,
-          "date": "18 Nov 2026",
+          "sr": 3,
+          "date": "19 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "HC quashes ICICI Bank's nod to prosecute Chanda Kochhar in loan fraud case",
-          "desc": "The court said the authority that approved the May 2023 sanction was not competent and had failed to apply its mind to the material placed before it in the Videocon loan case",
-          "link": "https://www.business-standard.com/companies/news/hc-quashes-icici-bank-s-nod-to-prosecute-chanda-kochhar-in-loan-fraud-case-126111800721_1.html",
-          "isNew": false
+          "title": "Tata Tech jumps over 9% as FY30 roadmap targets $1.3 billion revenue",
+          "desc": "The key announcements included FY30 revenue target of $1.1-1.3 billion versus approximately $620 million in FY26, implying a 15-20 per cent compound annual growth rate.",
+          "link": "https://www.business-standard.com/markets/news/tata-tech-jumps-over-9-as-fy30-roadmap-targets-1-3-billion-revenue-126111900557_1.html",
+          "isNew": true
         },
         {
-          "sr": 24,
-          "date": "18 Nov 2026",
+          "sr": 4,
+          "date": "19 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Indian drugmakers take generic semaglutide battle to overseas markets",
-          "desc": "Dr Reddy's, Sun Pharma and Hetero lead the push as companies eye opportunities in Latin America, Africa and other emerging markets",
-          "link": "https://www.business-standard.com/industry/news/indian-pharma-companies-generic-semaglutide-overseas-markets-dr-reddys-sun-pharma-126111800717_1.html",
-          "isNew": false
+          "title": "Bulk Scotch imports face 163% duty: Reasons, impact and key details here",
+          "desc": "India's effective 162.5% levy on bulk Scotch imports has triggered a dispute over the India-UK trade pact. Here's why the duty is being imposed and how it could affect the liquor industry",
+          "link": "https://www.business-standard.com/economy/news/bulk-scotch-imports-face-163-duty-reasons-impact-and-key-details-here-126111900553_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "HDFC Bank BizBlack Metal card changes: Check new reward and voucher rules",
+          "desc": "HDFC Bank will require Rs 50,000 in eligible monthly spends to unlock accelerated rewards, while lowering the quarterly voucher threshold",
+          "link": "https://www.business-standard.com/finance/personal-finance/hdfc-bank-bizblack-metal-card-changes-check-new-reward-and-voucher-rules-126111900459_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "37% of Delhi-NCR residents surveyed plan to move out due to air pollution",
+          "desc": "Nearly 3 in 4 respondents said someone in their close network had developed a severe health condition they attributed to prolonged exposure to polluted air",
+          "link": "https://www.business-standard.com/india-news/delhi-ncr-residents-plan-to-move-out-air-pollution-survey-126111900427_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "PSU Bank index nears record high; SBI, PNB, BoI rally up 27% in November",
+          "desc": "On Thursday the Nifty PSU Bank index was up over 2% in intraday deals, and has soared over 18.5% thus far in November as against a 10% rally in the Nifty 50.",
+          "link": "https://www.business-standard.com/markets/news/psu-bank-index-nears-record-high-sbi-pnb-boi-rally-up-27-in-november-126111900399_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 8,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "PM Modi posts GTA 6-style 'then-now' graphics to showcase India's growth",
+          "desc": "In a post on X, PM Modi said, 'India is playing a whole new game!', comparing the country's economic, infrastructure, sanitation, and technology progress with its position in 2013",
+          "link": "https://www.business-standard.com/india-news/pm-modi-posts-gta-6-style-then-now-graphics-to-showcase-india-s-growth-126111900374_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 9,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Google Play names best apps and games of 2026: Here are Indian apps in list",
+          "desc": "Adobe Premiere and Arknights: Endfield lead Google Play's Best of 2026 awards in India, with Wispr Flow, Pronto, ScarFall 2.0 and Monument Valley 3 among the winners",
+          "link": "https://www.business-standard.com/technology/tech-news/google-play-names-best-apps-and-games-of-2026-here-are-indian-apps-in-list-126111900351_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 10,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Hind Copper, SAIL, NMDC among 6 stocks on analysts radar amid metals slide",
+          "desc": "Silver, Copper, Gold and other metals have cracked up to 38% from recent highs. Against this background, technical analysts from Angel One and SAMCO Securities share insights on key metal stocks.",
+          "link": "https://www.business-standard.com/markets/news/hind-copper-sail-nmdc-among-6-metal-stocks-on-analysts-radar-amid-sell-off-in-base-metal-commodites-126111900350_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 11,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "TCI Express to invest ₹500 crore in 5 years to expand logistics infra",
+          "desc": "Logistics solutions company TCI Express Ltd on Thursday announced a Rs 500-crore infrastructure expansion plan for the next five years and the opening of three sorting centres in Ahmedabad, Lucknow an",
+          "link": "https://www.business-standard.com/companies/news/tci-express-to-invest-500-crore-in-5-years-to-expand-logistics-infra-126111900225_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 12,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Cert-In flags vulnerabilities in Google Chrome, warns users of cyber risks",
+          "desc": "The vulnerabilities could allow remote attackers to execute arbitrary code, bypass security restrictions and access sensitive information. Cert-In has urged users to install latest security updates",
+          "link": "https://www.business-standard.com/technology/tech-news/cert-in-flags-vulnerabilities-in-google-chrome-warns-users-of-cyber-risks-126111900284_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 13,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Sarvam faces backlash for offering Chinese AI models on its platform",
+          "desc": "This week, Sarvam unveiled Token Factory, an inference platform offering multiple AI models via a single API interface, hosted on local computing infrastructure",
+          "link": "https://www.business-standard.com/technology/artificial-intelligence/sarvam-faces-backlash-for-offering-chinese-ai-models-on-its-platform-126111900268_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 14,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Cyient Semiconductors secures $10 million investment from GlobalFoundries",
+          "desc": "The investment will be at the same pre-money equity valuation of $490 million as Cyient Semiconductors' recent funding round led by Edelweiss",
+          "link": "https://www.business-standard.com/companies/news/cyient-semiconductors-secures-10-million-investment-from-globalfoundries-126111900252_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 15,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Mahanadi Coalfields IPO: Should you bid for Coal India arm? Analysts answer",
+          "desc": "Mahanadi Coalfields is India's largest single coal-producing company, supported by a sizeable reserve base, predominantly mechanised opencast operations and integrated rail and port evacuation infra",
+          "link": "https://www.business-standard.com/markets/news/mahanadi-coalfields-ipo-analysts-bullish-on-reserves-growth-and-low-costs-126111900249_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 16,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Weight-loss drugs cut UK grocery spending by £1 billion, study finds",
+          "desc": "Households with at least one user of GLP-1 drugs bought 415 million fewer food items in the year after they first started taking the medicine, according to data from Worldpanel by Numerator",
+          "link": "https://www.business-standard.com/world-news/weight-loss-drugs-cut-uk-grocery-spending-by-1-billion-study-finds-126111900185_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 17,
+          "date": "19 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Stocks to watch: Dalmia Bharat, Equitas SFB, PSBs, Tata Motors, SBI Funds",
+          "desc": "Stocks to watch today: Stocks to watch: Dalmia Bharat, Equitas SFB, LT Foods, PSBs, Tata Motors, SBI Funds, PNB, Tata Steel, Niva Bupa, Prestige Estates Projects, among others, will be in focus today",
+          "link": "https://www.business-standard.com/markets/news/stocks-to-watch-dalmia-bharat-equitas-sfb-psbs-tata-motors-sbi-funds-126111900111_1.html",
+          "isNew": true
         }
       ],
-      "ts": 1795054697295,
+      "ts": 1795085717320,
       "ok": true,
-      "newCount": 1
+      "newCount": 17
     },
     "NEWSLETTER_4": {
       "rows": [
@@ -328,7 +268,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054698571,
+      "ts": 1795085718735,
       "ok": true,
       "newCount": 0
     },
@@ -340,40 +280,40 @@
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1795054719803,
+      "ts": 1795085740070,
       "ok": true
     },
     "NEWSLETTER_7": {
       "rows": [],
-      "ts": 1795054721382,
+      "ts": 1795085741329,
       "ok": true
     },
     "NEWSLETTER_8": {
       "rows": [
         {
           "sr": 1,
-          "date": "18 Nov 2026",
+          "date": "19 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "SoftBank regrets ‘mistake’ of not backing Anthropic, says Son",
-          "desc": "Japanese tech group had already started to put money into arch-rival OpenAI",
-          "link": "https://www.ft.com/content/08086201-6359-47ec-8854-70462ad5a4c0?syn-25a6b1a6=1",
-          "isNew": false
+          "title": "Deutsche Bank’s Italian unit hid up to €800mn of mortgage lending losses",
+          "desc": "German lender did not publicly disclose scandal or findings of damning internal probe codenamed Project Aetos",
+          "link": "https://www.ft.com/content/06be5c7d-b1f2-44e9-9cad-a2dcb5a2f452?syn-25a6b1a6=1",
+          "isNew": true
         },
         {
           "sr": 2,
           "date": "18 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Russian accused of spying on Palantir over assistance to Ukraine",
-          "desc": "Prosecutors say suspect entered US from Mexico and stalked employees at Silicon Valley tech group",
-          "link": "https://www.ft.com/content/4972f4c7-fe8d-4fdd-b0fd-0db2360cda2a?syn-25a6b1a6=1",
+          "title": "A Russian oligarch and the suspect money that flowed through Deutsche Bank",
+          "desc": "Lender discovered a suspected laundromat centred on a Hungarian bank with ties to Viktor Orbán",
+          "link": "https://www.ft.com/content/5789cfd1-1041-454f-b450-ae2015d7c6ff?syn-25a6b1a6=1",
           "isNew": true
         }
       ],
-      "ts": 1795054723398,
+      "ts": 1795085743215,
       "ok": true,
-      "newCount": 1
+      "newCount": 2
     },
     "SEBI_0": {
       "rows": [
@@ -3378,7 +3318,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054758212,
+      "ts": 1795085781858,
       "ok": true,
       "newCount": 0
     },
@@ -4006,7 +3946,7 @@
         },
         {
           "sr": 63,
-          "date": "03 Jul 2023",
+          "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -4226,7 +4166,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -4236,7 +4176,7 @@
         },
         {
           "sr": 86,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -4416,7 +4356,7 @@
         },
         {
           "sr": 104,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -4426,18 +4366,8 @@
         },
         {
           "sr": 105,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 106,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4445,9 +4375,19 @@
           "isNew": false
         },
         {
+          "sr": 106,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 107,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4456,18 +4396,8 @@
         },
         {
           "sr": 108,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 109,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -4475,9 +4405,19 @@
           "isNew": false
         },
         {
+          "sr": 109,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4486,8 +4426,8 @@
         },
         {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -4496,8 +4436,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4506,8 +4446,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4516,18 +4456,8 @@
         },
         {
           "sr": 114,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 115,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4535,9 +4465,19 @@
           "isNew": false
         },
         {
+          "sr": 115,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4546,8 +4486,8 @@
         },
         {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4556,8 +4496,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -4566,8 +4506,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -4576,8 +4516,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -4586,38 +4526,8 @@
         },
         {
           "sr": 121,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "AML/CFT- Master Circular",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master circular for Exchange Traded Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 124,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -4625,9 +4535,39 @@
           "isNew": false
         },
         {
+          "sr": 122,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "AML/CFT- Master Circular",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
+          "isNew": false
+        },
+        {
+          "sr": 124,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master circular for Exchange Traded Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
           "sr": 125,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -4725,7 +4665,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054777847,
+      "ts": 1795085802467,
       "ok": true,
       "newCount": 0
     },
@@ -4982,7 +4922,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054780500,
+      "ts": 1795085805769,
       "ok": true,
       "newCount": 0
     },
@@ -5083,9 +5023,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
           "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -6720,26 +6660,6 @@
         },
         {
           "sr": 174,
-          "date": "22 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Review of Ownership and Economic Structure of Clearing Corporations  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-ownership-and-economic-structure-of-clearing-corporations_88710.html",
-          "isNew": false
-        },
-        {
-          "sr": 175,
-          "date": "22 Nov 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Process for appointment of specific KMPs of an MII; and cooling-off period for KMPs and Directors of an MII joining a competing MII  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-process-for-appointment-of-specific-kmps-of-an-mii-and-cooling-off-period-for-kmps-and-directors-of-an-mii-joining-a-competing-mii_88686.html",
-          "isNew": false
-        },
-        {
-          "sr": 176,
           "date": "19 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6749,7 +6669,7 @@
           "isNew": false
         },
         {
-          "sr": 177,
+          "sr": 175,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6759,7 +6679,7 @@
           "isNew": false
         },
         {
-          "sr": 178,
+          "sr": 176,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6769,7 +6689,7 @@
           "isNew": false
         },
         {
-          "sr": 179,
+          "sr": 177,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6779,7 +6699,7 @@
           "isNew": false
         },
         {
-          "sr": 180,
+          "sr": 178,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6789,7 +6709,7 @@
           "isNew": false
         },
         {
-          "sr": 181,
+          "sr": 179,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6799,7 +6719,7 @@
           "isNew": false
         },
         {
-          "sr": 182,
+          "sr": 180,
           "date": "09 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6809,7 +6729,7 @@
           "isNew": false
         },
         {
-          "sr": 183,
+          "sr": 181,
           "date": "06 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6819,7 +6739,7 @@
           "isNew": false
         },
         {
-          "sr": 184,
+          "sr": 182,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6829,7 +6749,7 @@
           "isNew": false
         },
         {
-          "sr": 185,
+          "sr": 183,
           "date": "01 Nov 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6839,7 +6759,7 @@
           "isNew": false
         },
         {
-          "sr": 186,
+          "sr": 184,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6849,7 +6769,7 @@
           "isNew": false
         },
         {
-          "sr": 187,
+          "sr": 185,
           "date": "31 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6859,7 +6779,7 @@
           "isNew": false
         },
         {
-          "sr": 188,
+          "sr": 186,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6869,7 +6789,7 @@
           "isNew": false
         },
         {
-          "sr": 189,
+          "sr": 187,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6879,7 +6799,7 @@
           "isNew": false
         },
         {
-          "sr": 190,
+          "sr": 188,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6889,7 +6809,7 @@
           "isNew": false
         },
         {
-          "sr": 191,
+          "sr": 189,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6899,7 +6819,7 @@
           "isNew": false
         },
         {
-          "sr": 192,
+          "sr": 190,
           "date": "30 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6909,7 +6829,7 @@
           "isNew": false
         },
         {
-          "sr": 193,
+          "sr": 191,
           "date": "28 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6919,7 +6839,7 @@
           "isNew": false
         },
         {
-          "sr": 194,
+          "sr": 192,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6929,7 +6849,7 @@
           "isNew": false
         },
         {
-          "sr": 195,
+          "sr": 193,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6939,7 +6859,7 @@
           "isNew": false
         },
         {
-          "sr": 196,
+          "sr": 194,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6949,7 +6869,7 @@
           "isNew": false
         },
         {
-          "sr": 197,
+          "sr": 195,
           "date": "08 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -6959,13 +6879,33 @@
           "isNew": false
         },
         {
-          "sr": 198,
+          "sr": 196,
           "date": "04 Oct 2024",
           "year": 2024,
           "cat": "Consultation Paper",
           "title": "Consultation paper on draft circular for “Facilitation to SEBI registered Stock Brokers to access Negotiated Dealing System-Order Matching (NDS-OM) for trading in Government securities- Separate Business Units (SBU)”  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/oct-2024/consultation-paper-on-draft-circular-for-facilitation-to-sebi-registered-stock-brokers-to-access-negotiated-dealing-system-order-matching-nds-om-for-trading-in-government-securities-separate-busin-_87341.html",
+          "isNew": false
+        },
+        {
+          "sr": 197,
+          "date": "27 Sept 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on draft circular for “Disclosure of expenses, half yearly returns, yield and risk-o-meter of schemes of Mutual Funds  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-draft-circular-for-disclosure-of-expenses-half-yearly-returns-yield-and-risk-o-meter-of-schemes-of-mutual-funds_87055.html",
+          "isNew": false
+        },
+        {
+          "sr": 198,
+          "date": "26 Sept 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on the proposal to exempt certain transactions from trading window restrictions",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2024/consultation-paper-on-the-proposal-to-exempt-certain-transactions-from-trading-window-restrictions_87021.html",
           "isNew": false
         },
         {
@@ -7700,6 +7640,26 @@
         },
         {
           "sr": 272,
+          "date": "21 Jul 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "Extension of Timeline for Submission of Public Comments on the Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF)",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-on-consolidated-cybersecurity-and-cyber-resilience-framework-cscrf-_74253.html",
+          "isNew": false
+        },
+        {
+          "sr": 273,
+          "date": "20 Jul 2023",
+          "year": 2023,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper on ‘Prudential norms for exposure of Clearing Corporations’",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2023/consultation-paper-on-prudential-norms-for-exposure-of-clearing-corporations-_74194.html",
+          "isNew": false
+        },
+        {
+          "sr": 274,
           "date": "05 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7709,7 +7669,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 275,
           "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7719,7 +7679,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 276,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7729,7 +7689,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 277,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7739,7 +7699,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 278,
           "date": "31 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7749,7 +7709,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 279,
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7759,7 +7719,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 280,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7769,7 +7729,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 281,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7779,7 +7739,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 282,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7789,7 +7749,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 283,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7799,7 +7759,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 284,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7809,7 +7769,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 285,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7819,7 +7779,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 286,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7829,7 +7789,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 287,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7839,7 +7799,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 288,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7849,7 +7809,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 289,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7859,7 +7819,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 290,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7869,7 +7829,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 291,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7879,7 +7839,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 292,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7889,7 +7849,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 293,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7899,7 +7859,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 294,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7909,7 +7869,7 @@
           "isNew": false
         },
         {
-          "sr": 293,
+          "sr": 295,
           "date": "09 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7919,7 +7879,7 @@
           "isNew": false
         },
         {
-          "sr": 294,
+          "sr": 296,
           "date": "08 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7929,7 +7889,7 @@
           "isNew": false
         },
         {
-          "sr": 295,
+          "sr": 297,
           "date": "23 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7939,7 +7899,7 @@
           "isNew": false
         },
         {
-          "sr": 296,
+          "sr": 298,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -7949,7 +7909,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054816375,
+      "ts": 1795085843608,
       "ok": true,
       "newCount": 0
     },
@@ -9146,7 +9106,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054820305,
+      "ts": 1795085847698,
       "ok": true,
       "newCount": 0
     },
@@ -9173,7 +9133,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054822055,
+      "ts": 1795085849501,
       "ok": true,
       "newCount": 0
     },
@@ -12180,7 +12140,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054859898,
+      "ts": 1795085889312,
       "ok": true,
       "newCount": 0
     },
@@ -12307,7 +12267,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054862502,
+      "ts": 1795085891412,
       "ok": true,
       "newCount": 0
     },
@@ -15314,7 +15274,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054865591,
+      "ts": 1795085894826,
       "ok": true,
       "newCount": 0
     },
@@ -15331,7 +15291,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054867797,
+      "ts": 1795085897237,
       "ok": true,
       "newCount": 0
     },
@@ -15538,7 +15498,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054869836,
+      "ts": 1795085899626,
       "ok": true,
       "newCount": 0
     },
@@ -15795,7 +15755,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054878853,
+      "ts": 1795085908591,
       "ok": true,
       "newCount": 0
     },
@@ -18802,7 +18762,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054881438,
+      "ts": 1795085910822,
       "ok": true,
       "newCount": 0
     },
@@ -19009,7 +18969,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054884636,
+      "ts": 1795085914450,
       "ok": true,
       "newCount": 0
     },
@@ -19216,7 +19176,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054887811,
+      "ts": 1795085917982,
       "ok": true,
       "newCount": 0
     },
@@ -19423,7 +19383,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054891216,
+      "ts": 1795085921529,
       "ok": true,
       "newCount": 0
     },
@@ -19480,7 +19440,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054902564,
+      "ts": 1795085932614,
       "ok": true,
       "newCount": 0
     },
@@ -19521,7 +19481,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -19531,13 +19491,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1795054907315,
+      "ts": 1795085937421,
       "ok": true,
       "newCount": 0
     },
@@ -19578,7 +19538,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -19588,13 +19548,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1795054912063,
+      "ts": 1795085942218,
       "ok": true,
       "newCount": 0
     },
@@ -19621,7 +19581,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795054925736,
+      "ts": 1795085959046,
       "ok": true,
       "newCount": 0
     },
@@ -19629,26 +19589,56 @@
       "rows": [
         {
           "sr": 1,
-          "date": "31 Jan 2027",
-          "year": 2027,
+          "date": "29 Sept 2026",
+          "year": 2026,
           "cat": "Orders",
-          "title": "Click here to participate",
+          "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
           "desc": "",
-          "link": "https://nesda.gov.in/wayforward/",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
           "isNew": false
         },
         {
           "sr": 2,
-          "date": "31 Jan 2027",
-          "year": 2027,
+          "date": "20 Aug 2026",
+          "year": 2026,
           "cat": "Orders",
-          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
+          "isNew": false
+        },
+        {
+          "sr": 5,
+          "date": "17 Aug 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#",
           "isNew": false
         }
       ],
-      "ts": 1795054958740,
+      "ts": 1795085972544,
       "ok": true,
       "newCount": 0
     },
@@ -19705,14 +19695,34 @@
           "isNew": false
         }
       ],
-      "ts": 1795054980725,
+      "ts": 1795085985677,
       "ok": true,
       "newCount": 0
     },
     "MCA_3": {
-      "rows": [],
-      "ts": 1795055013297,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "Click here to participate",
+          "desc": "",
+          "link": "https://nesda.gov.in/wayforward/"
+        },
+        {
+          "sr": 2,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf"
+        }
+      ],
+      "ts": 1795086014842,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_4": {
       "rows": [
@@ -19721,7 +19731,7 @@
           "date": "18 Nov 2025",
           "year": 2025,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "title": "Adjudication order for violation of section 42(6) r/w 42(10) of Companies Act, 2013 In the matter of M/s. Chiraharit LTD | 67 KB",
           "desc": "",
           "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
@@ -19731,7 +19741,7 @@
           "date": "18 Nov 2025",
           "year": 2025,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.UJWALA DEVELOPERS PRIVATE LIMITED | 35 KB",
           "desc": "",
           "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
@@ -19741,7 +19751,7 @@
           "date": "18 Nov 2025",
           "year": 2025,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s.SUTARA ROADS & INFRA LIMITED | 59 KB",
           "desc": "",
           "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
@@ -19751,7 +19761,7 @@
           "date": "18 Nov 2025",
           "year": 2025,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s.STANLEY OEM SOFAS LIMITED | 34 KB",
           "desc": "",
           "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
@@ -19761,13 +19771,13 @@
           "date": "18 Nov 2025",
           "year": 2025,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "title": "Adjudication order for violation of section 134 of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 24 KB",
           "desc": "",
           "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
           "isNew": false
         }
       ],
-      "ts": 1795055036115,
+      "ts": 1795086043098,
       "ok": true,
       "newCount": 0
     },
@@ -19834,7 +19844,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795055038823,
+      "ts": 1795086046284,
       "ok": true,
       "newCount": 0
     },
@@ -19961,7 +19971,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795055040308,
+      "ts": 1795086047909,
       "ok": true,
       "newCount": 0
     },
@@ -20078,7 +20088,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795055041779,
+      "ts": 1795086049450,
       "ok": true,
       "newCount": 0
     },
@@ -20205,7 +20215,7 @@
           "isNew": false
         }
       ],
-      "ts": 1795055043255,
+      "ts": 1795086051122,
       "ok": true,
       "newCount": 0
     },
